@@ -4,31 +4,74 @@
       {
         "arc": {
           "build-properties": {
-            "device": "",
-            "first-api-level": "",
+            "device": "dedede_cheets",
+            "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "",
+            "metrics-tag": "magolor",
             "product": "dedede"
           },
           "hardware-features": {
-            "build-path": "magolor/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_.xml",
-            "system-path": "/etc/hardware_features_.xml"
+            "build-path": "magolor/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_magolor.xml",
+            "system-path": "/etc/hardware_features_magolor.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "",
+            "cras-config-dir": "magolor",
             "files": []
           }
+        },
+        "camera": {
+          "count": 0
         },
         "identity": {
           "platform-name": "Dedede",
           "sku-id": 0
         },
-        "name": "",
+        "name": "magolor",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties",
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "maglia",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "magolor/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_maglia.xml",
+            "system-path": "/etc/hardware_features_maglia.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "maglia",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 0
+        },
+        "name": "maglia",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",

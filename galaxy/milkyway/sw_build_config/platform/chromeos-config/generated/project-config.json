@@ -4,8 +4,8 @@
       {
         "arc": {
           "build-properties": {
-            "device": "",
-            "first-api-level": "",
+            "device": "galaxy_cheets",
+            "first-api-level": "28",
             "marketing-name": "",
             "metrics-tag": "",
             "product": "galaxy"
@@ -21,6 +21,9 @@
             "files": []
           }
         },
+        "camera": {
+          "count": 0
+        },
         "identity": {
           "platform-name": "Galaxy",
           "sku-id": 0
@@ -28,7 +31,7 @@
         "name": "",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties",
+            "--arc-build-properties={'device': 'galaxy_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",

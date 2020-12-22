@@ -4,25 +4,28 @@
       {
         "arc": {
           "build-properties": {
-            "device": "",
-            "first-api-level": "",
+            "device": "galaxy_cheets",
+            "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "",
+            "metrics-tag": "galaxy",
             "product": "galaxy"
           },
           "hardware-features": {
-            "build-path": "sombrero/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_.xml",
-            "system-path": "/etc/hardware_features_.xml"
+            "build-path": "sombrero/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galaxy.xml",
+            "system-path": "/etc/hardware_features_galaxy.xml"
           }
+        },
+        "camera": {
+          "count": 0
         },
         "identity": {
           "platform-name": "Galaxy",
           "sku-id": 0
         },
-        "name": "",
+        "name": "galaxy",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties",
+            "--arc-build-properties={'device': 'galaxy_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",

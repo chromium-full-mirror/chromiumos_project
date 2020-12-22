@@ -4,31 +4,74 @@
       {
         "arc": {
           "build-properties": {
-            "device": "",
-            "first-api-level": "",
+            "device": "puff_cheets",
+            "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "",
+            "metrics-tag": "wyvern",
             "product": "puff"
           },
           "hardware-features": {
-            "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_.xml",
-            "system-path": "/etc/hardware_features_.xml"
+            "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_wyvern.xml",
+            "system-path": "/etc/hardware_features_wyvern.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "",
+            "cras-config-dir": "wyvern",
             "files": []
           }
+        },
+        "camera": {
+          "count": 0
         },
         "identity": {
           "platform-name": "Puff",
           "sku-id": 0
         },
-        "name": "",
+        "name": "wyvern",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties",
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "wyvern_accelerator",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_wyvern_accelerator.xml",
+            "system-path": "/etc/hardware_features_wyvern_accelerator.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "wyvern_accelerator",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 0
+        },
+        "name": "wyvern_accelerator",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",

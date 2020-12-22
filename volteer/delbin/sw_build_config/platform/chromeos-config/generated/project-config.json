@@ -4,31 +4,74 @@
       {
         "arc": {
           "build-properties": {
-            "device": "",
-            "first-api-level": "",
+            "device": "volteer_cheets",
+            "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "",
+            "metrics-tag": "delbin",
             "product": "volteer"
           },
           "hardware-features": {
-            "build-path": "delbin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_.xml",
-            "system-path": "/etc/hardware_features_.xml"
+            "build-path": "delbin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_delbin.xml",
+            "system-path": "/etc/hardware_features_delbin.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "",
+            "cras-config-dir": "delbin",
             "files": []
           }
+        },
+        "camera": {
+          "count": 0
         },
         "identity": {
           "platform-name": "Volteer",
           "sku-id": 0
         },
-        "name": "",
+        "name": "delbin",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties",
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "delbin_npcx796fc",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "delbin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_delbin_npcx796fc.xml",
+            "system-path": "/etc/hardware_features_delbin_npcx796fc.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "delbin_npcx796fc",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 0
+        },
+        "name": "delbin_npcx796fc",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",

@@ -4,25 +4,34 @@
       {
         "arc": {
           "build-properties": {
-            "device": "",
-            "first-api-level": "",
+            "device": "puff_cheets",
+            "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "",
+            "metrics-tag": "dooly",
             "product": "puff"
           },
           "hardware-features": {
-            "build-path": "dooly/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_.xml",
-            "system-path": "/etc/hardware_features_.xml"
+            "build-path": "dooly/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dooly.xml",
+            "system-path": "/etc/hardware_features_dooly.xml"
           }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "dooly",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
         },
         "identity": {
           "platform-name": "Puff",
           "sku-id": 0
         },
-        "name": "",
+        "name": "dooly",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties",
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
