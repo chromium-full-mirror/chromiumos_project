@@ -29,6 +29,15 @@
           "sku-id": 0
         },
         "name": "voema",
+        "thermal": {
+          "dptf-dv": "voema/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voema/dptf.dv",
+              "source": "voema/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
