@@ -4,43 +4,28 @@
       {
         "arc": {
           "build-properties": {
-            "device": "volteer_cheets",
+            "device": "ambassador_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "elemi",
-            "product": "volteer"
+            "metrics-tag": "moonbuggy",
+            "product": "ambassador"
           },
           "hardware-features": {
-            "build-path": "elemi/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_elemi.xml",
-            "system-path": "/etc/hardware_features_elemi.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "elemi",
-            "files": []
+            "build-path": "moonbuggy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_moonbuggy.xml",
+            "system-path": "/etc/hardware_features_moonbuggy.xml"
           }
         },
         "camera": {
           "count": 0
         },
         "identity": {
-          "platform-name": "Volteer",
+          "platform-name": "Ambassador",
           "sku-id": 0
         },
-        "name": "elemi",
-        "thermal": {
-          "dptf-dv": "elemi/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/elemi/dptf.dv",
-              "source": "elemi/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
+        "name": "moonbuggy",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--arc-build-properties={'device': 'ambassador_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
