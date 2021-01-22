@@ -29,6 +29,15 @@
           "sku-id": 0
         },
         "name": "lindar",
+        "thermal": {
+          "dptf-dv": "lindar/lindar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lindar/lindar/dptf.dv",
+              "source": "lindar/sw_build_config/platform/chromeos-config/thermal/lindar/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -69,6 +78,15 @@
           "sku-id": 0
         },
         "name": "lillipup",
+        "thermal": {
+          "dptf-dv": "lindar/lillipup/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lindar/lillipup/dptf.dv",
+              "source": "lindar/sw_build_config/platform/chromeos-config/thermal/lillipup/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
