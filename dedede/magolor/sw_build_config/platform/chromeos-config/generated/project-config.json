@@ -128,11 +128,11 @@
         },
         "name": "magpie",
         "thermal": {
-          "dptf-dv": "magolor/dptf.dv",
+          "dptf-dv": "magolor/magpie/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/magolor/dptf.dv",
-              "source": "magolor/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/magolor/magpie/dptf.dv",
+              "source": "magolor/sw_build_config/platform/chromeos-config/thermal/magpie/dptf.dv"
             }
           ]
         },
