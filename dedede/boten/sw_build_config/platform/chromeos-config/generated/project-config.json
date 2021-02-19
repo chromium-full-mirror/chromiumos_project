@@ -30,11 +30,11 @@
         },
         "name": "boten",
         "thermal": {
-          "dptf-dv": "boten/dptf.dv",
+          "dptf-dv": "boten/boten/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/boten/dptf.dv",
-              "source": "boten/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
             }
           ]
         },
@@ -78,15 +78,6 @@
           "sku-id": 0
         },
         "name": "boten_legacy",
-        "thermal": {
-          "dptf-dv": "boten/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/boten/dptf.dv",
-              "source": "boten/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -128,11 +119,11 @@
         },
         "name": "botenflex",
         "thermal": {
-          "dptf-dv": "boten/dptf.dv",
+          "dptf-dv": "boten/botenflex/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/boten/dptf.dv",
-              "source": "boten/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/boten/botenflex/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/botenflex/dptf.dv"
             }
           ]
         },
