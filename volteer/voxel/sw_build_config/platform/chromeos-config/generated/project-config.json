@@ -79,11 +79,11 @@
         },
         "name": "volta",
         "thermal": {
-          "dptf-dv": "voxel/dptf.dv",
+          "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/voxel/dptf.dv",
-              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
             }
           ]
         },
