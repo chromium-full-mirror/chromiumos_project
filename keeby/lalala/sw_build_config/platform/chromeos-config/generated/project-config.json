@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_lalala.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "lalala",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
