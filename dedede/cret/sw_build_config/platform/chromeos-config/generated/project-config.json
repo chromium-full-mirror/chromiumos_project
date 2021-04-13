@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_cret.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -47,6 +53,12 @@
           "hardware-features": {
             "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret360.xml",
             "system-path": "/etc/hardware_features_cret360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret360",
+            "files": []
           }
         },
         "camera": {
