@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_kracko.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
