@@ -1,0 +1,86 @@
+{
+  "chromeos": {
+    "configs": [
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "jelboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "jelboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_jelboz.xml",
+            "system-path": "/etc/hardware_features_jelboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "jelboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 0
+        },
+        "name": "jelboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "jelboz360",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "jelboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_jelboz360.xml",
+            "system-path": "/etc/hardware_features_jelboz360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "jelboz360",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 0
+        },
+        "name": "jelboz360",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      }
+    ]
+  }
+}
