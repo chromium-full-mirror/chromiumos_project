@@ -30,10 +30,10 @@
         },
         "name": "galnat",
         "thermal": {
-          "dptf-dv": "galnat/dptf.dv",
+          "dptf-dv": "galtic/galnat/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/galnat/dptf.dv",
+              "destination": "/etc/dptf/galtic/galnat/dptf.dv",
               "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galnat/dptf.dv"
             }
           ]
@@ -79,10 +79,10 @@
         },
         "name": "galtic",
         "thermal": {
-          "dptf-dv": "galtic/dptf.dv",
+          "dptf-dv": "galtic/galtic/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/galtic/dptf.dv",
+              "destination": "/etc/dptf/galtic/galtic/dptf.dv",
               "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic/dptf.dv"
             }
           ]
@@ -128,10 +128,10 @@
         },
         "name": "galith",
         "thermal": {
-          "dptf-dv": "galith/dptf.dv",
+          "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/galith/dptf.dv",
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
               "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
             }
           ]
@@ -177,10 +177,10 @@
         },
         "name": "gallop",
         "thermal": {
-          "dptf-dv": "gallop/dptf.dv",
+          "dptf-dv": "galtic/gallop/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/gallop/dptf.dv",
+              "destination": "/etc/dptf/galtic/gallop/dptf.dv",
               "source": "galtic/sw_build_config/platform/chromeos-config/thermal/gallop/dptf.dv"
             }
           ]
