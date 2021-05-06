@@ -49,6 +49,55 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voema_npcx796fc",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voema/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voema_npcx796fc.xml",
+            "system-path": "/etc/hardware_features_voema_npcx796fc.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voema_npcx796fc",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 0
+        },
+        "name": "voema_npcx796fc",
+        "thermal": {
+          "dptf-dv": "voema/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voema/dptf.dv",
+              "source": "voema/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
