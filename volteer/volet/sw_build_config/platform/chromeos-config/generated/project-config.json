@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_volet.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
