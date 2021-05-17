@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_chronicler.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "chronicler",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
