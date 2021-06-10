@@ -29,6 +29,15 @@
           "sku-id": 0
         },
         "name": "blipper",
+        "thermal": {
+          "dptf-dv": "blipper/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/blipper/dptf.dv",
+              "source": "blipper/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",

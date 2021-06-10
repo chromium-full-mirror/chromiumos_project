@@ -29,6 +29,15 @@
           "sku-id": 0
         },
         "name": "sasukette",
+        "thermal": {
+          "dptf-dv": "sasukette/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/sasukette/dptf.dv",
+              "source": "sasukette/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
