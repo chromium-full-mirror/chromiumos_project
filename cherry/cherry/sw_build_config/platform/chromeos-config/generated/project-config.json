@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_cherry.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cherry",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
