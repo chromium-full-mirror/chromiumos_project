@@ -29,6 +29,15 @@
           "sku-id": 0
         },
         "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
