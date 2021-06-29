@@ -30,11 +30,11 @@
         },
         "name": "drawcia",
         "thermal": {
-          "dptf-dv": "drawcia/dptf.dv",
+          "dptf-dv": "drawcia/drawcia/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/drawcia/drawcia/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/dptf.dv"
             }
           ]
         },
@@ -78,15 +78,6 @@
           "sku-id": 0
         },
         "name": "drawcia_legacy",
-        "thermal": {
-          "dptf-dv": "drawcia/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -128,11 +119,11 @@
         },
         "name": "drawlat",
         "thermal": {
-          "dptf-dv": "drawcia/dptf.dv",
+          "dptf-dv": "drawcia/drawlat/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/drawcia/drawlat/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawlat/dptf.dv"
             }
           ]
         },
@@ -177,11 +168,11 @@
         },
         "name": "drawman",
         "thermal": {
-          "dptf-dv": "drawcia/dptf.dv",
+          "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/drawcia/drawman/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawman/dptf.dv"
             }
           ]
         },
@@ -226,11 +217,11 @@
         },
         "name": "drawper",
         "thermal": {
-          "dptf-dv": "drawcia/dptf.dv",
+          "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/drawcia/drawper/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawper/dptf.dv"
             }
           ]
         },
