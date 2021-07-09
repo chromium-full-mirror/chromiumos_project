@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_scout.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "scout",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
