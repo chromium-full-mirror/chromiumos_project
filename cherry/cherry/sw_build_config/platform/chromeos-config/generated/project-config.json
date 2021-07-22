@@ -35,6 +35,7 @@
           "firmware-config": 0
         },
         "identity": {
+          "device-tree-compatible-match": "google,cherry",
           "platform-name": "Cherry",
           "sku-id": 0
         },
