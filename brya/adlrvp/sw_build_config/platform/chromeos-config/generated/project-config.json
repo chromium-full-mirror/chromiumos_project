@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_adlrvp.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "adlrvp",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -49,6 +55,12 @@
             "system-path": "/etc/hardware_features_adlrvp_extec.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "adlrvp_extec",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -81,6 +93,12 @@
           "hardware-features": {
             "build-path": "adlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_adlrvp_m_extec.xml",
             "system-path": "/etc/hardware_features_adlrvp_m_extec.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "adlrvp_m_extec",
+            "files": []
           }
         },
         "camera": {
