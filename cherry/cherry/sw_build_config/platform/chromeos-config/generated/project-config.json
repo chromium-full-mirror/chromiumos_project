@@ -24,18 +24,7 @@
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-cherry-private",
-          "build-targets": {
-            "coreboot": "cherry",
-            "depthcharge": "cherry",
-            "ec": "cherry",
-            "libpayload": "cherry"
-          },
-          "firmware-config": 0
-        },
         "identity": {
-          "device-tree-compatible-match": "google,cherry",
           "platform-name": "Cherry",
           "sku-id": 0
         },

@@ -24,18 +24,7 @@
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-cherry-private",
-          "build-targets": {
-            "coreboot": "tomato",
-            "depthcharge": "cherry",
-            "ec": "tomato",
-            "libpayload": "cherry"
-          },
-          "firmware-config": 0
-        },
         "identity": {
-          "device-tree-compatible-match": "google,tomato",
           "platform-name": "Cherry",
           "sku-id": 0
         },
