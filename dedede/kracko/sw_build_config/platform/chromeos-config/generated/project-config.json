@@ -29,6 +29,15 @@
           "sku-id": 0
         },
         "name": "kracko",
+        "thermal": {
+          "dptf-dv": "kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -69,6 +78,15 @@
           "sku-id": 0
         },
         "name": "kracko360",
+        "thermal": {
+          "dptf-dv": "kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
