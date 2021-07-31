@@ -26,7 +26,8 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Adlrvp"
         },
         "name": "adlrvp",
         "ui": {
@@ -66,7 +67,8 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "adlrvp_extec"
         },
         "name": "adlrvp_extec",
         "ui": {
@@ -106,7 +108,8 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "adlrvp_m_extec"
         },
         "name": "adlrvp_m_extec",
         "ui": {

@@ -26,7 +26,608 @@
         },
         "identity": {
           "platform-name": "Volteer",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393217,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393218,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393219,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393220,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393221,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393222,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393223,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393224,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393225,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393226,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393227,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "voxel",
+        "thermal": {
+          "dptf-dv": "voxel/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "voxel",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voxel.xml",
+            "system-path": "/etc/hardware_features_voxel.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "voxel",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393228,
+          "smbios-name-match": "Voxel"
         },
         "name": "voxel",
         "thermal": {
@@ -75,7 +676,758 @@
         },
         "identity": {
           "platform-name": "Volteer",
-          "sku-id": 0
+          "sku-id": 393233,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393234,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393235,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393236,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393237,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393238,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393239,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393240,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393241,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393242,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393243,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393244,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393245,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393246,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393247,
+          "smbios-name-match": "Voxel"
+        },
+        "name": "volta",
+        "thermal": {
+          "dptf-dv": "voxel/volta/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/voxel/volta/dptf.dv",
+              "source": "voxel/sw_build_config/platform/chromeos-config/thermal/volta/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volta",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "voxel/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volta.xml",
+            "system-path": "/etc/hardware_features_volta.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volta",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 393248,
+          "smbios-name-match": "Voxel"
         },
         "name": "volta",
         "thermal": {

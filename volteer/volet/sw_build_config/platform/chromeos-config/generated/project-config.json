@@ -26,7 +26,1208 @@
         },
         "identity": {
           "platform-name": "Volteer",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048609,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048610,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048611,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048612,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048613,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048614,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048615,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048616,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048617,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048618,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048619,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048620,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048621,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048622,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048623,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048624,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048625,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048626,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048627,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048628,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048629,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048630,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048631,
+          "smbios-name-match": "Volet"
+        },
+        "name": "volet",
+        "thermal": {
+          "dptf-dv": "volet/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volet/dptf.dv",
+              "source": "volet/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volet",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "volet/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volet.xml",
+            "system-path": "/etc/hardware_features_volet.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volet",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 1048632,
+          "smbios-name-match": "Volet"
         },
         "name": "volet",
         "thermal": {

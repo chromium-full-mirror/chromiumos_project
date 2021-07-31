@@ -26,7 +26,172 @@
         },
         "identity": {
           "platform-name": "Puff",
-          "sku-id": 0
+          "sku-id": 33554432,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy_legacy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy_legacy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy_legacy.xml",
+            "system-path": "/etc/hardware_features_duffy_legacy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy_legacy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554433,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy_legacy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy_legacy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy_legacy.xml",
+            "system-path": "/etc/hardware_features_duffy_legacy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy_legacy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554434,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy_legacy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy_legacy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy_legacy.xml",
+            "system-path": "/etc/hardware_features_duffy_legacy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy_legacy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554435,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy_legacy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy_legacy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy_legacy.xml",
+            "system-path": "/etc/hardware_features_duffy_legacy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy_legacy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554436,
+          "smbios-name-match": "Duffy"
         },
         "name": "duffy_legacy",
         "ui": {
@@ -66,7 +231,1812 @@
         },
         "identity": {
           "platform-name": "Puff",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554437,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554438,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554439,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554440,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554441,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554448,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554449,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554450,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554451,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554452,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554453,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554454,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554455,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554456,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554457,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554458,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554459,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554460,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554461,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554462,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554463,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554464,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554465,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554466,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554467,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554468,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554469,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554470,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554471,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554472,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554473,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554474,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554475,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554476,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554477,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554478,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554479,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554480,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554481,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554482,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554483,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554484,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554485,
+          "smbios-name-match": "Duffy"
+        },
+        "name": "duffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "duffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "duffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_duffy.xml",
+            "system-path": "/etc/hardware_features_duffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "duffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 33554486,
+          "smbios-name-match": "Duffy"
         },
         "name": "duffy",
         "ui": {

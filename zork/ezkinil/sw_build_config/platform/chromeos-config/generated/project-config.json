@@ -26,7 +26,828 @@
         },
         "identity": {
           "platform-name": "Zork",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080513,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080514,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080515,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080516,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080517,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080518,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080519,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080520,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080521,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080522,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080523,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080524,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080525,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080526,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080527,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080528,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080532,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080533,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080534,
+          "smbios-name-match": "Ezkinil"
+        },
+        "name": "ezkinil",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "ezkinil",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
+            "system-path": "/etc/hardware_features_ezkinil.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "ezkinil",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510080535,
+          "smbios-name-match": "Ezkinil"
         },
         "name": "ezkinil",
         "ui": {

@@ -26,7 +26,582 @@
         },
         "identity": {
           "platform-name": "Zork",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796801,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796802,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796803,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796804,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796805,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796806,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796807,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796808,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796809,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796810,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796811,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796812,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796813,
+          "smbios-name-match": "Gumboz"
+        },
+        "name": "gumboz",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gumboz",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "gumboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gumboz.xml",
+            "system-path": "/etc/hardware_features_gumboz.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gumboz",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1518796815,
+          "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
         "ui": {

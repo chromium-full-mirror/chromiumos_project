@@ -26,7 +26,108 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawcia",
+        "thermal": {
+          "dptf-dv": "drawcia/drawcia/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawcia/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawcia",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawcia.xml",
+            "system-path": "/etc/hardware_features_drawcia.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawcia",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 262144,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawcia",
+        "thermal": {
+          "dptf-dv": "drawcia/drawcia/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawcia/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawcia",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawcia.xml",
+            "system-path": "/etc/hardware_features_drawcia.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawcia",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 262145,
+          "smbios-name-match": "Drawcia"
         },
         "name": "drawcia",
         "thermal": {
@@ -75,7 +176,58 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 131072,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawlat",
+        "thermal": {
+          "dptf-dv": "drawcia/drawlat/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawlat/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawlat/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawlat",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawlat.xml",
+            "system-path": "/etc/hardware_features_drawlat.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawlat",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 131073,
+          "smbios-name-match": "Drawcia"
         },
         "name": "drawlat",
         "thermal": {
@@ -124,7 +276,158 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 196608,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawman",
+        "thermal": {
+          "dptf-dv": "drawcia/drawman/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawman/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawman/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawman",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawman.xml",
+            "system-path": "/etc/hardware_features_drawman.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawman",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 196609,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawman",
+        "thermal": {
+          "dptf-dv": "drawcia/drawman/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawman/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawman/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawman",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawman.xml",
+            "system-path": "/etc/hardware_features_drawman.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawman",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 196610,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawman",
+        "thermal": {
+          "dptf-dv": "drawcia/drawman/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawman/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawman/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawman",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawman.xml",
+            "system-path": "/etc/hardware_features_drawman.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawman",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 196611,
+          "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
         "thermal": {
@@ -173,7 +476,158 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 2162688,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawper",
+        "thermal": {
+          "dptf-dv": "drawcia/drawper/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawper/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawper/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawper",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawper.xml",
+            "system-path": "/etc/hardware_features_drawper.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawper",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2162689,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawper",
+        "thermal": {
+          "dptf-dv": "drawcia/drawper/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawper/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawper/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawper",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawper.xml",
+            "system-path": "/etc/hardware_features_drawper.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawper",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2162690,
+          "smbios-name-match": "Drawcia"
+        },
+        "name": "drawper",
+        "thermal": {
+          "dptf-dv": "drawcia/drawper/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/drawcia/drawper/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawper/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "drawper",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "drawcia/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_drawper.xml",
+            "system-path": "/etc/hardware_features_drawper.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "drawper",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2162691,
+          "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
         "thermal": {

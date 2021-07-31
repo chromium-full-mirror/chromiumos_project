@@ -26,7 +26,172 @@
         },
         "identity": {
           "platform-name": "Volteer",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Eldrid"
+        },
+        "name": "eldrid",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "eldrid",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "eldrid/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_eldrid.xml",
+            "system-path": "/etc/hardware_features_eldrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "eldrid",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 589841,
+          "smbios-name-match": "Eldrid"
+        },
+        "name": "eldrid",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "eldrid",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "eldrid/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_eldrid.xml",
+            "system-path": "/etc/hardware_features_eldrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "eldrid",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 589842,
+          "smbios-name-match": "Eldrid"
+        },
+        "name": "eldrid",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "eldrid",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "eldrid/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_eldrid.xml",
+            "system-path": "/etc/hardware_features_eldrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "eldrid",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 589857,
+          "smbios-name-match": "Eldrid"
+        },
+        "name": "eldrid",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "eldrid",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "eldrid/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_eldrid.xml",
+            "system-path": "/etc/hardware_features_eldrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "eldrid",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 589858,
+          "smbios-name-match": "Eldrid"
         },
         "name": "eldrid",
         "ui": {
@@ -66,7 +231,49 @@
         },
         "identity": {
           "platform-name": "Volteer",
-          "sku-id": 0
+          "sku-id": 589825,
+          "smbios-name-match": "Eldrid"
+        },
+        "name": "eldrid_npcx796",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "volteer_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "eldrid_npcx796",
+            "product": "volteer"
+          },
+          "hardware-features": {
+            "build-path": "eldrid/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_eldrid_npcx796.xml",
+            "system-path": "/etc/hardware_features_eldrid_npcx796.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "eldrid_npcx796",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Volteer",
+          "sku-id": 589826,
+          "smbios-name-match": "Eldrid"
         },
         "name": "eldrid_npcx796",
         "ui": {

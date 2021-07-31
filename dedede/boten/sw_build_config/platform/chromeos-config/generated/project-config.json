@@ -26,7 +26,408 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393216,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393217,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393218,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393219,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393220,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393221,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393222,
+          "smbios-name-match": "Boten"
+        },
+        "name": "boten",
+        "thermal": {
+          "dptf-dv": "boten/boten/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/boten/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/boten/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "boten",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_boten.xml",
+            "system-path": "/etc/hardware_features_boten.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "boten",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 393223,
+          "smbios-name-match": "Boten"
         },
         "name": "boten",
         "thermal": {
@@ -75,7 +476,58 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 589824,
+          "smbios-name-match": "Boten"
+        },
+        "name": "botenflex",
+        "thermal": {
+          "dptf-dv": "boten/botenflex/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/botenflex/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/botenflex/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "botenflex",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_botenflex.xml",
+            "system-path": "/etc/hardware_features_botenflex.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "botenflex",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 589825,
+          "smbios-name-match": "Boten"
         },
         "name": "botenflex",
         "thermal": {

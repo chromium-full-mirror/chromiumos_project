@@ -26,7 +26,108 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Blipper"
+        },
+        "name": "blipper",
+        "thermal": {
+          "dptf-dv": "blipper/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/blipper/dptf.dv",
+              "source": "blipper/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "blipper",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "blipper/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_blipper.xml",
+            "system-path": "/etc/hardware_features_blipper.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "blipper",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1703936,
+          "smbios-name-match": "Blipper"
+        },
+        "name": "blipper",
+        "thermal": {
+          "dptf-dv": "blipper/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/blipper/dptf.dv",
+              "source": "blipper/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "blipper",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "blipper/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_blipper.xml",
+            "system-path": "/etc/hardware_features_blipper.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "blipper",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1703937,
+          "smbios-name-match": "Blipper"
         },
         "name": "blipper",
         "thermal": {

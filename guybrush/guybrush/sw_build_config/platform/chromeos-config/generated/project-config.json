@@ -26,7 +26,49 @@
         },
         "identity": {
           "platform-name": "Guybrush",
-          "sku-id": 0
+          "sku-id": 65537,
+          "smbios-name-match": "Guybrush"
+        },
+        "name": "guybrush360",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "guybrush_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "guybrush360",
+            "product": "guybrush"
+          },
+          "hardware-features": {
+            "build-path": "guybrush/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_guybrush360.xml",
+            "system-path": "/etc/hardware_features_guybrush360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "guybrush360",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Guybrush",
+          "sku-id": 65538,
+          "smbios-name-match": "Guybrush"
         },
         "name": "guybrush360",
         "ui": {
@@ -66,7 +108,172 @@
         },
         "identity": {
           "platform-name": "Guybrush",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Guybrush"
+        },
+        "name": "guybrush",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "guybrush_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "guybrush",
+            "product": "guybrush"
+          },
+          "hardware-features": {
+            "build-path": "guybrush/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_guybrush.xml",
+            "system-path": "/etc/hardware_features_guybrush.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "guybrush",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Guybrush",
+          "sku-id": 131073,
+          "smbios-name-match": "Guybrush"
+        },
+        "name": "guybrush",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "guybrush_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "guybrush",
+            "product": "guybrush"
+          },
+          "hardware-features": {
+            "build-path": "guybrush/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_guybrush.xml",
+            "system-path": "/etc/hardware_features_guybrush.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "guybrush",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Guybrush",
+          "sku-id": 131074,
+          "smbios-name-match": "Guybrush"
+        },
+        "name": "guybrush",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "guybrush_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "guybrush",
+            "product": "guybrush"
+          },
+          "hardware-features": {
+            "build-path": "guybrush/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_guybrush.xml",
+            "system-path": "/etc/hardware_features_guybrush.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "guybrush",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Guybrush",
+          "sku-id": 131075,
+          "smbios-name-match": "Guybrush"
+        },
+        "name": "guybrush",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "guybrush_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "guybrush",
+            "product": "guybrush"
+          },
+          "hardware-features": {
+            "build-path": "guybrush/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_guybrush.xml",
+            "system-path": "/etc/hardware_features_guybrush.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "guybrush",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Guybrush",
+          "sku-id": 131076,
+          "smbios-name-match": "Guybrush"
         },
         "name": "guybrush",
         "ui": {

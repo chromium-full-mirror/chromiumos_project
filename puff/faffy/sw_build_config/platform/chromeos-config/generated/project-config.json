@@ -26,7 +26,1812 @@
         },
         "identity": {
           "platform-name": "Puff",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108864,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108865,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108866,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108867,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108868,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108880,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108881,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108882,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108883,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108884,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108885,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108886,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108887,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108888,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108889,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108890,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108891,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108892,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108893,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108894,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108895,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108896,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108897,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108898,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108899,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108900,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108901,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108902,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108903,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108904,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108905,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108906,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108907,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108908,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108909,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108910,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108911,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108912,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108913,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108914,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108915,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108916,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108917,
+          "smbios-name-match": "Faffy"
+        },
+        "name": "faffy",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "puff_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "faffy",
+            "product": "puff"
+          },
+          "hardware-features": {
+            "build-path": "faffy/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_faffy.xml",
+            "system-path": "/etc/hardware_features_faffy.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "faffy",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Puff",
+          "sku-id": 67108918,
+          "smbios-name-match": "Faffy"
         },
         "name": "faffy",
         "ui": {

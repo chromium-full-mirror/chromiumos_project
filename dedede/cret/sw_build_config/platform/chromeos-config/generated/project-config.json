@@ -26,7 +26,408 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769472,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769473,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769474,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769475,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769476,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769477,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769478,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret.xml",
+            "system-path": "/etc/hardware_features_cret.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1769479,
+          "smbios-name-match": "Cret"
         },
         "name": "cret",
         "thermal": {
@@ -75,7 +476,158 @@
         },
         "identity": {
           "platform-name": "Dedede",
-          "sku-id": 0
+          "sku-id": 1835008,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret360",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret360.xml",
+            "system-path": "/etc/hardware_features_cret360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret360",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1835009,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret360",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret360.xml",
+            "system-path": "/etc/hardware_features_cret360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret360",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1835010,
+          "smbios-name-match": "Cret"
+        },
+        "name": "cret360",
+        "thermal": {
+          "dptf-dv": "cret/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cret/dptf.dv",
+              "source": "cret/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "cret360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "cret/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_cret360.xml",
+            "system-path": "/etc/hardware_features_cret360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "cret360",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1835011,
+          "smbios-name-match": "Cret"
         },
         "name": "cret360",
         "thermal": {

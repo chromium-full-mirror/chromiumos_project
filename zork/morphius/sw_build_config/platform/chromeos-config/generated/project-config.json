@@ -26,7 +26,1074 @@
         },
         "identity": {
           "platform-name": "Zork",
-          "sku-id": 0
+          "sku-id": 2147483647,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014977,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014978,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014979,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014992,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014993,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014994,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014995,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014996,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014997,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014998,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510014999,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015000,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015008,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015009,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015010,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015011,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015012,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015013,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015014,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015016,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015017,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015018,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015019,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015020,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015021,
+          "smbios-name-match": "Morphius"
+        },
+        "name": "morphius",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "zork_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "morphius",
+            "product": "zork"
+          },
+          "hardware-features": {
+            "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
+            "system-path": "/etc/hardware_features_morphius.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "morphius",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Zork",
+          "sku-id": 1510015022,
+          "smbios-name-match": "Morphius"
         },
         "name": "morphius",
         "ui": {
