@@ -56,6 +56,12 @@
             "system-path": "/etc/hardware_features_brya.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "brya",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
