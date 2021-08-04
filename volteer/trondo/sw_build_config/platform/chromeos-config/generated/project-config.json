@@ -18,7 +18,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "trondo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -30,6 +44,10 @@
           "smbios-name-match": "Trondo"
         },
         "name": "trondo",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",

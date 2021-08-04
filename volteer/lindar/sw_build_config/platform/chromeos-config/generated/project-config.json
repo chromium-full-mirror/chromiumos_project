@@ -18,7 +18,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lindar",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/HiFi.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/sof-rt5682.lindar.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/sof-rt5682.lindar.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/sof-rt5682",
+                "source": "lindar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lindar/dsp.ini",
+                "source": "lindar/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/board.ini",
+                "source": "lindar/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lindar"
           }
         },
         "camera": {
@@ -30,6 +56,12 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lindar",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lindar/dptf.dv",
           "files": [
@@ -68,7 +100,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lindar",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/HiFi.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/sof-rt5682.lindar.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/sof-rt5682.lindar.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/sof-rt5682",
+                "source": "lindar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lindar/dsp.ini",
+                "source": "lindar/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/board.ini",
+                "source": "lindar/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lindar"
           }
         },
         "camera": {
@@ -80,6 +138,13 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lindar",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lindar/dptf.dv",
           "files": [
@@ -118,7 +183,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lindar",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/HiFi.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/sof-rt5682.lindar.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/sof-rt5682.lindar.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/sof-rt5682",
+                "source": "lindar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lindar/dsp.ini",
+                "source": "lindar/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/board.ini",
+                "source": "lindar/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lindar"
           }
         },
         "camera": {
@@ -130,6 +221,13 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lindar",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lindar/dptf.dv",
           "files": [
@@ -168,7 +266,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lindar",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/HiFi.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/sof-rt5682.lindar.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/sof-rt5682.lindar.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/sof-rt5682",
+                "source": "lindar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lindar/dsp.ini",
+                "source": "lindar/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/board.ini",
+                "source": "lindar/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lindar"
           }
         },
         "camera": {
@@ -180,6 +304,12 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lindar",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lindar/dptf.dv",
           "files": [
@@ -218,7 +348,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lindar",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/HiFi.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lindar/sof-rt5682.lindar.conf",
+                "source": "lindar/audio/ucm-config/sof-rt5682.lindar/sof-rt5682.lindar.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/sof-rt5682",
+                "source": "lindar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lindar/dsp.ini",
+                "source": "lindar/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lindar/board.ini",
+                "source": "lindar/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lindar"
           }
         },
         "camera": {
@@ -230,6 +386,12 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lindar",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lindar/dptf.dv",
           "files": [
@@ -268,7 +430,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -280,6 +468,13 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [
@@ -318,7 +513,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -330,6 +551,12 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [
@@ -368,7 +595,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -380,6 +633,12 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [
@@ -418,7 +677,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -430,6 +715,13 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [
@@ -468,7 +760,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -480,6 +798,12 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [
@@ -518,7 +842,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -530,6 +880,14 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1",
+          "turn-off-screen-timeout-ms": "0"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [
@@ -568,7 +926,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "lillipup",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/HiFi.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lillipup/sof-rt5682.lillipup.conf",
+                "source": "lillipup/audio/ucm-config/sof-rt5682.lillipup/sof-rt5682.lillipup.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/sof-rt5682",
+                "source": "lillipup/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lillipup/dsp.ini",
+                "source": "lillipup/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/lillipup/board.ini",
+                "source": "lillipup/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lillipup"
           }
         },
         "camera": {
@@ -580,6 +964,14 @@
           "smbios-name-match": "Lindar"
         },
         "name": "lillipup",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1",
+          "turn-off-screen-timeout-ms": "0"
+        },
         "thermal": {
           "dptf-dv": "lindar/lillipup/dptf.dv",
           "files": [

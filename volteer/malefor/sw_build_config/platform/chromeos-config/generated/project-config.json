@@ -18,7 +18,20 @@
         "audio": {
           "main": {
             "cras-config-dir": "malefor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ]
           }
         },
         "camera": {
@@ -30,6 +43,10 @@
           "smbios-name-match": "Malefor"
         },
         "name": "malefor",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",

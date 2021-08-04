@@ -18,7 +18,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -30,6 +61,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -68,7 +105,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -80,6 +148,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -118,7 +192,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -130,6 +235,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -168,7 +279,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -180,6 +322,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -218,7 +366,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema_npcx796fc",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema_npcx796fc.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema_npcx796fc.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -230,6 +409,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema_npcx796fc",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -268,7 +453,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema_npcx796fc",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema_npcx796fc.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema_npcx796fc.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -280,6 +496,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema_npcx796fc",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -318,7 +540,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema_npcx796fc",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema_npcx796fc.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema_npcx796fc.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -330,6 +583,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema_npcx796fc",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -368,7 +627,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema_npcx796fc",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema_npcx796fc.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema_npcx796fc.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -380,6 +670,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema_npcx796fc",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -418,7 +714,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voema_npcx796fc",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/HiFi.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf",
+                "source": "voema/audio/ucm-config/sof-rt5682.max98373.voema/sof-rt5682.max98373.voema.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/sof-rt5682",
+                "source": "voema/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/dsp.ini",
+                "source": "voema/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voema_npcx796fc/board.ini",
+                "source": "voema/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voema_npcx796fc.yaml",
+                "source": "voema/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voema_npcx796fc.yaml",
+            "ucm-suffix": "max98373.voema"
           }
         },
         "camera": {
@@ -430,6 +757,12 @@
           "smbios-name-match": "Voema"
         },
         "name": "voema_npcx796fc",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [

@@ -18,7 +18,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -30,6 +61,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -68,7 +108,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -80,6 +151,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -118,7 +198,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -130,6 +241,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -168,7 +288,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -180,6 +331,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -218,7 +378,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -230,6 +421,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -268,7 +468,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -280,6 +511,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -318,7 +558,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -330,6 +601,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -368,7 +648,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -380,6 +691,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -418,7 +738,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -430,6 +781,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -468,7 +828,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -480,6 +871,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -518,7 +918,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -530,6 +961,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -568,7 +1008,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -580,6 +1051,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -618,7 +1098,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "voxel",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/HiFi.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf",
+                "source": "voxel/audio/ucm-config/sof-rt5682.max98373.voxel/sof-rt5682.max98373.voxel.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/sof-rt5682",
+                "source": "voxel/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/voxel/dsp.ini",
+                "source": "voxel/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/voxel/board.ini",
+                "source": "voxel/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/voxel.yaml",
+                "source": "voxel/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "voxel.yaml",
+            "ucm-suffix": "max98373.voxel"
           }
         },
         "camera": {
@@ -630,6 +1141,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "voxel",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/dptf.dv",
           "files": [
@@ -668,7 +1188,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -680,6 +1226,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -718,7 +1273,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -730,6 +1311,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -768,7 +1358,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -780,6 +1396,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -818,7 +1443,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -830,6 +1481,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -868,7 +1528,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -880,6 +1566,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -918,7 +1613,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -930,6 +1651,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -968,7 +1698,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -980,6 +1736,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1018,7 +1783,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1030,6 +1821,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1068,7 +1868,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1080,6 +1906,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1118,7 +1953,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1130,6 +1991,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1168,7 +2038,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1180,6 +2076,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1218,7 +2123,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1230,6 +2161,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1268,7 +2208,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1280,6 +2246,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1318,7 +2293,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1330,6 +2331,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1368,7 +2378,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1380,6 +2416,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [
@@ -1418,7 +2463,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volta",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/HiFi.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf",
+                "source": "volta/audio/ucm-config/sof-rt5682.max98373.volta/sof-rt5682.max98373.volta.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/sof-rt5682",
+                "source": "volta/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volta/dsp.ini",
+                "source": "volta/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volta/board.ini",
+                "source": "volta/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.volta"
           }
         },
         "camera": {
@@ -1430,6 +2501,15 @@
           "smbios-name-match": "Voxel"
         },
         "name": "volta",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "voxel/volta/dptf.dv",
           "files": [

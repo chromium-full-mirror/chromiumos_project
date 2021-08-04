@@ -18,7 +18,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "todor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -30,6 +44,12 @@
           "smbios-name-match": "Todor"
         },
         "name": "todor",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +79,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "terrador",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -71,6 +105,12 @@
           "smbios-name-match": "Terrador"
         },
         "name": "terrador",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +140,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "terrador",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -112,6 +166,12 @@
           "smbios-name-match": "Terrador"
         },
         "name": "terrador",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -141,7 +201,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "terrador",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -153,6 +227,12 @@
           "smbios-name-match": "Terrador"
         },
         "name": "terrador",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -182,7 +262,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "terrador",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -194,6 +288,12 @@
           "smbios-name-match": "Terrador"
         },
         "name": "terrador",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",

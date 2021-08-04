@@ -18,7 +18,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "drobit",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/HiFi.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/sof-rt5682",
+                "source": "drobit/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drobit/dsp.ini",
+                "source": "drobit/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/board.ini",
+                "source": "drobit/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/drobit.yaml",
+                "source": "drobit/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "drobit.yaml",
+            "ucm-suffix": "max98373.drobit"
           }
         },
         "camera": {
@@ -30,6 +61,13 @@
           "smbios-name-match": "Drobit"
         },
         "name": "drobit",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -68,7 +106,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "drobit",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/HiFi.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/sof-rt5682",
+                "source": "drobit/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drobit/dsp.ini",
+                "source": "drobit/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/board.ini",
+                "source": "drobit/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/drobit.yaml",
+                "source": "drobit/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "drobit.yaml",
+            "ucm-suffix": "max98373.drobit"
           }
         },
         "camera": {
@@ -80,6 +149,13 @@
           "smbios-name-match": "Drobit"
         },
         "name": "drobit",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "39.00",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -118,7 +194,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "drobit",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/HiFi.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/sof-rt5682",
+                "source": "drobit/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drobit/dsp.ini",
+                "source": "drobit/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/board.ini",
+                "source": "drobit/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/drobit.yaml",
+                "source": "drobit/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "drobit.yaml",
+            "ucm-suffix": "max98373.drobit"
           }
         },
         "camera": {
@@ -130,6 +237,13 @@
           "smbios-name-match": "Drobit"
         },
         "name": "drobit",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "48.00",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -168,7 +282,38 @@
         "audio": {
           "main": {
             "cras-config-dir": "drobit",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/HiFi.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf",
+                "source": "drobit/audio/ucm-config/sof-rt5682.max98373.drobit/sof-rt5682.max98373.drobit.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/sof-rt5682",
+                "source": "drobit/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drobit/dsp.ini",
+                "source": "drobit/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/drobit/board.ini",
+                "source": "drobit/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/drobit.yaml",
+                "source": "drobit/audio/sound_card_init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "drobit.yaml",
+            "ucm-suffix": "max98373.drobit"
           }
         },
         "camera": {
@@ -180,6 +325,13 @@
           "smbios-name-match": "Drobit"
         },
         "name": "drobit",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "45.00",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [

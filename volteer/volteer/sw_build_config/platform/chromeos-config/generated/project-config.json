@@ -18,7 +18,20 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ]
           }
         },
         "camera": {
@@ -30,6 +43,15 @@
           "smbios-name-match": "Volteer"
         },
         "name": "volteer",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +81,20 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ]
           }
         },
         "camera": {
@@ -71,6 +106,15 @@
           "smbios-name-match": "Volteer"
         },
         "name": "volteer",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +144,20 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/HiFi.conf",
+                "source": "ucm-config/sof-soundwire/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/sof-soundwire.conf",
+                "source": "ucm-config/sof-soundwire/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ]
           }
         },
         "camera": {
@@ -112,6 +169,15 @@
           "smbios-name-match": "Volteer"
         },
         "name": "volteer",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -141,7 +207,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -153,6 +233,15 @@
           "smbios-name-match": "Volteer"
         },
         "name": "volteer",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -182,7 +271,20 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/HiFi.conf",
+                "source": "ucm-config/sof-soundwire/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/sof-soundwire.conf",
+                "source": "ucm-config/sof-soundwire/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ]
           }
         },
         "camera": {
@@ -194,6 +296,15 @@
           "smbios-name-match": "Volteer"
         },
         "name": "volteer",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -223,7 +334,20 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              }
+            ]
           }
         },
         "camera": {
@@ -235,6 +359,15 @@
           "smbios-name-match": "Volteer"
         },
         "name": "volteer",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -264,7 +397,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "source": "volteer2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -276,6 +434,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -305,7 +472,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -317,6 +510,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -346,7 +548,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
+                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
+                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373"
           }
         },
         "camera": {
@@ -358,6 +586,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -387,7 +624,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/HiFi.conf",
+                "source": "ucm-config/sof-soundwire/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/sof-soundwire.conf",
+                "source": "ucm-config/sof-soundwire/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-soundwire",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -399,6 +661,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -428,7 +699,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "source": "volteer2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -440,6 +736,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -469,7 +774,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/HiFi.conf",
+                "source": "ucm-config/sof-soundwire/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire/sof-soundwire.conf",
+                "source": "ucm-config/sof-soundwire/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-soundwire",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -481,6 +811,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -510,7 +849,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "source": "volteer2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2/dsp.ini",
+                "source": "volteer2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2/board.ini",
+                "source": "volteer2/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -522,6 +886,15 @@
           "smbios-name-match": "Volteer2"
         },
         "name": "volteer2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -551,7 +924,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "volteer2_ti50",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2_ti50/sof-rt5682",
+                "source": "volteer2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volteer2_ti50/dsp.ini",
+                "source": "volteer2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volteer2_ti50/board.ini",
+                "source": "volteer2/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -563,6 +961,15 @@
           "smbios-name-match": "Volteer2_Ti50"
         },
         "name": "volteer2_ti50",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "1",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",

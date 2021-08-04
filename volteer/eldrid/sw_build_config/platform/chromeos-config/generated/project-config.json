@@ -18,7 +18,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -30,6 +56,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +96,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -71,6 +134,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +174,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -112,6 +212,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -141,7 +252,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -153,6 +290,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -182,7 +330,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -194,6 +368,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -223,7 +408,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid_npcx796",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid_npcx796/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid_npcx796/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid_npcx796/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -235,6 +446,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid_npcx796",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -264,7 +486,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "eldrid_npcx796",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/HiFi.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.eldrid/sof-rt5682.eldrid.conf",
+                "source": "eldrid/audio/ucm-config/sof-rt5682.eldrid/sof-rt5682.eldrid.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid_npcx796/sof-rt5682",
+                "source": "eldrid/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/eldrid_npcx796/dsp.ini",
+                "source": "eldrid/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/eldrid_npcx796/board.ini",
+                "source": "eldrid/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "eldrid"
           }
         },
         "camera": {
@@ -276,6 +524,17 @@
           "smbios-name-match": "Eldrid"
         },
         "name": "eldrid_npcx796",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",

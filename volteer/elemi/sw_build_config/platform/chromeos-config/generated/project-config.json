@@ -18,7 +18,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -30,6 +55,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -68,7 +102,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -80,6 +139,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -118,7 +186,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -130,6 +223,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -168,7 +270,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -180,6 +307,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -218,7 +354,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -230,6 +391,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -268,7 +438,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -280,6 +475,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -318,7 +522,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -330,6 +559,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -368,7 +606,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -380,6 +643,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -418,7 +690,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -430,6 +727,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -468,7 +774,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -480,6 +811,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -518,7 +858,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -530,6 +895,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -568,7 +942,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -580,6 +979,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -618,7 +1026,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -630,6 +1063,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -668,7 +1110,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -680,6 +1147,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -718,7 +1194,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -730,6 +1231,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -768,7 +1278,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -780,6 +1315,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -818,7 +1362,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -830,6 +1399,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -868,7 +1446,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -880,6 +1483,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -918,7 +1530,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -930,6 +1567,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -968,7 +1614,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -980,6 +1651,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1018,7 +1698,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1030,6 +1735,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1068,7 +1782,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1080,6 +1819,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1118,7 +1866,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1130,6 +1903,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1168,7 +1950,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1180,6 +1987,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1218,7 +2034,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1230,6 +2071,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1268,7 +2118,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1280,6 +2155,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1318,7 +2202,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1330,6 +2239,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1368,7 +2286,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1380,6 +2323,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1418,7 +2370,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1430,6 +2407,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1468,7 +2454,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1480,6 +2491,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1518,7 +2538,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1530,6 +2575,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1568,7 +2622,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1580,6 +2659,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1618,7 +2706,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1630,6 +2743,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1668,7 +2790,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1680,6 +2827,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1718,7 +2874,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1730,6 +2911,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1768,7 +2958,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1780,6 +2995,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1818,7 +3042,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1830,6 +3079,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1868,7 +3126,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1880,6 +3163,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1918,7 +3210,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1930,6 +3247,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -1968,7 +3294,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -1980,6 +3331,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -2018,7 +3378,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -2030,6 +3415,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [
@@ -2068,7 +3462,32 @@
         "audio": {
           "main": {
             "cras-config-dir": "elemi",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
+                "source": "ucm-config/sof-rt5682/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
+                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/sof-rt5682",
+                "source": "elemi/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/elemi/dsp.ini",
+                "source": "elemi/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/elemi/board.ini",
+                "source": "elemi/audio/cras-config/board.ini"
+              }
+            ]
           }
         },
         "camera": {
@@ -2080,6 +3499,15 @@
           "smbios-name-match": "Elemi"
         },
         "name": "elemi",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "0",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "elemi/dptf.dv",
           "files": [

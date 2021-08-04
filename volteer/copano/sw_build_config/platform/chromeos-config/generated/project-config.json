@@ -18,7 +18,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "copano",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.copano/HiFi.conf",
+                "source": "copano/audio/ucm-config/sof-rt5682.max98373.copano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.copano/sof-rt5682.max98373.copano.conf",
+                "source": "copano/audio/ucm-config/sof-rt5682.max98373.copano/sof-rt5682.max98373.copano.conf"
+              },
+              {
+                "destination": "/etc/cras/copano/sof-rt5682",
+                "source": "copano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/copano/dsp.ini",
+                "source": "copano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/copano/board.ini",
+                "source": "copano/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.copano"
           }
         },
         "camera": {
@@ -30,6 +56,15 @@
           "smbios-name-match": "Copano"
         },
         "name": "copano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.00",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",
           "files": [
@@ -68,7 +103,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "copano",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.copano/HiFi.conf",
+                "source": "copano/audio/ucm-config/sof-rt5682.max98373.copano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.copano/sof-rt5682.max98373.copano.conf",
+                "source": "copano/audio/ucm-config/sof-rt5682.max98373.copano/sof-rt5682.max98373.copano.conf"
+              },
+              {
+                "destination": "/etc/cras/copano/sof-rt5682",
+                "source": "copano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/copano/dsp.ini",
+                "source": "copano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/copano/board.ini",
+                "source": "copano/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.copano"
           }
         },
         "camera": {
@@ -80,6 +141,15 @@
           "smbios-name-match": "Copano"
         },
         "name": "copano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.00",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",
           "files": [
@@ -118,7 +188,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "copano",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.copano/HiFi.conf",
+                "source": "copano/audio/ucm-config/sof-rt5682.max98373.copano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.copano/sof-rt5682.max98373.copano.conf",
+                "source": "copano/audio/ucm-config/sof-rt5682.max98373.copano/sof-rt5682.max98373.copano.conf"
+              },
+              {
+                "destination": "/etc/cras/copano/sof-rt5682",
+                "source": "copano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/copano/dsp.ini",
+                "source": "copano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-volteer.conf",
+                "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/copano/board.ini",
+                "source": "copano/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "max98373.copano"
           }
         },
         "camera": {
@@ -130,6 +226,15 @@
           "smbios-name-match": "Copano"
         },
         "name": "copano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.00",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",
           "files": [
