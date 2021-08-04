@@ -24,6 +24,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +65,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -88,7 +100,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -100,6 +126,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -129,7 +161,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -141,6 +187,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -170,7 +222,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -182,6 +248,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -211,7 +283,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -223,6 +309,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -252,7 +344,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-soundwire.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.brya/sof-soundwire.brya.conf",
+                "source": "brya/audio/ucm-config/sof-soundwire.brya/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -264,6 +370,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -293,7 +405,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -305,6 +431,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -334,7 +466,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "brya",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -346,6 +492,12 @@
           "smbios-name-match": "Brya"
         },
         "name": "brya",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",

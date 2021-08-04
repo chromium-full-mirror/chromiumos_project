@@ -18,7 +18,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "gimble",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -30,6 +44,17 @@
           "smbios-name-match": "Gimble"
         },
         "name": "gimble",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +84,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "gimble",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -71,6 +110,17 @@
           "smbios-name-match": "Gimble"
         },
         "name": "gimble",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "defer-external-display-timeout": "10",
+          "has-ambient-light-sensor": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-proximity": "0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",

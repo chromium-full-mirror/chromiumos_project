@@ -18,7 +18,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "adlrvp",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.adlrvp/HiFi.conf",
+                "source": "adlrvp/audio/ucm-config/sof-soundwire.adlrvp/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.adlrvp/sof-soundwire.adlrvp.conf",
+                "source": "adlrvp/audio/ucm-config/sof-soundwire.adlrvp/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "adlrvp"
           }
         },
         "camera": {
@@ -30,6 +44,9 @@
           "smbios-name-match": "Adlrvp"
         },
         "name": "adlrvp",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +76,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "adlrvp_extec",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.adlrvp/HiFi.conf",
+                "source": "adlrvp/audio/ucm-config/sof-soundwire.adlrvp/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.adlrvp/sof-soundwire.adlrvp.conf",
+                "source": "adlrvp/audio/ucm-config/sof-soundwire.adlrvp/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "adlrvp"
           }
         },
         "camera": {
@@ -71,6 +102,9 @@
           "smbios-name-match": "adlrvp_extec"
         },
         "name": "adlrvp_extec",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +134,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "adlrvp_m_extec",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.adlrvp/HiFi.conf",
+                "source": "adlrvp/audio/ucm-config/sof-soundwire.adlrvp/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-soundwire.adlrvp/sof-soundwire.adlrvp.conf",
+                "source": "adlrvp/audio/ucm-config/sof-soundwire.adlrvp/sof-soundwire.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "adlrvp"
           }
         },
         "camera": {
@@ -112,6 +160,9 @@
           "smbios-name-match": "adlrvp_m_extec"
         },
         "name": "adlrvp_m_extec",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",

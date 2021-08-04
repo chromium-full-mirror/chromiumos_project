@@ -18,7 +18,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -30,6 +44,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +78,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -71,6 +104,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +138,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -112,6 +164,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -141,7 +198,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -153,6 +224,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -182,7 +258,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -194,6 +284,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -223,7 +318,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -235,6 +344,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -264,7 +378,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -276,6 +404,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -305,7 +438,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -317,6 +464,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -346,7 +498,21 @@
         "audio": {
           "main": {
             "cras-config-dir": "primus",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "brya"
           }
         },
         "camera": {
@@ -358,6 +524,11 @@
           "smbios-name-match": "Primus"
         },
         "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",

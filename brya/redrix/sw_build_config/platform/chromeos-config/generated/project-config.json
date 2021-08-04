@@ -24,6 +24,9 @@
           "smbios-name-match": "Redrix"
         },
         "name": "redrix",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
