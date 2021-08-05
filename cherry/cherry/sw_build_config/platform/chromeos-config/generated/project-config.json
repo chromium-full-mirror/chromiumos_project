@@ -27,6 +27,7 @@
         "firmware": {
           "bcs-overlay": "overlay-cherry-private",
           "build-targets": {
+            "bmpblk": "cherry",
             "coreboot": "cherry",
             "depthcharge": "cherry",
             "ec": "cherry",
