@@ -47,6 +47,7 @@
         "power": {
           "battery-poll-interval-initial-ms": "1000",
           "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
           "has-ambient-light-sensor": "0",
           "has-keyboard-backlight": "1",
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
@@ -113,6 +114,7 @@
         "power": {
           "battery-poll-interval-initial-ms": "1000",
           "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
           "has-ambient-light-sensor": "0",
           "has-keyboard-backlight": "1",
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
