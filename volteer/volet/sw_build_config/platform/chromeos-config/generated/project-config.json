@@ -20,19 +20,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -92,19 +97,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -164,19 +174,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -236,19 +251,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -308,19 +328,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -380,19 +405,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -452,19 +482,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -524,19 +559,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -596,19 +636,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -668,19 +713,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -740,19 +790,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -812,19 +867,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -884,19 +944,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -956,19 +1021,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1028,19 +1098,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1100,19 +1175,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1172,19 +1252,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1244,19 +1329,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1316,19 +1406,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1388,19 +1483,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1460,19 +1560,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1532,19 +1637,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1604,19 +1714,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1676,19 +1791,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
@@ -1748,19 +1868,24 @@
             "cras-config-dir": "volet",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
-                "source": "ucm-config/sof-rt5682.max98373/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/HiFi.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/sof-rt5682.max98373.conf",
-                "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf",
+                "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volet.yaml",
+                "source": "volet/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
-            "ucm-suffix": "max98373"
+            "sound-card-init-conf": "volet.yaml",
+            "ucm-suffix": "max98373.volet"
           }
         },
         "camera": {
