@@ -31,11 +31,11 @@
         },
         "name": "storo",
         "thermal": {
-          "dptf-dv": "storo/dptf.dv",
+          "dptf-dv": "storo/storo/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/storo/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/storo/dptf.dv"
             }
           ]
         },
@@ -81,11 +81,11 @@
         },
         "name": "storo",
         "thermal": {
-          "dptf-dv": "storo/dptf.dv",
+          "dptf-dv": "storo/storo/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/storo/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/storo/dptf.dv"
             }
           ]
         },
@@ -131,11 +131,11 @@
         },
         "name": "storo",
         "thermal": {
-          "dptf-dv": "storo/dptf.dv",
+          "dptf-dv": "storo/storo/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/storo/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/storo/dptf.dv"
             }
           ]
         },
