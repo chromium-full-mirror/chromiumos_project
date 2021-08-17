@@ -28,8 +28,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -105,8 +117,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -182,8 +206,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -259,8 +295,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -336,8 +384,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -413,8 +473,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -490,8 +562,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -567,8 +651,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -644,8 +740,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -721,8 +829,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -798,8 +918,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -875,8 +1007,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -952,8 +1096,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1029,8 +1185,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1106,8 +1274,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1183,8 +1363,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1260,8 +1452,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1337,8 +1541,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1414,8 +1630,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1491,8 +1719,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1568,8 +1808,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1645,8 +1897,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1722,8 +1986,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1799,8 +2075,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
@@ -1876,8 +2164,20 @@
                 "source": "volet/audio/ucm-config/sof-rt5682.max98373.volet/sof-rt5682.max98373.volet.conf"
               },
               {
+                "destination": "/etc/cras/volet/sof-rt5682",
+                "source": "volet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volet/dsp.ini",
+                "source": "volet/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-volteer.conf",
                 "source": "alsa-module-config/alsa-volteer.conf"
+              },
+              {
+                "destination": "/etc/cras/volet/board.ini",
+                "source": "volet/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volet.yaml",
