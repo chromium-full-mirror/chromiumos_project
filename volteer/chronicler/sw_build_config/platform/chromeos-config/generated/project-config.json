@@ -20,12 +20,12 @@
             "cras-config-dir": "chronicler",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
-                "source": "ucm-config/sof-rt5682/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/HiFi.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
-                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/sof-rt5682.chronicler.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/sof-rt5682.chronicler.conf"
               },
               {
                 "destination": "/etc/cras/chronicler/sof-rt5682",
@@ -43,7 +43,8 @@
                 "destination": "/etc/cras/chronicler/board.ini",
                 "source": "chronicler/audio/cras-config/board.ini"
               }
-            ]
+            ],
+            "ucm-suffix": "chronicler"
           }
         },
         "camera": {
@@ -104,12 +105,12 @@
             "cras-config-dir": "chronicler",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
-                "source": "ucm-config/sof-rt5682/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/HiFi.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
-                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/sof-rt5682.chronicler.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/sof-rt5682.chronicler.conf"
               },
               {
                 "destination": "/etc/cras/chronicler/sof-rt5682",
@@ -127,7 +128,8 @@
                 "destination": "/etc/cras/chronicler/board.ini",
                 "source": "chronicler/audio/cras-config/board.ini"
               }
-            ]
+            ],
+            "ucm-suffix": "chronicler"
           }
         },
         "camera": {
@@ -188,12 +190,12 @@
             "cras-config-dir": "chronicler",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
-                "source": "ucm-config/sof-rt5682/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/HiFi.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
-                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/sof-rt5682.chronicler.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/sof-rt5682.chronicler.conf"
               },
               {
                 "destination": "/etc/cras/chronicler/sof-rt5682",
@@ -211,7 +213,8 @@
                 "destination": "/etc/cras/chronicler/board.ini",
                 "source": "chronicler/audio/cras-config/board.ini"
               }
-            ]
+            ],
+            "ucm-suffix": "chronicler"
           }
         },
         "camera": {
@@ -272,12 +275,12 @@
             "cras-config-dir": "chronicler",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
-                "source": "ucm-config/sof-rt5682/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/HiFi.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
-                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/sof-rt5682.chronicler.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/sof-rt5682.chronicler.conf"
               },
               {
                 "destination": "/etc/cras/chronicler/sof-rt5682",
@@ -295,7 +298,8 @@
                 "destination": "/etc/cras/chronicler/board.ini",
                 "source": "chronicler/audio/cras-config/board.ini"
               }
-            ]
+            ],
+            "ucm-suffix": "chronicler"
           }
         },
         "camera": {
@@ -356,12 +360,12 @@
             "cras-config-dir": "chronicler",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/HiFi.conf",
-                "source": "ucm-config/sof-rt5682/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/HiFi.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682/sof-rt5682.conf",
-                "source": "ucm-config/sof-rt5682/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.chronicler/sof-rt5682.chronicler.conf",
+                "source": "chronicler/audio/ucm-config/sof-rt5682.chronicler/sof-rt5682.chronicler.conf"
               },
               {
                 "destination": "/etc/cras/chronicler/sof-rt5682",
@@ -379,7 +383,8 @@
                 "destination": "/etc/cras/chronicler/board.ini",
                 "source": "chronicler/audio/cras-config/board.ini"
               }
-            ]
+            ],
+            "ucm-suffix": "chronicler"
           }
         },
         "camera": {
