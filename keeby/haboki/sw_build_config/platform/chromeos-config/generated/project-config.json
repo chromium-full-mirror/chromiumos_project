@@ -30,6 +30,15 @@
           "smbios-name-match": "Haboki"
         },
         "name": "haboki",
+        "thermal": {
+          "dptf-dv": "haboki/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/haboki/dptf.dv",
+              "source": "haboki/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -71,6 +80,15 @@
           "smbios-name-match": "Haboki"
         },
         "name": "haboki",
+        "thermal": {
+          "dptf-dv": "haboki/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/haboki/dptf.dv",
+              "source": "haboki/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -112,6 +130,15 @@
           "smbios-name-match": "Haboki"
         },
         "name": "haboki",
+        "thermal": {
+          "dptf-dv": "haboki/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/haboki/dptf.dv",
+              "source": "haboki/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -153,6 +180,15 @@
           "smbios-name-match": "Haboki"
         },
         "name": "habokay",
+        "thermal": {
+          "dptf-dv": "haboki/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/haboki/dptf.dv",
+              "source": "haboki/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -194,6 +230,15 @@
           "smbios-name-match": "Haboki"
         },
         "name": "habokay",
+        "thermal": {
+          "dptf-dv": "haboki/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/haboki/dptf.dv",
+              "source": "haboki/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
