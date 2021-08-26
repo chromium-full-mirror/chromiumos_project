@@ -24,6 +24,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +68,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +112,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +156,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -164,6 +200,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -199,6 +244,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -234,6 +288,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -269,6 +332,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -304,6 +376,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "thermal": {
+          "dptf-dv": "gooey/gooey/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gooey/gooey/dptf.dv",
+              "source": "gooey/sw_build_config/platform/chromeos-config/thermal/gooey/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
