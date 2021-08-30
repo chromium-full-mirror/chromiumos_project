@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_herobrine.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "herobrine",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
