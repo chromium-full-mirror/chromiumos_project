@@ -15,6 +15,38 @@
             "system-path": "/etc/hardware_features_taeko.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "taeko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/sof-rt5682",
+                "source": "taeko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/taeko/dsp.ini",
+                "source": "taeko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/board.ini",
+                "source": "taeko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "taeko"
+          }
+        },
         "camera": {
           "count": 0
         },
