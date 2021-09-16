@@ -70,8 +70,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
@@ -132,8 +144,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
@@ -194,8 +218,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
@@ -256,8 +292,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
@@ -318,8 +366,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
@@ -442,8 +502,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
@@ -504,8 +576,20 @@
                 "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/brya/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/brya/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/brya/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "brya"
