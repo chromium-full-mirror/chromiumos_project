@@ -15,6 +15,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -61,6 +81,26 @@
           "hardware-features": {
             "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
             "system-path": "/etc/hardware_features_redrix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
           }
         },
         "camera": {
@@ -111,6 +151,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -157,6 +217,26 @@
           "hardware-features": {
             "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
             "system-path": "/etc/hardware_features_redrix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
           }
         },
         "camera": {
@@ -207,6 +287,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -253,6 +353,26 @@
           "hardware-features": {
             "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
             "system-path": "/etc/hardware_features_redrix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
           }
         },
         "camera": {
@@ -303,6 +423,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -349,6 +489,26 @@
           "hardware-features": {
             "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
             "system-path": "/etc/hardware_features_redrix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
           }
         },
         "camera": {
@@ -399,6 +559,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -445,6 +625,26 @@
           "hardware-features": {
             "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
             "system-path": "/etc/hardware_features_redrix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
           }
         },
         "camera": {
@@ -495,6 +695,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -543,6 +763,26 @@
             "system-path": "/etc/hardware_features_redrix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -589,6 +829,26 @@
           "hardware-features": {
             "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
             "system-path": "/etc/hardware_features_redrix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "redrix",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
+                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "redrix"
           }
         },
         "camera": {
