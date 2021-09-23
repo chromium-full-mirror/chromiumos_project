@@ -52,6 +52,297 @@
         },
         "identity": {
           "platform-name": "Brya",
+          "sku-id": 327680,
+          "smbios-name-match": "Taeko"
+        },
+        "name": "taeko",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "taeko",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "taeko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/sof-rt5682",
+                "source": "taeko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/taeko/dsp.ini",
+                "source": "taeko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/board.ini",
+                "source": "taeko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "taeko"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 327681,
+          "smbios-name-match": "Taeko"
+        },
+        "name": "taeko",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "taeko",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "taeko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/sof-rt5682",
+                "source": "taeko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/taeko/dsp.ini",
+                "source": "taeko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/board.ini",
+                "source": "taeko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "taeko"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 327682,
+          "smbios-name-match": "Taeko"
+        },
+        "name": "taeko",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "taeko",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "taeko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/sof-rt5682",
+                "source": "taeko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/taeko/dsp.ini",
+                "source": "taeko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/board.ini",
+                "source": "taeko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "taeko"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 327683,
+          "smbios-name-match": "Taeko"
+        },
+        "name": "taeko",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "taeko",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "taeko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
+                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/sof-rt5682",
+                "source": "taeko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/taeko/dsp.ini",
+                "source": "taeko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/taeko/board.ini",
+                "source": "taeko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "taeko"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
           "sku-id": 2147483647,
           "smbios-name-match": "Taeko"
         },
