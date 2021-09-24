@@ -15,6 +15,38 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -24,6 +56,2365 @@
           "smbios-name-match": "Anahera"
         },
         "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655360,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655361,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655362,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655363,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655364,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655365,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655366,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655367,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655368,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655369,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655370,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655371,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655372,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655373,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655374,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655375,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655376,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655377,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655378,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655379,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655380,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655381,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655382,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655383,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655384,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655385,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655386,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655387,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655388,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655389,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655390,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "anahera",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
+                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/sof-rt5682",
+                "source": "brya/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/anahera/dsp.ini",
+                "source": "brya/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/anahera/board.ini",
+                "source": "brya/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "brya"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 655391,
+          "smbios-name-match": "Anahera"
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
