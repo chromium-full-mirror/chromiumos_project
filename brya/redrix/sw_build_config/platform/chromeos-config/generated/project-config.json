@@ -45,7 +45,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -113,7 +116,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -181,7 +187,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -249,7 +258,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -317,7 +329,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -385,7 +400,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -453,415 +471,10 @@
         },
         "name": "redrix",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "redrix/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/redrix/dptf.dv",
-              "source": "redrix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "redrix",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
-            "system-path": "/etc/hardware_features_redrix.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "redrix",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "redrix"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 262150,
-          "smbios-name-match": "Redrix"
-        },
-        "name": "redrix",
-        "power": {
-          "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "redrix/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/redrix/dptf.dv",
-              "source": "redrix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "redrix",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
-            "system-path": "/etc/hardware_features_redrix.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "redrix",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "redrix"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 262151,
-          "smbios-name-match": "Redrix"
-        },
-        "name": "redrix",
-        "power": {
-          "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "redrix/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/redrix/dptf.dv",
-              "source": "redrix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "redrix",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
-            "system-path": "/etc/hardware_features_redrix.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "redrix",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "redrix"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 262152,
-          "smbios-name-match": "Redrix"
-        },
-        "name": "redrix",
-        "power": {
-          "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "redrix/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/redrix/dptf.dv",
-              "source": "redrix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "redrix",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
-            "system-path": "/etc/hardware_features_redrix.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "redrix",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "redrix"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 262153,
-          "smbios-name-match": "Redrix"
-        },
-        "name": "redrix",
-        "power": {
-          "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "redrix/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/redrix/dptf.dv",
-              "source": "redrix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "redrix",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
-            "system-path": "/etc/hardware_features_redrix.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "redrix",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "redrix"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 262154,
-          "smbios-name-match": "Redrix"
-        },
-        "name": "redrix",
-        "power": {
-          "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "redrix/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/redrix/dptf.dv",
-              "source": "redrix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "redrix",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "redrix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_redrix.xml",
-            "system-path": "/etc/hardware_features_redrix.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "redrix",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/HiFi.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.redrix/sof-rt5682.redrix.conf",
-                "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "redrix"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 262155,
-          "smbios-name-match": "Redrix"
-        },
-        "name": "redrix",
-        "power": {
-          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "thermal": {
