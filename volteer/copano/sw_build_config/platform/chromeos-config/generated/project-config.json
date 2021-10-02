@@ -42,8 +42,13 @@
               {
                 "destination": "/etc/cras/copano/board.ini",
                 "source": "copano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/copano.yaml",
+                "source": "copano/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
+            "sound-card-init-conf": "copano.yaml",
             "ucm-suffix": "max98373.copano"
           }
         },
@@ -127,8 +132,13 @@
               {
                 "destination": "/etc/cras/copano/board.ini",
                 "source": "copano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/copano.yaml",
+                "source": "copano/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
+            "sound-card-init-conf": "copano.yaml",
             "ucm-suffix": "max98373.copano"
           }
         },
@@ -212,8 +222,13 @@
               {
                 "destination": "/etc/cras/copano/board.ini",
                 "source": "copano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/copano.yaml",
+                "source": "copano/audio/sound_card_init-config/sofrt5682.yaml"
               }
             ],
+            "sound-card-init-conf": "copano.yaml",
             "ucm-suffix": "max98373.copano"
           }
         },
