@@ -502,8 +502,13 @@
               {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/brya.yaml",
+                "source": "brya/audio/sound-card-init-config/sofsoundwire.yaml"
               }
             ],
+            "sound-card-init-conf": "brya.yaml",
             "ucm-suffix": "brya"
           }
         },
