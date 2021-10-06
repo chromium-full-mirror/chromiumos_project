@@ -30,8 +30,13 @@
               {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/gimble.yaml",
+                "source": "gimble/audio/sound-card-init-config/sofrt5682.yaml"
               }
             ],
+            "sound-card-init-conf": "gimble.yaml",
             "ucm-suffix": "gimble"
           }
         },
@@ -97,8 +102,13 @@
               {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/gimble.yaml",
+                "source": "gimble/audio/sound-card-init-config/sofrt5682.yaml"
               }
             ],
+            "sound-card-init-conf": "gimble.yaml",
             "ucm-suffix": "gimble"
           }
         },
@@ -164,8 +174,13 @@
               {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/gimble.yaml",
+                "source": "gimble/audio/sound-card-init-config/sofrt5682.yaml"
               }
             ],
+            "sound-card-init-conf": "gimble.yaml",
             "ucm-suffix": "gimble"
           }
         },
