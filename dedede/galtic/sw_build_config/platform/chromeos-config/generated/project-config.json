@@ -507,6 +507,306 @@
             "device": "dedede_cheets",
             "first-api-level": "28",
             "marketing-name": "",
+            "metrics-tag": "galith",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galith.xml",
+            "system-path": "/etc/hardware_features_galith.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galith",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1245190,
+          "smbios-name-match": "Galtic"
+        },
+        "name": "galith",
+        "thermal": {
+          "dptf-dv": "galtic/galith/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "galith",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galith.xml",
+            "system-path": "/etc/hardware_features_galith.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galith",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1245191,
+          "smbios-name-match": "Galtic"
+        },
+        "name": "galith",
+        "thermal": {
+          "dptf-dv": "galtic/galith/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "galith",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galith.xml",
+            "system-path": "/etc/hardware_features_galith.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galith",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1245192,
+          "smbios-name-match": "Galtic"
+        },
+        "name": "galith",
+        "thermal": {
+          "dptf-dv": "galtic/galith/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "galith",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galith.xml",
+            "system-path": "/etc/hardware_features_galith.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galith",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1245193,
+          "smbios-name-match": "Galtic"
+        },
+        "name": "galith",
+        "thermal": {
+          "dptf-dv": "galtic/galith/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "galith",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galith.xml",
+            "system-path": "/etc/hardware_features_galith.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galith",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1245194,
+          "smbios-name-match": "Galtic"
+        },
+        "name": "galith",
+        "thermal": {
+          "dptf-dv": "galtic/galith/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "galith",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_galith.xml",
+            "system-path": "/etc/hardware_features_galith.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galith",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1245195,
+          "smbios-name-match": "Galtic"
+        },
+        "name": "galith",
+        "thermal": {
+          "dptf-dv": "galtic/galith/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
             "metrics-tag": "gallop",
             "product": "dedede"
           },
