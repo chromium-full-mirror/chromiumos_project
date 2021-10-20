@@ -20,12 +20,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -44,7 +44,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -103,12 +103,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -127,7 +127,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -186,12 +186,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -210,7 +210,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -268,12 +268,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -292,7 +292,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -351,12 +351,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -375,7 +375,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -433,12 +433,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -457,7 +457,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -516,12 +516,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -540,7 +540,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -598,12 +598,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -622,7 +622,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -681,12 +681,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -705,7 +705,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -763,12 +763,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -787,7 +787,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -846,12 +846,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -870,7 +870,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -928,12 +928,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -952,7 +952,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1011,12 +1011,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1035,7 +1035,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1093,12 +1093,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1117,7 +1117,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1176,12 +1176,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1200,7 +1200,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1258,12 +1258,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1282,7 +1282,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1341,12 +1341,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1365,7 +1365,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1423,12 +1423,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1447,7 +1447,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1506,12 +1506,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1530,7 +1530,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1588,12 +1588,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1612,7 +1612,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1671,12 +1671,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1695,7 +1695,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1753,12 +1753,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1777,7 +1777,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1836,12 +1836,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1860,7 +1860,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1918,12 +1918,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -1942,7 +1942,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2001,12 +2001,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2025,7 +2025,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2083,12 +2083,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2107,7 +2107,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2166,12 +2166,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2190,7 +2190,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2248,12 +2248,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2272,7 +2272,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2331,12 +2331,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2355,7 +2355,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2413,12 +2413,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2437,7 +2437,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2496,12 +2496,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2520,7 +2520,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2578,12 +2578,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2602,7 +2602,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2661,12 +2661,12 @@
             "cras-config-dir": "anahera",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
+                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/anahera/sof-rt5682",
@@ -2685,7 +2685,7 @@
                 "source": "brya/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "brya"
+            "ucm-suffix": "anahera"
           }
         },
         "camera": {
