@@ -63,6 +63,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -137,6 +146,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -209,6 +227,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -284,6 +311,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -356,6 +392,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -431,6 +476,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -503,6 +557,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -578,6 +641,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -650,6 +722,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -725,6 +806,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -797,6 +887,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -872,6 +971,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -944,6 +1052,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1019,6 +1136,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1091,6 +1217,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1166,6 +1301,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1238,6 +1382,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1313,6 +1466,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1385,6 +1547,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1460,6 +1631,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1532,6 +1712,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1607,6 +1796,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1679,6 +1877,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1754,6 +1961,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1826,6 +2042,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1901,6 +2126,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1973,6 +2207,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2048,6 +2291,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2120,6 +2372,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2195,6 +2456,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2267,6 +2537,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2342,6 +2621,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2414,6 +2702,15 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
