@@ -181,11 +181,11 @@
         },
         "name": "beetley",
         "thermal": {
-          "dptf-dv": "blipper/dptf.dv",
+          "dptf-dv": "blipper/beetley/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/blipper/dptf.dv",
-              "source": "blipper/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/blipper/beetley/dptf.dv",
+              "source": "blipper/sw_build_config/platform/chromeos-config/thermal/beetley/dptf.dv"
             }
           ]
         },
