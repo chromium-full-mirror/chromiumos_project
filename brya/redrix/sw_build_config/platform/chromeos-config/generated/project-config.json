@@ -28,8 +28,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
@@ -99,8 +111,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
@@ -170,8 +194,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
@@ -241,8 +277,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
@@ -312,8 +360,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
@@ -383,8 +443,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
@@ -454,8 +526,20 @@
                 "source": "redrix/audio/ucm-config/sof-rt5682.redrix/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/redrix/sof-rt5682",
+                "source": "redrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/redrix/dsp.ini",
+                "source": "redrix/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/redrix/board.ini",
+                "source": "redrix/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "redrix"
