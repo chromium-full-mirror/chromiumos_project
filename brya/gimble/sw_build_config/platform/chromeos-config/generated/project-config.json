@@ -28,8 +28,20 @@
                 "source": "gimble/audio/ucm-config/sof-rt5682.gimble/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/gimble/sof-rt5682",
+                "source": "gimble/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gimble/dsp.ini",
+                "source": "gimble/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/gimble/board.ini",
+                "source": "gimble/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/gimble.yaml",
@@ -100,8 +112,20 @@
                 "source": "gimble/audio/ucm-config/sof-rt5682.gimble/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/gimble/sof-rt5682",
+                "source": "gimble/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gimble/dsp.ini",
+                "source": "gimble/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/gimble/board.ini",
+                "source": "gimble/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/gimble.yaml",
@@ -172,8 +196,20 @@
                 "source": "gimble/audio/ucm-config/sof-rt5682.gimble/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/gimble/sof-rt5682",
+                "source": "gimble/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gimble/dsp.ini",
+                "source": "gimble/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/gimble/board.ini",
+                "source": "gimble/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/gimble.yaml",
@@ -244,8 +280,20 @@
                 "source": "gimble/audio/ucm-config/sof-rt5682.gimble/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/gimble/sof-rt5682",
+                "source": "gimble/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gimble/dsp.ini",
+                "source": "gimble/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/gimble/board.ini",
+                "source": "gimble/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/gimble.yaml",
@@ -316,8 +364,20 @@
                 "source": "gimble/audio/ucm-config/sof-rt5682.gimble/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/gimble/sof-rt5682",
+                "source": "gimble/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gimble/dsp.ini",
+                "source": "gimble/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/gimble/board.ini",
+                "source": "gimble/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/gimble.yaml",
