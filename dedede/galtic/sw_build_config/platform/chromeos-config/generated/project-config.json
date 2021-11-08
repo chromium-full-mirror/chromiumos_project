@@ -530,6 +530,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galtic360",
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -571,6 +580,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galtic360",
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -612,6 +630,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galtic360",
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -653,6 +680,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galtic360",
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -1294,6 +1330,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galith360",
+        "thermal": {
+          "dptf-dv": "galtic/galith360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -1335,6 +1380,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galith360",
+        "thermal": {
+          "dptf-dv": "galtic/galith360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -1376,6 +1430,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galith360",
+        "thermal": {
+          "dptf-dv": "galtic/galith360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -1417,6 +1480,15 @@
           "smbios-name-match": "Galtic"
         },
         "name": "galith360",
+        "thermal": {
+          "dptf-dv": "galtic/galith360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galith360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galith360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
