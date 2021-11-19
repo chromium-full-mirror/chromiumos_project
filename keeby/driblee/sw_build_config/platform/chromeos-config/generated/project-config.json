@@ -30,6 +30,15 @@
           "smbios-name-match": "Driblee"
         },
         "name": "driblee",
+        "thermal": {
+          "dptf-dv": "driblee/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/driblee/dptf.dv",
+              "source": "driblee/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -71,6 +80,15 @@
           "smbios-name-match": "Driblee"
         },
         "name": "driblee",
+        "thermal": {
+          "dptf-dv": "driblee/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/driblee/dptf.dv",
+              "source": "driblee/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
