@@ -74,6 +74,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "gimble/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gimble/dptf.dv",
+              "source": "gimble/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -158,6 +167,15 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "gimble/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gimble/dptf.dv",
+              "source": "gimble/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -244,6 +262,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "gimble/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gimble/dptf.dv",
+              "source": "gimble/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -329,6 +356,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "gimble/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gimble/dptf.dv",
+              "source": "gimble/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -413,6 +449,15 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "gimble/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gimble/dptf.dv",
+              "source": "gimble/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
