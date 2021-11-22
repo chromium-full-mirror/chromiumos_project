@@ -950,6 +950,88 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "bookem",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_bookem.xml",
+            "system-path": "/etc/hardware_features_bookem.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "bookem",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2686976,
+          "smbios-name-match": "Boten"
+        },
+        "name": "bookem",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "bookem",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "boten/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_bookem.xml",
+            "system-path": "/etc/hardware_features_bookem.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "bookem",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2686977,
+          "smbios-name-match": "Boten"
+        },
+        "name": "bookem",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
