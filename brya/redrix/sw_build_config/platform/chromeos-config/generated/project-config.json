@@ -61,6 +61,7 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -144,6 +145,7 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -227,6 +229,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "299",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -310,6 +315,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "299",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -393,6 +401,7 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -476,6 +485,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "299",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
@@ -559,6 +571,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "299",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
         "thermal": {
