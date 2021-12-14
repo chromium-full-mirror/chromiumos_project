@@ -980,6 +980,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "bookem",
+        "thermal": {
+          "dptf-dv": "boten/bookem/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/bookem/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/bookem/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -1021,6 +1030,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "bookem",
+        "thermal": {
+          "dptf-dv": "boten/bookem/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/boten/bookem/dptf.dv",
+              "source": "boten/sw_build_config/platform/chromeos-config/thermal/bookem/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
