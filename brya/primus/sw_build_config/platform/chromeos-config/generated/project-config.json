@@ -536,7 +536,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196625,
+          "sku-id": 196865,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -598,7 +598,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196626,
+          "sku-id": 196866,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -660,7 +660,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196627,
+          "sku-id": 196867,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -722,7 +722,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196628,
+          "sku-id": 196868,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -784,7 +784,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196629,
+          "sku-id": 196869,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -846,7 +846,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196630,
+          "sku-id": 196870,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -908,7 +908,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196631,
+          "sku-id": 196871,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -970,7 +970,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196632,
+          "sku-id": 196872,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1032,7 +1032,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196633,
+          "sku-id": 196873,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1094,7 +1094,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196634,
+          "sku-id": 196874,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1156,7 +1156,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196635,
+          "sku-id": 196875,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1218,7 +1218,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196636,
+          "sku-id": 196876,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1280,7 +1280,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196637,
+          "sku-id": 196877,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1342,7 +1342,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196638,
+          "sku-id": 196878,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1404,7 +1404,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196639,
+          "sku-id": 196879,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -1466,7 +1466,999 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 196640,
+          "sku-id": 196880,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196881,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196882,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196883,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196884,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196885,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196886,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196887,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196888,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196889,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196890,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196891,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196892,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196893,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196894,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196895,
+          "smbios-name-match": "Primus"
+        },
+        "name": "primus",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "primus",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus.xml",
+            "system-path": "/etc/hardware_features_primus.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "primus",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
+                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              }
+            ],
+            "ucm-suffix": "primus"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 196896,
           "smbios-name-match": "Primus"
         },
         "name": "primus",
@@ -2025,998 +3017,6 @@
         "identity": {
           "platform-name": "Brya",
           "sku-id": 196616,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196625,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196626,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196627,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196628,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196629,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196630,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196631,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196632,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196633,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196634,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196635,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196636,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196637,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196638,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196639,
-          "smbios-name-match": "Primus4ES"
-        },
-        "name": "primus4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "primus4es",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_primus4es.xml",
-            "system-path": "/etc/hardware_features_primus4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 196640,
           "smbios-name-match": "Primus4ES"
         },
         "name": "primus4es",
