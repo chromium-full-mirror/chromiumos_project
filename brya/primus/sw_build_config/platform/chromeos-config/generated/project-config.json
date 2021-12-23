@@ -51,6 +51,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -112,6 +121,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -175,6 +193,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -236,6 +263,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -299,6 +335,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -360,6 +405,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -423,6 +477,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -484,6 +547,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -547,6 +619,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -608,6 +689,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -671,6 +761,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -732,6 +831,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -795,6 +903,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -856,6 +973,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -919,6 +1045,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -980,6 +1115,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1043,6 +1187,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1104,6 +1257,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1167,6 +1329,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1228,6 +1399,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1291,6 +1471,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1352,6 +1541,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1415,6 +1613,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1476,6 +1683,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1539,6 +1755,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1600,6 +1825,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1663,6 +1897,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1724,6 +1967,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1787,6 +2039,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1848,6 +2109,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1911,6 +2181,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1972,6 +2251,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2035,6 +2323,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2096,6 +2393,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2159,6 +2465,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2220,6 +2535,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2283,6 +2607,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2344,6 +2677,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2407,6 +2749,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2468,6 +2819,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2531,6 +2891,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2592,6 +2961,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2655,6 +3033,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2716,6 +3103,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2779,6 +3175,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2840,6 +3245,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2903,6 +3317,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2965,6 +3388,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -3026,6 +3458,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "primus/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/primus/dptf.dv",
+              "source": "primus/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
