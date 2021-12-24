@@ -53,6 +53,11 @@
             "ucm-suffix": "gimble"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -146,6 +151,11 @@
             "sound-card-init-conf": "gimble.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "gimble"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
@@ -243,6 +253,11 @@
             "ucm-suffix": "gimble"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -336,6 +351,11 @@
             "sound-card-init-conf": "gimble4es.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "gimble"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
