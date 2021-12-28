@@ -18,6 +18,16 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "coreboot": "krabby",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "krabby"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Corsola",
           "sku-id": 2147483647,
