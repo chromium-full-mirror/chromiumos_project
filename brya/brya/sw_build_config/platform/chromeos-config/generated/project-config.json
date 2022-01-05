@@ -408,15 +408,15 @@
             "cras-config-dir": "brya",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-nau8825.brya/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brya/sof-nau8825.brya.conf",
+                "source": "brya/audio/ucm-config/sof-nau8825.brya/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/brya/sof-rt5682",
+                "destination": "/etc/cras/brya/sof-nau8825",
                 "source": "brya/audio/cras-config/card_settings"
               },
               {
@@ -575,15 +575,15 @@
             "cras-config-dir": "brya",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brya/HiFi.conf",
+                "source": "brya/audio/ucm-config/sof-nau8825.brya/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brya/sof-nau8825.brya.conf",
+                "source": "brya/audio/ucm-config/sof-nau8825.brya/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/brya/sof-rt5682",
+                "destination": "/etc/cras/brya/sof-nau8825",
                 "source": "brya/audio/cras-config/card_settings"
               },
               {
