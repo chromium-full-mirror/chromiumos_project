@@ -18,7 +18,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "felwinter",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/sof-rt5682",
+                "source": "felwinter/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/felwinter/dsp.ini",
+                "source": "felwinter/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/board.ini",
+                "source": "felwinter/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "felwinter.rt5682vs"
           }
         },
         "camera": {
@@ -30,6 +56,15 @@
           "smbios-name-match": "Felwinter"
         },
         "name": "felwinter",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "51.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +94,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "felwinter",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/HiFi.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/sof-rt5682.felwinter.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/sof-rt5682",
+                "source": "felwinter/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/felwinter/dsp.ini",
+                "source": "felwinter/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/board.ini",
+                "source": "felwinter/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "felwinter"
           }
         },
         "camera": {
@@ -71,6 +132,15 @@
           "smbios-name-match": "Felwinter"
         },
         "name": "felwinter",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "51.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +170,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "felwinter",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/HiFi.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/sof-rt5682.felwinter.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/sof-rt5682",
+                "source": "felwinter/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/felwinter/dsp.ini",
+                "source": "felwinter/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/board.ini",
+                "source": "felwinter/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "felwinter"
           }
         },
         "camera": {
@@ -112,6 +208,15 @@
           "smbios-name-match": "Felwinter"
         },
         "name": "felwinter",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "51.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -141,7 +246,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "felwinter",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/sof-rt5682",
+                "source": "felwinter/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/felwinter/dsp.ini",
+                "source": "felwinter/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/board.ini",
+                "source": "felwinter/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "felwinter.rt5682vs"
           }
         },
         "camera": {
@@ -153,6 +284,15 @@
           "smbios-name-match": "Felwinter"
         },
         "name": "felwinter",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "51.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -182,7 +322,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "felwinter",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/sof-rt5682",
+                "source": "felwinter/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/felwinter/dsp.ini",
+                "source": "felwinter/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/board.ini",
+                "source": "felwinter/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "felwinter.rt5682vs"
           }
         },
         "camera": {
@@ -194,6 +360,15 @@
           "smbios-name-match": "Felwinter"
         },
         "name": "felwinter",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "51.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -223,7 +398,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "felwinter",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
+                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/sof-rt5682",
+                "source": "felwinter/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/felwinter/dsp.ini",
+                "source": "felwinter/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/felwinter/board.ini",
+                "source": "felwinter/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "felwinter.rt5682vs"
           }
         },
         "camera": {
@@ -235,6 +436,15 @@
           "smbios-name-match": "Felwinter"
         },
         "name": "felwinter",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "51.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
