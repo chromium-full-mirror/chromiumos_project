@@ -28,8 +28,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -99,8 +111,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -170,8 +194,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -241,8 +277,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -312,8 +360,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -383,8 +443,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -454,8 +526,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -525,8 +609,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -596,8 +692,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -667,8 +775,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -738,8 +858,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -809,8 +941,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -880,8 +1024,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -951,8 +1107,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1022,8 +1190,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1093,8 +1273,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1164,8 +1356,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1235,8 +1439,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1306,8 +1522,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1377,8 +1605,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1448,8 +1688,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1519,8 +1771,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1590,8 +1854,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1661,8 +1937,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus.rt5682vs"
@@ -1732,8 +2020,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -1803,8 +2103,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -1874,8 +2186,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -1945,8 +2269,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2016,8 +2352,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2087,8 +2435,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2158,8 +2518,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2229,8 +2601,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2300,8 +2684,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2371,8 +2767,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2442,8 +2850,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2513,8 +2933,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2584,8 +3016,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2655,8 +3099,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2726,8 +3182,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2797,8 +3265,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2868,8 +3348,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -2939,8 +3431,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3010,8 +3514,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3081,8 +3597,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3152,8 +3680,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3223,8 +3763,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3294,8 +3846,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3365,8 +3929,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
@@ -3436,8 +4012,20 @@
                 "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/primus4es/sof-rt5682",
+                "source": "primus/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/primus4es/dsp.ini",
+                "source": "primus/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/primus4es/board.ini",
+                "source": "primus/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "primus"
