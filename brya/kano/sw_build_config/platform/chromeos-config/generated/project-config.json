@@ -46,80 +46,6 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 2147483647,
-          "smbios-name-match": "Kano"
-        },
-        "name": "kano",
-        "power": {
-          "disable-dark-resume": "0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "kano/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/kano/dptf.dv",
-              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "kano",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
-            "system-path": "/etc/hardware_features_kano.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
           "sku-id": 131072,
           "smbios-name-match": "Kano"
         },
@@ -208,6 +134,302 @@
             {
               "destination": "/etc/dptf/kano/dptf.dv",
               "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 2147483647,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131088,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/kano/131088/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/kano/131088/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/kano/131088/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131089,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/kano/131089/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/kano/131089/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/kano/131089/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131090,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/kano/131090/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/kano/131090/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/kano/131090/dptf.dv"
             }
           ]
         },
