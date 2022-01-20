@@ -20,10 +20,45 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 2147483647,
+          "sku-id": 720896,
           "smbios-name-match": "Crota"
         },
         "name": "crota",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 2147483647,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
