@@ -15,6 +15,38 @@
             "system-path": "/etc/hardware_features_banshee.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "banshee",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.banshee/HiFi.conf",
+                "source": "banshee/audio/ucm-config/sof-rt5682.banshee/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.banshee/sof-rt5682.banshee.conf",
+                "source": "banshee/audio/ucm-config/sof-rt5682.banshee/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/banshee/sof-rt5682",
+                "source": "banshee/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/banshee/dsp.ini",
+                "source": "banshee/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/banshee/board.ini",
+                "source": "banshee/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "banshee"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -53,6 +85,38 @@
           "hardware-features": {
             "build-path": "banshee/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_banshee.xml",
             "system-path": "/etc/hardware_features_banshee.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "banshee",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.banshee/HiFi.conf",
+                "source": "banshee/audio/ucm-config/sof-rt5682.banshee/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.banshee/sof-rt5682.banshee.conf",
+                "source": "banshee/audio/ucm-config/sof-rt5682.banshee/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/banshee/sof-rt5682",
+                "source": "banshee/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/banshee/dsp.ini",
+                "source": "banshee/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/banshee/board.ini",
+                "source": "banshee/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "banshee"
           }
         },
         "camera": {
