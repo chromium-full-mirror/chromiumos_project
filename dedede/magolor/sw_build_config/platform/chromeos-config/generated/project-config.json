@@ -1531,11 +1531,11 @@
         },
         "name": "magneto",
         "thermal": {
-          "dptf-dv": "magolor/dptf.dv",
+          "dptf-dv": "magolor/magneto/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/magolor/dptf.dv",
-              "source": "magolor/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/magolor/magneto/dptf.dv",
+              "source": "magolor/sw_build_config/platform/chromeos-config/thermal/magneto/dptf.dv"
             }
           ]
         },
@@ -1581,11 +1581,11 @@
         },
         "name": "magneto",
         "thermal": {
-          "dptf-dv": "magolor/dptf.dv",
+          "dptf-dv": "magolor/magneto/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/magolor/dptf.dv",
-              "source": "magolor/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/magolor/magneto/dptf.dv",
+              "source": "magolor/sw_build_config/platform/chromeos-config/thermal/magneto/dptf.dv"
             }
           ]
         },
