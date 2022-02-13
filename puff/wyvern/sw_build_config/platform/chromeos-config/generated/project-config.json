@@ -15,12 +15,6 @@
             "system-path": "/etc/hardware_features_wyvern.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -54,12 +48,6 @@
           "hardware-features": {
             "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_wyvern.xml",
             "system-path": "/etc/hardware_features_wyvern.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
           }
         },
         "camera": {
@@ -97,12 +85,6 @@
             "system-path": "/etc/hardware_features_wyvern.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -136,12 +118,6 @@
           "hardware-features": {
             "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_wyvern.xml",
             "system-path": "/etc/hardware_features_wyvern.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
           }
         },
         "camera": {
@@ -179,12 +155,6 @@
             "system-path": "/etc/hardware_features_wyvern.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -218,12 +188,6 @@
           "hardware-features": {
             "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_wyvern.xml",
             "system-path": "/etc/hardware_features_wyvern.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
           }
         },
         "camera": {
@@ -261,12 +225,6 @@
             "system-path": "/etc/hardware_features_wyvern.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern",
-            "files": []
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -302,12 +260,6 @@
             "system-path": "/etc/hardware_features_wyvern_accelerator.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern_accelerator",
-            "files": []
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -341,12 +293,6 @@
           "hardware-features": {
             "build-path": "wyvern/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_wyvern_accelerator.xml",
             "system-path": "/etc/hardware_features_wyvern_accelerator.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "wyvern_accelerator",
-            "files": []
           }
         },
         "camera": {
