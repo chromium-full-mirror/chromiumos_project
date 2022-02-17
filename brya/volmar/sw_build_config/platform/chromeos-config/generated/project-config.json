@@ -18,6 +18,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 2147483647,
@@ -59,6 +66,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",
@@ -102,6 +116,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 851968,
@@ -143,6 +164,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",

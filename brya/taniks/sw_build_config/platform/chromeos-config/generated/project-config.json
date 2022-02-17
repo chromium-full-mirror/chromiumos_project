@@ -50,6 +50,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "taniks"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 589824,
@@ -132,6 +139,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "taniks"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 589825,
@@ -213,6 +227,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "taniks"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",

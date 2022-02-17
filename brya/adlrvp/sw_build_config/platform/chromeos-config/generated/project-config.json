@@ -38,6 +38,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "adlrvpp_ite"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 2147483647,
@@ -96,6 +103,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "adlrvpp_ite"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",
@@ -156,6 +170,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "adlrvpm_ite"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 2147483647,
@@ -214,6 +235,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "adlrvpp_mchp1727"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",
