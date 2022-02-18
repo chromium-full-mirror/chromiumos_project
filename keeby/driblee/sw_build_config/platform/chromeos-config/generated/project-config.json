@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "driblee",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1locdriblee.1mic/HiFi.conf",
+                "source": "driblee/audio/ucm-config/sof-cs42l42.1loc.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1locdriblee.1mic/sof-cs42l42.1locdriblee.1mic.conf",
+                "source": "driblee/audio/ucm-config/sof-cs42l42.1loc.1mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/driblee/sof-cs42l42",
+                "source": "driblee/audio/cras-config/sof-cs42l42"
+              },
+              {
+                "destination": "/etc/cras/driblee/dsp.ini",
+                "source": "driblee/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/driblee/board.ini",
+                "source": "driblee/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1locdriblee.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "driblee"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -30,6 +63,17 @@
           "smbios-name-match": "Driblee"
         },
         "name": "driblee",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "driblee/dptf.dv",
           "files": [
@@ -68,11 +112,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "driblee",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1locdriblee.1mic/HiFi.conf",
+                "source": "driblee/audio/ucm-config/sof-cs42l42.1loc.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1locdriblee.1mic/sof-cs42l42.1locdriblee.1mic.conf",
+                "source": "driblee/audio/ucm-config/sof-cs42l42.1loc.1mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/driblee/sof-cs42l42",
+                "source": "driblee/audio/cras-config/sof-cs42l42"
+              },
+              {
+                "destination": "/etc/cras/driblee/dsp.ini",
+                "source": "driblee/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/driblee/board.ini",
+                "source": "driblee/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1locdriblee.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "driblee"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -80,6 +157,17 @@
           "smbios-name-match": "Driblee"
         },
         "name": "driblee",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "driblee/dptf.dv",
           "files": [

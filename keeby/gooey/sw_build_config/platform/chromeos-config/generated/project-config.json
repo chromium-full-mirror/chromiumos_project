@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -30,6 +63,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -68,11 +107,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -80,6 +152,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -118,11 +199,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -130,6 +244,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -168,11 +288,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -180,6 +333,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -218,11 +380,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -230,6 +425,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -268,11 +469,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -280,6 +514,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -318,11 +561,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -330,6 +606,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -368,11 +650,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -380,6 +695,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -418,11 +742,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -430,6 +787,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -468,11 +831,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -480,6 +876,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -518,11 +923,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -530,6 +968,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -568,11 +1012,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.rt1015p.2mic.gooey.rt5682vs.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.gooey.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -580,6 +1057,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -618,11 +1104,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.rt1015p.2mic.gooey.rt5682vs.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.gooey.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -630,6 +1149,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -668,11 +1193,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -680,6 +1238,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -718,11 +1285,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.rt1015.2mic.gooey.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015.2mic.gooey/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.gooey"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -730,6 +1330,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -768,11 +1374,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.rt1015p.2mic.gooey.rt5682vs.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.gooey.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -780,6 +1419,15 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [
@@ -818,11 +1466,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "gooey",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.rt1015p.2mic.gooey.rt5682vs.conf",
+                "source": "gooey/audio/ucm-config/sof-rt5682.rt1015p.2mic.gooey.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/sof-rt5682",
+                "source": "gooey/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/gooey/dsp.ini",
+                "source": "gooey/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/gooey/board.ini",
+                "source": "gooey/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.gooey.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "gooey"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -830,6 +1511,12 @@
           "smbios-name-match": "Gooey"
         },
         "name": "gooey",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "gooey/gooey/dptf.dv",
           "files": [

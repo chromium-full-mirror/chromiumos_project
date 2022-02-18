@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "lalala",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/HiFi.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/sof-rt5682.lalala.2mic.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/sof-rt5682",
+                "source": "lalala/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lalala/dsp.ini",
+                "source": "lalala/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/board.ini",
+                "source": "lalala/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lalala.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "lalala"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -30,6 +63,14 @@
           "smbios-name-match": "Lalala"
         },
         "name": "lalala",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lalala/dptf.dv",
           "files": [
@@ -68,11 +109,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "lalala",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/HiFi.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/sof-rt5682.lalala.2mic.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/sof-rt5682",
+                "source": "lalala/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lalala/dsp.ini",
+                "source": "lalala/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/board.ini",
+                "source": "lalala/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lalala.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "lalala"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -80,6 +154,14 @@
           "smbios-name-match": "Lalala"
         },
         "name": "lalala",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lalala/dptf.dv",
           "files": [
@@ -118,11 +200,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "lalala",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/HiFi.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/sof-rt5682.lalala.2mic.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/sof-rt5682",
+                "source": "lalala/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lalala/dsp.ini",
+                "source": "lalala/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/board.ini",
+                "source": "lalala/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lalala.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "lalala"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -130,6 +245,14 @@
           "smbios-name-match": "Lalala"
         },
         "name": "lalala",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lalala/dptf.dv",
           "files": [
@@ -168,11 +291,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "lalala",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/HiFi.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.lalala.2mic/sof-rt5682.lalala.2mic.conf",
+                "source": "lalala/audio/ucm-config/sof-rt5682.lalala.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/sof-rt5682",
+                "source": "lalala/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/lalala/dsp.ini",
+                "source": "lalala/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/lalala/board.ini",
+                "source": "lalala/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "lalala.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "lalala"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -180,6 +336,14 @@
           "smbios-name-match": "Lalala"
         },
         "name": "lalala",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "lalala/dptf.dv",
           "files": [

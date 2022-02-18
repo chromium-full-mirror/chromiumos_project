@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "haboki",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/haboki/sof-rt5682",
+                "source": "haboki/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/haboki/dsp.ini",
+                "source": "haboki/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/haboki/board.ini",
+                "source": "haboki/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "haboki"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -30,6 +63,13 @@
           "smbios-name-match": "Haboki"
         },
         "name": "haboki",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "haboki/haboki/dptf.dv",
           "files": [
@@ -68,11 +108,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "haboki",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.haboki.1mic/HiFi.conf",
+                "source": "haboki/audio/ucm-config/sof-rt5682.haboki.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.haboki.1mic/sof-rt5682.haboki.1mic.conf",
+                "source": "haboki/audio/ucm-config/sof-rt5682.haboki.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/haboki/sof-rt5682",
+                "source": "haboki/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/haboki/dsp.ini",
+                "source": "haboki/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/haboki/board.ini",
+                "source": "haboki/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "haboki.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "haboki"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -80,6 +153,13 @@
           "smbios-name-match": "Haboki"
         },
         "name": "haboki",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "haboki/haboki/dptf.dv",
           "files": [
@@ -118,11 +198,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "haboki",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.haboki.1mic/HiFi.conf",
+                "source": "haboki/audio/ucm-config/sof-rt5682.haboki.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.haboki.1mic/sof-rt5682.haboki.1mic.conf",
+                "source": "haboki/audio/ucm-config/sof-rt5682.haboki.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/haboki/sof-rt5682",
+                "source": "haboki/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/haboki/dsp.ini",
+                "source": "haboki/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/haboki/board.ini",
+                "source": "haboki/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "haboki.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "haboki"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -130,6 +243,13 @@
           "smbios-name-match": "Haboki"
         },
         "name": "haboki",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "haboki/haboki/dptf.dv",
           "files": [
@@ -168,11 +288,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "habokay",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.habokay.2mic/HiFi.conf",
+                "source": "habokay/audio/ucm-config/sof-rt5682.habokay.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.habokay.2mic/sof-rt5682.habokay.2mic.conf",
+                "source": "habokay/audio/ucm-config/sof-rt5682.habokay.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/habokay/sof-rt5682",
+                "source": "habokay/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/habokay/dsp.ini",
+                "source": "habokay/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/habokay/board.ini",
+                "source": "habokay/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "habokay.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "haboki"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -180,6 +333,14 @@
           "smbios-name-match": "Haboki"
         },
         "name": "habokay",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "haboki/habokay/dptf.dv",
           "files": [
@@ -218,11 +379,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "habokay",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.habokay.1mic/HiFi.conf",
+                "source": "habokay/audio/ucm-config/sof-rt5682.habokay.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.habokay.1mic/sof-rt5682.habokay.1mic.conf",
+                "source": "habokay/audio/ucm-config/sof-rt5682.habokay.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/habokay/sof-rt5682",
+                "source": "habokay/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/habokay/dsp.ini",
+                "source": "habokay/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/habokay/board.ini",
+                "source": "habokay/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "habokay.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-keeby-private",
+          "build-targets": {
+            "ec": "haboki"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Keeby",
@@ -230,6 +424,14 @@
           "smbios-name-match": "Haboki"
         },
         "name": "habokay",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "haboki/habokay/dptf.dv",
           "files": [

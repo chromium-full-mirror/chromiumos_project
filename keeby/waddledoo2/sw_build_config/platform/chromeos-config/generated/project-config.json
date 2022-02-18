@@ -18,7 +18,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "waddledoo2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/HiFi.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/sof-rt5682.waddledoo2.2mic.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/sof-rt5682",
+                "source": "waddledoo2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/dsp.ini",
+                "source": "waddledoo2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/board.ini",
+                "source": "waddledoo2/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "waddledoo2.2mic"
           }
         },
         "camera": {
@@ -30,6 +56,14 @@
           "smbios-name-match": "Waddledoo2"
         },
         "name": "waddledoo2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -59,7 +93,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "waddledoo2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/HiFi.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/sof-rt5682.waddledoo2.2mic.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/sof-rt5682",
+                "source": "waddledoo2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/dsp.ini",
+                "source": "waddledoo2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/board.ini",
+                "source": "waddledoo2/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "waddledoo2.2mic"
           }
         },
         "camera": {
@@ -71,6 +131,14 @@
           "smbios-name-match": "Waddledoo2"
         },
         "name": "waddledoo2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -100,7 +168,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "waddledoo2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/HiFi.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/sof-rt5682.waddledoo2.2mic.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/sof-rt5682",
+                "source": "waddledoo2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/dsp.ini",
+                "source": "waddledoo2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/board.ini",
+                "source": "waddledoo2/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "waddledoo2.2mic"
           }
         },
         "camera": {
@@ -112,6 +206,14 @@
           "smbios-name-match": "Waddledoo2"
         },
         "name": "waddledoo2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -141,7 +243,33 @@
         "audio": {
           "main": {
             "cras-config-dir": "waddledoo2",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/HiFi.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.waddledoo2.2mic/sof-rt5682.waddledoo2.2mic.conf",
+                "source": "waddledoo2/audio/ucm-config/sof-rt5682.waddledoo2.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/sof-rt5682",
+                "source": "waddledoo2/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/dsp.ini",
+                "source": "waddledoo2/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-keeby.conf",
+                "source": "common/audio/alsa-module-config/alsa-keeby.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo2/board.ini",
+                "source": "waddledoo2/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "waddledoo2.2mic"
           }
         },
         "camera": {
@@ -153,6 +281,14 @@
           "smbios-name-match": "Waddledoo2"
         },
         "name": "waddledoo2",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
