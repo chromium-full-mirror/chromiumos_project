@@ -18,6 +18,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-draco-private",
+          "build-targets": {
+            "ec": "brya"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Draco",
           "sku-id": 2147483647,
