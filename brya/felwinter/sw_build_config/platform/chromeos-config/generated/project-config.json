@@ -73,6 +73,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "felwinter/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/felwinter/dptf.dv",
+              "source": "felwinter/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +165,15 @@
           "min-visible-backlight-level": "5760",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "felwinter/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/felwinter/dptf.dv",
+              "source": "felwinter/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -241,6 +259,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "felwinter/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/felwinter/dptf.dv",
+              "source": "felwinter/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -324,6 +351,15 @@
           "min-visible-backlight-level": "5760",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "felwinter/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/felwinter/dptf.dv",
+              "source": "felwinter/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -409,6 +445,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "felwinter/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/felwinter/dptf.dv",
+              "source": "felwinter/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -492,6 +537,15 @@
           "min-visible-backlight-level": "5760",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "felwinter/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/felwinter/dptf.dv",
+              "source": "felwinter/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
