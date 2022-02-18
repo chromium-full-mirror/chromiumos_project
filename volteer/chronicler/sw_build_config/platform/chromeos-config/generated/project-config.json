@@ -50,6 +50,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "chronicler"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Volteer",
           "sku-id": 2147483647,
@@ -135,6 +142,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "chronicler"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Volteer",
@@ -222,6 +236,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "chronicler"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Volteer",
           "sku-id": 1114114,
@@ -308,6 +329,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "chronicler"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Volteer",
           "sku-id": 1114115,
@@ -393,6 +421,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "chronicler"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Volteer",

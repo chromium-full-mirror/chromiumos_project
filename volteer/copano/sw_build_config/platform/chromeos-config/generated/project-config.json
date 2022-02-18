@@ -56,6 +56,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "copano"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Volteer",
           "sku-id": 2147483647,
@@ -147,6 +154,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "copano"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Volteer",
           "sku-id": 917505,
@@ -237,6 +251,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-volteer-private",
+          "build-targets": {
+            "ec": "copano"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Volteer",
