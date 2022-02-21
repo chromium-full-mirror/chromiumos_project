@@ -35,6 +35,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "vell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/vell/dptf.dv",
+              "source": "vell/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -81,6 +90,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "vell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/vell/dptf.dv",
+              "source": "vell/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -126,6 +144,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "vell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/vell/dptf.dv",
+              "source": "vell/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [

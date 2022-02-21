@@ -18,11 +18,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.2mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.2mic/acp3xalc56821019.2mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.2mic/acp3xalc56821019.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush360/acp3xalc56821019",
+                "source": "guybrush360/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush360/dsp.ini",
+                "source": "guybrush360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush360/board.ini",
+                "source": "guybrush360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.2mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.2mic/sof-rt5682-rt1019.2mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.2mic/sof-rt5682-rt1019.2mic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -30,6 +79,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush360",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +113,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.2mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.2mic/acp3xalc56821019.2mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.2mic/acp3xalc56821019.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush360/acp3xalc56821019",
+                "source": "guybrush360/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush360/dsp.ini",
+                "source": "guybrush360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush360/board.ini",
+                "source": "guybrush360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.2mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.2mic/sof-rt5682-rt1019.2mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.2mic/sof-rt5682-rt1019.2mic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -71,6 +174,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush360",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +208,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/acp3xalc56821019",
+                "source": "guybrush/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush/dsp.ini",
+                "source": "guybrush/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/board.ini",
+                "source": "guybrush/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -112,6 +269,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -141,11 +303,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/acp3xalc56821019",
+                "source": "guybrush/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush/dsp.ini",
+                "source": "guybrush/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/board.ini",
+                "source": "guybrush/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -153,6 +364,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -182,11 +398,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/acp3xalc56821019",
+                "source": "guybrush/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush/dsp.ini",
+                "source": "guybrush/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/board.ini",
+                "source": "guybrush/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -194,6 +459,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -223,11 +493,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/acp3xalc56821019",
+                "source": "guybrush/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush/dsp.ini",
+                "source": "guybrush/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/board.ini",
+                "source": "guybrush/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -235,6 +554,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -264,11 +588,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "guybrush",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc56821019.1mic/acp3xalc56821019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/acp3xalc56821019",
+                "source": "guybrush/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/guybrush/dsp.ini",
+                "source": "guybrush/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-guybrush.conf"
+              },
+              {
+                "destination": "/etc/cras/guybrush/board.ini",
+                "source": "guybrush/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682-rt1019.1mic/sof-rt5682-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "guybrush"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -276,6 +649,11 @@
           "smbios-name-match": "Guybrush"
         },
         "name": "guybrush",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",

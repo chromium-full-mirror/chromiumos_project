@@ -18,11 +18,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "dewatt",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dewatt/acp3xalc5682s1019",
+                "source": "dewatt/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/dewatt/dsp.ini",
+                "source": "dewatt/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-dewatt.conf"
+              },
+              {
+                "destination": "/etc/cras/dewatt/board.ini",
+                "source": "dewatt/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "dewatt"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -30,6 +79,11 @@
           "smbios-name-match": "Dewatt"
         },
         "name": "dewatt",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +113,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "dewatt",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dewatt/acp3xalc5682s1019",
+                "source": "dewatt/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/dewatt/dsp.ini",
+                "source": "dewatt/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-dewatt.conf"
+              },
+              {
+                "destination": "/etc/cras/dewatt/board.ini",
+                "source": "dewatt/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "dewatt"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -71,6 +174,11 @@
           "smbios-name-match": "Dewatt"
         },
         "name": "dewatt",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +208,60 @@
         "audio": {
           "main": {
             "cras-config-dir": "dewatt",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf",
+                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dewatt/acp3xalc5682s1019",
+                "source": "dewatt/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/dewatt/dsp.ini",
+                "source": "dewatt/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-guybrush.conf",
+                "source": "common/audio/alsa-module-config/alsa-dewatt.conf"
+              },
+              {
+                "destination": "/etc/cras/dewatt/board.ini",
+                "source": "dewatt/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "common/audio/ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-guybrush-private",
+          "build-targets": {
+            "ec": "dewatt"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Guybrush",
@@ -112,6 +269,11 @@
           "smbios-name-match": "Dewatt"
         },
         "name": "dewatt",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
