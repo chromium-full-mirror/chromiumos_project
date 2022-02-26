@@ -108,6 +108,44 @@
             "system-path": "/etc/hardware_features_vell.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "vell",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
+                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/vell/sof-rt5682",
+                "source": "vell/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/vell/dsp.ini",
+                "source": "vell/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/vell/board.ini",
+                "source": "vell/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/vell.yaml",
+                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+              }
+            ],
+            "sound-card-init-conf": "vell.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "vell"
+          }
+        },
         "camera": {
           "count": 0
         },
