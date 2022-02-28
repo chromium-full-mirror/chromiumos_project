@@ -15,8 +15,20 @@
             "system-path": "/etc/hardware_features_crota.xml"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",
@@ -24,6 +36,11 @@
           "smbios-name-match": "Crota"
         },
         "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -50,8 +67,20 @@
             "system-path": "/etc/hardware_features_crota360.xml"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",
@@ -59,6 +88,11 @@
           "smbios-name-match": "Crota"
         },
         "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
