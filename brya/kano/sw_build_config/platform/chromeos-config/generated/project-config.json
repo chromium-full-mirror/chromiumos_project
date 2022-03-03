@@ -28,8 +28,20 @@
                 "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/kano.yaml",
@@ -109,8 +121,20 @@
                 "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/kano.yaml",
@@ -190,8 +214,20 @@
                 "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/kano.yaml",
@@ -271,8 +307,20 @@
                 "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/kano.yaml",
@@ -352,8 +400,20 @@
                 "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/kano.yaml",
@@ -433,8 +493,20 @@
                 "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/kano.yaml",
