@@ -18,11 +18,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -30,6 +67,13 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +103,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -71,6 +152,13 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +188,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -112,6 +237,13 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -141,11 +273,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -153,6 +322,13 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -182,11 +358,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -194,6 +407,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -223,11 +444,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -235,6 +493,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "39",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -264,11 +530,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -276,6 +579,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -305,11 +616,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -317,6 +665,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -346,11 +702,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -358,6 +751,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -387,11 +788,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -399,6 +837,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -428,11 +874,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -440,6 +923,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -469,11 +960,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -481,6 +1009,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -510,11 +1046,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -522,6 +1095,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -551,11 +1132,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -563,6 +1181,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -592,11 +1218,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -604,6 +1267,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -633,11 +1304,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -645,6 +1353,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -674,11 +1390,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -686,6 +1439,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -715,11 +1476,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -727,6 +1525,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -756,11 +1562,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -768,6 +1611,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -797,11 +1648,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -809,6 +1697,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -838,11 +1734,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -850,6 +1783,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -879,11 +1820,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -891,6 +1869,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -920,11 +1906,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -932,6 +1955,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -961,11 +1992,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -973,6 +2041,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -1002,11 +2078,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -1014,6 +2127,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -1043,11 +2164,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -1055,6 +2213,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -1084,11 +2250,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "morphius",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
+                "source": "cras-config/morphius/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/morphius/dsp.ini",
+                "source": "cras-config/morphius/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/morphius/board.ini",
+                "source": "cras-config/morphius/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "morphius"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -1096,6 +2299,14 @@
           "smbios-name-match": "Morphius"
         },
         "name": "morphius",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "65",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",

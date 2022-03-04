@@ -18,11 +18,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -30,6 +67,12 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +102,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -71,6 +151,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +187,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -112,6 +236,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -141,11 +272,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -153,6 +321,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -182,11 +357,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -194,6 +406,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -223,11 +442,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -235,6 +491,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -264,11 +527,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -276,6 +576,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -305,11 +612,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -317,6 +661,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -346,11 +697,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -358,6 +746,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -387,11 +782,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -399,6 +831,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -428,11 +867,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -440,6 +916,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -469,11 +952,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -481,6 +1001,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -510,11 +1037,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -522,6 +1086,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -551,11 +1122,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -563,6 +1171,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -592,11 +1207,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -604,6 +1256,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -633,11 +1292,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -645,6 +1341,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -674,11 +1377,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -686,6 +1426,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -715,11 +1462,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -727,6 +1511,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -756,11 +1547,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -768,6 +1596,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -797,11 +1632,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -809,6 +1681,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -838,11 +1717,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -850,6 +1766,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -879,11 +1802,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -891,6 +1851,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -920,11 +1887,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "gumboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
+              },
+              {
+                "destination": "/etc/cras/gumboz/acp3xalc5682m98357",
+                "source": "cras-config/gumboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/gumboz/dsp.ini",
+                "source": "cras-config/gumboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/gumboz/board.ini",
+                "source": "cras-config/gumboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "gumboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -932,6 +1936,13 @@
           "smbios-name-match": "Gumboz"
         },
         "name": "gumboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",

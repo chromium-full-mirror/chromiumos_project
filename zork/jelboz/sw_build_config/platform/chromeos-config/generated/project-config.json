@@ -18,11 +18,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -30,6 +67,14 @@
           "smbios-name-match": "Jelboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +104,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -71,6 +153,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +190,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -112,6 +239,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -141,11 +276,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -153,6 +325,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -182,11 +362,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -194,6 +411,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -223,11 +448,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -235,6 +497,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "63.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -264,11 +534,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -276,6 +583,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -305,11 +620,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -317,6 +669,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "63.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -346,11 +706,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -358,6 +755,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "63.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -387,11 +792,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -399,6 +841,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -428,11 +878,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz/acp3xalc5682m98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -440,6 +927,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "63.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -469,11 +964,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xrt5682s98357",
+                "source": "cras-config/jelboz/acp3xrt5682s98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -481,6 +1013,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -510,11 +1050,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xrt5682s98357",
+                "source": "cras-config/jelboz/acp3xrt5682s98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -522,6 +1099,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -551,11 +1136,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xrt5682s98357",
+                "source": "cras-config/jelboz/acp3xrt5682s98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -563,6 +1185,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "63.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -592,11 +1222,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/HiFi.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz/acp3xrt5682s98357.jelboz.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz/acp3xrt5682s98357",
+                "source": "cras-config/jelboz/acp3xrt5682s98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -604,6 +1271,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "63.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -633,11 +1308,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz360"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -645,6 +1357,14 @@
           "smbios-name-match": "Jelboz360"
         },
         "name": "jelboz360",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -674,11 +1394,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz360"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -686,6 +1443,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz360",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -715,11 +1480,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz360"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -727,6 +1529,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz360",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -756,11 +1566,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf",
+                "source": "ucm-config/acp3xalc5682m98357.jelboz360/acp3xalc5682m98357.jelboz360.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/acp3xalc5682m98357",
+                "source": "cras-config/jelboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/dsp.ini",
+                "source": "cras-config/jelboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/board.ini",
+                "source": "cras-config/jelboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz360"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -768,6 +1615,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz360",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -797,11 +1652,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "jelboz360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz360/HiFi.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.jelboz360/acp3xrt5682s98357.jelboz360.conf",
+                "source": "ucm-config/acp3xrt5682s98357.jelboz360/acp3xrt5682s98357.jelboz360.conf"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/acp3xrt5682s98357",
+                "source": "cras-config/jelboz360/acp3xrt5682s98357"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/dsp.ini",
+                "source": "cras-config/jelboz360/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/jelboz360/board.ini",
+                "source": "cras-config/jelboz360/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "jelboz360"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "shuboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -809,6 +1701,14 @@
           "smbios-name-match": "Shuboz"
         },
         "name": "jelboz360",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",

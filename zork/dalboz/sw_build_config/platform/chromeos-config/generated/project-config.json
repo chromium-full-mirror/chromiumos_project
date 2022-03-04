@@ -18,11 +18,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -30,6 +67,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +102,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -71,6 +151,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +186,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -112,6 +235,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -141,11 +270,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -153,6 +319,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -182,11 +354,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -194,6 +403,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -223,11 +438,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -235,6 +487,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -264,11 +522,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -276,6 +571,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
@@ -305,11 +606,48 @@
         "audio": {
           "main": {
             "cras-config-dir": "dalboz",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
+                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
+              },
+              {
+                "destination": "/etc/cras/dalboz/acp3xalc5682m98357",
+                "source": "cras-config/dalboz/acp3xalc5682m98357"
+              },
+              {
+                "destination": "/etc/cras/dalboz/dsp.ini",
+                "source": "cras-config/dalboz/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/dalboz/board.ini",
+                "source": "cras-config/dalboz/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
+                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
+                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-zork-private",
+          "build-targets": {
+            "ec": "dalboz"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Zork",
@@ -317,6 +655,12 @@
           "smbios-name-match": "Dalboz"
         },
         "name": "dalboz",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "wake-on-dp": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'zork_cheets', 'firstApiLevel': '28'}",
