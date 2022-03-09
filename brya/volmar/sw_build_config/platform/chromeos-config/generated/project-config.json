@@ -15,6 +15,32 @@
             "system-path": "/etc/hardware_features_volmar.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volmar",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volmar.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "volmar.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -71,6 +97,32 @@
           "hardware-features": {
             "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volmar.xml",
             "system-path": "/etc/hardware_features_volmar.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volmar",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volmar.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "volmar.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
           }
         },
         "camera": {
@@ -131,6 +183,32 @@
             "system-path": "/etc/hardware_features_zavala.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zavala",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/zavala.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "zavala.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -187,6 +265,32 @@
           "hardware-features": {
             "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zavala.xml",
             "system-path": "/etc/hardware_features_zavala.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zavala",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/zavala.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "zavala.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
           }
         },
         "camera": {
