@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "waddledoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2mic/sof-da7219max98360a.2mic.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo/sof-da7219max98360a",
+                "source": "waddledoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/waddledoo/dsp.ini",
+                "source": "waddledoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/waddledoo/board.ini",
+                "source": "waddledoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "waddledoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,12 @@
           "smbios-name-match": "Waddledoo"
         },
         "name": "waddledoo",
+        "power": {
+          "internal-backlight-no-als-battery-brightness": "43.75",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",

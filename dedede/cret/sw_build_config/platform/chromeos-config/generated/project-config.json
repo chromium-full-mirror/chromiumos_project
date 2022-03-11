@@ -18,11 +18,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret.3mic/sof-da7219max98360a.2loccret.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret.3mic/sof-cs42l42.2loccret.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "2loccret.3mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +75,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -68,11 +124,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.1mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.1mic/sof-da7219max98360a.1loccret.1mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.1mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.1mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.1mic/sof-cs42l42.1loccret.1mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.1mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +181,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -118,11 +229,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +286,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -168,11 +334,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +391,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -218,11 +439,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +496,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -268,11 +544,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +601,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -318,11 +649,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -330,6 +706,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -368,11 +754,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -380,6 +811,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -418,11 +859,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret.2mic/sof-da7219max98360a.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-da7219max98360a",
+                "source": "cret/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret/dsp.ini",
+                "source": "cret/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/board.ini",
+                "source": "cret/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/HiFi.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret.2mic/sof-cs42l42.1loccret.2mic.conf",
+                "source": "cret/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret/sof-cs42l42",
+                "source": "cret/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -430,6 +916,16 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -468,11 +964,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/sof-da7219max98360a.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/sof-cs42l42.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "2loccret360.3mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -480,6 +1021,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -518,11 +1070,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/sof-da7219max98360a.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/sof-cs42l42.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret360.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -530,6 +1127,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -568,11 +1176,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/sof-da7219max98360a.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/sof-cs42l42.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "2loccret360.3mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -580,6 +1233,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -618,11 +1282,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/sof-da7219max98360a.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/sof-cs42l42.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret360.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -630,6 +1339,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -668,11 +1388,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/sof-da7219max98360a.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/sof-cs42l42.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "2loccret360.3mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -680,6 +1445,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -718,11 +1494,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/sof-da7219max98360a.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/sof-cs42l42.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret360.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -730,6 +1551,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -768,11 +1600,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.2loccret360.3mic/sof-da7219max98360a.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.2loc.3mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.2loccret360.3mic/sof-cs42l42.2loccret360.3mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.2loc.3mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "2loccret360.3mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -780,6 +1657,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [
@@ -818,11 +1706,56 @@
         "audio": {
           "main": {
             "cras-config-dir": "cret360",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1loccret360.2mic/sof-da7219max98360a.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-da7219max98360a.1loc.2mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-da7219max98360a",
+                "source": "cret360/audio/cras-config/sof-da7219max98360a"
+              },
+              {
+                "destination": "/etc/cras/cret360/dsp.ini",
+                "source": "cret360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/board.ini",
+                "source": "cret360/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/HiFi.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.1loccret360.2mic/sof-cs42l42.1loccret360.2mic.conf",
+                "source": "cret360/audio/ucm-config/sof-cs42l42.1loc.2mic/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/cret360/sof-cs42l42",
+                "source": "cret360/audio/cras-config/sof-cs42l42"
+              }
+            ],
+            "ucm-suffix": "1loccret360.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "cret"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -830,6 +1763,17 @@
           "smbios-name-match": "Cret"
         },
         "name": "cret360",
+        "power": {
+          "cutoff-power-ua": "65",
+          "disable-dark-resume": "0",
+          "hibernate-power-ua": "300",
+          "internal-backlight-no-als-battery-brightness": "60.2",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "smart-discharge-to-zero-hr": "2880",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "cret/dptf.dv",
           "files": [

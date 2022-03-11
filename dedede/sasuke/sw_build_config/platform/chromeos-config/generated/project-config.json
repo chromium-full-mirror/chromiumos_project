@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasuke",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/sof-da7219max98360a.1mic.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/sof-da7219max98360a",
+                "source": "sasuke/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasuke/dsp.ini",
+                "source": "sasuke/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/board.ini",
+                "source": "sasuke/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasuke"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,12 @@
           "smbios-name-match": "Sasuke"
         },
         "name": "sasuke",
+        "power": {
+          "defer-external-display-timeout": "5",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
           "files": [
@@ -68,11 +107,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasuke",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/sof-da7219max98360a.1mic.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/sof-da7219max98360a",
+                "source": "sasuke/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasuke/dsp.ini",
+                "source": "sasuke/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/board.ini",
+                "source": "sasuke/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasuke"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +152,12 @@
           "smbios-name-match": "Sasuke"
         },
         "name": "sasuke",
+        "power": {
+          "defer-external-display-timeout": "5",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
           "files": [
@@ -118,11 +196,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasuke",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/sof-da7219max98360a.1mic.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/sof-da7219max98360a",
+                "source": "sasuke/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasuke/dsp.ini",
+                "source": "sasuke/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/board.ini",
+                "source": "sasuke/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasuke"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +241,12 @@
           "smbios-name-match": "Sasuke"
         },
         "name": "sasuke",
+        "power": {
+          "defer-external-display-timeout": "5",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
           "files": [
@@ -168,11 +285,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasuke",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-da7219max98360a.1mic/sof-da7219max98360a.1mic.conf",
+                "source": "common/audio/ucm-config/sof-da7219max98360a.1mic/sof-da7219max98360a.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/sof-da7219max98360a",
+                "source": "sasuke/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasuke/dsp.ini",
+                "source": "sasuke/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasuke/board.ini",
+                "source": "sasuke/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasuke"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +330,12 @@
           "smbios-name-match": "Sasuke"
         },
         "name": "sasuke",
+        "power": {
+          "defer-external-display-timeout": "5",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
           "files": [

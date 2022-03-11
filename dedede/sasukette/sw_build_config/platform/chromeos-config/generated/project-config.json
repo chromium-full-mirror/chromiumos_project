@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.rt5682vs/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.rt5682vs/sof-rt5682.rt1015p.1mic.rt5682vs.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [
@@ -68,11 +106,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/sof-rt5682.rt1015p.1mic.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +151,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [
@@ -118,11 +194,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/sof-rt5682.rt1015p.1mic.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +239,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [
@@ -168,11 +282,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/sof-rt5682.rt1015p.1mic.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +327,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [
@@ -218,11 +370,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic/sof-rt5682.rt1015p.1mic.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +415,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [
@@ -268,11 +458,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.rt5682vs/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.rt5682vs/sof-rt5682.rt1015p.1mic.rt5682vs.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +503,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [
@@ -318,11 +546,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "sasukette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.rt5682vs/HiFi.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.rt5682vs/sof-rt5682.rt1015p.1mic.rt5682vs.conf",
+                "source": "sasukette/audio/ucm-config/sof-rt5682.rt1015p.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/sof-rt5682",
+                "source": "sasukette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/sasukette/dsp.ini",
+                "source": "sasukette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/sasukette/board.ini",
+                "source": "sasukette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "sasukette"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -330,6 +591,11 @@
           "smbios-name-match": "Sasukette"
         },
         "name": "sasukette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "sasukette/dptf.dv",
           "files": [

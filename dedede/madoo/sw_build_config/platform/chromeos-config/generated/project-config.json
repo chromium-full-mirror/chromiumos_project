@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,12 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -68,11 +107,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +152,12 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -118,11 +196,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +241,14 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "keyboard-backlight-user-steps": "0.0\n20.0\n40.0\n60.0\n80.0\n100.0\n",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -168,11 +287,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +332,14 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "keyboard-backlight-user-steps": "0.0\n20.0\n40.0\n60.0\n80.0\n100.0\n",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -218,11 +378,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +423,12 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -268,11 +467,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +512,12 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -318,11 +556,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -330,6 +601,14 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "keyboard-backlight-user-steps": "0.0\n20.0\n40.0\n60.0\n80.0\n100.0\n",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -368,11 +647,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -380,6 +692,14 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "keyboard-backlight-user-steps": "0.0\n20.0\n40.0\n60.0\n80.0\n100.0\n",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [
@@ -418,11 +738,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "madoo",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/sof-rt5682",
+                "source": "madoo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/madoo/dsp.ini",
+                "source": "madoo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/madoo/board.ini",
+                "source": "madoo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "madoo"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -430,6 +783,12 @@
           "smbios-name-match": "Madoo"
         },
         "name": "madoo",
+        "power": {
+          "disable-dark-resume": "0",
+          "min-visible-backlight-level": "2575",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "madoo/dptf.dv",
           "files": [

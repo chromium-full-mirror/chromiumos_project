@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "pirette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pirette/HiFi.conf",
+                "source": "pirette/audio/ucm-config/sof-rt5682.rt1015.2mic.pirette/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pirette/sof-rt5682.rt1015.2mic.pirette.conf",
+                "source": "pirette/audio/ucm-config/sof-rt5682.rt1015.2mic.pirette/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pirette/sof-rt5682",
+                "source": "pirette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pirette/dsp.ini",
+                "source": "pirette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pirette/board.ini",
+                "source": "pirette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.pirette"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,11 @@
           "smbios-name-match": "Pirika"
         },
         "name": "pirette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "pirika/dptf.dv",
           "files": [
@@ -68,11 +106,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "pirette",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.pirette/HiFi.conf",
+                "source": "pirette/audio/ucm-config/sof-rt5682.rt1015p.2mic.pirette/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.pirette/sof-rt5682.rt1015p.2mic.pirette.conf",
+                "source": "pirette/audio/ucm-config/sof-rt5682.rt1015p.2mic.pirette/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pirette/sof-rt5682",
+                "source": "pirette/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pirette/dsp.ini",
+                "source": "pirette/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pirette/board.ini",
+                "source": "pirette/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.pirette"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +151,11 @@
           "smbios-name-match": "Pirika"
         },
         "name": "pirette",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "pirika/dptf.dv",
           "files": [
@@ -118,11 +194,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "pirika",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/sof-rt5682",
+                "source": "pirika/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pirika/dsp.ini",
+                "source": "pirika/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/board.ini",
+                "source": "pirika/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +239,11 @@
           "smbios-name-match": "Pirika"
         },
         "name": "pirika",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "pirika/dptf.dv",
           "files": [
@@ -168,11 +282,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "pirika",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pirika/HiFi.conf",
+                "source": "pirika/audio/ucm-config/sof-rt5682.rt1015.2mic.pirika/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pirika/sof-rt5682.rt1015.2mic.pirika.conf",
+                "source": "pirika/audio/ucm-config/sof-rt5682.rt1015.2mic.pirika/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/sof-rt5682",
+                "source": "pirika/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pirika/dsp.ini",
+                "source": "pirika/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/board.ini",
+                "source": "pirika/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.pirika"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +327,11 @@
           "smbios-name-match": "Pirika"
         },
         "name": "pirika",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "pirika/dptf.dv",
           "files": [
@@ -218,11 +370,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "pirika",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.pirika/HiFi.conf",
+                "source": "pirika/audio/ucm-config/sof-rt5682.rt1015p.2mic.pirika/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.pirika/sof-rt5682.rt1015p.2mic.pirika.conf",
+                "source": "pirika/audio/ucm-config/sof-rt5682.rt1015p.2mic.pirika/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/sof-rt5682",
+                "source": "pirika/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pirika/dsp.ini",
+                "source": "pirika/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/board.ini",
+                "source": "pirika/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.pirika"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +415,11 @@
           "smbios-name-match": "Pirika"
         },
         "name": "pirika",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "pirika/dptf.dv",
           "files": [
@@ -268,11 +458,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "pasara",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pasara/HiFi.conf",
+                "source": "pasara/audio/ucm-config/sof-rt5682.rt1015.2mic.pasara/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pasara/sof-rt5682.rt1015.2mic.pasara.conf",
+                "source": "pasara/audio/ucm-config/sof-rt5682.rt1015.2mic.pasara/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pasara/sof-rt5682",
+                "source": "pasara/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pasara/dsp.ini",
+                "source": "pasara/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pasara/board.ini",
+                "source": "pasara/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.pasara"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +503,11 @@
           "smbios-name-match": "Pirika"
         },
         "name": "pasara",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "pirika/dptf.dv",
           "files": [

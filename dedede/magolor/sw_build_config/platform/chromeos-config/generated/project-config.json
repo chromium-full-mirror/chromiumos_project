@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -68,11 +109,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +154,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -118,11 +200,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +245,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -168,11 +291,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +336,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -218,11 +382,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +427,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -268,11 +473,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +518,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -318,11 +564,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magolor",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic/sof-rt5682.magolor.2mic.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/sof-rt5682",
+                "source": "magolor/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magolor/dsp.ini",
+                "source": "magolor/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magolor/board.ini",
+                "source": "magolor/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magolor.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -330,6 +609,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magolor",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -368,11 +655,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic/HiFi.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic/sof-rt5682.maglia.2mic.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglia/sof-rt5682",
+                "source": "maglia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglia/dsp.ini",
+                "source": "maglia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglia/board.ini",
+                "source": "maglia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglia.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -380,6 +700,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglia",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -418,11 +746,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic/HiFi.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic/sof-rt5682.maglia.2mic.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglia/sof-rt5682",
+                "source": "maglia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglia/dsp.ini",
+                "source": "maglia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglia/board.ini",
+                "source": "maglia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglia.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -430,6 +791,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglia",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -468,11 +837,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic/HiFi.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic/sof-rt5682.maglia.2mic.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglia/sof-rt5682",
+                "source": "maglia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglia/dsp.ini",
+                "source": "maglia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglia/board.ini",
+                "source": "maglia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglia.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -480,6 +882,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglia",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/dptf.dv",
           "files": [
@@ -518,11 +928,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magpie",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.1mic/HiFi.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.1mic/sof-rt5682.magpie.1mic.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/sof-rt5682",
+                "source": "magpie/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magpie/dsp.ini",
+                "source": "magpie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/board.ini",
+                "source": "magpie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magpie.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -530,6 +973,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magpie",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magpie/dptf.dv",
           "files": [
@@ -568,11 +1018,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magpie",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.1mic/HiFi.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.1mic/sof-rt5682.magpie.1mic.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/sof-rt5682",
+                "source": "magpie/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magpie/dsp.ini",
+                "source": "magpie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/board.ini",
+                "source": "magpie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magpie.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -580,6 +1063,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magpie",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magpie/dptf.dv",
           "files": [
@@ -618,11 +1108,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magpie",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.2mic/HiFi.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.2mic/sof-rt5682.magpie.2mic.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/sof-rt5682",
+                "source": "magpie/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magpie/dsp.ini",
+                "source": "magpie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/board.ini",
+                "source": "magpie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magpie.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -630,6 +1153,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magpie",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magpie/dptf.dv",
           "files": [
@@ -668,11 +1198,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magpie",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.2mic/HiFi.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magpie.2mic/sof-rt5682.magpie.2mic.conf",
+                "source": "magpie/audio/ucm-config/sof-rt5682.magpie.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/sof-rt5682",
+                "source": "magpie/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magpie/dsp.ini",
+                "source": "magpie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magpie/board.ini",
+                "source": "magpie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magpie.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -680,6 +1243,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magpie",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magpie/dptf.dv",
           "files": [
@@ -718,11 +1288,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magister",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/HiFi.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/sof-rt5682.magister.2mic.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/sof-rt5682",
+                "source": "magister/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magister/dsp.ini",
+                "source": "magister/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/board.ini",
+                "source": "magister/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magister.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -730,6 +1333,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magister",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magister/dptf.dv",
           "files": [
@@ -768,11 +1379,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magister",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/HiFi.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/sof-rt5682.magister.2mic.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/sof-rt5682",
+                "source": "magister/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magister/dsp.ini",
+                "source": "magister/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/board.ini",
+                "source": "magister/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magister.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -780,6 +1424,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magister",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magister/dptf.dv",
           "files": [
@@ -818,11 +1470,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magister",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/HiFi.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/sof-rt5682.magister.2mic.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/sof-rt5682",
+                "source": "magister/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magister/dsp.ini",
+                "source": "magister/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/board.ini",
+                "source": "magister/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magister.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -830,6 +1515,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magister",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magister/dptf.dv",
           "files": [
@@ -868,11 +1561,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magister",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/HiFi.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magister.2mic/sof-rt5682.magister.2mic.conf",
+                "source": "magister/audio/ucm-config/sof-rt5682.magister.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/sof-rt5682",
+                "source": "magister/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magister/dsp.ini",
+                "source": "magister/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magister/board.ini",
+                "source": "magister/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magister.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -880,6 +1606,14 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magister",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magister/dptf.dv",
           "files": [
@@ -918,11 +1652,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/sof-rt5682.magma.2mic.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -930,6 +1697,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -968,11 +1742,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/sof-rt5682.magma.2mic.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -980,6 +1787,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1018,11 +1832,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/sof-rt5682.magma.2mic.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1030,6 +1877,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1068,11 +1922,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.2mic/sof-rt5682.magma.2mic.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1080,6 +1967,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1118,11 +2012,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.magma.1mic.rt5682vs.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1130,6 +2057,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1168,11 +2102,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.magma.1mic.rt5682vs.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1180,6 +2147,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1218,11 +2192,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.magma.1mic.rt5682vs.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1230,6 +2237,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1268,11 +2282,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magma",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.magma.1mic.rt5682vs.conf",
+                "source": "magma/audio/ucm-config/sof-rt5682.magma.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/sof-rt5682",
+                "source": "magma/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magma/dsp.ini",
+                "source": "magma/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magma/board.ini",
+                "source": "magma/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magma.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1280,6 +2327,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magma",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magma/dptf.dv",
           "files": [
@@ -1318,11 +2372,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglith",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglith.1mic/HiFi.conf",
+                "source": "maglith/audio/ucm-config/sof-rt5682.maglith.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglith.1mic/sof-rt5682.maglith.1mic.conf",
+                "source": "maglith/audio/ucm-config/sof-rt5682.maglith.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglith/sof-rt5682",
+                "source": "maglith/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglith/dsp.ini",
+                "source": "maglith/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglith/board.ini",
+                "source": "maglith/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglith.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1330,6 +2417,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglith",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/maglith/dptf.dv",
           "files": [
@@ -1368,11 +2462,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglith",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglith.1mic/HiFi.conf",
+                "source": "maglith/audio/ucm-config/sof-rt5682.maglith.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglith.1mic/sof-rt5682.maglith.1mic.conf",
+                "source": "maglith/audio/ucm-config/sof-rt5682.maglith.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglith/sof-rt5682",
+                "source": "maglith/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglith/dsp.ini",
+                "source": "maglith/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglith/board.ini",
+                "source": "maglith/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglith.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1380,6 +2507,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglith",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/maglith/dptf.dv",
           "files": [
@@ -1418,11 +2552,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglet",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglet.1mic/HiFi.conf",
+                "source": "maglet/audio/ucm-config/sof-rt5682.maglet.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglet.1mic/sof-rt5682.maglet.1mic.conf",
+                "source": "maglet/audio/ucm-config/sof-rt5682.maglet.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglet/sof-rt5682",
+                "source": "maglet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglet/dsp.ini",
+                "source": "maglet/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglet/board.ini",
+                "source": "maglet/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglet.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1430,6 +2597,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglet",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/maglet/dptf.dv",
           "files": [
@@ -1468,11 +2642,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "maglet",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglet.1mic/HiFi.conf",
+                "source": "maglet/audio/ucm-config/sof-rt5682.maglet.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglet.1mic/sof-rt5682.maglet.1mic.conf",
+                "source": "maglet/audio/ucm-config/sof-rt5682.maglet.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/maglet/sof-rt5682",
+                "source": "maglet/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/maglet/dsp.ini",
+                "source": "maglet/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/maglet/board.ini",
+                "source": "maglet/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "maglet.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1480,6 +2687,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "maglet",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/maglet/dptf.dv",
           "files": [
@@ -1518,11 +2732,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magneto",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magneto.1mic/HiFi.conf",
+                "source": "magneto/audio/ucm-config/sof-rt5682.magneto.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magneto.1mic/sof-rt5682.magneto.1mic.conf",
+                "source": "magneto/audio/ucm-config/sof-rt5682.magneto.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magneto/sof-rt5682",
+                "source": "magneto/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magneto/dsp.ini",
+                "source": "magneto/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magneto/board.ini",
+                "source": "magneto/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magneto.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1530,6 +2777,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magneto",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magneto/dptf.dv",
           "files": [
@@ -1568,11 +2822,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "magneto",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magneto.1mic/HiFi.conf",
+                "source": "magneto/audio/ucm-config/sof-rt5682.magneto.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magneto.1mic/sof-rt5682.magneto.1mic.conf",
+                "source": "magneto/audio/ucm-config/sof-rt5682.magneto.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/magneto/sof-rt5682",
+                "source": "magneto/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/magneto/dsp.ini",
+                "source": "magneto/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/magneto/board.ini",
+                "source": "magneto/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "magneto.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "magolor"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1580,6 +2867,13 @@
           "smbios-name-match": "Magolor"
         },
         "name": "magneto",
+        "power": {
+          "battery-poll-interval-initial-ms": "1000",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "magolor/magneto/dptf.dv",
           "files": [

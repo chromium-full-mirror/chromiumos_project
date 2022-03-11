@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "beadrix",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/beadrix/sof-rt5682",
+                "source": "beadrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/beadrix/dsp.ini",
+                "source": "beadrix/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/beadrix/board.ini",
+                "source": "beadrix/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "beadrix"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,9 @@
           "smbios-name-match": "Beadrix"
         },
         "name": "beadrix",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -59,11 +95,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "beadrix",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/beadrix/sof-rt5682",
+                "source": "beadrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/beadrix/dsp.ini",
+                "source": "beadrix/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/beadrix/board.ini",
+                "source": "beadrix/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "beadrix"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -71,6 +140,9 @@
           "smbios-name-match": "Beadrix"
         },
         "name": "beadrix",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -100,11 +172,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "beadrix",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/beadrix/sof-rt5682",
+                "source": "beadrix/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/beadrix/dsp.ini",
+                "source": "beadrix/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/beadrix/board.ini",
+                "source": "beadrix/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "beadrix"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -112,6 +217,9 @@
           "smbios-name-match": "Beadrix"
         },
         "name": "beadrix",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",

@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -68,11 +107,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +152,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -118,11 +199,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +244,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -168,11 +288,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten/sof-rt5682.rt1015p.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +333,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -218,11 +380,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten/sof-rt5682.rt1015p.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +425,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -268,11 +469,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.1mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.1mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.1mic.boten/sof-rt5682.rt1015.1mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.1mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.1mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +514,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -318,11 +561,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.1mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.1mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.1mic.boten/sof-rt5682.rt1015.1mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.1mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.1mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -330,6 +606,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -368,11 +650,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten/sof-rt5682.rt1015p.1mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -380,6 +695,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -418,11 +742,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten/sof-rt5682.rt1015p.1mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -430,6 +787,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -468,11 +831,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -480,6 +876,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -518,11 +923,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -530,6 +968,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -568,11 +1012,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten.rt5682vs/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten.rt5682vs/sof-rt5682.rt1015p.2mic.boten.rt5682vs.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.boten.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -580,6 +1057,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -618,11 +1104,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten.rt5682vs/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.boten.rt5682vs/sof-rt5682.rt1015p.2mic.boten.rt5682vs.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.2mic.boten.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.boten.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -630,6 +1149,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -668,11 +1193,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -680,6 +1238,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -718,11 +1285,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.boten/sof-rt5682.rt1015.2mic.boten.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015.2mic.boten/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.boten"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -730,6 +1330,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -768,11 +1374,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten.rt5682vs/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten.rt5682vs/sof-rt5682.rt1015p.1mic.boten.rt5682vs.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.boten.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -780,6 +1419,15 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -818,11 +1466,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "boten",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten.rt5682vs/HiFi.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.boten.rt5682vs/sof-rt5682.rt1015p.1mic.boten.rt5682vs.conf",
+                "source": "boten/audio/ucm-config/sof-rt5682.rt1015p.1mic.boten.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/sof-rt5682",
+                "source": "boten/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/boten/dsp.ini",
+                "source": "boten/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/boten/board.ini",
+                "source": "boten/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.boten.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -830,6 +1511,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "boten",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/boten/dptf.dv",
           "files": [
@@ -868,11 +1555,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "botenflex",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.1mic.botenflex/HiFi.conf",
+                "source": "botenflex/audio/ucm-config/sof-rt5682.rt1015.1mic.botenflex/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.1mic.botenflex/sof-rt5682.rt1015.1mic.botenflex.conf",
+                "source": "botenflex/audio/ucm-config/sof-rt5682.rt1015.1mic.botenflex/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/botenflex/sof-rt5682",
+                "source": "botenflex/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/botenflex/dsp.ini",
+                "source": "botenflex/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/botenflex/board.ini",
+                "source": "botenflex/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.1mic.botenflex"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -880,6 +1600,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "botenflex",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/botenflex/dptf.dv",
           "files": [
@@ -918,11 +1644,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "botenflex",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.botenflex/HiFi.conf",
+                "source": "botenflex/audio/ucm-config/sof-rt5682.rt1015p.1mic.botenflex/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.1mic.botenflex/sof-rt5682.rt1015p.1mic.botenflex.conf",
+                "source": "botenflex/audio/ucm-config/sof-rt5682.rt1015p.1mic.botenflex/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/botenflex/sof-rt5682",
+                "source": "botenflex/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/botenflex/dsp.ini",
+                "source": "botenflex/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/botenflex/board.ini",
+                "source": "botenflex/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.1mic.botenflex"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -930,6 +1689,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "botenflex",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/botenflex/dptf.dv",
           "files": [
@@ -968,11 +1733,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "bookem",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.bookem/HiFi.conf",
+                "source": "bookem/audio/ucm-config/sof-rt5682.rt1015.bookem/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.bookem/sof-rt5682.rt1015.bookem.conf",
+                "source": "bookem/audio/ucm-config/sof-rt5682.rt1015.bookem/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/bookem/sof-rt5682",
+                "source": "bookem/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/bookem/dsp.ini",
+                "source": "bookem/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/bookem/board.ini",
+                "source": "bookem/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.bookem"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -980,6 +1778,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "bookem",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/bookem/dptf.dv",
           "files": [
@@ -1018,11 +1822,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "bookem",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.bookem/HiFi.conf",
+                "source": "bookem/audio/ucm-config/sof-rt5682.rt1015p.bookem/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.bookem/sof-rt5682.rt1015p.bookem.conf",
+                "source": "bookem/audio/ucm-config/sof-rt5682.rt1015p.bookem/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/bookem/sof-rt5682",
+                "source": "bookem/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/bookem/dsp.ini",
+                "source": "bookem/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/bookem/board.ini",
+                "source": "bookem/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.bookem"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "boten"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1030,6 +1867,12 @@
           "smbios-name-match": "Boten"
         },
         "name": "bookem",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "boten/bookem/dptf.dv",
           "files": [

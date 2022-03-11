@@ -18,11 +18,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawcia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "source": "drawcia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawcia/dsp.ini",
+                "source": "drawcia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/board.ini",
+                "source": "drawcia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -30,6 +63,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawcia",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawcia/dptf.dv",
           "files": [
@@ -68,11 +108,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawcia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.2mic/HiFi.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.2mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.2mic/sof-rt5682.drawcia.2mic.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.2mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "source": "drawcia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawcia/dsp.ini",
+                "source": "drawcia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/board.ini",
+                "source": "drawcia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawcia.2mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -80,6 +153,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawcia",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawcia/dptf.dv",
           "files": [
@@ -118,11 +199,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawcia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic/HiFi.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic/sof-rt5682.drawcia.1mic.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "source": "drawcia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawcia/dsp.ini",
+                "source": "drawcia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/board.ini",
+                "source": "drawcia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawcia.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -130,6 +244,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawcia",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawcia/dptf.dv",
           "files": [
@@ -168,11 +290,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawcia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.2mic.rt5682vs/HiFi.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.2mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.2mic.rt5682vs/sof-rt5682.drawcia.2mic.rt5682vs.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.2mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "source": "drawcia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawcia/dsp.ini",
+                "source": "drawcia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/board.ini",
+                "source": "drawcia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawcia.2mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -180,6 +335,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawcia",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawcia/dptf.dv",
           "files": [
@@ -218,11 +381,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawcia",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic.rt5682vs/HiFi.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic.rt5682vs/sof-rt5682.drawcia.1mic.rt5682vs.conf",
+                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "source": "drawcia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawcia/dsp.ini",
+                "source": "drawcia/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawcia/board.ini",
+                "source": "drawcia/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawcia.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -230,6 +426,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawcia",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawcia/dptf.dv",
           "files": [
@@ -268,11 +472,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawlat",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic/HiFi.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic/sof-rt5682.drawlat.1mic.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/sof-rt5682",
+                "source": "drawlat/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawlat/dsp.ini",
+                "source": "drawlat/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/board.ini",
+                "source": "drawlat/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawlat.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -280,6 +517,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawlat",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawlat/dptf.dv",
           "files": [
@@ -318,11 +562,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawlat",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic/HiFi.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic/sof-rt5682.drawlat.1mic.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/sof-rt5682",
+                "source": "drawlat/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawlat/dsp.ini",
+                "source": "drawlat/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/board.ini",
+                "source": "drawlat/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawlat.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -330,6 +607,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawlat",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawlat/dptf.dv",
           "files": [
@@ -368,11 +652,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawlat",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic.rt5682vs/HiFi.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic.rt5682vs/sof-rt5682.drawlat.1mic.rt5682vs.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/sof-rt5682",
+                "source": "drawlat/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawlat/dsp.ini",
+                "source": "drawlat/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/board.ini",
+                "source": "drawlat/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawlat.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -380,6 +697,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawlat",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawlat/dptf.dv",
           "files": [
@@ -418,11 +742,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawlat",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic.rt5682vs/HiFi.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawlat.1mic.rt5682vs/sof-rt5682.drawlat.1mic.rt5682vs.conf",
+                "source": "drawlat/audio/ucm-config/sof-rt5682.drawlat.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/sof-rt5682",
+                "source": "drawlat/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawlat/dsp.ini",
+                "source": "drawlat/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawlat/board.ini",
+                "source": "drawlat/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawlat.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -430,6 +787,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawlat",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawlat/dptf.dv",
           "files": [
@@ -468,11 +832,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/sof-rt5682.drawman.1mic.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -480,6 +877,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -518,11 +922,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/sof-rt5682.drawman.1mic.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -530,6 +967,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -568,11 +1012,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/sof-rt5682.drawman.1mic.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -580,6 +1057,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -618,11 +1103,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic/sof-rt5682.drawman.1mic.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -630,6 +1148,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -668,11 +1194,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.drawman.1mic.rt5682vs.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -680,6 +1239,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -718,11 +1284,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.drawman.1mic.rt5682vs.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -730,6 +1329,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -768,11 +1374,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.drawman.1mic.rt5682vs.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -780,6 +1419,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -818,11 +1465,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawman",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.drawman.1mic.rt5682vs.conf",
+                "source": "drawman/audio/ucm-config/sof-rt5682.drawman.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/sof-rt5682",
+                "source": "drawman/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawman/dsp.ini",
+                "source": "drawman/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawman/board.ini",
+                "source": "drawman/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawman.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -830,6 +1510,14 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawman",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawman/dptf.dv",
           "files": [
@@ -868,11 +1556,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/sof-rt5682.drawper.1mic.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -880,6 +1601,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -918,11 +1646,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/sof-rt5682.drawper.1mic.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -930,6 +1691,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -968,11 +1736,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/sof-rt5682.drawper.1mic.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -980,6 +1781,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -1018,11 +1826,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic/sof-rt5682.drawper.1mic.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1030,6 +1871,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -1068,11 +1916,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.drawper.1mic.rt5682vs.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1080,6 +1961,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -1118,11 +2006,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.drawper.1mic.rt5682vs.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1130,6 +2051,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -1168,11 +2096,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.drawper.1mic.rt5682vs.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1180,6 +2141,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
@@ -1218,11 +2186,44 @@
         "audio": {
           "main": {
             "cras-config-dir": "drawper",
-            "files": []
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.drawper.1mic.rt5682vs.conf",
+                "source": "drawper/audio/ucm-config/sof-rt5682.drawper.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/sof-rt5682",
+                "source": "drawper/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/drawper/dsp.ini",
+                "source": "drawper/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/drawper/board.ini",
+                "source": "drawper/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "drawper.1mic.rt5682vs"
           }
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "drawcia"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Dedede",
@@ -1230,6 +2231,13 @@
           "smbios-name-match": "Drawcia"
         },
         "name": "drawper",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
         "thermal": {
           "dptf-dv": "drawcia/drawper/dptf.dv",
           "files": [
