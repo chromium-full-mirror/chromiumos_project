@@ -71,6 +71,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "banshee/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/banshee/dptf.dv",
+              "source": "banshee/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -152,6 +161,15 @@
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "banshee/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/banshee/dptf.dv",
+              "source": "banshee/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
