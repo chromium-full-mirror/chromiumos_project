@@ -7,23 +7,114 @@
             "device": "nissa_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "adlnrvp",
+            "metrics-tag": "adlrvp_n",
             "product": "nissa"
           },
           "hardware-features": {
-            "build-path": "adlnrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_adlnrvp.xml",
-            "system-path": "/etc/hardware_features_adlnrvp.xml"
+            "build-path": "adlnrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_adlrvp_n.xml",
+            "system-path": "/etc/hardware_features_adlrvp_n.xml"
           }
         },
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-nissa-private",
+          "build-targets": {
+            "ec": "adlrvp_n"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Nissa",
+          "sku-id": 0,
+          "smbios-name-match": "adlrvp_n"
+        },
+        "name": "adlrvp_n",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "adlrvp_n_ext_ec",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "adlnrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_adlrvp_n_ext_ec.xml",
+            "system-path": "/etc/hardware_features_adlrvp_n_ext_ec.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-nissa-private",
+          "build-targets": {
+            "ec": "adlrvp_n_ext_ec"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Nissa",
           "sku-id": 2147483647,
-          "smbios-name-match": "Adlnrvp"
+          "smbios-name-match": "adlrvp_n_ext_ec"
         },
-        "name": "adlnrvp",
+        "name": "adlrvp_n_ext_ec",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "adlrvp_n_ext_ec",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "adlnrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_adlrvp_n_ext_ec.xml",
+            "system-path": "/etc/hardware_features_adlrvp_n_ext_ec.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-nissa-private",
+          "build-targets": {
+            "ec": "adlrvp_n_ext_ec"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Nissa",
+          "sku-id": 0,
+          "smbios-name-match": "adlrvp_n_ext_ec"
+        },
+        "name": "adlrvp_n_ext_ec",
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
