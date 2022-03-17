@@ -175,6 +175,258 @@
             "device": "brya_cheets",
             "first-api-level": "28",
             "marketing-name": "",
+            "metrics-tag": "volmar",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volmar.xml",
+            "system-path": "/etc/hardware_features_volmar.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volmar",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volmar.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "volmar.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 786433,
+          "smbios-name-match": "Volmar"
+        },
+        "name": "volmar",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "volmar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volmar/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volmar",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volmar.xml",
+            "system-path": "/etc/hardware_features_volmar.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volmar",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volmar.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "volmar.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 786434,
+          "smbios-name-match": "Volmar"
+        },
+        "name": "volmar",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "volmar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volmar/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "volmar",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_volmar.xml",
+            "system-path": "/etc/hardware_features_volmar.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "volmar",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/volmar.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "volmar.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 786435,
+          "smbios-name-match": "Volmar"
+        },
+        "name": "volmar",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "volmar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volmar/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
             "metrics-tag": "zavala",
             "product": "brya"
           },
@@ -306,6 +558,174 @@
         "identity": {
           "platform-name": "Brya",
           "sku-id": 851969,
+          "smbios-name-match": "Volmar"
+        },
+        "name": "zavala",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "volmar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volmar/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "zavala",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zavala.xml",
+            "system-path": "/etc/hardware_features_zavala.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zavala",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/zavala.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "zavala.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 851970,
+          "smbios-name-match": "Volmar"
+        },
+        "name": "zavala",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "volmar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/volmar/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "zavala",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zavala.xml",
+            "system-path": "/etc/hardware_features_zavala.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zavala",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
+                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/sound_card_init/zavala.yaml",
+                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "zavala.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "volmar"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "volmar"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 851971,
           "smbios-name-match": "Volmar"
         },
         "name": "zavala",
