@@ -21,7 +21,7 @@
         "firmware": {
           "bcs-overlay": "overlay-nissa-private",
           "build-targets": {
-            "ec": "adlrvp_n"
+            "ec": "adlrvp_npcx"
           },
           "firmware-config": 0
         },
@@ -63,7 +63,7 @@
         "firmware": {
           "bcs-overlay": "overlay-nissa-private",
           "build-targets": {
-            "ec": "adlrvp_n_ext_ec"
+            "ec": "adlrvp_npcx"
           },
           "firmware-config": 0
         },
@@ -105,7 +105,7 @@
         "firmware": {
           "bcs-overlay": "overlay-nissa-private",
           "build-targets": {
-            "ec": "adlrvp_n_ext_ec"
+            "ec": "adlrvp_npcx"
           },
           "firmware-config": 0
         },
