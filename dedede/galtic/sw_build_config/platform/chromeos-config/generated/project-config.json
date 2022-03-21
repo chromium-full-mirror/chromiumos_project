@@ -158,6 +158,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "galtic/galnat360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galnat360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galnat360/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
