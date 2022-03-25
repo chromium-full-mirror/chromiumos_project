@@ -119,7 +119,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 2,
+          "sku-id": 10,
           "smbios-name-match": "Brya"
         },
         "name": "brya",
@@ -211,7 +211,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 3,
+          "sku-id": 11,
           "smbios-name-match": "Brya"
         },
         "name": "brya",
@@ -303,99 +303,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 4,
-          "smbios-name-match": "Brya"
-        },
-        "name": "brya",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-ambient-light-sensor": "1",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "brya",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "brya/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_brya.xml",
-            "system-path": "/etc/hardware_features_brya.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "brya",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/brya/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/brya/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/brya/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "brya"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 5,
+          "sku-id": 12,
           "smbios-name-match": "Brya"
         },
         "name": "brya",
@@ -481,7 +389,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 6,
+          "sku-id": 13,
           "smbios-name-match": "Brya"
         },
         "name": "brya",
@@ -573,99 +481,7 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 7,
-          "smbios-name-match": "Brya"
-        },
-        "name": "brya",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-ambient-light-sensor": "1",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "brya",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "brya/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_brya.xml",
-            "system-path": "/etc/hardware_features_brya.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "brya",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/brya/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/brya/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/brya/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "brya"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 8,
+          "sku-id": 14,
           "smbios-name-match": "Brya"
         },
         "name": "brya",
@@ -1307,98 +1123,6 @@
           "smbios-name-match": "Brya4ES"
         },
         "name": "brya4es",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-ambient-light-sensor": "1",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "bryati50",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "brya/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_bryati50.xml",
-            "system-path": "/etc/hardware_features_bryati50.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "bryati50",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/bryati50/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/bryati50/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/bryati50/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "brya"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 9,
-          "smbios-name-match": "Brya"
-        },
-        "name": "bryati50",
         "power": {
           "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
