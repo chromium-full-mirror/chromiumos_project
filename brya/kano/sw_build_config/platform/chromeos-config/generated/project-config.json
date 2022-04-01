@@ -53,6 +53,11 @@
             "ucm-suffix": "kano"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -148,6 +153,11 @@
             "sound-card-init-conf": "kano.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
@@ -247,6 +257,11 @@
             "ucm-suffix": "kano"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -342,6 +357,11 @@
             "sound-card-init-conf": "kano.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
@@ -441,6 +461,11 @@
             "ucm-suffix": "kano"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -536,6 +561,11 @@
             "sound-card-init-conf": "kano.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
