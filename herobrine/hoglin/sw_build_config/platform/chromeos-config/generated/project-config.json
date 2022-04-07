@@ -24,6 +24,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "coreboot": "hoglin",
+            "depthcharge": "herobrine",
+            "ec": "hoglin",
+            "libpayload": "herobrine",
+            "zephyr-ec": "hoglin"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "device-tree-compatible-match": "google,hoglin",
           "platform-name": "Herobrine",
@@ -64,6 +75,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "coreboot": "hoglin",
+            "depthcharge": "herobrine",
+            "ec": "hoglin",
+            "libpayload": "herobrine",
+            "zephyr-ec": "hoglin"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "device-tree-compatible-match": "google,hoglin",

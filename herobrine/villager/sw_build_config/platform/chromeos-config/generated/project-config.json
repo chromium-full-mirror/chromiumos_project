@@ -18,6 +18,20 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "coreboot": "villager",
+            "depthcharge": "herobrine",
+            "ec": "villager",
+            "ec_extras": [
+              "dartmonkey"
+            ],
+            "libpayload": "herobrine",
+            "zephyr-ec": "villager"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Herobrine",
           "sku-id": 2147483647,
