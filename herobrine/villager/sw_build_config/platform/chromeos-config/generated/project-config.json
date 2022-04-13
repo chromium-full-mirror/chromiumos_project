@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_villager.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "villager",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
