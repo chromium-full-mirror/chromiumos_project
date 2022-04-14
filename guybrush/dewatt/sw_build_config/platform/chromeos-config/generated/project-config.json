@@ -20,15 +20,15 @@
             "cras-config-dir": "dewatt",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/HiFi.conf",
-                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf",
-                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf"
               },
               {
-                "destination": "/etc/cras/dewatt/acp3xalc5682s1019",
+                "destination": "/etc/cras/dewatt/sof-rt5682s-rt1019",
                 "source": "dewatt/audio/cras-config/card_settings"
               },
               {
@@ -115,15 +115,15 @@
             "cras-config-dir": "dewatt",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/HiFi.conf",
-                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf",
-                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf"
               },
               {
-                "destination": "/etc/cras/dewatt/acp3xalc5682s1019",
+                "destination": "/etc/cras/dewatt/sof-rt5682s-rt1019",
                 "source": "dewatt/audio/cras-config/card_settings"
               },
               {
@@ -210,15 +210,15 @@
             "cras-config-dir": "dewatt",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/HiFi.conf",
-                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf",
-                "source": "common/audio/ucm-config/acp3xalc5682s1019.1mic/acp3xalc5682s1019.1mic.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682s-rt1019.1mic/sof-rt5682s-rt1019.1mic.conf"
               },
               {
-                "destination": "/etc/cras/dewatt/acp3xalc5682s1019",
+                "destination": "/etc/cras/dewatt/sof-rt5682s-rt1019",
                 "source": "dewatt/audio/cras-config/card_settings"
               },
               {
