@@ -274,108 +274,6 @@
         },
         "identity": {
           "platform-name": "Brya",
-          "sku-id": 2147483647,
-          "smbios-name-match": "Kano"
-        },
-        "name": "kano",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "kano/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/kano/dptf.dv",
-              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "kano",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
-            "system-path": "/etc/hardware_features_kano.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
-        "bluetooth": {
-          "flags": {
-            "enable-bluetooth-offload": true
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "kano"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
           "sku-id": 131088,
           "smbios-name-match": "Kano"
         },
@@ -598,6 +496,516 @@
             {
               "destination": "/etc/dptf/kano/kano/131090/dptf.dv",
               "source": "kano/sw_build_config/platform/chromeos-config/thermal/kano/131090/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "kano"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 2147483647,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "kano"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131104,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "kano"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131105,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "kano"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131106,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "kano",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "kano/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kano.xml",
+            "system-path": "/etc/hardware_features_kano.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kano",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
+                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/sof-nau8825",
+                "source": "kano/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kano/dsp.ini",
+                "source": "kano/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/kano/board.ini",
+                "source": "kano/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/kano.yaml",
+                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "kano.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "kano"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "kano"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 131107,
+          "smbios-name-match": "Kano"
+        },
+        "name": "kano",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kano/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kano/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
             }
           ]
         },
