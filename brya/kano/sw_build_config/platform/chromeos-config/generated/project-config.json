@@ -899,11 +899,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "kano/dptf.dv",
+          "dptf-dv": "kano/kano/131106/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/kano/dptf.dv",
-              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/kano/kano/131106/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/kano/131106/dptf.dv"
             }
           ]
         },
@@ -1001,11 +1001,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "kano/dptf.dv",
+          "dptf-dv": "kano/kano/131107/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/kano/dptf.dv",
-              "source": "kano/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/kano/kano/131107/dptf.dv",
+              "source": "kano/sw_build_config/platform/chromeos-config/thermal/kano/131107/dptf.dv"
             }
           ]
         },
