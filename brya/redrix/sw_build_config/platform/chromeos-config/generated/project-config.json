@@ -395,10 +395,13 @@
           "has-keyboard-backlight": "1",
           "internal-backlight-als-steps": "22.20 -1 50\n36.40 40 80\n44.80 65 130\n47.70 110 210\n64.23 180 350\n75.27 300 550\n87.10 450 850\n100 700 -1\n",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-regulatory-domain-mapping": "ISED 2\nCE 4\nMIC 4",
           "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-cellular-transmit-power-level-mapping": "HIGH 1\nLOW 2",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1",
-          "use-modemmanager-for-dynamic-sar": "1"
+          "use-modemmanager-for-dynamic-sar": "1",
+          "use-regulatory-domain-for-dynamic-sar": "1"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -711,10 +714,13 @@
           "has-keyboard-backlight": "1",
           "internal-backlight-als-steps": "22.20 -1 50\n36.40 40 80\n44.80 65 130\n47.70 110 210\n64.23 180 350\n75.27 300 550\n87.10 450 850\n100 700 -1\n",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-regulatory-domain-mapping": "ISED 2\nCE 4\nMIC 4",
           "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-cellular-transmit-power-level-mapping": "HIGH 1\nLOW 2",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1",
-          "use-modemmanager-for-dynamic-sar": "1"
+          "use-modemmanager-for-dynamic-sar": "1",
+          "use-regulatory-domain-for-dynamic-sar": "1"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -1027,10 +1033,13 @@
           "has-keyboard-backlight": "1",
           "internal-backlight-als-steps": "22.20 -1 50\n36.40 40 80\n44.80 65 130\n47.70 110 210\n64.23 180 350\n75.27 300 550\n87.10 450 850\n100 700 -1\n",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-regulatory-domain-mapping": "ISED 2\nCE 4\nMIC 4",
           "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-cellular-transmit-power-level-mapping": "HIGH 1\nLOW 2",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1",
-          "use-modemmanager-for-dynamic-sar": "1"
+          "use-modemmanager-for-dynamic-sar": "1",
+          "use-regulatory-domain-for-dynamic-sar": "1"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -1343,10 +1352,13 @@
           "has-keyboard-backlight": "1",
           "internal-backlight-als-steps": "22.20 -1 50\n36.40 40 80\n44.80 65 130\n47.70 110 210\n64.23 180 350\n75.27 300 550\n87.10 450 850\n100 700 -1\n",
           "low-battery-shutdown-percent": "4.0",
+          "set-cellular-regulatory-domain-mapping": "ISED 2\nCE 4\nMIC 4",
           "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-cellular-transmit-power-level-mapping": "HIGH 1\nLOW 2",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1",
-          "use-modemmanager-for-dynamic-sar": "1"
+          "use-modemmanager-for-dynamic-sar": "1",
+          "use-regulatory-domain-for-dynamic-sar": "1"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
