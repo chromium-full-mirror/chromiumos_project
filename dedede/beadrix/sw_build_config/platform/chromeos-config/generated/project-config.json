@@ -20,12 +20,12 @@
             "cras-config-dir": "beadrix",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
-                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic.beadrix/HiFi.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic.beadrix/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
-                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic.beadrix/sof-rt5682.1mic.beadrix.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic.beadrix/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/beadrix/sof-rt5682",
@@ -44,7 +44,7 @@
                 "source": "beadrix/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "1mic"
+            "ucm-suffix": "1mic.beadrix"
           }
         },
         "camera": {
@@ -99,12 +99,12 @@
             "cras-config-dir": "beadrix",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
-                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic.beadrix/HiFi.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic.beadrix/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
-                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic.beadrix/sof-rt5682.1mic.beadrix.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic.beadrix/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/beadrix/sof-rt5682",
@@ -123,7 +123,7 @@
                 "source": "beadrix/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "1mic"
+            "ucm-suffix": "1mic.beadrix"
           }
         },
         "camera": {
@@ -178,12 +178,12 @@
             "cras-config-dir": "beadrix",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
-                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic.beadrix/HiFi.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic.beadrix/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
-                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic.beadrix/sof-rt5682.1mic.beadrix.conf",
+                "source": "beadrix/audio/ucm-config/sof-rt5682.max98360a.1mic.beadrix/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/beadrix/sof-rt5682",
@@ -202,7 +202,7 @@
                 "source": "beadrix/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "1mic"
+            "ucm-suffix": "1mic.beadrix"
           }
         },
         "camera": {
