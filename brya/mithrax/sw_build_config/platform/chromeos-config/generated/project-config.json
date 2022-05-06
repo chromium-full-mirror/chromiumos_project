@@ -15,6 +15,38 @@
             "system-path": "/etc/hardware_features_mithrax.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "mithrax",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.mithrax.rt5682vs/HiFi.conf",
+                "source": "mithrax/audio/ucm-config/sof-rt5682.mithrax.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.mithrax.rt5682vs/sof-rt5682.mithrax.rt5682vs.conf",
+                "source": "mithrax/audio/ucm-config/sof-rt5682.mithrax.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/mithrax/sof-rt5682",
+                "source": "mithrax/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/mithrax/dsp.ini",
+                "source": "mithrax/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/mithrax/board.ini",
+                "source": "mithrax/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "mithrax.rt5682vs"
+          }
+        },
         "camera": {
           "count": 0
         },
