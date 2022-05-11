@@ -50,6 +50,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "mithrax"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 2147483647,
@@ -125,6 +132,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "mithrax"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Brya",
           "sku-id": 1114112,
@@ -199,6 +213,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "mithrax"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brya",
