@@ -15,42 +15,6 @@
             "system-path": "/etc/hardware_features_woomax.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -68,10 +32,7 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -97,42 +58,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -152,12 +77,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -183,42 +104,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -238,12 +123,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -269,42 +150,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -324,12 +169,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -355,42 +196,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -410,12 +215,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -441,42 +242,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -496,12 +261,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -527,42 +288,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -582,12 +307,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -613,42 +334,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -668,12 +353,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -699,42 +380,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -754,12 +399,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -785,42 +426,6 @@
           "hardware-features": {
             "build-path": "woomax/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_woomax.xml",
             "system-path": "/etc/hardware_features_woomax.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
           }
         },
         "camera": {
@@ -840,12 +445,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -873,42 +474,6 @@
             "system-path": "/etc/hardware_features_woomax.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "woomax",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf",
-                "source": "ucm-config/acp3xalc5682m98357.woomax/acp3xalc5682m98357.woomax.conf"
-              },
-              {
-                "destination": "/etc/cras/woomax/acp3xalc5682m98357",
-                "source": "cras-config/woomax/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/woomax/dsp.ini",
-                "source": "cras-config/woomax/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/woomax/board.ini",
-                "source": "cras-config/woomax/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "woomax"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -926,12 +491,8 @@
         },
         "name": "woomax",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "59.50",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [

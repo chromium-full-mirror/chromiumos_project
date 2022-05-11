@@ -15,42 +15,6 @@
             "system-path": "/etc/hardware_features_morphius.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -68,11 +32,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -98,42 +59,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -153,11 +78,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -183,42 +105,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -238,11 +124,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -268,42 +151,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -323,11 +170,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -353,42 +197,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -408,12 +216,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -439,42 +243,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -494,12 +262,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "39",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -525,42 +289,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -580,12 +308,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -611,42 +335,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -666,12 +354,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -697,42 +381,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -752,12 +400,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -783,42 +427,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -838,12 +446,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -869,42 +473,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -924,12 +492,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -955,42 +519,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1010,12 +538,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1041,42 +565,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1096,12 +584,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1127,42 +611,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1182,12 +630,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1213,42 +657,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1268,12 +676,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1299,42 +703,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1354,12 +722,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1385,42 +749,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1440,12 +768,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1471,42 +795,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1526,12 +814,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1557,42 +841,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1612,12 +860,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1643,42 +887,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1698,12 +906,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1729,42 +933,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1784,12 +952,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1815,42 +979,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1870,12 +998,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1901,42 +1025,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -1956,12 +1044,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1987,42 +1071,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -2042,12 +1090,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2073,42 +1117,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -2128,12 +1136,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2159,42 +1163,6 @@
           "hardware-features": {
             "build-path": "morphius/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_morphius.xml",
             "system-path": "/etc/hardware_features_morphius.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
           }
         },
         "camera": {
@@ -2214,12 +1182,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2247,42 +1211,6 @@
             "system-path": "/etc/hardware_features_morphius.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "morphius",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.2mic/acp3xalc5682m98357.2mic.conf"
-              },
-              {
-                "destination": "/etc/cras/morphius/acp3xalc5682m98357",
-                "source": "cras-config/morphius/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/morphius/dsp.ini",
-                "source": "cras-config/morphius/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/morphius/board.ini",
-                "source": "cras-config/morphius/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "2mic"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2300,12 +1228,8 @@
         },
         "name": "morphius",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "65",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [

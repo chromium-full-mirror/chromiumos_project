@@ -15,42 +15,6 @@
             "system-path": "/etc/hardware_features_dirinboz.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -68,10 +32,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -97,42 +58,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -152,10 +77,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -181,42 +103,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -236,10 +122,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -265,42 +148,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -320,10 +167,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -349,42 +193,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -404,10 +212,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -433,42 +238,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -488,10 +257,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -517,42 +283,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -572,10 +302,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -601,42 +328,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -656,10 +347,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -685,42 +373,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -740,10 +392,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -769,42 +418,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -824,10 +437,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -853,42 +463,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -908,10 +482,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -937,42 +508,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -992,10 +527,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1021,42 +553,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1076,10 +572,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1105,42 +598,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1160,10 +617,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1189,42 +643,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1244,10 +662,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1273,42 +688,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1328,10 +707,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1357,42 +733,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1412,10 +752,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1441,42 +778,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1496,10 +797,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1525,42 +823,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1580,10 +842,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1609,42 +868,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1664,10 +887,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1693,42 +913,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1748,10 +932,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1777,42 +958,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1832,10 +977,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1861,42 +1003,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -1916,10 +1022,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1945,42 +1048,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2000,10 +1067,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2029,42 +1093,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2084,10 +1112,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2113,42 +1138,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2168,10 +1157,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2197,42 +1183,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2252,10 +1202,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2281,42 +1228,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2336,10 +1247,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2365,42 +1273,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2420,10 +1292,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2449,42 +1318,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2504,10 +1337,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2533,42 +1363,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2588,10 +1382,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2617,42 +1408,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2672,10 +1427,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2701,42 +1453,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf",
-                "source": "ucm-config/acp3xalc5682m98357.1mic/acp3xalc5682m98357.1mic.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xalc5682m98357",
-                "source": "cras-config/dirinboz/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "1mic"
           }
         },
         "camera": {
@@ -2756,10 +1472,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2785,42 +1498,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -2840,10 +1517,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2869,42 +1543,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -2924,10 +1562,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -2953,42 +1588,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3008,10 +1607,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3037,42 +1633,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3092,10 +1652,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3121,42 +1678,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3176,10 +1697,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3205,42 +1723,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3260,10 +1742,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3289,42 +1768,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3344,10 +1787,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3373,42 +1813,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3428,10 +1832,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3457,42 +1858,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3512,10 +1877,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3541,42 +1903,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3596,10 +1922,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3625,42 +1948,6 @@
           "hardware-features": {
             "build-path": "dirinboz/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dirinboz.xml",
             "system-path": "/etc/hardware_features_dirinboz.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
           }
         },
         "camera": {
@@ -3680,10 +1967,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -3711,42 +1995,6 @@
             "system-path": "/etc/hardware_features_dirinboz.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "dirinboz",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/HiFi.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf",
-                "source": "ucm-config/acp3xrt5682s98357.dirinboz/acp3xrt5682s98357.dirinboz.conf"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/acp3xrt5682s98357",
-                "source": "cras-config/dirinboz/acp3xrt5682s98357"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/dsp.ini",
-                "source": "cras-config/dirinboz/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/dirinboz/board.ini",
-                "source": "cras-config/dirinboz/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "dirinboz"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3764,10 +2012,7 @@
         },
         "name": "dirinboz",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [

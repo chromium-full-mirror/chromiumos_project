@@ -15,42 +15,6 @@
             "system-path": "/etc/hardware_features_ezkinil.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -68,10 +32,7 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "wake-on-dp": "1"
+          "low-battery-shutdown-percent": "4.0"
         },
         "ui": {
           "extra-ash-flags": [
@@ -97,42 +58,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -152,12 +77,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -183,42 +104,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -238,12 +123,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -269,42 +150,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -324,12 +169,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -355,42 +196,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -410,12 +215,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -441,42 +242,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -496,12 +261,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -527,42 +288,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -582,12 +307,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -613,42 +334,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -668,12 +353,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -699,42 +380,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -754,12 +399,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -785,42 +426,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -840,12 +445,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -871,42 +472,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -926,12 +491,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -957,42 +518,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1012,12 +537,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1043,42 +564,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1098,12 +583,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1129,42 +610,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1184,12 +629,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1215,42 +656,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1270,12 +675,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1301,42 +702,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1356,12 +721,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1387,42 +748,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1442,12 +767,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1473,42 +794,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1528,12 +813,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1559,42 +840,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1614,12 +859,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1645,42 +886,6 @@
           "hardware-features": {
             "build-path": "ezkinil/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ezkinil.xml",
             "system-path": "/etc/hardware_features_ezkinil.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
           }
         },
         "camera": {
@@ -1700,12 +905,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -1733,42 +934,6 @@
             "system-path": "/etc/hardware_features_ezkinil.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "ezkinil",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/HiFi.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf",
-                "source": "ucm-config/acp3xalc5682m98357.ezkinil/acp3xalc5682m98357.ezkinil.conf"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/acp3xalc5682m98357",
-                "source": "cras-config/ezkinil/acp3xalc5682m98357"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/dsp.ini",
-                "source": "cras-config/ezkinil/dsp.ini"
-              },
-              {
-                "destination": "/etc/cras/ezkinil/board.ini",
-                "source": "cras-config/ezkinil/board.ini"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HiFi.conf",
-                "source": "ucm-config/HD-Audio Generic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/HD-Audio Generic/HD-Audio Generic.conf",
-                "source": "ucm-config/HD-Audio Generic/HD-Audio Generic.conf"
-              }
-            ],
-            "ucm-suffix": "ezkinil"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1786,12 +951,8 @@
         },
         "name": "ezkinil",
         "power": {
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "0",
-          "internal-backlight-no-als-battery-brightness": "73.5",
           "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "wake-on-dp": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "1"
         },
         "ui": {
           "extra-ash-flags": [
