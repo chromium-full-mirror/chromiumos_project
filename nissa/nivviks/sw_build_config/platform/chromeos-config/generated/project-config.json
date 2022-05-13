@@ -763,12 +763,12 @@
             "device": "nissa_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "nirwen",
+            "metrics-tag": "nirwen_ufs",
             "product": "nissa"
           },
           "hardware-features": {
-            "build-path": "nivviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_nirwen.xml",
-            "system-path": "/etc/hardware_features_nirwen.xml"
+            "build-path": "nivviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_nirwen_ufs.xml",
+            "system-path": "/etc/hardware_features_nirwen_ufs.xml"
           }
         },
         "camera": {
@@ -783,10 +783,10 @@
         },
         "identity": {
           "platform-name": "Nissa",
-          "sku-id": 131073,
+          "sku-id": 163840,
           "smbios-name-match": "Nivviks"
         },
-        "name": "nirwen",
+        "name": "nirwen_ufs",
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
