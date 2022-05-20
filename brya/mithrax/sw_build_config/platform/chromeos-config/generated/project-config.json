@@ -71,6 +71,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "mithrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/mithrax/dptf.dv",
+              "source": "mithrax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -152,6 +161,15 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "mithrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/mithrax/dptf.dv",
+              "source": "mithrax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -235,6 +253,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "mithrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/mithrax/dptf.dv",
+              "source": "mithrax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -317,6 +344,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "mithrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/mithrax/dptf.dv",
+              "source": "mithrax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -398,6 +434,15 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "mithrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/mithrax/dptf.dv",
+              "source": "mithrax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
