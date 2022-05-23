@@ -28,8 +28,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
@@ -94,8 +106,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
@@ -160,8 +184,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
@@ -226,8 +262,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
@@ -292,8 +340,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
@@ -358,8 +418,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
@@ -424,8 +496,20 @@
                 "source": "kinox/audio/ucm-config/sof-rt5682.kinox/sof-rt5682.conf"
               },
               {
+                "destination": "/etc/cras/kinox/sof-rt5682",
+                "source": "kinox/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kinox/dsp.ini",
+                "source": "kinox/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/kinox/board.ini",
+                "source": "kinox/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "kinox"
