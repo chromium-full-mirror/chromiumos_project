@@ -15,38 +15,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -103,38 +71,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -195,38 +131,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -282,38 +186,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -374,38 +246,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -461,38 +301,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -553,38 +361,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -640,38 +416,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -732,38 +476,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -819,38 +531,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -911,38 +591,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -998,38 +646,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1090,38 +706,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1177,38 +761,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1269,38 +821,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1356,38 +876,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1448,38 +936,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1535,38 +991,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1627,38 +1051,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1714,38 +1106,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1806,38 +1166,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1893,38 +1221,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -1985,38 +1281,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2072,38 +1336,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2164,38 +1396,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2251,38 +1451,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2343,38 +1511,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2430,38 +1566,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2522,38 +1626,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2609,38 +1681,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2701,38 +1741,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2788,38 +1796,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -2880,38 +1856,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2967,38 +1911,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -3059,38 +1971,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3146,38 +2026,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -3238,38 +2086,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3325,38 +2141,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -3417,38 +2201,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3504,38 +2256,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -3596,38 +2316,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3683,38 +2371,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -3775,38 +2431,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3862,38 +2486,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -3954,38 +2546,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4041,38 +2601,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -4133,38 +2661,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4220,38 +2716,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
             "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -4312,38 +2776,6 @@
             "system-path": "/etc/hardware_features_anahera.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4399,38 +2831,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -4491,38 +2891,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4578,38 +2946,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -4670,38 +3006,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4757,38 +3061,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -4849,38 +3121,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4936,38 +3176,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -5028,38 +3236,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5115,38 +3291,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -5207,38 +3351,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5294,38 +3406,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -5386,38 +3466,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5473,38 +3521,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -5565,38 +3581,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5652,38 +3636,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -5744,38 +3696,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5831,38 +3751,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -5923,38 +3811,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6010,38 +3866,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -6102,38 +3926,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6189,38 +3981,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -6281,38 +4041,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6368,38 +4096,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -6460,38 +4156,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6547,38 +4211,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -6639,38 +4271,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6726,38 +4326,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -6818,38 +4386,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6905,38 +4441,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -6997,38 +4501,6 @@
             "system-path": "/etc/hardware_features_anahera4es.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -7084,38 +4556,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
@@ -7174,38 +4614,6 @@
           "hardware-features": {
             "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera4es.xml",
             "system-path": "/etc/hardware_features_anahera4es.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "anahera4es",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/HiFi.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.anahera/sof-rt5682.anahera.conf",
-                "source": "anahera/audio/ucm-config/sof-rt5682.anahera/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/sof-rt5682",
-                "source": "anahera/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/dsp.ini",
-                "source": "anahera/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/anahera4es/board.ini",
-                "source": "anahera/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "anahera"
           }
         },
         "camera": {
