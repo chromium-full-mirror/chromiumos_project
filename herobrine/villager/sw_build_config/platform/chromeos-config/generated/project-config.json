@@ -27,6 +27,7 @@
         "firmware": {
           "bcs-overlay": "overlay-herobrine-private",
           "build-targets": {
+            "bmpblk": "herobrine_villager",
             "coreboot": "villager",
             "depthcharge": "herobrine",
             "ec": "villager",

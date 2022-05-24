@@ -27,6 +27,7 @@
         "firmware": {
           "bcs-overlay": "overlay-herobrine-private",
           "build-targets": {
+            "bmpblk": "herobrine",
             "coreboot": "hoglin",
             "depthcharge": "herobrine",
             "ec": "hoglin",
