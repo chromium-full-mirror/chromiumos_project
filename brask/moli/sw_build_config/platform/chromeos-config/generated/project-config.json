@@ -20,19 +20,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -86,19 +86,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -152,19 +152,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -218,19 +218,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -284,19 +284,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -350,19 +350,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -416,19 +416,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -482,19 +482,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -548,19 +548,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -614,19 +614,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -680,19 +680,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -746,19 +746,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -812,19 +812,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -878,19 +878,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -944,19 +944,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
@@ -1010,19 +1010,19 @@
             "cras-config-dir": "moli",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/HiFi.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.moli/sof-nau8825.moli.conf",
+                "source": "moli/audio/ucm-config/sof-nau8825.moli/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "moli"
           }
         },
         "camera": {
