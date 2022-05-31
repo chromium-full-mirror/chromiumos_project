@@ -28,8 +28,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/volmar/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volmar/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/volmar/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volmar.yaml",
@@ -112,8 +124,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/volmar/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volmar/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/volmar/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volmar.yaml",
@@ -196,8 +220,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/volmar/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volmar/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/volmar/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volmar.yaml",
@@ -280,8 +316,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/volmar/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volmar/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/volmar/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volmar.yaml",
@@ -364,8 +412,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/volmar/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/volmar/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/volmar/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/volmar.yaml",
@@ -448,8 +508,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/zavala/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/zavala/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/zavala/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/zavala.yaml",
@@ -532,8 +604,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/zavala/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/zavala/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/zavala/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/zavala.yaml",
@@ -616,8 +700,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/zavala/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/zavala/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/zavala/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/zavala.yaml",
@@ -700,8 +796,20 @@
                 "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
               },
               {
+                "destination": "/etc/cras/zavala/sof-nau8825",
+                "source": "volmar/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/zavala/dsp.ini",
+                "source": "volmar/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/zavala/board.ini",
+                "source": "volmar/audio/cras-config/board.ini"
               },
               {
                 "destination": "/etc/sound_card_init/zavala.yaml",
