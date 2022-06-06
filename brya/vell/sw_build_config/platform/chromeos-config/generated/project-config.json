@@ -20,15 +20,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -45,7 +45,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -115,15 +115,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -140,7 +140,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -210,15 +210,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -235,7 +235,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -305,15 +305,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -330,7 +330,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -400,15 +400,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -425,7 +425,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -495,15 +495,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -520,7 +520,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -590,15 +590,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -615,7 +615,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -685,15 +685,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -710,7 +710,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
@@ -780,15 +780,15 @@
             "cras-config-dir": "vell",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.vell/sof-rt5682.vell.conf",
-                "source": "vell/audio/ucm-config/sof-rt5682.vell/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
+                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
               },
               {
-                "destination": "/etc/cras/vell/sof-rt5682",
+                "destination": "/etc/cras/vell/sof-ssp_amp",
                 "source": "vell/audio/cras-config/card_settings"
               },
               {
@@ -805,7 +805,7 @@
               },
               {
                 "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofrt5682.yaml"
+                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
               }
             ],
             "sound-card-init-conf": "vell.yaml",
