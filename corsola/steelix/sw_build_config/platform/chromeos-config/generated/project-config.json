@@ -18,6 +18,16 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "coreboot": "steelix",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "steelix"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "device-tree-compatible-match": "google,steelix",
           "platform-name": "Corsola",
@@ -52,6 +62,16 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "coreboot": "steelix",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "steelix"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "device-tree-compatible-match": "google,steelix",
