@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_rusty.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "rusty",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -58,6 +64,12 @@
           "hardware-features": {
             "build-path": "steelix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rusty.xml",
             "system-path": "/etc/hardware_features_rusty.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "rusty",
+            "files": []
           }
         },
         "camera": {
@@ -105,6 +117,12 @@
             "system-path": "/etc/hardware_features_steelix.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "steelix",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -148,6 +166,12 @@
           "hardware-features": {
             "build-path": "steelix/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_steelix.xml",
             "system-path": "/etc/hardware_features_steelix.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "steelix",
+            "files": []
           }
         },
         "camera": {
