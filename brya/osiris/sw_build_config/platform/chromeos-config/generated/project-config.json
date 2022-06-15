@@ -76,6 +76,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "osiris/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/osiris/dptf.dv",
+              "source": "osiris/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -162,6 +171,15 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "osiris/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/osiris/dptf.dv",
+              "source": "osiris/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
