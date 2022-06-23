@@ -1722,6 +1722,730 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949128,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949129,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949130,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949131,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949132,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949133,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949134,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "landrid",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "lantis/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_landrid.xml",
+            "system-path": "/etc/hardware_features_landrid.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "landrid",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.landrid.1mic.rt5682vs.conf",
+                "source": "landrid/audio/ucm-config/sof-rt5682.landrid.1mic.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/sof-rt5682",
+                "source": "lantis/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/landrid/dsp.ini",
+                "source": "lantis/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/landrid/board.ini",
+                "source": "lantis/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "landrid.1mic.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "lantis"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 2949135,
+          "smbios-name-match": "Lantis"
+        },
+        "name": "landrid",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lantis/landrid/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lantis/landrid/dptf.dv",
+              "source": "lantis/sw_build_config/platform/chromeos-config/thermal/landrid/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
