@@ -18,12 +18,23 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "shotzo"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "platform-name": "Dedede",
           "sku-id": 2147483647,
           "smbios-name-match": "Shotzo"
         },
         "name": "shotzo",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
