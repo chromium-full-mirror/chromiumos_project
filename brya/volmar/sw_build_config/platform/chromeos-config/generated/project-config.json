@@ -53,6 +53,11 @@
             "ucm-suffix": "volmar"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -147,6 +152,11 @@
             "sound-card-init-conf": "volmar.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "volmar"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
@@ -245,6 +255,11 @@
             "ucm-suffix": "volmar"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -339,6 +354,11 @@
             "sound-card-init-conf": "volmar.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "volmar"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
@@ -437,6 +457,11 @@
             "ucm-suffix": "volmar"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -531,6 +556,11 @@
             "sound-card-init-conf": "zavala.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "volmar"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
@@ -629,6 +659,11 @@
             "ucm-suffix": "volmar"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -725,6 +760,11 @@
             "ucm-suffix": "volmar"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -819,6 +859,11 @@
             "sound-card-init-conf": "zavala.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "volmar"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
