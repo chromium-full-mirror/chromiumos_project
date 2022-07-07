@@ -28,8 +28,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -104,8 +116,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -180,8 +204,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -256,8 +292,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -332,8 +380,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -408,8 +468,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -484,8 +556,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -560,8 +644,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -636,8 +732,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -712,8 +820,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -788,8 +908,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -864,8 +996,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -940,8 +1084,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1016,8 +1172,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1092,8 +1260,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1168,8 +1348,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1244,8 +1436,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1320,8 +1524,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1397,8 +1613,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1474,8 +1702,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1551,8 +1791,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1628,8 +1880,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1705,8 +1969,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1782,8 +2058,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1859,8 +2147,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -1936,8 +2236,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2013,8 +2325,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2090,8 +2414,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2167,8 +2503,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2244,8 +2592,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2321,8 +2681,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2398,8 +2770,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2475,8 +2859,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2552,8 +2948,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
@@ -2629,8 +3037,20 @@
                 "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
               },
               {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
                 "destination": "/etc/modprobe.d/alsa-brya.conf",
                 "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "crota"
