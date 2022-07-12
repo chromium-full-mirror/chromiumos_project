@@ -27,6 +27,7 @@
         "firmware": {
           "bcs-overlay": "overlay-corsola-private",
           "build-targets": {
+            "bmpblk": "corsola",
             "coreboot": "krabby",
             "depthcharge": "corsola",
             "libpayload": "corsola",
@@ -78,6 +79,7 @@
         "firmware": {
           "bcs-overlay": "overlay-corsola-private",
           "build-targets": {
+            "bmpblk": "corsola",
             "coreboot": "krabby",
             "depthcharge": "corsola",
             "libpayload": "corsola",

@@ -27,6 +27,7 @@
         "firmware": {
           "bcs-overlay": "overlay-corsola-private",
           "build-targets": {
+            "bmpblk": "corsola",
             "coreboot": "tentacruel",
             "depthcharge": "corsola",
             "libpayload": "corsola",
@@ -78,6 +79,7 @@
         "firmware": {
           "bcs-overlay": "overlay-corsola-private",
           "build-targets": {
+            "bmpblk": "corsola",
             "coreboot": "tentacruel",
             "depthcharge": "corsola",
             "libpayload": "corsola",
@@ -129,6 +131,7 @@
         "firmware": {
           "bcs-overlay": "overlay-corsola-private",
           "build-targets": {
+            "bmpblk": "corsola",
             "coreboot": "tentacruel",
             "depthcharge": "corsola",
             "libpayload": "corsola",
@@ -180,6 +183,7 @@
         "firmware": {
           "bcs-overlay": "overlay-corsola-private",
           "build-targets": {
+            "bmpblk": "corsola",
             "coreboot": "tentacruel",
             "depthcharge": "corsola",
             "libpayload": "corsola",
