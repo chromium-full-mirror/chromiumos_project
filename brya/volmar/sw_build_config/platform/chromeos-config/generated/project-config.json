@@ -587,11 +587,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "volmar/dptf.dv",
+          "dptf-dv": "volmar/zavala/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/volmar/dptf.dv",
-              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/volmar/zavala/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/zavala/dptf.dv"
             }
           ]
         },
@@ -688,11 +688,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "volmar/dptf.dv",
+          "dptf-dv": "volmar/zavala/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/volmar/dptf.dv",
-              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/volmar/zavala/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/zavala/dptf.dv"
             }
           ]
         },
@@ -789,11 +789,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "volmar/dptf.dv",
+          "dptf-dv": "volmar/zavala/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/volmar/dptf.dv",
-              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/volmar/zavala/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/zavala/dptf.dv"
             }
           ]
         },
@@ -890,11 +890,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "volmar/dptf.dv",
+          "dptf-dv": "volmar/zavala/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/volmar/dptf.dv",
-              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/volmar/zavala/dptf.dv",
+              "source": "volmar/sw_build_config/platform/chromeos-config/thermal/zavala/dptf.dv"
             }
           ]
         },
