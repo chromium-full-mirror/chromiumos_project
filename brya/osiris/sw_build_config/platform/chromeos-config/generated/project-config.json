@@ -288,6 +288,198 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "osiris",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "osiris/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_osiris.xml",
+            "system-path": "/etc/hardware_features_osiris.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "osiris",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
+                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
+                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/osiris/sof-nau8825",
+                "source": "osiris/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/osiris/dsp.ini",
+                "source": "osiris/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/osiris/board.ini",
+                "source": "osiris/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/osiris.yaml",
+                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "osiris.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "osiris"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "osiris"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1179664,
+          "smbios-name-match": "Osiris"
+        },
+        "name": "osiris",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "osiris/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/osiris/dptf.dv",
+              "source": "osiris/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "osiris",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "osiris/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_osiris.xml",
+            "system-path": "/etc/hardware_features_osiris.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "osiris",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
+                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
+                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/cras/osiris/sof-nau8825",
+                "source": "osiris/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/osiris/dsp.ini",
+                "source": "osiris/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/osiris/board.ini",
+                "source": "osiris/audio/cras-config/board.ini"
+              },
+              {
+                "destination": "/etc/sound_card_init/osiris.yaml",
+                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
+              }
+            ],
+            "sound-card-init-conf": "osiris.yaml",
+            "speaker-amp": "AMPLIFIER_UNKNOWN",
+            "ucm-suffix": "osiris"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "osiris"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1179665,
+          "smbios-name-match": "Osiris"
+        },
+        "name": "osiris",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "osiris/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/osiris/dptf.dv",
+              "source": "osiris/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
