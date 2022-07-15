@@ -260,6 +260,214 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "cherry_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "dojo",
+            "product": "cherry"
+          },
+          "hardware-features": {
+            "build-path": "dojo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dojo.xml",
+            "system-path": "/etc/hardware_features_dojo.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "dojo",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-cherry-private",
+          "build-targets": {
+            "bmpblk": "cherry",
+            "coreboot": "dojo",
+            "depthcharge": "cherry",
+            "ec": "dojo",
+            "libpayload": "cherry"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "device-tree-compatible-match": "google,dojo",
+          "platform-name": "Cherry",
+          "sku-id": 4
+        },
+        "name": "dojo",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "cherry_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "dojo",
+            "product": "cherry"
+          },
+          "hardware-features": {
+            "build-path": "dojo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dojo.xml",
+            "system-path": "/etc/hardware_features_dojo.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "dojo",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-cherry-private",
+          "build-targets": {
+            "bmpblk": "cherry",
+            "coreboot": "dojo",
+            "depthcharge": "cherry",
+            "ec": "dojo",
+            "libpayload": "cherry"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "device-tree-compatible-match": "google,dojo",
+          "platform-name": "Cherry",
+          "sku-id": 5
+        },
+        "name": "dojo",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "cherry_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "dojo",
+            "product": "cherry"
+          },
+          "hardware-features": {
+            "build-path": "dojo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dojo.xml",
+            "system-path": "/etc/hardware_features_dojo.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "dojo",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-cherry-private",
+          "build-targets": {
+            "bmpblk": "cherry",
+            "coreboot": "dojo",
+            "depthcharge": "cherry",
+            "ec": "dojo",
+            "libpayload": "cherry"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "device-tree-compatible-match": "google,dojo",
+          "platform-name": "Cherry",
+          "sku-id": 6
+        },
+        "name": "dojo",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "cherry_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "dojo",
+            "product": "cherry"
+          },
+          "hardware-features": {
+            "build-path": "dojo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_dojo.xml",
+            "system-path": "/etc/hardware_features_dojo.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "dojo",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-cherry-private",
+          "build-targets": {
+            "bmpblk": "cherry",
+            "coreboot": "dojo",
+            "depthcharge": "cherry",
+            "ec": "dojo",
+            "libpayload": "cherry"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "device-tree-compatible-match": "google,dojo",
+          "platform-name": "Cherry",
+          "sku-id": 7
+        },
+        "name": "dojo",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
