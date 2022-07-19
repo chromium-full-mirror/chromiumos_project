@@ -372,6 +372,94 @@
             "cras-config-dir": "pirika",
             "files": [
               {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pirika/HiFi.conf",
+                "source": "pirika/audio/ucm-config/sof-rt5682.rt1015.2mic.pirika/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.pirika/sof-rt5682.rt1015.2mic.pirika.conf",
+                "source": "pirika/audio/ucm-config/sof-rt5682.rt1015.2mic.pirika/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/sof-rt5682",
+                "source": "pirika/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/pirika/dsp.ini",
+                "source": "pirika/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/pirika/board.ini",
+                "source": "pirika/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.pirika"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Dedede",
+          "sku-id": 1966082,
+          "smbios-name-match": "Pirika"
+        },
+        "name": "pirika",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "pirika/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pirika/dptf.dv",
+              "source": "pirika/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "pirika",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "pirika/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pirika.xml",
+            "system-path": "/etc/hardware_features_pirika.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "pirika",
+            "files": [
+              {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.pirika/HiFi.conf",
                 "source": "pirika/audio/ucm-config/sof-rt5682.rt1015p.2mic.pirika/HiFi.conf"
               },
