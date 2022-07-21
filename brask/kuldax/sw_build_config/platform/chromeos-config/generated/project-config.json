@@ -60,6 +60,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "kuldax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kuldax/dptf.dv",
+              "source": "kuldax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
