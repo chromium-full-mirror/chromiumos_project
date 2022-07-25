@@ -24,6 +24,15 @@
           "smbios-name-match": "Craask"
         },
         "name": "craask",
+        "thermal": {
+          "dptf-dv": "craask/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +68,15 @@
           "smbios-name-match": "Craask"
         },
         "name": "craask",
+        "thermal": {
+          "dptf-dv": "craask/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +112,15 @@
           "smbios-name-match": "Craask"
         },
         "name": "craask",
+        "thermal": {
+          "dptf-dv": "craask/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +156,15 @@
           "smbios-name-match": "Craask"
         },
         "name": "craask",
+        "thermal": {
+          "dptf-dv": "craask/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -164,6 +200,15 @@
           "smbios-name-match": "Craask"
         },
         "name": "craask",
+        "thermal": {
+          "dptf-dv": "craask/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
