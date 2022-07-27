@@ -42,14 +42,8 @@
               {
                 "destination": "/etc/cras/osiris/board.ini",
                 "source": "osiris/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/osiris.yaml",
-                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "osiris.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "osiris"
           }
         },
@@ -138,14 +132,8 @@
               {
                 "destination": "/etc/cras/osiris/board.ini",
                 "source": "osiris/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/osiris.yaml",
-                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "osiris.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "osiris"
           }
         },
@@ -234,14 +222,8 @@
               {
                 "destination": "/etc/cras/osiris/board.ini",
                 "source": "osiris/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/osiris.yaml",
-                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "osiris.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "osiris"
           }
         },
@@ -330,14 +312,8 @@
               {
                 "destination": "/etc/cras/osiris/board.ini",
                 "source": "osiris/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/osiris.yaml",
-                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "osiris.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "osiris"
           }
         },
@@ -426,14 +402,8 @@
               {
                 "destination": "/etc/cras/osiris/board.ini",
                 "source": "osiris/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/osiris.yaml",
-                "source": "osiris/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "osiris.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "osiris"
           }
         },
