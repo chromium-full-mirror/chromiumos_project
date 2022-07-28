@@ -474,20 +474,20 @@
             "cras-config-dir": "drawcia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic.rt5682vs/HiFi.conf",
-                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.oscino.2mic.rt5682vs/HiFi.conf",
+                "source": "oscino/audio/ucm-config/sof-rt5682.oscino.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic.rt5682vs/sof-rt5682.drawcia.1mic.rt5682vs.conf",
-                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.oscino.2mic.rt5682vs/sof-rt5682.oscino.2mic.rt5682vs.conf",
+                "source": "oscino/audio/ucm-config/sof-rt5682.oscino.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/drawcia/sof-rt5682",
-                "source": "drawcia/audio/cras-config/card_settings"
+                "source": "oscino/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/drawcia/dsp.ini",
-                "source": "drawcia/audio/cras-config/dsp.ini"
+                "source": "oscino/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -495,10 +495,10 @@
               },
               {
                 "destination": "/etc/cras/drawcia/board.ini",
-                "source": "drawcia/audio/cras-config/board.ini"
+                "source": "oscino/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "drawcia.1mic.rt5682vs"
+            "ucm-suffix": "oscino.2mic.rt5682vs"
           }
         },
         "camera": {
@@ -565,20 +565,20 @@
             "cras-config-dir": "drawcia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic.rt5682vs/HiFi.conf",
-                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.oscino.1mic.rt5682vs/HiFi.conf",
+                "source": "oscino/audio/ucm-config/sof-rt5682.oscino.1mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.drawcia.1mic.rt5682vs/sof-rt5682.drawcia.1mic.rt5682vs.conf",
-                "source": "drawcia/audio/ucm-config/sof-rt5682.drawcia.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.oscino.1mic.rt5682vs/sof-rt5682.oscino.1mic.rt5682vs.conf",
+                "source": "oscino/audio/ucm-config/sof-rt5682.oscino.1mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/drawcia/sof-rt5682",
-                "source": "drawcia/audio/cras-config/card_settings"
+                "source": "oscino/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/drawcia/dsp.ini",
-                "source": "drawcia/audio/cras-config/dsp.ini"
+                "source": "oscino/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -586,10 +586,10 @@
               },
               {
                 "destination": "/etc/cras/drawcia/board.ini",
-                "source": "drawcia/audio/cras-config/board.ini"
+                "source": "oscino/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "drawcia.1mic.rt5682vs"
+            "ucm-suffix": "oscino.1mic.rt5682vs"
           }
         },
         "camera": {
