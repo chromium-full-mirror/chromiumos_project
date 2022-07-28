@@ -526,11 +526,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "drawcia/drawcia/dptf.dv",
+          "dptf-dv": "drawcia/drawcia/262148/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/drawcia/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/dptf.dv"
+              "destination": "/etc/dptf/drawcia/drawcia/262148/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/262148/dptf.dv"
             }
           ]
         },
@@ -617,11 +617,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "drawcia/drawcia/dptf.dv",
+          "dptf-dv": "drawcia/drawcia/262149/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/drawcia/drawcia/dptf.dv",
-              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/dptf.dv"
+              "destination": "/etc/dptf/drawcia/drawcia/262149/dptf.dv",
+              "source": "drawcia/sw_build_config/platform/chromeos-config/thermal/drawcia/262149/dptf.dv"
             }
           ]
         },
