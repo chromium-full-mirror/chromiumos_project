@@ -81,6 +81,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "agah/agah/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/agah/agah/dptf.dv",
+              "source": "agah/sw_build_config/platform/chromeos-config/thermal/agah/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'draco_cheets', 'firstApiLevel': '28'}",
