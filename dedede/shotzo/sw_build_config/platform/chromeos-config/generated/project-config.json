@@ -15,6 +15,38 @@
             "system-path": "/etc/hardware_features_shotzo.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "shotzo",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1019p.1mic.shotzo/HiFi.conf",
+                "source": "shotzo/audio/ucm-config/sof-rt5682.rt1019p.1mic.shotzo/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1019p.1mic.shotzo/sof-rt5682.rt1019p.1mic.shotzo.conf",
+                "source": "shotzo/audio/ucm-config/sof-rt5682.rt1019p.1mic.shotzo/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/shotzo/sof-rt5682",
+                "source": "shotzo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/shotzo/dsp.ini",
+                "source": "shotzo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/shotzo/board.ini",
+                "source": "shotzo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1019p.1mic.shotzo"
+          }
+        },
         "camera": {
           "count": 0
         },
