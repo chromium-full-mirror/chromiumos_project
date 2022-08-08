@@ -78,6 +78,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -166,6 +175,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -256,6 +274,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -344,6 +371,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -434,6 +470,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -522,6 +567,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -612,6 +666,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -700,6 +763,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -790,6 +862,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -878,6 +959,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -968,6 +1058,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1056,6 +1155,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1146,6 +1254,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1234,6 +1351,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1324,6 +1450,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1413,6 +1548,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1501,6 +1645,15 @@
           "set-wifi-transmit-power-for-activity-proximity": "1",
           "set-wifi-transmit-power-for-proximity": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1592,6 +1745,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1681,6 +1843,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1772,6 +1943,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1861,6 +2041,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1952,6 +2141,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2041,6 +2239,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2132,6 +2339,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2221,6 +2437,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2312,6 +2537,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2401,6 +2635,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2492,6 +2735,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2581,6 +2833,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2672,6 +2933,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2761,6 +3031,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2852,6 +3131,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -2941,6 +3229,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3032,6 +3329,15 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -3121,6 +3427,15 @@
           "set-wifi-transmit-power-for-proximity": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
