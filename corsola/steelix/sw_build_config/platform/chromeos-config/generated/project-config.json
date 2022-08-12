@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_magneton.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "magneton",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
