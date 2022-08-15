@@ -471,7 +471,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "drawcia",
+            "cras-config-dir": "oscino",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.oscino.2mic.rt5682vs/HiFi.conf",
@@ -482,11 +482,11 @@
                 "source": "oscino/audio/ucm-config/sof-rt5682.oscino.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "destination": "/etc/cras/oscino/sof-rt5682",
                 "source": "oscino/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/drawcia/dsp.ini",
+                "destination": "/etc/cras/oscino/dsp.ini",
                 "source": "oscino/audio/cras-config/dsp.ini"
               },
               {
@@ -494,7 +494,7 @@
                 "source": "common/audio/alsa-module-config/alsa-dedede.conf"
               },
               {
-                "destination": "/etc/cras/drawcia/board.ini",
+                "destination": "/etc/cras/oscino/board.ini",
                 "source": "oscino/audio/cras-config/board.ini"
               }
             ],
@@ -562,7 +562,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "drawcia",
+            "cras-config-dir": "oscino",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.oscino.1mic.rt5682vs/HiFi.conf",
@@ -573,11 +573,11 @@
                 "source": "oscino/audio/ucm-config/sof-rt5682.oscino.1mic.rt5682vs/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/drawcia/sof-rt5682",
+                "destination": "/etc/cras/oscino/sof-rt5682",
                 "source": "oscino/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/drawcia/dsp.ini",
+                "destination": "/etc/cras/oscino/dsp.ini",
                 "source": "oscino/audio/cras-config/dsp.ini"
               },
               {
@@ -585,7 +585,7 @@
                 "source": "common/audio/alsa-module-config/alsa-dedede.conf"
               },
               {
-                "destination": "/etc/cras/drawcia/board.ini",
+                "destination": "/etc/cras/oscino/board.ini",
                 "source": "oscino/audio/cras-config/board.ini"
               }
             ],
