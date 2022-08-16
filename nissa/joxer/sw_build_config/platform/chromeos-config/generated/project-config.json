@@ -24,6 +24,15 @@
           "smbios-name-match": "Joxer"
         },
         "name": "joxer",
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +68,15 @@
           "smbios-name-match": "Joxer"
         },
         "name": "joxer",
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +112,15 @@
           "smbios-name-match": "Joxer"
         },
         "name": "joxer",
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +156,15 @@
           "smbios-name-match": "Joxer"
         },
         "name": "joxero",
+        "thermal": {
+          "dptf-dv": "joxer/joxero/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxero/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxero/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -164,6 +200,15 @@
           "smbios-name-match": "Joxer"
         },
         "name": "joxero",
+        "thermal": {
+          "dptf-dv": "joxer/joxero/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxero/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxero/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
