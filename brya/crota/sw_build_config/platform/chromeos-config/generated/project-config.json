@@ -1673,6 +1673,1574 @@
             "device": "brya_cheets",
             "first-api-level": "28",
             "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720928,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720929,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720930,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720931,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720932,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720933,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720934,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720935,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720936,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720937,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720938,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720939,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720940,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720941,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720942,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota.xml",
+            "system-path": "/etc/hardware_features_crota.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 720943,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
             "metrics-tag": "crota360",
             "product": "brya"
           },
@@ -3315,6 +4883,1590 @@
         "identity": {
           "platform-name": "Brya",
           "sku-id": 1048607,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048608,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048609,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048610,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048611,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048612,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048613,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048614,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048615,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048616,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048617,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048618,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048619,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048620,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048621,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048622,
+          "smbios-name-match": "Crota"
+        },
+        "name": "crota360",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "internal-backlight-no-als-battery-brightness": "59 250\n54 300\n54.0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "crota/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/crota/dptf.dv",
+              "source": "crota/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "crota360",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_crota360.xml",
+            "system-path": "/etc/hardware_features_crota360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "crota360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
+                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/sof-cs42l42",
+                "source": "crota/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/crota360/dsp.ini",
+                "source": "crota/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/crota360/board.ini",
+                "source": "crota/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "crota"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "crota"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brya",
+          "sku-id": 1048623,
           "smbios-name-match": "Crota"
         },
         "name": "crota360",
