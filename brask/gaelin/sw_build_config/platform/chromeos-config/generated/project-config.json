@@ -15,8 +15,40 @@
             "system-path": "/etc/hardware_features_gaelin.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gaelin",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
+                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
+                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brask.conf",
+                "source": "alsa-module-config/alsa-brask.conf"
+              }
+            ],
+            "ucm-suffix": "brask"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brask-private",
+          "build-targets": {
+            "ec": "gaelin"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "platform-name": "Brask",
@@ -24,6 +56,10 @@
           "smbios-name-match": "Gaelin4ADL"
         },
         "name": "gaelin",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
