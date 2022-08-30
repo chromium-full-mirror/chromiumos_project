@@ -24,6 +24,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +68,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +112,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +156,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -164,6 +200,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -199,6 +244,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen15w",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen15w/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen15w/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen15w/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -234,6 +288,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjoteen15w",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoteen15w/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoteen15w/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoteen15w/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -269,6 +332,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -304,6 +376,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -339,6 +420,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -374,6 +464,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -409,6 +508,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -444,6 +552,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -479,6 +596,15 @@
           "smbios-name-match": "Pujjo"
         },
         "name": "pujjo",
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
