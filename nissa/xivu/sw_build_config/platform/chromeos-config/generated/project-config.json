@@ -24,6 +24,11 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "60.2 220\n",
+          "low-battery-shutdown-percent": "4.0"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +64,11 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "60.2 220\n",
+          "low-battery-shutdown-percent": "4.0"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +104,11 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "56.3 250\n",
+          "low-battery-shutdown-percent": "4.0"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +144,11 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "56.3 250\n",
+          "low-battery-shutdown-percent": "4.0"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
