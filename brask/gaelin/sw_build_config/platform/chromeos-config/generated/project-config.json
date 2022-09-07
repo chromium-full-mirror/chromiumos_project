@@ -71,6 +71,77 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brask_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "gaelin",
+            "product": "brask"
+          },
+          "hardware-features": {
+            "build-path": "gaelin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_gaelin.xml",
+            "system-path": "/etc/hardware_features_gaelin.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "gaelin",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
+                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
+                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brask.conf",
+                "source": "alsa-module-config/alsa-brask.conf"
+              }
+            ],
+            "ucm-suffix": "brask"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brask-private",
+          "build-targets": {
+            "ec": "gaelin"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "platform-name": "Brask",
+          "sku-id": 262145,
+          "smbios-name-match": "Gaelin4ADL"
+        },
+        "name": "gaelin",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
