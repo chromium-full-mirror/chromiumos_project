@@ -18,6 +18,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "magikarp",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "magikarp"
+          },
+          "firmware-config": 0
+        },
         "identity": {
           "device-tree-compatible-match": "google,magikarp",
           "platform-name": "Corsola",
@@ -52,6 +63,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "magikarp",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "magikarp"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "device-tree-compatible-match": "google,magikarp",
