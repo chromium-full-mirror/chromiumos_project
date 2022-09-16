@@ -21,7 +21,6 @@
         "firmware": {
           "bcs-overlay": "overlay-geralt-private",
           "build-targets": {
-            "bmpblk": "geralt",
             "coreboot": "geralt",
             "depthcharge": "geralt",
             "libpayload": "geralt",
