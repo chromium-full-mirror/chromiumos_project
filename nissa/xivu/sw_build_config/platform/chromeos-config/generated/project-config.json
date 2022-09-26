@@ -27,7 +27,8 @@
         "power": {
           "disable-dark-resume": "0",
           "internal-backlight-no-als-battery-brightness": "60.2",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760"
         },
         "ui": {
           "extra-ash-flags": [
@@ -67,7 +68,8 @@
         "power": {
           "disable-dark-resume": "0",
           "internal-backlight-no-als-battery-brightness": "60.2",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760"
         },
         "ui": {
           "extra-ash-flags": [
@@ -107,7 +109,8 @@
         "power": {
           "disable-dark-resume": "0",
           "internal-backlight-no-als-battery-brightness": "56.3",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760"
         },
         "ui": {
           "extra-ash-flags": [
@@ -147,7 +150,8 @@
         "power": {
           "disable-dark-resume": "0",
           "internal-backlight-no-als-battery-brightness": "56.3",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "5760"
         },
         "ui": {
           "extra-ash-flags": [
