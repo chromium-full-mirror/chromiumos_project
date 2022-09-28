@@ -1,0 +1,41 @@
+{
+  "chromeos": {
+    "configs": [
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brask_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "lisbon",
+            "product": "brask"
+          },
+          "hardware-features": {
+            "build-path": "lisbon/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_lisbon.xml",
+            "system-path": "/etc/hardware_features_lisbon.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "identity": {
+          "platform-name": "Brask",
+          "sku-id": 2147483647,
+          "smbios-name-match": "Lisbon"
+        },
+        "name": "lisbon",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      }
+    ]
+  }
+}
