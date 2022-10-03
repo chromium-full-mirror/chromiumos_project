@@ -24,6 +24,15 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu",
+        "thermal": {
+          "dptf-dv": "xivu/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/xivu/dptf.dv",
+              "source": "xivu/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +68,15 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu",
+        "thermal": {
+          "dptf-dv": "xivu/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/xivu/dptf.dv",
+              "source": "xivu/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +112,15 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu360",
+        "thermal": {
+          "dptf-dv": "xivu/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/xivu/dptf.dv",
+              "source": "xivu/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +156,15 @@
           "smbios-name-match": "Xivu"
         },
         "name": "xivu360",
+        "thermal": {
+          "dptf-dv": "xivu/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/xivu/dptf.dv",
+              "source": "xivu/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
