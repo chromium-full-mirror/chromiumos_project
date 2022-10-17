@@ -60,8 +60,10 @@
         },
         "name": "whiterun",
         "power": {
+          "disable-dark-resume": "1",
           "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -99,8 +101,10 @@
         },
         "name": "whiterun",
         "power": {
+          "disable-dark-resume": "1",
           "has-keyboard-backlight": "0",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -138,8 +142,10 @@
         },
         "name": "whiterun",
         "power": {
+          "disable-dark-resume": "1",
           "has-keyboard-backlight": "0",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -177,8 +183,10 @@
         },
         "name": "whiterun",
         "power": {
+          "disable-dark-resume": "1",
           "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
         },
         "ui": {
           "extra-ash-flags": [
@@ -216,8 +224,10 @@
         },
         "name": "whiterun",
         "power": {
+          "disable-dark-resume": "1",
           "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0"
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
         },
         "ui": {
           "extra-ash-flags": [
