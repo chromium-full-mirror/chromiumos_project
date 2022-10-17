@@ -24,6 +24,15 @@
           "smbios-name-match": "Yaviks"
         },
         "name": "yaviks",
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +68,15 @@
           "smbios-name-match": "Yaviks"
         },
         "name": "yaviks",
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +112,15 @@
           "smbios-name-match": "Yaviks"
         },
         "name": "yaviks",
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -129,6 +156,15 @@
           "smbios-name-match": "Yaviks"
         },
         "name": "yavikso",
+        "thermal": {
+          "dptf-dv": "yaviks/yavikso/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yavikso/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yavikso/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -164,6 +200,15 @@
           "smbios-name-match": "Yaviks"
         },
         "name": "yavikso",
+        "thermal": {
+          "dptf-dv": "yaviks/yavikso/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yavikso/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yavikso/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
