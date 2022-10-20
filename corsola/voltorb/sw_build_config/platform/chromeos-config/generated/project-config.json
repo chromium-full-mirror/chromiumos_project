@@ -4,39 +4,29 @@
       {
         "arc": {
           "build-properties": {
-            "device": "geralt_cheets",
+            "device": "corsola_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "geralt",
-            "product": "geralt"
+            "metrics-tag": "voltorb",
+            "product": "corsola"
           },
           "hardware-features": {
-            "build-path": "geralt/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_geralt.xml",
-            "system-path": "/etc/hardware_features_geralt.xml"
+            "build-path": "voltorb/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voltorb.xml",
+            "system-path": "/etc/hardware_features_voltorb.xml"
           }
         },
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-geralt-private",
-          "build-targets": {
-            "coreboot": "geralt",
-            "depthcharge": "geralt",
-            "libpayload": "geralt",
-            "zephyr-ec": "geralt"
-          },
-          "firmware-config": 0
-        },
         "identity": {
-          "device-tree-compatible-match": "google,geralt",
-          "platform-name": "Geralt",
+          "device-tree-compatible-match": "google,voltorb",
+          "platform-name": "Corsola",
           "sku-id": 2147483647
         },
-        "name": "geralt",
+        "name": "voltorb",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",
+            "--arc-build-properties={'device': 'corsola_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
@@ -49,39 +39,29 @@
       {
         "arc": {
           "build-properties": {
-            "device": "geralt_cheets",
+            "device": "corsola_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "geralt",
-            "product": "geralt"
+            "metrics-tag": "voltorb",
+            "product": "corsola"
           },
           "hardware-features": {
-            "build-path": "geralt/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_geralt.xml",
-            "system-path": "/etc/hardware_features_geralt.xml"
+            "build-path": "voltorb/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_voltorb.xml",
+            "system-path": "/etc/hardware_features_voltorb.xml"
           }
         },
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-geralt-private",
-          "build-targets": {
-            "coreboot": "geralt",
-            "depthcharge": "geralt",
-            "libpayload": "geralt",
-            "zephyr-ec": "geralt"
-          },
-          "firmware-config": 0
-        },
         "identity": {
-          "device-tree-compatible-match": "google,geralt",
-          "platform-name": "Geralt",
-          "sku-id": 0
+          "device-tree-compatible-match": "google,voltorb",
+          "platform-name": "Corsola",
+          "sku-id": 589824
         },
-        "name": "geralt",
+        "name": "voltorb",
         "ui": {
           "extra-ash-flags": [
-            "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",
+            "--arc-build-properties={'device': 'corsola_cheets', 'firstApiLevel': '28'}",
             "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
             "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
             "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
