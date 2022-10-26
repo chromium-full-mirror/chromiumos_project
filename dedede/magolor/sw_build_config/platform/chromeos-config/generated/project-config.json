@@ -657,12 +657,12 @@
             "cras-config-dir": "magolor",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.1mic.rt5682vs/HiFi.conf",
-                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic.rt5682vs/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.1mic.rt5682vs/sof-rt5682.magolor.1mic.rt5682vs.conf",
-                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic.rt5682vs/sof-rt5682.magolor.2mic.rt5682vs.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/magolor/sof-rt5682",
@@ -681,7 +681,7 @@
                 "source": "magolor/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "magolor.1mic.rt5682vs"
+            "ucm-suffix": "magolor.2mic.rt5682vs"
           }
         },
         "camera": {
@@ -748,12 +748,12 @@
             "cras-config-dir": "magolor",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.1mic.rt5682vs/HiFi.conf",
-                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic.rt5682vs/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.1mic.rt5682vs/sof-rt5682.magolor.1mic.rt5682vs.conf",
-                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic.rt5682vs/sof-rt5682.magolor.2mic.rt5682vs.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/magolor/sof-rt5682",
@@ -772,7 +772,7 @@
                 "source": "magolor/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "magolor.1mic.rt5682vs"
+            "ucm-suffix": "magolor.2mic.rt5682vs"
           }
         },
         "camera": {
@@ -839,12 +839,12 @@
             "cras-config-dir": "magolor",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.1mic.rt5682vs/HiFi.conf",
-                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic.rt5682vs/HiFi.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.1mic.rt5682vs/sof-rt5682.magolor.1mic.rt5682vs.conf",
-                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.magolor.2mic.rt5682vs/sof-rt5682.magolor.2mic.rt5682vs.conf",
+                "source": "magolor/audio/ucm-config/sof-rt5682.magolor.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/magolor/sof-rt5682",
@@ -863,7 +863,7 @@
                 "source": "magolor/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "magolor.1mic.rt5682vs"
+            "ucm-suffix": "magolor.2mic.rt5682vs"
           }
         },
         "camera": {
@@ -2022,12 +2022,12 @@
             "cras-config-dir": "maglia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.1mic.rt5682vs/HiFi.conf",
-                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic.rt5682vs/HiFi.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.1mic.rt5682vs/sof-rt5682.maglia.1mic.rt5682vs.conf",
-                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic.rt5682vs/sof-rt5682.maglia.2mic.rt5682vs.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/maglia/sof-rt5682",
@@ -2046,7 +2046,7 @@
                 "source": "maglia/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "maglia.1mic.rt5682vs"
+            "ucm-suffix": "maglia.2mic.rt5682vs"
           }
         },
         "camera": {
@@ -2113,12 +2113,12 @@
             "cras-config-dir": "maglia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.1mic.rt5682vs/HiFi.conf",
-                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic.rt5682vs/HiFi.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.1mic.rt5682vs/sof-rt5682.maglia.1mic.rt5682vs.conf",
-                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic.rt5682vs/sof-rt5682.maglia.2mic.rt5682vs.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/maglia/sof-rt5682",
@@ -2137,7 +2137,7 @@
                 "source": "maglia/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "maglia.1mic.rt5682vs"
+            "ucm-suffix": "maglia.2mic.rt5682vs"
           }
         },
         "camera": {
@@ -2204,12 +2204,12 @@
             "cras-config-dir": "maglia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.1mic.rt5682vs/HiFi.conf",
-                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.1mic.rt5682vs/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic.rt5682vs/HiFi.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.1mic.rt5682vs/sof-rt5682.maglia.1mic.rt5682vs.conf",
-                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.1mic.rt5682vs/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.maglia.2mic.rt5682vs/sof-rt5682.maglia.2mic.rt5682vs.conf",
+                "source": "maglia/audio/ucm-config/sof-rt5682.maglia.2mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/maglia/sof-rt5682",
@@ -2228,7 +2228,7 @@
                 "source": "maglia/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "maglia.1mic.rt5682vs"
+            "ucm-suffix": "maglia.2mic.rt5682vs"
           }
         },
         "camera": {
