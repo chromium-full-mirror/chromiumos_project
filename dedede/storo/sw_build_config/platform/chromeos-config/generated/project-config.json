@@ -58,9 +58,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 2147483647,
-          "smbios-name-match": "Storo"
+          "sku-id": 2147483647
         },
         "name": "storo",
         "power": {
@@ -151,9 +151,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1572864,
-          "smbios-name-match": "Storo"
+          "sku-id": 1572864
         },
         "name": "storo",
         "power": {
@@ -240,9 +240,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1572865,
-          "smbios-name-match": "Storo"
+          "sku-id": 1572865
         },
         "name": "storo",
         "power": {
@@ -332,9 +332,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1572866,
-          "smbios-name-match": "Storo"
+          "sku-id": 1572866
         },
         "name": "storo",
         "power": {
@@ -424,9 +424,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1572867,
-          "smbios-name-match": "Storo"
+          "sku-id": 1572867
         },
         "name": "storo",
         "power": {
@@ -513,9 +513,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1572868,
-          "smbios-name-match": "Storo"
+          "sku-id": 1572868
         },
         "name": "storo",
         "power": {
@@ -605,9 +605,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1572869,
-          "smbios-name-match": "Storo"
+          "sku-id": 1572869
         },
         "name": "storo",
         "power": {
@@ -697,9 +697,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638401,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638401
         },
         "name": "storo360",
         "power": {
@@ -787,102 +787,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638402,
-          "smbios-name-match": "Storo"
-        },
-        "name": "storo360",
-        "power": {
-          "disable-dark-resume": "0",
-          "internal-backlight-no-als-battery-brightness": "59",
-          "low-battery-shutdown-percent": "4.0",
-          "set-cellular-transmit-power-dpr-gpio": "211",
-          "set-cellular-transmit-power-for-proximity": "1",
-          "set-cellular-transmit-power-for-tablet-mode": "1",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "storo/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "dedede_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "storo360",
-            "product": "dedede"
-          },
-          "hardware-features": {
-            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
-            "system-path": "/etc/hardware_features_storo360.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "storo360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/HiFi.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.rt1015p.2mic.storo.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/sof-rt5682",
-                "source": "storo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/storo360/dsp.ini",
-                "source": "storo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-dedede.conf",
-                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/board.ini",
-                "source": "storo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "rt1015p.2mic.storo"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-dedede-private",
-          "build-targets": {
-            "ec": "storo"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Dedede",
-          "sku-id": 1638403,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638402
         },
         "name": "storo360",
         "power": {
@@ -973,99 +880,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638404,
-          "smbios-name-match": "Storo"
-        },
-        "name": "storo360",
-        "power": {
-          "disable-dark-resume": "0",
-          "internal-backlight-no-als-battery-brightness": "59",
-          "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "storo/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "dedede_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "storo360",
-            "product": "dedede"
-          },
-          "hardware-features": {
-            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
-            "system-path": "/etc/hardware_features_storo360.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "storo360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/HiFi.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.rt1015p.2mic.storo.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/sof-rt5682",
-                "source": "storo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/storo360/dsp.ini",
-                "source": "storo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-dedede.conf",
-                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/board.ini",
-                "source": "storo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "rt1015p.2mic.storo"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-dedede-private",
-          "build-targets": {
-            "ec": "storo"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Dedede",
-          "sku-id": 1638405,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638403
         },
         "name": "storo360",
         "power": {
@@ -1156,9 +973,192 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638406,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638404
+        },
+        "name": "storo360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "59",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "storo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "storo360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
+            "system-path": "/etc/hardware_features_storo360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "storo360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/HiFi.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.rt1015p.2mic.storo.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/sof-rt5682",
+                "source": "storo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/storo360/dsp.ini",
+                "source": "storo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/board.ini",
+                "source": "storo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.storo"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "storo"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Storo",
+          "platform-name": "Dedede",
+          "sku-id": 1638405
+        },
+        "name": "storo360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "59",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "storo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "storo360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
+            "system-path": "/etc/hardware_features_storo360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "storo360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/HiFi.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.rt1015p.2mic.storo.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storo/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/sof-rt5682",
+                "source": "storo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/storo360/dsp.ini",
+                "source": "storo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/board.ini",
+                "source": "storo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.storo"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "storo"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Storo",
+          "platform-name": "Dedede",
+          "sku-id": 1638406
         },
         "name": "storo360",
         "power": {
@@ -1249,9 +1249,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638407,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638407
         },
         "name": "storo360",
         "power": {
@@ -1339,102 +1339,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638408,
-          "smbios-name-match": "Storo"
-        },
-        "name": "storo360",
-        "power": {
-          "disable-dark-resume": "0",
-          "internal-backlight-no-als-battery-brightness": "59",
-          "low-battery-shutdown-percent": "4.0",
-          "set-cellular-transmit-power-dpr-gpio": "211",
-          "set-cellular-transmit-power-for-proximity": "1",
-          "set-cellular-transmit-power-for-tablet-mode": "1",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "storo/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "dedede_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "storo360",
-            "product": "dedede"
-          },
-          "hardware-features": {
-            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
-            "system-path": "/etc/hardware_features_storo360.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "storo360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.rt1015p.2mic.storovs.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/sof-rt5682",
-                "source": "storo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/storo360/dsp.ini",
-                "source": "storo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-dedede.conf",
-                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/board.ini",
-                "source": "storo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "rt1015p.2mic.storovs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-dedede-private",
-          "build-targets": {
-            "ec": "storo"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Dedede",
-          "sku-id": 1638409,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638408
         },
         "name": "storo360",
         "power": {
@@ -1525,99 +1432,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638410,
-          "smbios-name-match": "Storo"
-        },
-        "name": "storo360",
-        "power": {
-          "disable-dark-resume": "0",
-          "internal-backlight-no-als-battery-brightness": "59",
-          "low-battery-shutdown-percent": "4.0",
-          "set-wifi-transmit-power-for-tablet-mode": "1",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "storo/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/storo/dptf.dv",
-              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "dedede_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "storo360",
-            "product": "dedede"
-          },
-          "hardware-features": {
-            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
-            "system-path": "/etc/hardware_features_storo360.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "storo360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.rt1015p.2mic.storovs.conf",
-                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/sof-rt5682",
-                "source": "storo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/storo360/dsp.ini",
-                "source": "storo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-dedede.conf",
-                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
-              },
-              {
-                "destination": "/etc/cras/storo360/board.ini",
-                "source": "storo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "rt1015p.2mic.storovs"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-dedede-private",
-          "build-targets": {
-            "ec": "storo"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Dedede",
-          "sku-id": 1638411,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638409
         },
         "name": "storo360",
         "power": {
@@ -1708,9 +1525,192 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Storo",
           "platform-name": "Dedede",
-          "sku-id": 1638412,
-          "smbios-name-match": "Storo"
+          "sku-id": 1638410
+        },
+        "name": "storo360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "59",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "storo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "storo360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
+            "system-path": "/etc/hardware_features_storo360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "storo360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.rt1015p.2mic.storovs.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/sof-rt5682",
+                "source": "storo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/storo360/dsp.ini",
+                "source": "storo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/board.ini",
+                "source": "storo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.storovs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "storo"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Storo",
+          "platform-name": "Dedede",
+          "sku-id": 1638411
+        },
+        "name": "storo360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "59",
+          "low-battery-shutdown-percent": "4.0",
+          "set-cellular-transmit-power-dpr-gpio": "211",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-cellular-transmit-power-for-tablet-mode": "1",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "storo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/storo/dptf.dv",
+              "source": "storo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "storo360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "storo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_storo360.xml",
+            "system-path": "/etc/hardware_features_storo360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "storo360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.rt1015p.2mic.storovs.conf",
+                "source": "storo/audio/ucm-config/sof-rt5682.rt1015p.2mic.storovs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/sof-rt5682",
+                "source": "storo/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/storo360/dsp.ini",
+                "source": "storo/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/storo360/board.ini",
+                "source": "storo/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.storovs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "storo"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Storo",
+          "platform-name": "Dedede",
+          "sku-id": 1638412
         },
         "name": "storo360",
         "power": {

@@ -26,9 +26,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 2147483647,
-          "smbios-name-match": "Anahera"
+          "sku-id": 2147483647
         },
         "name": "anahera",
         "power": {
@@ -84,9 +84,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655616,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655616
         },
         "name": "anahera",
         "power": {
@@ -142,9 +142,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655617,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655617
         },
         "name": "anahera",
         "power": {
@@ -199,124 +199,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655618,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655619,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655620,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655618
         },
         "name": "anahera",
         "power": {
@@ -372,9 +257,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655621,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655619
         },
         "name": "anahera",
         "power": {
@@ -429,124 +314,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655622,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655623,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655624,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655620
         },
         "name": "anahera",
         "power": {
@@ -602,9 +372,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655625,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655621
         },
         "name": "anahera",
         "power": {
@@ -659,124 +429,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655626,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655627,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655628,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655622
         },
         "name": "anahera",
         "power": {
@@ -832,9 +487,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655629,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655623
         },
         "name": "anahera",
         "power": {
@@ -889,124 +544,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655630,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655631,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655632,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655624
         },
         "name": "anahera",
         "power": {
@@ -1062,9 +602,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655633,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655625
         },
         "name": "anahera",
         "power": {
@@ -1119,124 +659,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655634,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655635,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655636,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655626
         },
         "name": "anahera",
         "power": {
@@ -1292,9 +717,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655637,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655627
         },
         "name": "anahera",
         "power": {
@@ -1349,124 +774,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655638,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655639,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655640,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655628
         },
         "name": "anahera",
         "power": {
@@ -1522,9 +832,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655641,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655629
         },
         "name": "anahera",
         "power": {
@@ -1579,124 +889,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655642,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655643,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655644,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655630
         },
         "name": "anahera",
         "power": {
@@ -1752,9 +947,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655645,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655631
         },
         "name": "anahera",
         "power": {
@@ -1809,124 +1004,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655646,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655647,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655648,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655632
         },
         "name": "anahera",
         "power": {
@@ -1982,9 +1062,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655649,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655633
         },
         "name": "anahera",
         "power": {
@@ -2039,124 +1119,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655650,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655651,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655652,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655634
         },
         "name": "anahera",
         "power": {
@@ -2212,9 +1177,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655653,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655635
         },
         "name": "anahera",
         "power": {
@@ -2269,124 +1234,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655654,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655655,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655656,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655636
         },
         "name": "anahera",
         "power": {
@@ -2442,9 +1292,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655657,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655637
         },
         "name": "anahera",
         "power": {
@@ -2499,124 +1349,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655658,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "has-keyboard-backlight": "1",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655659,
-          "smbios-name-match": "Anahera"
-        },
-        "name": "anahera",
-        "power": {
-          "defer-external-display-timeout": "10",
-          "disable-dark-resume": "0",
-          "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
-        },
-        "thermal": {
-          "dptf-dv": "anahera/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/anahera/dptf.dv",
-              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "brya_cheets",
-            "first-api-level": "28",
-            "marketing-name": "",
-            "metrics-tag": "anahera",
-            "product": "brya"
-          },
-          "hardware-features": {
-            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
-            "system-path": "/etc/hardware_features_anahera.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-brya-private",
-          "build-targets": {
-            "ec": "anahera"
-          },
-          "firmware-config": 0
-        },
-        "identity": {
-          "platform-name": "Brya",
-          "sku-id": 655660,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655638
         },
         "name": "anahera",
         "power": {
@@ -2672,9 +1407,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655661,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655639
         },
         "name": "anahera",
         "power": {
@@ -2729,9 +1464,9 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655662,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655640
         },
         "name": "anahera",
         "power": {
@@ -2787,9 +1522,1274 @@
           "firmware-config": 0
         },
         "identity": {
+          "frid": "Google_Anahera",
           "platform-name": "Brya",
-          "sku-id": 655663,
-          "smbios-name-match": "Anahera"
+          "sku-id": 655641
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655642
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655643
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655644
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655645
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655646
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655647
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655648
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655649
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655650
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655651
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655652
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655653
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655654
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655655
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655656
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655657
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655658
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655659
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655660
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655661
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655662
+        },
+        "name": "anahera",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "anahera/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anahera/dptf.dv",
+              "source": "anahera/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "anahera",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "anahera/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_anahera.xml",
+            "system-path": "/etc/hardware_features_anahera.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "anahera"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Anahera",
+          "platform-name": "Brya",
+          "sku-id": 655663
         },
         "name": "anahera",
         "power": {

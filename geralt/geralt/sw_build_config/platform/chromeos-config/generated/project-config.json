@@ -29,7 +29,7 @@
           "firmware-config": 0
         },
         "identity": {
-          "device-tree-compatible-match": "google,geralt",
+          "frid": "Google_Geralt",
           "platform-name": "Geralt",
           "sku-id": 2147483647
         },
@@ -74,7 +74,7 @@
           "firmware-config": 0
         },
         "identity": {
-          "device-tree-compatible-match": "google,geralt",
+          "frid": "Google_Geralt",
           "platform-name": "Geralt",
           "sku-id": 0
         },
