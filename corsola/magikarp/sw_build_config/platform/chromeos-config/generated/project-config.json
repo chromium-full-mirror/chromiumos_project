@@ -15,6 +15,12 @@
             "system-path": "/etc/hardware_features_magikarp.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "magikarp",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -59,6 +65,12 @@
           "hardware-features": {
             "build-path": "magikarp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_magikarp.xml",
             "system-path": "/etc/hardware_features_magikarp.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "magikarp",
+            "files": []
           }
         },
         "camera": {
@@ -107,6 +119,12 @@
             "system-path": "/etc/hardware_features_magikarp360.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "magikarp360",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -151,6 +169,12 @@
           "hardware-features": {
             "build-path": "magikarp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_magikarp360.xml",
             "system-path": "/etc/hardware_features_magikarp360.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "magikarp360",
+            "files": []
           }
         },
         "camera": {
