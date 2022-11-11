@@ -24,6 +24,11 @@
           "sku-id": 2147483647
         },
         "name": "frostflow",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -59,6 +64,11 @@
           "sku-id": 458753
         },
         "name": "frostflow",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +104,11 @@
           "sku-id": 458754
         },
         "name": "frostflow",
+        "power": {
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
