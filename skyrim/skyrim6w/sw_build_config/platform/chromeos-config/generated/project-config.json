@@ -15,6 +15,9 @@
             "system-path": "/etc/hardware_features_skyrim6w360.xml"
           }
         },
+        "battery": {
+          "no-battery-boot-supported": false
+        },
         "camera": {
           "count": 0
         },
@@ -54,6 +57,9 @@
             "build-path": "skyrim6w/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_skyrim6w360.xml",
             "system-path": "/etc/hardware_features_skyrim6w360.xml"
           }
+        },
+        "battery": {
+          "no-battery-boot-supported": false
         },
         "camera": {
           "count": 0
@@ -95,6 +101,9 @@
             "system-path": "/etc/hardware_features_skyrim6w360.xml"
           }
         },
+        "battery": {
+          "no-battery-boot-supported": false
+        },
         "camera": {
           "count": 0
         },
@@ -134,6 +143,9 @@
             "build-path": "skyrim6w/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_skyrim6w.xml",
             "system-path": "/etc/hardware_features_skyrim6w.xml"
           }
+        },
+        "battery": {
+          "no-battery-boot-supported": false
         },
         "camera": {
           "count": 0
@@ -175,6 +187,9 @@
             "system-path": "/etc/hardware_features_skyrim6w.xml"
           }
         },
+        "battery": {
+          "no-battery-boot-supported": false
+        },
         "camera": {
           "count": 0
         },
@@ -214,6 +229,9 @@
             "build-path": "skyrim6w/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_skyrim6w.xml",
             "system-path": "/etc/hardware_features_skyrim6w.xml"
           }
+        },
+        "battery": {
+          "no-battery-boot-supported": false
         },
         "camera": {
           "count": 0
