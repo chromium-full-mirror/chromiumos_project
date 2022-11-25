@@ -20,19 +20,19 @@
             "cras-config-dir": "gaelin",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.gaelin/HiFi.conf",
+                "source": "gaelin/audio/ucm-config/sof-nau8825.gaelin/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.gaelin/sof-nau8825.gaelin.conf",
+                "source": "gaelin/audio/ucm-config/sof-nau8825.gaelin/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "gaelin"
           }
         },
         "bluetooth": {
@@ -91,19 +91,19 @@
             "cras-config-dir": "gaelin",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/HiFi.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.gaelin/HiFi.conf",
+                "source": "gaelin/audio/ucm-config/sof-nau8825.gaelin/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.brask/sof-nau8825.brask.conf",
-                "source": "brask/audio/ucm-config/sof-nau8825.brask/sof-nau8825.conf"
+                "destination": "/usr/share/alsa/ucm/sof-nau8825.gaelin/sof-nau8825.gaelin.conf",
+                "source": "gaelin/audio/ucm-config/sof-nau8825.gaelin/sof-nau8825.conf"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
               }
             ],
-            "ucm-suffix": "brask"
+            "ucm-suffix": "gaelin"
           }
         },
         "bluetooth": {
