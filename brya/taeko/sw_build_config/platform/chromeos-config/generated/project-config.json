@@ -994,17 +994,17 @@
             "device": "brya_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "tarlo",
+            "metrics-tag": "taeko",
             "product": "brya"
           },
           "hardware-features": {
-            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_tarlo.xml",
-            "system-path": "/etc/hardware_features_tarlo.xml"
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "tarlo",
+            "cras-config-dir": "taeko",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1015,11 +1015,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
+                "destination": "/etc/cras/taeko/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/tarlo/dsp.ini",
+                "destination": "/etc/cras/taeko/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1027,7 +1027,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/board.ini",
+                "destination": "/etc/cras/taeko/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1047,9 +1047,9 @@
         "identity": {
           "frid": "Google_Taeko",
           "platform-name": "Brya",
-          "sku-id": 917504
+          "sku-id": 327936
         },
-        "name": "tarlo",
+        "name": "taeko",
         "power": {
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
@@ -1057,11 +1057,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "taeko/tarlo/dptf.dv",
+          "dptf-dv": "taeko/taeko/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/taeko/tarlo/dptf.dv",
-              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/tarlo/dptf.dv"
+              "destination": "/etc/dptf/taeko/taeko/dptf.dv",
+              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/taeko/dptf.dv"
             }
           ]
         },
@@ -1083,17 +1083,17 @@
             "device": "brya_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "tarlo",
+            "metrics-tag": "taeko",
             "product": "brya"
           },
           "hardware-features": {
-            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_tarlo.xml",
-            "system-path": "/etc/hardware_features_tarlo.xml"
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "tarlo",
+            "cras-config-dir": "taeko",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1104,11 +1104,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
+                "destination": "/etc/cras/taeko/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/tarlo/dsp.ini",
+                "destination": "/etc/cras/taeko/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1116,7 +1116,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/board.ini",
+                "destination": "/etc/cras/taeko/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1136,9 +1136,9 @@
         "identity": {
           "frid": "Google_Taeko",
           "platform-name": "Brya",
-          "sku-id": 917505
+          "sku-id": 327937
         },
-        "name": "tarlo",
+        "name": "taeko",
         "power": {
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
@@ -1146,11 +1146,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "taeko/tarlo/dptf.dv",
+          "dptf-dv": "taeko/taeko/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/taeko/tarlo/dptf.dv",
-              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/tarlo/dptf.dv"
+              "destination": "/etc/dptf/taeko/taeko/dptf.dv",
+              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/taeko/dptf.dv"
             }
           ]
         },
@@ -1172,17 +1172,17 @@
             "device": "brya_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "tarlo",
+            "metrics-tag": "taeko",
             "product": "brya"
           },
           "hardware-features": {
-            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_tarlo.xml",
-            "system-path": "/etc/hardware_features_tarlo.xml"
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "tarlo",
+            "cras-config-dir": "taeko",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1193,11 +1193,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
+                "destination": "/etc/cras/taeko/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/tarlo/dsp.ini",
+                "destination": "/etc/cras/taeko/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1205,7 +1205,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/board.ini",
+                "destination": "/etc/cras/taeko/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1225,9 +1225,9 @@
         "identity": {
           "frid": "Google_Taeko",
           "platform-name": "Brya",
-          "sku-id": 917506
+          "sku-id": 327938
         },
-        "name": "tarlo",
+        "name": "taeko",
         "power": {
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
@@ -1236,11 +1236,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "taeko/tarlo/dptf.dv",
+          "dptf-dv": "taeko/taeko/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/taeko/tarlo/dptf.dv",
-              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/tarlo/dptf.dv"
+              "destination": "/etc/dptf/taeko/taeko/dptf.dv",
+              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/taeko/dptf.dv"
             }
           ]
         },
@@ -1262,17 +1262,17 @@
             "device": "brya_cheets",
             "first-api-level": "28",
             "marketing-name": "",
-            "metrics-tag": "tarlo",
+            "metrics-tag": "taeko",
             "product": "brya"
           },
           "hardware-features": {
-            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_tarlo.xml",
-            "system-path": "/etc/hardware_features_tarlo.xml"
+            "build-path": "taeko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_taeko.xml",
+            "system-path": "/etc/hardware_features_taeko.xml"
           }
         },
         "audio": {
           "main": {
-            "cras-config-dir": "tarlo",
+            "cras-config-dir": "taeko",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1283,11 +1283,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
+                "destination": "/etc/cras/taeko/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/tarlo/dsp.ini",
+                "destination": "/etc/cras/taeko/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1295,7 +1295,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/tarlo/board.ini",
+                "destination": "/etc/cras/taeko/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1315,9 +1315,9 @@
         "identity": {
           "frid": "Google_Taeko",
           "platform-name": "Brya",
-          "sku-id": 917507
+          "sku-id": 327939
         },
-        "name": "tarlo",
+        "name": "taeko",
         "power": {
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
@@ -1326,11 +1326,11 @@
           "suspend-to-idle": "1"
         },
         "thermal": {
-          "dptf-dv": "taeko/tarlo/dptf.dv",
+          "dptf-dv": "taeko/taeko/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/taeko/tarlo/dptf.dv",
-              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/tarlo/dptf.dv"
+              "destination": "/etc/dptf/taeko/taeko/dptf.dv",
+              "source": "taeko/sw_build_config/platform/chromeos-config/thermal/taeko/dptf.dv"
             }
           ]
         },
