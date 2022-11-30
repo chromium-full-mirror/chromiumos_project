@@ -15,8 +15,47 @@
             "system-path": "/etc/hardware_features_marasov.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "marasov",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
+                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
+                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/marasov/sof-rt5682",
+                "source": "marasov/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/marasov/dsp.ini",
+                "source": "marasov/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/marasov/board.ini",
+                "source": "marasov/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "marasov"
+          }
+        },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "marasov"
+          },
+          "firmware-config": 0
         },
         "identity": {
           "frid": "Google_Marasov",
@@ -24,6 +63,13 @@
           "sku-id": 2147483647
         },
         "name": "marasov",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
