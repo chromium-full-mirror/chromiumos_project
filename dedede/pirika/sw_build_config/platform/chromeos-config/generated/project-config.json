@@ -633,7 +633,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "pasara",
+            "cras-config-dir": "pasara_vs",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.pasara.rt5682vs/HiFi.conf",
@@ -644,20 +644,20 @@
                 "source": "pasara/audio/ucm-config/sof-rt5682.rt1015p.2mic.pasara.rt5682vs/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/pasara/sof-rt5682",
-                "source": "pasara/audio/cras-config/card_settings"
+                "destination": "/etc/cras/pasara_vs/sof-rt5682",
+                "source": "pasara/audio/cras-config/pasara_vs/card_settings"
               },
               {
-                "destination": "/etc/cras/pasara/dsp.ini",
-                "source": "pasara/audio/cras-config/dsp.ini"
+                "destination": "/etc/cras/pasara_vs/dsp.ini",
+                "source": "pasara/audio/cras-config/pasara_vs/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
                 "source": "common/audio/alsa-module-config/alsa-dedede.conf"
               },
               {
-                "destination": "/etc/cras/pasara/board.ini",
-                "source": "pasara/audio/cras-config/board.ini"
+                "destination": "/etc/cras/pasara_vs/board.ini",
+                "source": "pasara/audio/cras-config/pasara_vs/board.ini"
               }
             ],
             "ucm-suffix": "rt1015p.2mic.pasara.rt5682vs"
