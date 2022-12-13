@@ -220,6 +220,226 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "herobrine_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "zombie",
+            "product": "herobrine"
+          },
+          "hardware-features": {
+            "build-path": "zombie/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zombie.xml",
+            "system-path": "/etc/hardware_features_zombie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zombie",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "bmpblk": "herobrine",
+            "coreboot": "zombie",
+            "depthcharge": "herobrine",
+            "ec_extras": [
+              "dartmonkey"
+            ],
+            "libpayload": "herobrine",
+            "zephyr-ec": "zombie"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Zombie",
+          "platform-name": "Herobrine",
+          "sku-id": 2
+        },
+        "name": "zombie",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "herobrine_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "zombie",
+            "product": "herobrine"
+          },
+          "hardware-features": {
+            "build-path": "zombie/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zombie.xml",
+            "system-path": "/etc/hardware_features_zombie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zombie",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "bmpblk": "herobrine",
+            "coreboot": "zombie",
+            "depthcharge": "herobrine",
+            "ec_extras": [
+              "dartmonkey"
+            ],
+            "libpayload": "herobrine",
+            "zephyr-ec": "zombie"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Zombie",
+          "platform-name": "Herobrine",
+          "sku-id": 514
+        },
+        "name": "zombie",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "herobrine_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "zombie",
+            "product": "herobrine"
+          },
+          "hardware-features": {
+            "build-path": "zombie/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zombie.xml",
+            "system-path": "/etc/hardware_features_zombie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zombie",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "bmpblk": "herobrine",
+            "coreboot": "zombie",
+            "depthcharge": "herobrine",
+            "ec_extras": [
+              "dartmonkey"
+            ],
+            "libpayload": "herobrine",
+            "zephyr-ec": "zombie"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Zombie",
+          "platform-name": "Herobrine",
+          "sku-id": 3
+        },
+        "name": "zombie",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "herobrine_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "zombie",
+            "product": "herobrine"
+          },
+          "hardware-features": {
+            "build-path": "zombie/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_zombie.xml",
+            "system-path": "/etc/hardware_features_zombie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "zombie",
+            "files": []
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-herobrine-private",
+          "build-targets": {
+            "bmpblk": "herobrine",
+            "coreboot": "zombie",
+            "depthcharge": "herobrine",
+            "ec_extras": [
+              "dartmonkey"
+            ],
+            "libpayload": "herobrine",
+            "zephyr-ec": "zombie"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Zombie",
+          "platform-name": "Herobrine",
+          "sku-id": 515
+        },
+        "name": "zombie",
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
