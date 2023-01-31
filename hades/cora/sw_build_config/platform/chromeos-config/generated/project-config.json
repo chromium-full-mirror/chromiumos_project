@@ -81,6 +81,15 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "cora/cora/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/cora/cora/dptf.dv",
+              "source": "cora/sw_build_config/platform/chromeos-config/thermal/cora/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'hades_cheets', 'firstApiLevel': '28'}",
