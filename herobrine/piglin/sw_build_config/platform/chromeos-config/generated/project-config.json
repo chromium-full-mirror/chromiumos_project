@@ -33,6 +33,9 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Piglin",
           "platform-name": "Herobrine",
@@ -82,6 +85,9 @@
             "libpayload": "herobrine"
           },
           "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Piglin",
