@@ -822,198 +822,6 @@
           "build-properties": {
             "device": "nissa_cheets",
             "marketing-name": "",
-            "metrics-tag": "craaskino15w",
-            "product": "nissa"
-          },
-          "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craaskino15w.xml",
-            "system-path": "/etc/hardware_features_craaskino15w.xml"
-          }
-        },
-        "bluetooth": {
-          "flags": {
-            "enable-bluetooth-offload": true
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "frid": "Google_Craask",
-          "platform-name": "Nissa",
-          "sku-id": 1245184
-        },
-        "name": "craaskino15w",
-        "thermal": {
-          "dptf-dv": "craask/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/craask/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "nissa_cheets",
-            "marketing-name": "",
-            "metrics-tag": "craaskino15w",
-            "product": "nissa"
-          },
-          "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craaskino15w.xml",
-            "system-path": "/etc/hardware_features_craaskino15w.xml"
-          }
-        },
-        "bluetooth": {
-          "flags": {
-            "enable-bluetooth-offload": true
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "frid": "Google_Craask",
-          "platform-name": "Nissa",
-          "sku-id": 1245185
-        },
-        "name": "craaskino15w",
-        "thermal": {
-          "dptf-dv": "craask/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/craask/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "nissa_cheets",
-            "marketing-name": "",
-            "metrics-tag": "craaskino15w",
-            "product": "nissa"
-          },
-          "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craaskino15w.xml",
-            "system-path": "/etc/hardware_features_craaskino15w.xml"
-          }
-        },
-        "bluetooth": {
-          "flags": {
-            "enable-bluetooth-offload": true
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "frid": "Google_Craask",
-          "platform-name": "Nissa",
-          "sku-id": 1245186
-        },
-        "name": "craaskino15w",
-        "thermal": {
-          "dptf-dv": "craask/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/craask/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "nissa_cheets",
-            "marketing-name": "",
-            "metrics-tag": "craaskino15w",
-            "product": "nissa"
-          },
-          "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craaskino15w.xml",
-            "system-path": "/etc/hardware_features_craaskino15w.xml"
-          }
-        },
-        "bluetooth": {
-          "flags": {
-            "enable-bluetooth-offload": true
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "identity": {
-          "frid": "Google_Craask",
-          "platform-name": "Nissa",
-          "sku-id": 1245187
-        },
-        "name": "craaskino15w",
-        "thermal": {
-          "dptf-dv": "craask/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/craask/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "nissa_cheets",
-            "marketing-name": "",
             "metrics-tag": "craasneto",
             "product": "nissa"
           },
@@ -1206,12 +1014,12 @@
           "build-properties": {
             "device": "nissa_cheets",
             "marketing-name": "",
-            "metrics-tag": "craasneto15w",
+            "metrics-tag": "craasneto",
             "product": "nissa"
           },
           "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto15w.xml",
-            "system-path": "/etc/hardware_features_craasneto15w.xml"
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto.xml",
+            "system-path": "/etc/hardware_features_craasneto.xml"
           }
         },
         "bluetooth": {
@@ -1225,15 +1033,15 @@
         "identity": {
           "frid": "Google_Craask",
           "platform-name": "Nissa",
-          "sku-id": 1376256
+          "sku-id": 1310724
         },
-        "name": "craasneto15w",
+        "name": "craasneto",
         "thermal": {
-          "dptf-dv": "craask/craasneto15w/dptf.dv",
+          "dptf-dv": "craask/craasneto/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/craask/craasneto15w/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto15w/dptf.dv"
+              "destination": "/etc/dptf/craask/craasneto/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto/dptf.dv"
             }
           ]
         },
@@ -1254,12 +1062,12 @@
           "build-properties": {
             "device": "nissa_cheets",
             "marketing-name": "",
-            "metrics-tag": "craasneto15w",
+            "metrics-tag": "craasneto",
             "product": "nissa"
           },
           "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto15w.xml",
-            "system-path": "/etc/hardware_features_craasneto15w.xml"
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto.xml",
+            "system-path": "/etc/hardware_features_craasneto.xml"
           }
         },
         "bluetooth": {
@@ -1273,15 +1081,15 @@
         "identity": {
           "frid": "Google_Craask",
           "platform-name": "Nissa",
-          "sku-id": 1376257
+          "sku-id": 1310725
         },
-        "name": "craasneto15w",
+        "name": "craasneto",
         "thermal": {
-          "dptf-dv": "craask/craasneto15w/dptf.dv",
+          "dptf-dv": "craask/craasneto/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/craask/craasneto15w/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto15w/dptf.dv"
+              "destination": "/etc/dptf/craask/craasneto/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto/dptf.dv"
             }
           ]
         },
@@ -1302,12 +1110,12 @@
           "build-properties": {
             "device": "nissa_cheets",
             "marketing-name": "",
-            "metrics-tag": "craasneto15w",
+            "metrics-tag": "craasneto",
             "product": "nissa"
           },
           "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto15w.xml",
-            "system-path": "/etc/hardware_features_craasneto15w.xml"
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto.xml",
+            "system-path": "/etc/hardware_features_craasneto.xml"
           }
         },
         "bluetooth": {
@@ -1321,15 +1129,15 @@
         "identity": {
           "frid": "Google_Craask",
           "platform-name": "Nissa",
-          "sku-id": 1376258
+          "sku-id": 1310726
         },
-        "name": "craasneto15w",
+        "name": "craasneto",
         "thermal": {
-          "dptf-dv": "craask/craasneto15w/dptf.dv",
+          "dptf-dv": "craask/craasneto/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/craask/craasneto15w/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto15w/dptf.dv"
+              "destination": "/etc/dptf/craask/craasneto/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto/dptf.dv"
             }
           ]
         },
@@ -1350,12 +1158,12 @@
           "build-properties": {
             "device": "nissa_cheets",
             "marketing-name": "",
-            "metrics-tag": "craasneto15w",
+            "metrics-tag": "craasneto",
             "product": "nissa"
           },
           "hardware-features": {
-            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto15w.xml",
-            "system-path": "/etc/hardware_features_craasneto15w.xml"
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_craasneto.xml",
+            "system-path": "/etc/hardware_features_craasneto.xml"
           }
         },
         "bluetooth": {
@@ -1369,15 +1177,15 @@
         "identity": {
           "frid": "Google_Craask",
           "platform-name": "Nissa",
-          "sku-id": 1376259
+          "sku-id": 1310727
         },
-        "name": "craasneto15w",
+        "name": "craasneto",
         "thermal": {
-          "dptf-dv": "craask/craasneto15w/dptf.dv",
+          "dptf-dv": "craask/craasneto/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/craask/craasneto15w/dptf.dv",
-              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto15w/dptf.dv"
+              "destination": "/etc/dptf/craask/craasneto/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craasneto/dptf.dv"
             }
           ]
         },

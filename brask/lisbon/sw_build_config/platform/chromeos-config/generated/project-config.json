@@ -59,6 +59,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -128,6 +137,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -199,6 +217,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -268,6 +295,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -339,6 +375,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -408,6 +453,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -479,6 +533,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -548,6 +611,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -619,6 +691,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -688,6 +769,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -759,6 +849,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -828,6 +927,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -899,6 +1007,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -968,6 +1085,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1039,6 +1165,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -1109,6 +1244,15 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -1178,6 +1322,15 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "lisbon/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lisbon/dptf.dv",
+              "source": "lisbon/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
