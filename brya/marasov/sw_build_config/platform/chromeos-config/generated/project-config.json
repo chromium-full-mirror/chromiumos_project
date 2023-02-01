@@ -67,7 +67,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "0",
+          "suspend-to-idle": "1",
+          "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
@@ -156,7 +158,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "0",
+          "suspend-to-idle": "1",
+          "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
@@ -245,7 +249,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "0",
+          "suspend-to-idle": "1",
+          "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
@@ -334,7 +340,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "0",
+          "suspend-to-idle": "1",
+          "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
@@ -423,7 +431,9 @@
           "disable-dark-resume": "0",
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
-          "suspend-to-idle": "1"
+          "set-wifi-transmit-power-for-tablet-mode": "0",
+          "suspend-to-idle": "1",
+          "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
