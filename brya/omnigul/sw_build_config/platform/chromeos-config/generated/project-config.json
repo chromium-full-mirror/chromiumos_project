@@ -14,6 +14,38 @@
             "system-path": "/etc/hardware_features_omnigul.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "omnigul",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/sof-rt5682",
+                "source": "omnigul/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/omnigul/dsp.ini",
+                "source": "omnigul/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/board.ini",
+                "source": "omnigul/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "omnigul"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -57,6 +89,38 @@
           "hardware-features": {
             "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_omnigul.xml",
             "system-path": "/etc/hardware_features_omnigul.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "omnigul",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/sof-rt5682",
+                "source": "omnigul/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/omnigul/dsp.ini",
+                "source": "omnigul/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/board.ini",
+                "source": "omnigul/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "omnigul"
           }
         },
         "camera": {
@@ -104,6 +168,38 @@
             "system-path": "/etc/hardware_features_omnigul.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "omnigul",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/sof-rt5682",
+                "source": "omnigul/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/omnigul/dsp.ini",
+                "source": "omnigul/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/board.ini",
+                "source": "omnigul/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "omnigul"
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -147,6 +243,38 @@
           "hardware-features": {
             "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_omnigul.xml",
             "system-path": "/etc/hardware_features_omnigul.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "omnigul",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul.3mic/HiFi.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul.3mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul.3mic/sof-rt5682.omnigul.3mic.conf",
+                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul.3mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/sof-rt5682",
+                "source": "omnigul/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/omnigul/dsp.ini",
+                "source": "omnigul/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-brya.conf",
+                "source": "alsa-module-config/alsa-brya.conf"
+              },
+              {
+                "destination": "/etc/cras/omnigul/board.ini",
+                "source": "omnigul/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "omnigul.3mic"
           }
         },
         "camera": {
