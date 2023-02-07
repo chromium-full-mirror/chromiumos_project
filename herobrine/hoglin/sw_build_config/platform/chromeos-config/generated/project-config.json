@@ -34,6 +34,9 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Hoglin",
           "platform-name": "Herobrine",
@@ -84,6 +87,9 @@
             "zephyr-ec": "hoglin"
           },
           "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Hoglin",

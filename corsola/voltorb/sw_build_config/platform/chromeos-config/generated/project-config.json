@@ -34,6 +34,9 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Voltorb",
           "platform-name": "Corsola",
@@ -85,6 +88,9 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Voltorb",
           "platform-name": "Corsola",
@@ -135,6 +141,9 @@
             "zephyr-ec": "voltorb"
           },
           "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Voltorb",
