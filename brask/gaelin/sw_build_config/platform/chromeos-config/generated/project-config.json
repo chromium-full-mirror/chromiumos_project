@@ -151,7 +151,6 @@
         "arc": {
           "build-properties": {
             "device": "brask_cheets",
-            "first-api-level": "28",
             "marketing-name": "",
             "metrics-tag": "gaelin",
             "product": "brask"
@@ -195,6 +194,9 @@
             "ec": "gaelin"
           },
           "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Gaelin",
@@ -222,7 +224,6 @@
         "arc": {
           "build-properties": {
             "device": "brask_cheets",
-            "first-api-level": "28",
             "marketing-name": "",
             "metrics-tag": "gaelin",
             "product": "brask"
@@ -266,6 +267,9 @@
             "ec": "gaelin"
           },
           "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Gaelin",
