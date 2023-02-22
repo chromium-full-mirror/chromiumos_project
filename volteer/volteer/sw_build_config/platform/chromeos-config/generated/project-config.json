@@ -54,6 +54,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -119,6 +123,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -183,6 +191,10 @@
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer"
         },
         "ui": {
           "extra-ash-flags": [
@@ -250,6 +262,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -315,6 +331,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -379,6 +399,10 @@
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer"
         },
         "ui": {
           "extra-ash-flags": [
@@ -463,6 +487,10 @@
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
         },
         "ui": {
           "extra-ash-flags": [
@@ -549,6 +577,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -634,6 +666,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -717,6 +753,10 @@
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
         },
         "ui": {
           "extra-ash-flags": [
@@ -802,6 +842,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -886,6 +930,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -969,6 +1017,10 @@
           "internal-backlight-als-steps": "63.34 47.62 -1 400\n100.0 93.9 100 -1",
           "set-wifi-transmit-power-for-proximity": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "volteer2"
         },
         "ui": {
           "extra-ash-flags": [

@@ -73,6 +73,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "banshee"
+        },
         "thermal": {
           "dptf-dv": "banshee/dptf.dv",
           "files": [
@@ -165,6 +169,10 @@
           "internal-backlight-als-steps": "63.34 44.3 -1 400\n100.0 93.9 100 -1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "banshee"
         },
         "thermal": {
           "dptf-dv": "banshee/dptf.dv",

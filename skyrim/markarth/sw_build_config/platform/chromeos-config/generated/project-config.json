@@ -32,6 +32,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "skyrim",
+          "project": "markarth"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -74,6 +78,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "skyrim",
+          "project": "markarth"
         },
         "ui": {
           "extra-ash-flags": [
@@ -118,6 +126,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "skyrim",
+          "project": "markarth"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -160,6 +172,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "skyrim",
+          "project": "markarth"
         },
         "ui": {
           "extra-ash-flags": [

@@ -31,6 +31,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "skyrim",
+          "project": "skyrim6w360"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -72,6 +76,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "skyrim",
+          "project": "skyrim6w360"
         },
         "ui": {
           "extra-ash-flags": [
@@ -115,6 +123,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "skyrim",
+          "project": "skyrim6w360"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +168,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "skyrim",
+          "project": "skyrim6w"
         },
         "ui": {
           "extra-ash-flags": [
@@ -199,6 +215,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "skyrim",
+          "project": "skyrim6w"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'skyrim_cheets', 'firstApiLevel': '28'}",
@@ -240,6 +260,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "skyrim",
+          "project": "skyrim6w"
         },
         "ui": {
           "extra-ash-flags": [

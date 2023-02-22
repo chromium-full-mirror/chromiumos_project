@@ -17,6 +17,9 @@
         "camera": {
           "count": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Mtlrvp",
           "platform-name": "Rex",
@@ -26,6 +29,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "rex",
+          "project": "mtlrvp"
         },
         "ui": {
           "extra-ash-flags": [
@@ -54,6 +61,9 @@
         },
         "camera": {
           "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Mtlrvp",
@@ -65,6 +75,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "rex",
+          "project": "mtlrvp"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -93,6 +107,9 @@
         "camera": {
           "count": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Mtlrvp",
           "platform-name": "Rex",
@@ -102,6 +119,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "rex",
+          "project": "mtlrvp"
         },
         "ui": {
           "extra-ash-flags": [

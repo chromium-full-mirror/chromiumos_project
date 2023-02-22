@@ -43,6 +43,10 @@
           "sku-id": 2147483647
         },
         "name": "cherry",
+        "pvs": {
+          "program": "cherry",
+          "project": "cherry"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
@@ -97,6 +101,10 @@
           "sku-id": 0
         },
         "name": "cherry",
+        "pvs": {
+          "program": "cherry",
+          "project": "cherry"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",

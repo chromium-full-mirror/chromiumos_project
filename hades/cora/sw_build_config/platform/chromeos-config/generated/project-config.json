@@ -5,7 +5,6 @@
         "arc": {
           "build-properties": {
             "device": "hades_cheets",
-            "first-api-level": "28",
             "marketing-name": "",
             "metrics-tag": "cora",
             "product": "hades"
@@ -68,6 +67,9 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Cora",
           "platform-name": "Hades",
@@ -80,6 +82,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "hades",
+          "project": "cora"
         },
         "thermal": {
           "dptf-dv": "cora/cora/dptf.dv",

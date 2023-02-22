@@ -75,6 +75,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "chronicler"
+        },
         "thermal": {
           "dptf-dv": "chronicler/dptf.dv",
           "files": [
@@ -169,6 +173,10 @@
           "internal-backlight-no-als-battery-brightness": "55.0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "chronicler"
         },
         "thermal": {
           "dptf-dv": "chronicler/dptf.dv",
@@ -265,6 +273,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "chronicler"
+        },
         "thermal": {
           "dptf-dv": "chronicler/dptf.dv",
           "files": [
@@ -360,6 +372,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "chronicler"
+        },
         "thermal": {
           "dptf-dv": "chronicler/dptf.dv",
           "files": [
@@ -454,6 +470,10 @@
           "internal-backlight-no-als-battery-brightness": "55.0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "chronicler"
         },
         "thermal": {
           "dptf-dv": "chronicler/dptf.dv",

@@ -46,6 +46,10 @@
           "sku-id": 0
         },
         "name": "herobrine",
+        "pvs": {
+          "program": "herobrine",
+          "project": "herobrine"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
@@ -103,6 +107,10 @@
           "sku-id": 512
         },
         "name": "herobrine",
+        "pvs": {
+          "program": "herobrine",
+          "project": "herobrine"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",

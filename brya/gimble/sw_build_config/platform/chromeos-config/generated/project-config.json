@@ -51,6 +51,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
+        },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",
           "files": [
@@ -121,6 +125,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
         },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",
@@ -193,6 +201,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
+        },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",
           "files": [
@@ -263,6 +275,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
         },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",
@@ -335,6 +351,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
+        },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",
           "files": [
@@ -406,6 +426,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
+        },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",
           "files": [
@@ -476,6 +500,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "gimble"
         },
         "thermal": {
           "dptf-dv": "gimble/dptf.dv",

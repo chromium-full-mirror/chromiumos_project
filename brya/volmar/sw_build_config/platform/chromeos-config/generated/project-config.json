@@ -83,6 +83,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "volmar"
+        },
         "thermal": {
           "dptf-dv": "volmar/dptf.dv",
           "files": [
@@ -185,6 +189,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "volmar"
         },
         "thermal": {
           "dptf-dv": "volmar/dptf.dv",
@@ -289,6 +297,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "volmar"
+        },
         "thermal": {
           "dptf-dv": "volmar/dptf.dv",
           "files": [
@@ -391,6 +403,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "volmar"
         },
         "thermal": {
           "dptf-dv": "volmar/dptf.dv",
@@ -495,6 +511,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "volmar"
+        },
         "thermal": {
           "dptf-dv": "volmar/dptf.dv",
           "files": [
@@ -597,6 +617,10 @@
           "has-keyboard-backlight": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "zavala"
         },
         "thermal": {
           "dptf-dv": "volmar/zavala/dptf.dv",
@@ -701,6 +725,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "zavala"
+        },
         "thermal": {
           "dptf-dv": "volmar/zavala/dptf.dv",
           "files": [
@@ -804,6 +832,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "zavala"
+        },
         "thermal": {
           "dptf-dv": "volmar/zavala/dptf.dv",
           "files": [
@@ -906,6 +938,10 @@
           "has-keyboard-backlight": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "zavala"
         },
         "thermal": {
           "dptf-dv": "volmar/zavala/dptf.dv",

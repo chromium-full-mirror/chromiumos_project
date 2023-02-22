@@ -78,6 +78,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -175,6 +179,10 @@
           "internal-backlight-no-als-battery-brightness": "39.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
         },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
@@ -274,6 +282,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -371,6 +383,10 @@
           "internal-backlight-no-als-battery-brightness": "45.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
         },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
@@ -470,6 +486,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -568,6 +588,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
+        },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",
           "files": [
@@ -665,6 +689,10 @@
           "internal-backlight-no-als-battery-brightness": "45.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "drobit"
         },
         "thermal": {
           "dptf-dv": "drobit/dptf.dv",

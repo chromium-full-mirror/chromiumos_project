@@ -33,6 +33,10 @@
           "sku-id": 0
         },
         "name": "adlrvp_n",
+        "pvs": {
+          "program": "nissa",
+          "project": "adlrvp_n"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -77,6 +81,10 @@
           "sku-id": 2147483647
         },
         "name": "adlrvp_n_ext_ec",
+        "pvs": {
+          "program": "nissa",
+          "project": "adlrvp_n_ext_ec"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -121,6 +129,10 @@
           "sku-id": 7
         },
         "name": "adlrvp_n_ext_ec",
+        "pvs": {
+          "program": "nissa",
+          "project": "adlrvp_n_ext_ec"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",

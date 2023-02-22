@@ -37,6 +37,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "draco",
+          "project": "draco"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'draco_cheets', 'firstApiLevel': '28'}",

@@ -42,6 +42,10 @@
           "sku-id": 0
         },
         "name": "piglin",
+        "pvs": {
+          "program": "herobrine",
+          "project": "piglin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
@@ -95,6 +99,10 @@
           "sku-id": 512
         },
         "name": "piglin",
+        "pvs": {
+          "program": "herobrine",
+          "project": "piglin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",

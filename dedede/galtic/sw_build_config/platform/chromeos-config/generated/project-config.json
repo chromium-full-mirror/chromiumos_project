@@ -70,6 +70,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galnat"
+        },
         "thermal": {
           "dptf-dv": "galtic/galnat/dptf.dv",
           "files": [
@@ -162,6 +166,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galnat360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galnat360/dptf.dv",
           "files": [
@@ -251,6 +259,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
         },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
@@ -342,6 +354,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
           "files": [
@@ -431,6 +447,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
         },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
@@ -522,6 +542,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
           "files": [
@@ -611,6 +635,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
         },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
@@ -703,6 +731,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
           "files": [
@@ -793,6 +825,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
         },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
@@ -885,6 +921,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
           "files": [
@@ -975,6 +1015,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic"
         },
         "thermal": {
           "dptf-dv": "galtic/galtic/dptf.dv",
@@ -1068,6 +1112,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic360/dptf.dv",
           "files": [
@@ -1159,6 +1207,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
         },
         "thermal": {
           "dptf-dv": "galtic/galtic360/dptf.dv",
@@ -1252,6 +1304,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic360/dptf.dv",
           "files": [
@@ -1344,6 +1400,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galtic360/dptf.dv",
           "files": [
@@ -1433,6 +1493,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
         },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
@@ -1525,6 +1589,10 @@
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
@@ -1614,6 +1682,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
         },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
@@ -1706,6 +1778,10 @@
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
@@ -1796,6 +1872,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
         },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
@@ -1888,6 +1968,10 @@
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
@@ -1978,6 +2062,10 @@
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
@@ -2067,6 +2155,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
         },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
@@ -2159,6 +2251,10 @@
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
@@ -2249,6 +2345,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
         },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
@@ -2341,6 +2441,10 @@
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
           "files": [
@@ -2431,6 +2535,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "3.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith"
         },
         "thermal": {
           "dptf-dv": "galtic/galith/dptf.dv",
@@ -2524,6 +2632,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith360/dptf.dv",
           "files": [
@@ -2615,6 +2727,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith360"
         },
         "thermal": {
           "dptf-dv": "galtic/galith360/dptf.dv",
@@ -2708,6 +2824,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith360/dptf.dv",
           "files": [
@@ -2800,6 +2920,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "galith360"
+        },
         "thermal": {
           "dptf-dv": "galtic/galith360/dptf.dv",
           "files": [
@@ -2890,6 +3014,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "gallop"
         },
         "thermal": {
           "dptf-dv": "galtic/gallop/dptf.dv",
@@ -2982,6 +3110,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "gallop"
+        },
         "thermal": {
           "dptf-dv": "galtic/gallop/dptf.dv",
           "files": [
@@ -3073,6 +3205,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "gallop"
+        },
         "thermal": {
           "dptf-dv": "galtic/gallop/dptf.dv",
           "files": [
@@ -3163,6 +3299,10 @@
           "internal-backlight-no-als-battery-brightness": "59.00",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "gallop"
         },
         "thermal": {
           "dptf-dv": "galtic/gallop/dptf.dv",

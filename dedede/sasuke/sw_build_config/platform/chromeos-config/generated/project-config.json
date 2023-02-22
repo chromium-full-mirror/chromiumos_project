@@ -71,6 +71,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "sasuke"
+        },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
           "files": [
@@ -161,6 +165,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "sasuke"
         },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
@@ -253,6 +261,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "sasuke"
+        },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",
           "files": [
@@ -343,6 +355,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "sasuke"
         },
         "thermal": {
           "dptf-dv": "sasuke/dptf.dv",

@@ -35,6 +35,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "rex",
+          "project": "rex"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -80,6 +84,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "rex",
+          "project": "rex"
         },
         "ui": {
           "extra-ash-flags": [
@@ -127,6 +135,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "rex",
+          "project": "rex"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -173,6 +185,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "rex",
+          "project": "rex"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -218,6 +234,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "rex",
+          "project": "rex"
         },
         "ui": {
           "extra-ash-flags": [

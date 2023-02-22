@@ -57,6 +57,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "adlrvp"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -124,6 +128,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "adlrvp_extec"
         },
         "ui": {
           "extra-ash-flags": [
@@ -193,6 +201,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "adlrvp_m_extec"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -261,6 +273,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "adlrvp_mchp"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -328,6 +344,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "adlrvp_rpl_extec"
         },
         "ui": {
           "extra-ash-flags": [

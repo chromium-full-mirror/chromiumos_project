@@ -48,6 +48,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
+        },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
           "files": [
@@ -115,6 +119,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -185,6 +193,10 @@
           "set-cellular-transmit-power-for-tablet-mode": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -259,6 +271,10 @@
           "use-modemmanager-for-dynamic-sar": "1",
           "use-regulatory-domain-for-dynamic-sar": "1"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
+        },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
           "files": [
@@ -326,6 +342,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -396,6 +416,10 @@
           "set-cellular-transmit-power-for-tablet-mode": "1",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",
@@ -469,6 +493,10 @@
           "suspend-to-idle": "1",
           "use-modemmanager-for-dynamic-sar": "1",
           "use-regulatory-domain-for-dynamic-sar": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "redrix"
         },
         "thermal": {
           "dptf-dv": "redrix/dptf.dv",

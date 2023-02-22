@@ -70,6 +70,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "blipper"
+        },
         "thermal": {
           "dptf-dv": "blipper/dptf.dv",
           "files": [
@@ -160,6 +164,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "blipper"
+        },
         "thermal": {
           "dptf-dv": "blipper/dptf.dv",
           "files": [
@@ -249,6 +257,10 @@
           "disable-dark-resume": "0",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "blipper"
         },
         "thermal": {
           "dptf-dv": "blipper/dptf.dv",
@@ -341,6 +353,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "beetley"
+        },
         "thermal": {
           "dptf-dv": "blipper/beetley/dptf.dv",
           "files": [
@@ -431,6 +447,10 @@
           "internal-backlight-no-als-battery-brightness": "63",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "beetley"
         },
         "thermal": {
           "dptf-dv": "blipper/beetley/dptf.dv",

@@ -72,6 +72,10 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "haboki"
+        },
         "thermal": {
           "dptf-dv": "haboki/haboki/dptf.dv",
           "files": [
@@ -164,6 +168,10 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "haboki"
+        },
         "thermal": {
           "dptf-dv": "haboki/haboki/dptf.dv",
           "files": [
@@ -255,6 +263,10 @@
           "low-battery-shutdown-percent": "4.0",
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "keeby",
+          "project": "haboki"
         },
         "thermal": {
           "dptf-dv": "haboki/haboki/dptf.dv",
@@ -349,6 +361,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "habokay"
+        },
         "thermal": {
           "dptf-dv": "haboki/habokay/dptf.dv",
           "files": [
@@ -441,6 +457,10 @@
           "min-visible-backlight-level": "4800",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "keeby",
+          "project": "habokay"
         },
         "thermal": {
           "dptf-dv": "haboki/habokay/dptf.dv",

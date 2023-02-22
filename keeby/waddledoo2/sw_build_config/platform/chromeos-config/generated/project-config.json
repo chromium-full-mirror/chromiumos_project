@@ -66,6 +66,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "waddledoo2"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -142,6 +146,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "keeby",
+          "project": "waddledoo2"
         },
         "ui": {
           "extra-ash-flags": [
@@ -220,6 +228,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "waddledoo2"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'keeby_cheets', 'firstApiLevel': '28'}",
@@ -296,6 +308,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "keeby",
+          "project": "waddledoo2"
         },
         "ui": {
           "extra-ash-flags": [

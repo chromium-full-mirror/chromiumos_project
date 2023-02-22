@@ -76,6 +76,10 @@
           "smart-discharge-to-zero-hr": "2880",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "driblee"
+        },
         "thermal": {
           "dptf-dv": "driblee/dptf.dv",
           "files": [
@@ -171,6 +175,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "smart-discharge-to-zero-hr": "2880",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "keeby",
+          "project": "driblee"
         },
         "thermal": {
           "dptf-dv": "driblee/dptf.dv",

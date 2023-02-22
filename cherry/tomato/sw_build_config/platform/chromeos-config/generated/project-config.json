@@ -43,6 +43,10 @@
           "sku-id": 2147483647
         },
         "name": "tomato",
+        "pvs": {
+          "program": "cherry",
+          "project": "tomato"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
@@ -97,6 +101,10 @@
           "sku-id": 0
         },
         "name": "tomato",
+        "pvs": {
+          "program": "cherry",
+          "project": "tomato"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",
@@ -151,6 +159,10 @@
           "sku-id": 1
         },
         "name": "tomato",
+        "pvs": {
+          "program": "cherry",
+          "project": "tomato"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'cherry_cheets', 'firstApiLevel': '28'}",

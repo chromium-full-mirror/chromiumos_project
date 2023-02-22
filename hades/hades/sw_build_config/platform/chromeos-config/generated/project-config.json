@@ -5,7 +5,6 @@
         "arc": {
           "build-properties": {
             "device": "hades_cheets",
-            "first-api-level": "28",
             "marketing-name": "",
             "metrics-tag": "hades",
             "product": "hades"
@@ -25,6 +24,9 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Hades",
           "platform-name": "Hades",
@@ -34,6 +36,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "hades",
+          "project": "hades"
         },
         "ui": {
           "extra-ash-flags": [

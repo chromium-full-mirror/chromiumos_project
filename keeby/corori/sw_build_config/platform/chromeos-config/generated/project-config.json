@@ -72,6 +72,10 @@
           "min-visible-backlight-level": "5760",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "corori"
+        },
         "thermal": {
           "dptf-dv": "corori/dptf.dv",
           "files": [
@@ -164,6 +168,10 @@
           "min-visible-backlight-level": "5760",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "keeby",
+          "project": "corori"
+        },
         "thermal": {
           "dptf-dv": "corori/dptf.dv",
           "files": [
@@ -255,6 +263,10 @@
           "low-battery-shutdown-percent": "4.0",
           "min-visible-backlight-level": "5760",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "keeby",
+          "project": "corori"
         },
         "thermal": {
           "dptf-dv": "corori/dptf.dv",

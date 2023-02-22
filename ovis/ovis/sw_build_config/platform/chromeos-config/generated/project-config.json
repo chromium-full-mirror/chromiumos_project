@@ -5,7 +5,6 @@
         "arc": {
           "build-properties": {
             "device": "ovis_cheets",
-            "first-api-level": "28",
             "marketing-name": "",
             "metrics-tag": "ovis",
             "product": "ovis"
@@ -18,12 +17,19 @@
         "camera": {
           "count": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Ovis",
           "platform-name": "Ovis",
           "sku-id": 2147483647
         },
         "name": "ovis",
+        "pvs": {
+          "program": "ovis",
+          "project": "ovis"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'ovis_cheets', 'firstApiLevel': '28'}",

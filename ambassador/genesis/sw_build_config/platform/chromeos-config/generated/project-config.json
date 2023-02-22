@@ -32,6 +32,10 @@
           "sku-id": 16777217
         },
         "name": "genesis",
+        "pvs": {
+          "program": "ambassador",
+          "project": "genesis"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'ambassador_cheets', 'firstApiLevel': '28'}",

@@ -80,6 +80,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "copano"
+        },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",
           "files": [
@@ -179,6 +183,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "copano"
         },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",
@@ -280,6 +288,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "copano"
+        },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",
           "files": [
@@ -379,6 +391,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "copano"
         },
         "thermal": {
           "dptf-dv": "copano/dptf.dv",

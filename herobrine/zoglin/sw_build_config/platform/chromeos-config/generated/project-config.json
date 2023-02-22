@@ -43,6 +43,10 @@
           "sku-id": 0
         },
         "name": "zoglin",
+        "pvs": {
+          "program": "herobrine",
+          "project": "zoglin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
@@ -97,6 +101,10 @@
           "sku-id": 512
         },
         "name": "zoglin",
+        "pvs": {
+          "program": "herobrine",
+          "project": "zoglin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
@@ -141,6 +149,9 @@
             "zephyr-ec": "zoglin"
           },
           "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Zoglin",
@@ -148,6 +159,10 @@
           "sku-id": 1024
         },
         "name": "zoglin",
+        "pvs": {
+          "program": "herobrine",
+          "project": "zoglin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",
@@ -193,12 +208,19 @@
           },
           "firmware-config": 0
         },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
         "identity": {
           "frid": "Google_Zoglin",
           "platform-name": "Herobrine",
           "sku-id": 1536
         },
         "name": "zoglin",
+        "pvs": {
+          "program": "herobrine",
+          "project": "zoglin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'herobrine_cheets', 'firstApiLevel': '28'}",

@@ -76,6 +76,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "eldrid"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -162,6 +166,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "eldrid"
         },
         "ui": {
           "extra-ash-flags": [
@@ -250,6 +258,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "eldrid"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -337,6 +349,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "eldrid"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -423,6 +439,10 @@
           "set-wifi-transmit-power-for-proximity": "0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "eldrid"
         },
         "ui": {
           "extra-ash-flags": [

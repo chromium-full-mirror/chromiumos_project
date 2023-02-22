@@ -77,6 +77,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "voema"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -173,6 +177,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "voema"
         },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
@@ -271,6 +279,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "voema"
+        },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",
           "files": [
@@ -367,6 +379,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "voema"
         },
         "thermal": {
           "dptf-dv": "voema/dptf.dv",

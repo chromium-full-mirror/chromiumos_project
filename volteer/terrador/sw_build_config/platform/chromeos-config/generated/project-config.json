@@ -59,6 +59,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "terrador"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -128,6 +132,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "terrador"
         },
         "ui": {
           "extra-ash-flags": [
@@ -199,6 +207,10 @@
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "volteer",
+          "project": "terrador"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'volteer_cheets', 'firstApiLevel': '28'}",
@@ -268,6 +280,10 @@
           "has-keyboard-backlight": "1",
           "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "volteer",
+          "project": "terrador"
         },
         "ui": {
           "extra-ash-flags": [

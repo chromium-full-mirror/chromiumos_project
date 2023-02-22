@@ -26,6 +26,10 @@
           "sku-id": 2147483647
         },
         "name": "puff",
+        "pvs": {
+          "program": "puff",
+          "project": "puff"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
@@ -63,6 +67,10 @@
           "sku-id": 0
         },
         "name": "puff",
+        "pvs": {
+          "program": "puff",
+          "project": "puff"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
@@ -100,6 +108,10 @@
           "sku-id": 1
         },
         "name": "puff",
+        "pvs": {
+          "program": "puff",
+          "project": "puff"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",
@@ -137,6 +149,10 @@
           "sku-id": 2
         },
         "name": "puff",
+        "pvs": {
+          "program": "puff",
+          "project": "puff"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'puff_cheets', 'firstApiLevel': '28'}",

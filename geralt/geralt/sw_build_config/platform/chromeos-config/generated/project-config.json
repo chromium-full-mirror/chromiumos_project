@@ -36,6 +36,10 @@
           "sku-id": 2147483647
         },
         "name": "geralt",
+        "pvs": {
+          "program": "geralt",
+          "project": "geralt"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",
@@ -177,6 +181,10 @@
           "sku-id": 0
         },
         "name": "geralt",
+        "pvs": {
+          "program": "geralt",
+          "project": "geralt"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",

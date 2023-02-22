@@ -26,6 +26,10 @@
           "sku-id": 2147483647
         },
         "name": "majolica",
+        "pvs": {
+          "program": "majolica",
+          "project": "majolica"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'majolica_cheets', 'firstApiLevel': '28'}",

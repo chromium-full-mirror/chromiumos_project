@@ -26,6 +26,10 @@
           "sku-id": 2147483647
         },
         "name": "passionfruit",
+        "pvs": {
+          "program": "passionfruit",
+          "project": "passionfruit"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'passionfruit_cheets', 'firstApiLevel': '28'}",
@@ -63,6 +67,10 @@
           "sku-id": 0
         },
         "name": "passionfruit",
+        "pvs": {
+          "program": "passionfruit",
+          "project": "passionfruit"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'passionfruit_cheets', 'firstApiLevel': '28'}",

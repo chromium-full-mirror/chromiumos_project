@@ -71,6 +71,10 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "dedede",
+          "project": "waddledoo"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",

@@ -87,6 +87,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "guybrush",
+          "project": "dewatt"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -185,6 +189,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "guybrush",
+          "project": "dewatt"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'guybrush_cheets', 'firstApiLevel': '28'}",
@@ -282,6 +290,10 @@
           "low-battery-shutdown-percent": "4.0",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "guybrush",
+          "project": "dewatt"
         },
         "ui": {
           "extra-ash-flags": [

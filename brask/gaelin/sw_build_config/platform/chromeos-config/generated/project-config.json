@@ -62,6 +62,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brask",
+          "project": "gaelin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -134,6 +138,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brask",
+          "project": "gaelin"
         },
         "ui": {
           "extra-ash-flags": [
@@ -208,6 +216,10 @@
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
         },
+        "pvs": {
+          "program": "brask",
+          "project": "gaelin"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -280,6 +292,10 @@
         "power": {
           "disable-dark-resume": "0",
           "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brask",
+          "project": "gaelin"
         },
         "ui": {
           "extra-ash-flags": [
