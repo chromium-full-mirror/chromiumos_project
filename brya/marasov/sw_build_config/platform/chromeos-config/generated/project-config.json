@@ -74,6 +74,10 @@
           "suspend-to-idle": "1",
           "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
+        },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
           "files": [
@@ -167,6 +171,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "0",
           "suspend-to-idle": "1",
           "wifi-transmit-power-mode-for-static-device": "non-tablet"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
@@ -262,6 +270,10 @@
           "suspend-to-idle": "1",
           "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
+        },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
           "files": [
@@ -356,6 +368,10 @@
           "suspend-to-idle": "1",
           "wifi-transmit-power-mode-for-static-device": "non-tablet"
         },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
+        },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
           "files": [
@@ -449,6 +465,10 @@
           "set-wifi-transmit-power-for-tablet-mode": "0",
           "suspend-to-idle": "1",
           "wifi-transmit-power-mode-for-static-device": "non-tablet"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
         },
         "thermal": {
           "dptf-dv": "marasov/dptf.dv",
