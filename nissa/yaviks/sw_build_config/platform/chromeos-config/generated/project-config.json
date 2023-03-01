@@ -223,6 +223,206 @@
         "identity": {
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
+          "sku-id": 917507
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917508
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917509
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917510
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
           "sku-id": 917511
         },
         "name": "yaviks",
@@ -274,6 +474,56 @@
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
           "sku-id": 917512
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917513
         },
         "name": "yaviks",
         "pvs": {
@@ -410,6 +660,1006 @@
             "product": "nissa"
           },
           "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917516
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917517
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917518
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917519
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917520
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917521
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917522
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917523
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917524
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917525
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917526
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917527
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917528
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917529
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917530
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917531
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917532
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917533
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917534
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yaviks.xml",
+            "system-path": "/etc/hardware_features_yaviks.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 917535
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yaviks"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
             "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
             "system-path": "/etc/hardware_features_yavikso.xml"
           }
@@ -424,6 +1674,56 @@
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
           "sku-id": 983040
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983041
         },
         "name": "yaviks",
         "pvs": {
@@ -573,6 +1873,156 @@
         "identity": {
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
+          "sku-id": 983044
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983045
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983046
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
           "sku-id": 983047
         },
         "name": "yaviks",
@@ -623,7 +2073,107 @@
         "identity": {
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
+          "sku-id": 983048
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
           "sku-id": 983049
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983050
         },
         "name": "yaviks",
         "pvs": {
@@ -923,6 +2473,106 @@
         "identity": {
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
+          "sku-id": 983056
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983057
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
           "sku-id": 983058
         },
         "name": "yaviks",
@@ -973,7 +2623,607 @@
         "identity": {
           "frid": "Google_Yaviks",
           "platform-name": "Nissa",
+          "sku-id": 983059
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983060
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983061
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
           "sku-id": 983062
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983063
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983064
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983065
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983066
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983067
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983068
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983069
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983070
+        },
+        "name": "yaviks",
+        "pvs": {
+          "program": "nissa",
+          "project": "yavikso"
+        },
+        "thermal": {
+          "dptf-dv": "yaviks/yaviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/yaviks/yaviks/dptf.dv",
+              "source": "yaviks/sw_build_config/platform/chromeos-config/thermal/yaviks/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "yaviks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "yaviks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_yavikso.xml",
+            "system-path": "/etc/hardware_features_yavikso.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Yaviks",
+          "platform-name": "Nissa",
+          "sku-id": 983071
         },
         "name": "yaviks",
         "pvs": {
