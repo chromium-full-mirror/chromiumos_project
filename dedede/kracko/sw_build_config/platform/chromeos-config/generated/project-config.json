@@ -56,9 +56,6 @@
           },
           "firmware-config": 0
         },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
-        },
         "identity": {
           "frid": "Google_Kracko",
           "platform-name": "Dedede",
@@ -71,10 +68,6 @@
           "low-battery-shutdown-percent": "4.0",
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
-        },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
         },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
@@ -151,9 +144,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -168,10 +158,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -247,9 +233,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -264,10 +247,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -343,9 +322,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -360,10 +336,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -439,9 +411,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -456,10 +425,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -535,9 +500,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -552,10 +514,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -631,9 +589,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -648,10 +603,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -727,9 +678,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -744,10 +692,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -823,9 +767,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -840,10 +781,6 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
-        },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
           "files": [
@@ -919,9 +856,6 @@
             "ec": "kracko"
           },
           "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
           "frid": "Google_Kracko",
@@ -936,9 +870,94 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
+        "thermal": {
+          "dptf-dv": "kracko/kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/kracko/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "kracko",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "kracko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kracko.xml",
+            "system-path": "/etc/hardware_features_kracko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/sof-rt5682",
+                "source": "kracko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kracko/dsp.ini",
+                "source": "kracko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/board.ini",
+                "source": "kracko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "kracko"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Kracko",
+          "platform-name": "Dedede",
+          "sku-id": 2031625
+        },
+        "name": "kracko",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
         },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
@@ -1016,13 +1035,10 @@
           },
           "firmware-config": 0
         },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
-        },
         "identity": {
           "frid": "Google_Kracko",
           "platform-name": "Dedede",
-          "sku-id": 2031625
+          "sku-id": 2031626
         },
         "name": "kracko",
         "power": {
@@ -1032,9 +1048,450 @@
           "min-visible-backlight-level": "4800",
           "suspend-to-idle": "1"
         },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko"
+        "thermal": {
+          "dptf-dv": "kracko/kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/kracko/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "kracko",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "kracko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kracko.xml",
+            "system-path": "/etc/hardware_features_kracko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/sof-rt5682",
+                "source": "kracko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kracko/dsp.ini",
+                "source": "kracko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/board.ini",
+                "source": "kracko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "kracko"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Kracko",
+          "platform-name": "Dedede",
+          "sku-id": 2031627
+        },
+        "name": "kracko",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kracko/kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/kracko/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "kracko",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "kracko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kracko.xml",
+            "system-path": "/etc/hardware_features_kracko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/sof-rt5682",
+                "source": "kracko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kracko/dsp.ini",
+                "source": "kracko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/board.ini",
+                "source": "kracko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "kracko"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Kracko",
+          "platform-name": "Dedede",
+          "sku-id": 2031628
+        },
+        "name": "kracko",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kracko/kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/kracko/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "kracko",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "kracko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kracko.xml",
+            "system-path": "/etc/hardware_features_kracko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/sof-rt5682",
+                "source": "kracko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kracko/dsp.ini",
+                "source": "kracko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/board.ini",
+                "source": "kracko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "kracko"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Kracko",
+          "platform-name": "Dedede",
+          "sku-id": 2031629
+        },
+        "name": "kracko",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kracko/kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/kracko/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "kracko",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "kracko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kracko.xml",
+            "system-path": "/etc/hardware_features_kracko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/sof-rt5682",
+                "source": "kracko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kracko/dsp.ini",
+                "source": "kracko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/board.ini",
+                "source": "kracko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "kracko"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Kracko",
+          "platform-name": "Dedede",
+          "sku-id": 2031630
+        },
+        "name": "kracko",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
+        },
+        "thermal": {
+          "dptf-dv": "kracko/kracko/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kracko/kracko/dptf.dv",
+              "source": "kracko/sw_build_config/platform/chromeos-config/thermal/kracko/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "kracko",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "kracko/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_kracko.xml",
+            "system-path": "/etc/hardware_features_kracko.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "kracko",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/HiFi.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.1mic/sof-rt5682.1mic.conf",
+                "source": "common/audio/ucm-config/sof-rt5682.1mic/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/sof-rt5682",
+                "source": "kracko/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/kracko/dsp.ini",
+                "source": "kracko/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/kracko/board.ini",
+                "source": "kracko/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "kracko"
+          },
+          "firmware-config": 0
+        },
+        "identity": {
+          "frid": "Google_Kracko",
+          "platform-name": "Dedede",
+          "sku-id": 2031631
+        },
+        "name": "kracko",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "58.0",
+          "low-battery-shutdown-percent": "4.0",
+          "min-visible-backlight-level": "4800",
+          "suspend-to-idle": "1"
         },
         "thermal": {
           "dptf-dv": "kracko/kracko/dptf.dv",
@@ -1112,9 +1569,6 @@
           },
           "firmware-config": 0
         },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
-        },
         "identity": {
           "frid": "Google_Kracko",
           "platform-name": "Dedede",
@@ -1128,10 +1582,6 @@
           "min-visible-backlight-level": "4800",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
-        },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko360"
         },
         "thermal": {
           "dptf-dv": "kracko/kracko360/dptf.dv",
@@ -1209,9 +1659,6 @@
           },
           "firmware-config": 0
         },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN"
-        },
         "identity": {
           "frid": "Google_Kracko",
           "platform-name": "Dedede",
@@ -1225,10 +1672,6 @@
           "min-visible-backlight-level": "4800",
           "set-wifi-transmit-power-for-tablet-mode": "1",
           "suspend-to-idle": "1"
-        },
-        "pvs": {
-          "program": "dedede",
-          "project": "kracko360"
         },
         "thermal": {
           "dptf-dv": "kracko/kracko360/dptf.dv",
