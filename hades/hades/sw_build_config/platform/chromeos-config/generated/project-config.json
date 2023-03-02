@@ -14,13 +14,18 @@
             "system-path": "/etc/hardware_features_hades.xml"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
         "firmware": {
           "bcs-overlay": "overlay-hades-private",
           "build-targets": {
-            "ec": "brya"
+            "ec": "hades"
           },
           "firmware-config": 0
         },
@@ -34,7 +39,9 @@
         },
         "name": "hades",
         "power": {
+          "defer-external-display-timeout": "10",
           "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
           "suspend-to-idle": "1"
         },
         "pvs": {
