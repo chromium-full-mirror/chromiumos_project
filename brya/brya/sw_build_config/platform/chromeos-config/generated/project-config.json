@@ -46,15 +46,6 @@
           "program": "brya",
           "project": "brya"
         },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -143,15 +134,6 @@
         "pvs": {
           "program": "brya",
           "project": "brya"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -242,15 +224,6 @@
           "program": "brya",
           "project": "brya"
         },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -340,15 +313,6 @@
           "program": "brya",
           "project": "brya"
         },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -431,15 +395,6 @@
         "pvs": {
           "program": "brya",
           "project": "brya"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -529,15 +484,6 @@
         "pvs": {
           "program": "brya",
           "project": "brya"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -633,15 +579,6 @@
           "program": "brya",
           "project": "brya"
         },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -735,15 +672,6 @@
         "pvs": {
           "program": "brya",
           "project": "brya"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -839,15 +767,6 @@
           "program": "brya",
           "project": "brya"
         },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -941,15 +860,6 @@
         "pvs": {
           "program": "brya",
           "project": "brya"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1045,15 +955,6 @@
           "program": "brya",
           "project": "brya"
         },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -1147,15 +1048,6 @@
         "pvs": {
           "program": "brya",
           "project": "brya"
-        },
-        "thermal": {
-          "dptf-dv": "brya/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/brya/dptf.dv",
-              "source": "brya/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
