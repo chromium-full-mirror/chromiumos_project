@@ -14,6 +14,12 @@
             "system-path": "/etc/hardware_features_geralt.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "geralt",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -65,6 +71,12 @@
             "system-path": "/etc/hardware_features_geralt.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "geralt",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -87,6 +99,10 @@
           "sku-id": 2147483393
         },
         "name": "geralt",
+        "pvs": {
+          "program": "geralt",
+          "project": "geralt"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",
@@ -112,6 +128,12 @@
             "system-path": "/etc/hardware_features_geralt.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "geralt",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -134,6 +156,10 @@
           "sku-id": 2147483403
         },
         "name": "geralt",
+        "pvs": {
+          "program": "geralt",
+          "project": "geralt"
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",
@@ -157,6 +183,12 @@
           "hardware-features": {
             "build-path": "geralt/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_geralt.xml",
             "system-path": "/etc/hardware_features_geralt.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "geralt",
+            "files": []
           }
         },
         "camera": {
