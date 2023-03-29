@@ -78,6 +78,15 @@
           "program": "brya",
           "project": "omnigul"
         },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -166,6 +175,15 @@
         "pvs": {
           "program": "brya",
           "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -256,6 +274,15 @@
           "program": "brya",
           "project": "omnigul"
         },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -344,6 +371,15 @@
         "pvs": {
           "program": "brya",
           "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -434,6 +470,15 @@
           "program": "brya",
           "project": "omnigul"
         },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -522,6 +567,15 @@
         "pvs": {
           "program": "brya",
           "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -612,6 +666,15 @@
           "program": "brya",
           "project": "omnigul"
         },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -701,6 +764,15 @@
           "program": "brya",
           "project": "omnigul"
         },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
@@ -789,6 +861,15 @@
         "pvs": {
           "program": "brya",
           "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
