@@ -6,12 +6,12 @@
           "build-properties": {
             "device": "rex_cheets",
             "marketing-name": "",
-            "metrics-tag": "mtlrvp",
+            "metrics-tag": "mtlrvp_p_ext_ec",
             "product": "rex"
           },
           "hardware-features": {
-            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp.xml",
-            "system-path": "/etc/hardware_features_mtlrvp.xml"
+            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp_p_ext_ec.xml",
+            "system-path": "/etc/hardware_features_mtlrvp_p_ext_ec.xml"
           }
         },
         "camera": {
@@ -21,14 +21,14 @@
           "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
-          "frid": "Google_Mtlrvp",
+          "frid": "Google_Mtlrvp_P_Ext_Ec",
           "platform-name": "Rex",
           "sku-id": 2147483647
         },
-        "name": "mtlrvp",
+        "name": "mtlrvp_p_ext_ec",
         "pvs": {
           "program": "rex",
-          "project": "mtlrvp"
+          "project": "mtlrvp_p_ext_ec"
         },
         "ui": {
           "extra-ash-flags": [
@@ -47,12 +47,12 @@
           "build-properties": {
             "device": "rex_cheets",
             "marketing-name": "",
-            "metrics-tag": "mtlrvp",
+            "metrics-tag": "mtlrvp_p_ext_ec",
             "product": "rex"
           },
           "hardware-features": {
-            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp.xml",
-            "system-path": "/etc/hardware_features_mtlrvp.xml"
+            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp_p_ext_ec.xml",
+            "system-path": "/etc/hardware_features_mtlrvp_p_ext_ec.xml"
           }
         },
         "camera": {
@@ -62,14 +62,14 @@
           "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
-          "frid": "Google_Mtlrvp",
+          "frid": "Google_Mtlrvp_P_Ext_Ec",
           "platform-name": "Rex",
           "sku-id": 1
         },
-        "name": "mtlrvp",
+        "name": "mtlrvp_p_ext_ec",
         "pvs": {
           "program": "rex",
-          "project": "mtlrvp"
+          "project": "mtlrvp_p_ext_ec"
         },
         "ui": {
           "extra-ash-flags": [
@@ -88,12 +88,12 @@
           "build-properties": {
             "device": "rex_cheets",
             "marketing-name": "",
-            "metrics-tag": "mtlrvp",
+            "metrics-tag": "mtlrvp_p_ext_ec",
             "product": "rex"
           },
           "hardware-features": {
-            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp.xml",
-            "system-path": "/etc/hardware_features_mtlrvp.xml"
+            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp_p_ext_ec.xml",
+            "system-path": "/etc/hardware_features_mtlrvp_p_ext_ec.xml"
           }
         },
         "camera": {
@@ -103,14 +103,137 @@
           "storage-type": "STORAGE_TYPE_UNKNOWN"
         },
         "identity": {
-          "frid": "Google_Mtlrvp",
+          "frid": "Google_Mtlrvp_P_Ext_Ec",
           "platform-name": "Rex",
           "sku-id": 2
         },
-        "name": "mtlrvp",
+        "name": "mtlrvp_p_ext_ec",
         "pvs": {
           "program": "rex",
-          "project": "mtlrvp"
+          "project": "mtlrvp_p_ext_ec"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "mtlrvp_p_mchp",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp_p_mchp.xml",
+            "system-path": "/etc/hardware_features_mtlrvp_p_mchp.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Mtlrvp_P_Mchp",
+          "platform-name": "Rex",
+          "sku-id": 2147483647
+        },
+        "name": "mtlrvp_p_mchp",
+        "pvs": {
+          "program": "rex",
+          "project": "mtlrvp_p_mchp"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "mtlrvp_p_mchp",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp_p_mchp.xml",
+            "system-path": "/etc/hardware_features_mtlrvp_p_mchp.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Mtlrvp_P_Mchp",
+          "platform-name": "Rex",
+          "sku-id": 1
+        },
+        "name": "mtlrvp_p_mchp",
+        "pvs": {
+          "program": "rex",
+          "project": "mtlrvp_p_mchp"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "mtlrvp_p_mchp",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "mtlrvp/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_mtlrvp_p_mchp.xml",
+            "system-path": "/etc/hardware_features_mtlrvp_p_mchp.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN"
+        },
+        "identity": {
+          "frid": "Google_Mtlrvp_P_Mchp",
+          "platform-name": "Rex",
+          "sku-id": 2
+        },
+        "name": "mtlrvp_p_mchp",
+        "pvs": {
+          "program": "rex",
+          "project": "mtlrvp_p_mchp"
         },
         "ui": {
           "extra-ash-flags": [
