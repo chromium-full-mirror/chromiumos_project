@@ -14,6 +14,11 @@
             "system-path": "/etc/hardware_features_screebo.xml"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
