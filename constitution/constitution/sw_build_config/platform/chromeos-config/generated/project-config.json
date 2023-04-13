@@ -33,6 +33,15 @@
           "program": "constitution",
           "project": "constitution"
         },
+        "thermal": {
+          "dptf-dv": "constitution/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/constitution/dptf.dv",
+              "source": "constitution/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'constitution_cheets', 'firstApiLevel': '28'}",
