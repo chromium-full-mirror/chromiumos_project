@@ -1096,7 +1096,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1107,11 +1107,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1119,15 +1119,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1204,7 +1204,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1215,11 +1215,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1227,15 +1227,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1312,7 +1312,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1323,11 +1323,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1335,15 +1335,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1420,7 +1420,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1431,11 +1431,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1443,15 +1443,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1528,7 +1528,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1539,11 +1539,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1551,15 +1551,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1636,7 +1636,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1647,11 +1647,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1659,15 +1659,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1744,7 +1744,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1755,11 +1755,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1767,15 +1767,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
@@ -1852,7 +1852,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "kano",
+            "cras-config-dir": "zydron",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
@@ -1863,11 +1863,11 @@
                 "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
               },
               {
-                "destination": "/etc/cras/kano/sof-nau8825",
+                "destination": "/etc/cras/zydron/sof-nau8825",
                 "source": "zydron/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/kano/dsp.ini",
+                "destination": "/etc/cras/zydron/dsp.ini",
                 "source": "zydron/audio/cras-config/dsp.ini"
               },
               {
@@ -1875,15 +1875,15 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/kano/board.ini",
+                "destination": "/etc/cras/zydron/board.ini",
                 "source": "zydron/audio/cras-config/board.ini"
               },
               {
-                "destination": "/etc/sound_card_init/kano.yaml",
+                "destination": "/etc/sound_card_init/zydron.yaml",
                 "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
               }
             ],
-            "sound-card-init-conf": "kano.yaml",
+            "sound-card-init-conf": "zydron.yaml",
             "speaker-amp": "AMPLIFIER_UNKNOWN",
             "ucm-suffix": "zydron"
           }
