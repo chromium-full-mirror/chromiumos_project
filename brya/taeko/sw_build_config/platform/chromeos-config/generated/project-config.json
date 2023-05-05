@@ -1453,7 +1453,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "taeko",
+            "cras-config-dir": "tarlo",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1464,11 +1464,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/taeko/sof-rt5682",
+                "destination": "/etc/cras/tarlo/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/taeko/dsp.ini",
+                "destination": "/etc/cras/tarlo/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1476,7 +1476,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/taeko/board.ini",
+                "destination": "/etc/cras/tarlo/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1548,7 +1548,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "taeko",
+            "cras-config-dir": "tarlo",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1559,11 +1559,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/taeko/sof-rt5682",
+                "destination": "/etc/cras/tarlo/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/taeko/dsp.ini",
+                "destination": "/etc/cras/tarlo/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1571,7 +1571,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/taeko/board.ini",
+                "destination": "/etc/cras/tarlo/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1643,7 +1643,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "taeko",
+            "cras-config-dir": "tarlo",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1654,11 +1654,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/taeko/sof-rt5682",
+                "destination": "/etc/cras/tarlo/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/taeko/dsp.ini",
+                "destination": "/etc/cras/tarlo/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1666,7 +1666,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/taeko/board.ini",
+                "destination": "/etc/cras/tarlo/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
@@ -1739,7 +1739,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "taeko",
+            "cras-config-dir": "tarlo",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
@@ -1750,11 +1750,11 @@
                 "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
               },
               {
-                "destination": "/etc/cras/taeko/sof-rt5682",
+                "destination": "/etc/cras/tarlo/sof-rt5682",
                 "source": "tarlo/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/taeko/dsp.ini",
+                "destination": "/etc/cras/tarlo/dsp.ini",
                 "source": "tarlo/audio/cras-config/dsp.ini"
               },
               {
@@ -1762,7 +1762,7 @@
                 "source": "alsa-module-config/alsa-brya.conf"
               },
               {
-                "destination": "/etc/cras/taeko/board.ini",
+                "destination": "/etc/cras/tarlo/board.ini",
                 "source": "tarlo/audio/cras-config/board.ini"
               }
             ],
