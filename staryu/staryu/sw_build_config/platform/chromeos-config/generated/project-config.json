@@ -1,0 +1,62 @@
+{
+  "chromeos": {
+    "configs": [
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "TBD",
+            "metrics-tag": "staryu",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "staryu/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_staryu.xml",
+            "system-path": "/etc/hardware_features_staryu.xml"
+          }
+        },
+        "brand-code": "ZZCR",
+        "branding": {
+          "marketing-name": "TBD"
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "staryu"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 2147483647,
+          "smbios-name-match": "Staryu"
+        },
+        "name": "staryu",
+        "power": {
+          "disable-dark-resume": "0"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      }
+    ]
+  }
+}
