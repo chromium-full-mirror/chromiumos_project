@@ -1,0 +1,1042 @@
+{
+  "chromeos": {
+    "configs": [
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 2147483647,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 2147483640,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 2147483642,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 2147483635,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 0,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 1,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "staryu_cheets",
+            "first-api-level": "28",
+            "marketing-name": "",
+            "metrics-tag": "starmie",
+            "oem": "Asus",
+            "product": "staryu"
+          },
+          "hardware-features": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/hardware_features_starmie.xml",
+            "system-path": "/etc/hardware_features_starmie.xml"
+          },
+          "media-profiles": {
+            "build-path": "starmie/sw_build_config/platform/chromeos-config/generated/arc/media_profiles_starmie.xml",
+            "system-path": "/etc/media_profiles_starmie.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "starmie",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf",
+                "source": "starmie/audio/ucm-config/sof-mt8186_rt1019_rt5682s.1mic.starmie/sof-mt8186_rt1019_rt5682s.1mic.starmie.conf"
+              },
+              {
+                "destination": "/etc/cras/starmie/sof-mt8186_rt1019_rt5682s",
+                "source": "starmie/audio/cras-config/sof-mt8186_rt1019_rt5682s"
+              },
+              {
+                "destination": "/etc/cras/starmie/dsp.ini",
+                "source": "starmie/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/cras/starmie/board.ini",
+                "source": "starmie/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "1mic.starmie"
+          }
+        },
+        "brand-code": "ONJP",
+        "camera": {
+          "count": 2,
+          "devices": [
+            {
+              "facing": "front",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": false
+              },
+              "ids": [
+                "5959:59bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            },
+            {
+              "facing": "back",
+              "flags": {
+                "support-1080p": true,
+                "support-autofocus": true
+              },
+              "ids": [
+                "5959:60bf"
+              ],
+              "interface": "usb",
+              "orientation": 0
+            }
+          ]
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-staryu-private",
+          "build-targets": {
+            "bmpblk": "staryu",
+            "coreboot": "starmie",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "starmie"
+          },
+          "firmware-config": 0
+        },
+        "firmware-signing": {
+          "key-id": "DEFAULT",
+          "signature-id": "starmie"
+        },
+        "hardware-properties": {
+          "form-factor": "DETACHABLE",
+          "has-backlight": true,
+          "psu-type": "battery",
+          "recovery-input": "POWER_BUTTON"
+        },
+        "identity": {
+          "platform-name": "Staryu",
+          "sku-id": 2,
+          "smbios-name-match": "Starmie"
+        },
+        "modem": {
+          "firmware-variant": "starmie_fm101"
+        },
+        "name": "starmie",
+        "power": {
+          "disable-dark-resume": "0",
+          "set-cellular-transmit-power-dpr-gpio": "494",
+          "set-cellular-transmit-power-for-activity-proximity": "1",
+          "set-cellular-transmit-power-for-proximity": "1",
+          "set-wifi-transmit-power-for-activity-proximity": "1",
+          "set-wifi-transmit-power-for-proximity": "1"
+        },
+        "scheduler-tune": {
+          "boost-urgent": 70
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'staryu_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--enable-touchview",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg",
+            "--has-internal-stylus"
+          ]
+        },
+        "wifi": {
+          "non-tablet-mode-power-table-mtk": {
+            "limit-2g": 72,
+            "limit-5g-1": 50,
+            "limit-5g-2": 50,
+            "limit-5g-3": 50,
+            "limit-5g-4": 50
+          },
+          "tablet-mode-power-table-mtk": {
+            "limit-2g": 46,
+            "limit-5g-1": 40,
+            "limit-5g-2": 40,
+            "limit-5g-3": 40,
+            "limit-5g-4": 40
+          }
+        }
+      }
+    ]
+  }
+}
