@@ -1651,12 +1651,12 @@
             "cras-config-dir": "kracko",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.kracko.1mic/HiFi.conf",
-                "source": "kracko/audio/ucm-config/sof-rt5682.kracko.1mic/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.kracko.1mic.rt5682vs/HiFi.conf",
+                "source": "kracko/audio/ucm-config/sof-rt5682.kracko.1mic.rt5682vs/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.kracko.1mic/sof-rt5682.kracko.1mic.conf",
-                "source": "kracko/audio/ucm-config/sof-rt5682.kracko.1mic/sof-rt5682.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.kracko.1mic.rt5682vs/sof-rt5682.kracko.1mic.rt5682vs.conf",
+                "source": "kracko/audio/ucm-config/sof-rt5682.kracko.1mic.rt5682vs/sof-rt5682.conf"
               },
               {
                 "destination": "/etc/cras/kracko/sof-rt5682",
@@ -1675,7 +1675,7 @@
                 "source": "kracko/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "kracko.1mic"
+            "ucm-suffix": "kracko.1mic.rt5682vs"
           }
         },
         "camera": {
