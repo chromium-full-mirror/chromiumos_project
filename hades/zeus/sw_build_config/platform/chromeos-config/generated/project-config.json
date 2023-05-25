@@ -14,44 +14,6 @@
             "system-path": "/etc/hardware_features_zeus.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zeus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.zeus/HiFi.conf",
-                "source": "zeus/audio/ucm-config/sof-rt5682.zeus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.zeus/sof-rt5682.zeus.conf",
-                "source": "zeus/audio/ucm-config/sof-rt5682.zeus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/zeus/sof-rt5682",
-                "source": "zeus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zeus/dsp.ini",
-                "source": "zeus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-hades.conf",
-                "source": "alsa-module-config/alsa-hades.conf"
-              },
-              {
-                "destination": "/etc/cras/zeus/board.ini",
-                "source": "zeus/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zeus.yaml",
-                "source": "zeus/audio/sound-card-init-config/sofrt5682.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zeus.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zeus"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
