@@ -235,6 +235,100 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "screebo",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "screebo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_screebo.xml",
+            "system-path": "/etc/hardware_features_screebo.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Screebo",
+          "platform-name": "Rex",
+          "sku-id": 65541
+        },
+        "name": "screebo",
+        "pvs": {
+          "program": "rex",
+          "project": "screebo"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "screebo",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "screebo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_screebo.xml",
+            "system-path": "/etc/hardware_features_screebo.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Screebo",
+          "platform-name": "Rex",
+          "sku-id": 65542
+        },
+        "name": "screebo",
+        "pvs": {
+          "program": "rex",
+          "project": "screebo"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
