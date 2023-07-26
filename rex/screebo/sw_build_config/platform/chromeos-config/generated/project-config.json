@@ -36,6 +36,15 @@
           "program": "rex",
           "project": "screebo"
         },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -82,6 +91,15 @@
         "pvs": {
           "program": "rex",
           "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -130,6 +148,15 @@
           "program": "rex",
           "project": "screebo"
         },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -176,6 +203,15 @@
         "pvs": {
           "program": "rex",
           "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -224,6 +260,15 @@
           "program": "rex",
           "project": "screebo"
         },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -271,6 +316,15 @@
           "program": "rex",
           "project": "screebo"
         },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -317,6 +371,15 @@
         "pvs": {
           "program": "rex",
           "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
