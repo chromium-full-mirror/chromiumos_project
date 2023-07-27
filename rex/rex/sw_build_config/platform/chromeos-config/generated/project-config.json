@@ -781,6 +781,429 @@
         "identity": {
           "frid": "Google_Rex4ES",
           "platform-name": "Rex",
+          "sku-id": 17
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 18
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 19
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 20
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 21
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 22
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 23
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 24
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
+          "sku-id": 25
+        },
+        "name": "rex4es",
+        "pvs": {
+          "program": "rex",
+          "project": "rex4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "rex4es",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "rex/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_rex4es.xml",
+            "system-path": "/etc/hardware_features_rex4es.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Rex4ES",
+          "platform-name": "Rex",
           "sku-id": 33
         },
         "name": "rex4es",
