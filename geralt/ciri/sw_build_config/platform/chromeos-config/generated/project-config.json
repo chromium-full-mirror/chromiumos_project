@@ -1,0 +1,48 @@
+{
+  "chromeos": {
+    "configs": [
+      {
+        "arc": {
+          "build-properties": {
+            "device": "geralt_cheets",
+            "marketing-name": "",
+            "metrics-tag": "ciri",
+            "product": "geralt"
+          },
+          "hardware-features": {
+            "build-path": "ciri/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_ciri.xml",
+            "system-path": "/etc/hardware_features_ciri.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Ciri",
+          "platform-name": "Geralt",
+          "sku-id": 2147483647
+        },
+        "name": "ciri",
+        "pvs": {
+          "program": "geralt",
+          "project": "ciri"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'geralt_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      }
+    ]
+  }
+}
