@@ -7702,6 +7702,870 @@
             "product": "nissa"
           },
           "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 593988
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 593989
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 593996
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 593997
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594004
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594005
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594012
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594013
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594020
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594021
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594028
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594029
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594036
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594037
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594044
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjo.xml",
+            "system-path": "/etc/hardware_features_pujjo.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pujjo",
+          "platform-name": "Nissa",
+          "sku-id": 594045
+        },
+        "name": "pujjo",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
+        "pvs": {
+          "program": "nissa",
+          "project": "pujjo"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjo/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjo/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "pujjo",
+            "product": "nissa"
+          },
+          "hardware-features": {
             "build-path": "pujjo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_pujjoflex.xml",
             "system-path": "/etc/hardware_features_pujjoflex.xml"
           }
