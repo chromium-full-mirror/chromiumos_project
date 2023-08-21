@@ -41,6 +41,15 @@
           "program": "dedede",
           "project": "taranza"
         },
+        "thermal": {
+          "dptf-dv": "taranza/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/taranza/dptf.dv",
+              "source": "taranza/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -92,6 +101,15 @@
         "pvs": {
           "program": "dedede",
           "project": "taranza"
+        },
+        "thermal": {
+          "dptf-dv": "taranza/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/taranza/dptf.dv",
+              "source": "taranza/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
