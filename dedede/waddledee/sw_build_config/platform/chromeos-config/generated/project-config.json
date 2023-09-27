@@ -46,6 +46,11 @@
             "ucm-suffix": "rt1015.2mic"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },

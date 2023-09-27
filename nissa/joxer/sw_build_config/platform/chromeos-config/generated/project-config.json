@@ -228,6 +228,57 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
+          "sku-id": 786482
+        },
+        "name": "joxer",
+        "pvs": {
+          "program": "nissa",
+          "project": "joxer"
+        },
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "joxer",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "joxer/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Joxer",
+          "platform-name": "Nissa",
           "sku-id": 786532
         },
         "name": "joxer",
@@ -330,7 +381,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786660
+          "sku-id": 786626
         },
         "name": "joxer",
         "pvs": {
@@ -381,7 +432,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786668
+          "sku-id": 786852
         },
         "name": "joxer",
         "pvs": {
@@ -432,7 +483,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786724
+          "sku-id": 786860
         },
         "name": "joxer",
         "pvs": {
@@ -483,7 +534,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786748
+          "sku-id": 786916
         },
         "name": "joxer",
         "pvs": {
@@ -534,7 +585,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786819
+          "sku-id": 786940
         },
         "name": "joxer",
         "pvs": {
@@ -585,7 +636,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786829
+          "sku-id": 786949
         },
         "name": "joxer",
         "pvs": {
@@ -636,7 +687,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786843
+          "sku-id": 787203
         },
         "name": "joxer",
         "pvs": {
@@ -687,7 +738,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786855
+          "sku-id": 787213
         },
         "name": "joxer",
         "pvs": {
@@ -738,7 +789,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786917
+          "sku-id": 787225
         },
         "name": "joxer",
         "pvs": {
@@ -789,7 +840,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 786941
+          "sku-id": 787227
         },
         "name": "joxer",
         "pvs": {
@@ -840,7 +891,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 787109
+          "sku-id": 787239
         },
         "name": "joxer",
         "pvs": {
@@ -891,7 +942,7 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 787133
+          "sku-id": 787275
         },
         "name": "joxer",
         "pvs": {
@@ -942,7 +993,262 @@
         "identity": {
           "frid": "Google_Joxer",
           "platform-name": "Nissa",
-          "sku-id": 787141
+          "sku-id": 787301
+        },
+        "name": "joxer",
+        "pvs": {
+          "program": "nissa",
+          "project": "joxer"
+        },
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "joxer",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "joxer/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Joxer",
+          "platform-name": "Nissa",
+          "sku-id": 787325
+        },
+        "name": "joxer",
+        "pvs": {
+          "program": "nissa",
+          "project": "joxer"
+        },
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "joxer",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "joxer/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Joxer",
+          "platform-name": "Nissa",
+          "sku-id": 787395
+        },
+        "name": "joxer",
+        "pvs": {
+          "program": "nissa",
+          "project": "joxer"
+        },
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "joxer",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "joxer/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Joxer",
+          "platform-name": "Nissa",
+          "sku-id": 787685
+        },
+        "name": "joxer",
+        "pvs": {
+          "program": "nissa",
+          "project": "joxer"
+        },
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "joxer",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "joxer/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Joxer",
+          "platform-name": "Nissa",
+          "sku-id": 787709
+        },
+        "name": "joxer",
+        "pvs": {
+          "program": "nissa",
+          "project": "joxer"
+        },
+        "thermal": {
+          "dptf-dv": "joxer/joxer/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/joxer/joxer/dptf.dv",
+              "source": "joxer/sw_build_config/platform/chromeos-config/thermal/joxer/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "joxer",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "joxer/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Joxer",
+          "platform-name": "Nissa",
+          "sku-id": 787717
         },
         "name": "joxer",
         "pvs": {
