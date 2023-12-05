@@ -46,6 +46,11 @@
             "ucm-suffix": "1mic"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -140,6 +145,11 @@
               }
             ],
             "ucm-suffix": "1mic"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {
@@ -238,6 +248,11 @@
             "ucm-suffix": "1mic"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -332,6 +347,11 @@
               }
             ],
             "ucm-suffix": "1mic"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {

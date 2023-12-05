@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -59,7 +27,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -108,38 +77,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -153,7 +90,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -202,38 +140,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -247,7 +153,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -296,38 +203,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -341,7 +216,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -390,38 +266,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -435,7 +279,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -484,38 +329,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -529,7 +342,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -578,38 +392,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -623,7 +405,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -672,38 +455,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -717,7 +468,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -766,38 +518,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -811,7 +531,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -860,38 +581,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -905,7 +594,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -954,38 +644,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -999,7 +657,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1048,38 +707,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1093,7 +720,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1142,38 +770,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "skolas",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/skolas/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/skolas/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1187,7 +783,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1236,38 +833,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "aviko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/aviko/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1281,7 +846,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1330,38 +896,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "aviko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/aviko/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1375,7 +909,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1424,38 +959,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "aviko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/aviko/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1469,7 +972,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1518,38 +1022,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "aviko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/HiFi.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.brya/sof-rt5682.brya.conf",
-                "source": "brya/audio/ucm-config/sof-rt5682.brya/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/sof-rt5682",
-                "source": "brya/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/aviko/dsp.ini",
-                "source": "brya/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/aviko/board.ini",
-                "source": "brya/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "brya"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1563,7 +1035,8 @@
           "build-targets": {
             "ec": "brya"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

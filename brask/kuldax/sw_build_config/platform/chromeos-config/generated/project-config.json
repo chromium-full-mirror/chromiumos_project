@@ -590,11 +590,11 @@
           "project": "kuldax"
         },
         "thermal": {
-          "dptf-dv": "kuldax/dptf.dv",
+          "dptf-dv": "kuldax/kuldax/200704/dptf.dv",
           "files": [
             {
-              "destination": "/etc/dptf/kuldax/dptf.dv",
-              "source": "kuldax/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+              "destination": "/etc/dptf/kuldax/kuldax/200704/dptf.dv",
+              "source": "kuldax/sw_build_config/platform/chromeos-config/thermal/kuldax/200704/dptf.dv"
             }
           ]
         },

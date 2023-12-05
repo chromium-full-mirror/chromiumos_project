@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -54,7 +22,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -111,38 +80,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -151,7 +88,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -208,38 +146,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -248,7 +154,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -305,38 +212,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -345,7 +220,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -402,38 +278,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -442,7 +286,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -498,38 +343,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -538,7 +351,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -594,38 +408,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -634,7 +416,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -691,38 +474,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -731,7 +482,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -788,38 +540,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -828,7 +548,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -885,38 +606,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -925,7 +614,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -982,38 +672,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1022,7 +680,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1078,38 +737,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1118,7 +745,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1175,38 +803,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1215,7 +811,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1272,38 +869,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1312,7 +877,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1369,38 +935,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "taeko",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/HiFi.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.taeko/sof-rt5682.taeko.conf",
-                "source": "taeko/audio/ucm-config/sof-rt5682.taeko/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/sof-rt5682",
-                "source": "taeko/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/taeko/dsp.ini",
-                "source": "taeko/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/taeko/board.ini",
-                "source": "taeko/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "taeko"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1409,7 +943,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1466,38 +1001,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "tarlo",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/sof-rt5682.tarlo.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
-                "source": "tarlo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/tarlo/dsp.ini",
-                "source": "tarlo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/board.ini",
-                "source": "tarlo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "tarlo"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1506,7 +1009,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1562,38 +1066,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "tarlo",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/sof-rt5682.tarlo.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
-                "source": "tarlo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/tarlo/dsp.ini",
-                "source": "tarlo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/board.ini",
-                "source": "tarlo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "tarlo"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1602,7 +1074,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1658,38 +1131,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "tarlo",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/sof-rt5682.tarlo.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
-                "source": "tarlo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/tarlo/dsp.ini",
-                "source": "tarlo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/board.ini",
-                "source": "tarlo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "tarlo"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1698,7 +1139,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1755,38 +1197,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "tarlo",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/HiFi.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.tarlo/sof-rt5682.tarlo.conf",
-                "source": "tarlo/audio/ucm-config/sof-rt5682.tarlo/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/sof-rt5682",
-                "source": "tarlo/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/tarlo/dsp.ini",
-                "source": "tarlo/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/tarlo/board.ini",
-                "source": "tarlo/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "tarlo"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1795,7 +1205,8 @@
           "build-targets": {
             "ec": "taeko"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

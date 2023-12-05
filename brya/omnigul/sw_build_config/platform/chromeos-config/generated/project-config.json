@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -59,7 +27,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -113,38 +82,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -158,7 +95,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -212,38 +150,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -257,7 +163,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -311,38 +218,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul.3mic/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul.3mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul.3mic/sof-rt5682.omnigul.3mic.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul.3mic/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul.3mic"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -356,7 +231,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -410,38 +286,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul.3mic/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul.3mic/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul.3mic/sof-rt5682.omnigul.3mic.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul.3mic/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul.3mic"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -455,7 +299,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -509,38 +354,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -554,7 +367,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -608,38 +422,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -653,7 +435,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -707,38 +490,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -752,7 +503,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -806,38 +558,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -851,7 +571,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -905,38 +626,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -950,7 +639,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1004,38 +694,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1049,7 +707,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1103,38 +762,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1148,7 +775,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1202,38 +830,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1247,7 +843,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1301,38 +898,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1346,7 +911,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1400,38 +966,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1445,7 +979,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1499,38 +1034,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "omnigul",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/HiFi.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.omnigul/sof-rt5682.omnigul.conf",
-                "source": "omnigul/audio/ucm-config/sof-rt5682.omnigul/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/sof-rt5682",
-                "source": "omnigul/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/omnigul/dsp.ini",
-                "source": "omnigul/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/omnigul/board.ini",
-                "source": "omnigul/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "omnigul"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1544,7 +1047,8 @@
           "build-targets": {
             "ec": "omnigul"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1563,6 +1067,890 @@
         "pvs": {
           "program": "brya",
           "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441807
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441808
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441809
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441810
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441811
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441812
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441813
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441814
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omnigul",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1441815
+        },
+        "name": "omnigul",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omnigul"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omniknight",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1572864
+        },
+        "name": "omniknight",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omniknight"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omniknight",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1572865
+        },
+        "name": "omniknight",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omniknight"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omniknight",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1572866
+        },
+        "name": "omniknight",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omniknight"
+        },
+        "thermal": {
+          "dptf-dv": "omnigul/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/omnigul/dptf.dv",
+              "source": "omnigul/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "omniknight",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "omnigul/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "omnigul"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Omnigul",
+          "platform-name": "Brya",
+          "sku-id": 1572867
+        },
+        "name": "omniknight",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "omniknight"
         },
         "thermal": {
           "dptf-dv": "omnigul/dptf.dv",
