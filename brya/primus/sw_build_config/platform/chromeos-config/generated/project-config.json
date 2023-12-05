@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -109,38 +77,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -208,38 +144,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -303,38 +207,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -402,38 +274,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -497,38 +337,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -596,38 +404,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -691,38 +467,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -790,38 +534,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -885,38 +597,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -984,38 +664,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1079,38 +727,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -1178,38 +794,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1273,38 +857,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -1372,38 +924,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1467,38 +987,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -1566,38 +1054,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1661,38 +1117,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -1760,38 +1184,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -1855,38 +1247,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -1954,38 +1314,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2049,38 +1377,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -2148,38 +1444,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2243,38 +1507,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -2342,38 +1574,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2437,38 +1637,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -2536,38 +1704,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2631,38 +1767,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -2730,38 +1834,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -2825,38 +1897,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -2924,38 +1964,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3019,38 +2027,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -3118,38 +2094,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3213,38 +2157,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -3312,38 +2224,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3407,38 +2287,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -3506,38 +2354,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3601,38 +2417,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -3700,38 +2484,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3795,38 +2547,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -3894,38 +2614,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -3989,38 +2677,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -4088,38 +2744,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4183,38 +2807,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -4282,38 +2874,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4377,38 +2937,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -4476,38 +3004,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4571,38 +3067,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus.rt5682vs/sof-rt5682.primus.rt5682vs.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus.rt5682vs"
           }
         },
         "camera": {
@@ -4670,38 +3134,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4765,38 +3197,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -4864,38 +3264,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -4959,38 +3327,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -5058,38 +3394,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5153,38 +3457,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -5252,38 +3524,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5347,38 +3587,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -5446,38 +3654,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5541,38 +3717,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -5640,38 +3784,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5735,38 +3847,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -5834,38 +3914,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -5929,38 +3977,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {
@@ -6028,38 +4044,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6125,38 +4109,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -6220,38 +4172,6 @@
           "hardware-features": {
             "build-path": "primus/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "primus",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/HiFi.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.primus/sof-rt5682.primus.conf",
-                "source": "primus/audio/ucm-config/sof-rt5682.primus/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/sof-rt5682",
-                "source": "primus/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/primus/dsp.ini",
-                "source": "primus/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/primus/board.ini",
-                "source": "primus/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "primus"
           }
         },
         "camera": {

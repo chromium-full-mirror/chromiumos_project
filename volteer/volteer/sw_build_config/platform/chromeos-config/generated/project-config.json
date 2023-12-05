@@ -526,7 +526,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "volteer2",
+            "cras-config-dir": "volteer2-alc5682-max98373",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
@@ -537,11 +537,11 @@
                 "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/sof-rt5682",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/volteer2/dsp.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/dsp.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
               },
               {
@@ -549,7 +549,7 @@
                 "source": "alsa-module-config/alsa-volteer.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/board.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/board.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
               }
             ],
@@ -616,7 +616,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "volteer2",
+            "cras-config-dir": "volteer2-alc5682-max98373",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-rt5682.max98373/HiFi.conf",
@@ -627,11 +627,11 @@
                 "source": "ucm-config/sof-rt5682.max98373/sof-rt5682.max98373.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/sof-rt5682",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/sof-rt5682",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/volteer2/dsp.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/dsp.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
               },
               {
@@ -639,7 +639,7 @@
                 "source": "alsa-module-config/alsa-volteer.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/board.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/board.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
               }
             ],
@@ -706,7 +706,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "volteer2",
+            "cras-config-dir": "volteer2-alc5682-max98373",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-soundwire/HiFi.conf",
@@ -717,11 +717,11 @@
                 "source": "ucm-config/sof-soundwire/sof-soundwire.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/sof-soundwire",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/sof-soundwire",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/volteer2/dsp.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/dsp.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
               },
               {
@@ -729,7 +729,7 @@
                 "source": "alsa-module-config/alsa-volteer.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/board.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/board.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
               }
             ]
@@ -884,7 +884,7 @@
         },
         "audio": {
           "main": {
-            "cras-config-dir": "volteer2",
+            "cras-config-dir": "volteer2-alc5682-max98373",
             "files": [
               {
                 "destination": "/usr/share/alsa/ucm/sof-soundwire/HiFi.conf",
@@ -895,11 +895,11 @@
                 "source": "ucm-config/sof-soundwire/sof-soundwire.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/sof-soundwire",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/sof-soundwire",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/card_settings"
               },
               {
-                "destination": "/etc/cras/volteer2/dsp.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/dsp.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/dsp.ini"
               },
               {
@@ -907,7 +907,7 @@
                 "source": "alsa-module-config/alsa-volteer.conf"
               },
               {
-                "destination": "/etc/cras/volteer2/board.ini",
+                "destination": "/etc/cras/volteer2-alc5682-max98373/board.ini",
                 "source": "volteer2-alc5682-max98373/audio/cras-config/board.ini"
               }
             ]

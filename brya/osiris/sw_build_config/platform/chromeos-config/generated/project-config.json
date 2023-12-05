@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -59,7 +27,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -116,38 +85,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -161,7 +98,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -218,38 +156,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -263,7 +169,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -320,38 +227,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -365,7 +240,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -422,38 +298,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -467,7 +311,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -524,38 +369,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -569,7 +382,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -626,38 +440,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -671,7 +453,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -728,38 +511,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -773,7 +524,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -830,38 +582,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "osiris",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/HiFi.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.osiris/sof-nau8825.osiris.conf",
-                "source": "osiris/audio/ucm-config/sof-nau8825.osiris/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/sof-nau8825",
-                "source": "osiris/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/osiris/dsp.ini",
-                "source": "osiris/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/osiris/board.ini",
-                "source": "osiris/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "osiris"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -875,7 +595,8 @@
           "build-targets": {
             "ec": "osiris"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

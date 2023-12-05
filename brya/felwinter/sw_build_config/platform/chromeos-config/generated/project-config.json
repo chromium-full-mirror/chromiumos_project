@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -54,7 +22,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -114,38 +84,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/sof-rt5682.felwinter.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -154,7 +92,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -214,38 +154,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter/sof-rt5682.felwinter.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -254,7 +162,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -314,38 +224,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -354,7 +232,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -414,38 +294,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -454,7 +302,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -514,38 +364,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -554,7 +372,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -614,38 +434,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "felwinter",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/HiFi.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.felwinter.rt5682vs/sof-rt5682.felwinter.rt5682vs.conf",
-                "source": "felwinter/audio/ucm-config/sof-rt5682.felwinter.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/sof-rt5682",
-                "source": "felwinter/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/felwinter/dsp.ini",
-                "source": "felwinter/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/felwinter/board.ini",
-                "source": "felwinter/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "felwinter.rt5682vs"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -654,7 +442,9 @@
           "build-targets": {
             "ec": "felwinter"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

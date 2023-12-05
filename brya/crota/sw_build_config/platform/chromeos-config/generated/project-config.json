@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -118,38 +86,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -226,38 +162,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -330,38 +234,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -438,38 +310,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -542,38 +382,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -650,38 +458,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -754,38 +530,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -862,38 +606,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -966,38 +678,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -1074,38 +754,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1178,38 +826,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -1286,38 +902,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1390,38 +974,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -1498,38 +1050,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1602,38 +1122,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -1710,38 +1198,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1814,38 +1270,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -1922,38 +1346,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -2026,38 +1418,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -2134,38 +1494,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -2238,38 +1566,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -2346,38 +1642,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -2450,38 +1714,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -2558,38 +1790,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -2662,38 +1862,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -2770,38 +1938,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -2874,38 +2010,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -2982,38 +2086,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -3086,38 +2158,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -3194,38 +2234,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -3298,38 +2306,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -3406,38 +2382,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -3510,38 +2454,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -3618,38 +2530,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -3722,38 +2602,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -3830,38 +2678,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -3934,38 +2750,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -4042,38 +2826,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -4146,38 +2898,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -4254,38 +2974,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -4358,38 +3046,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -4466,38 +3122,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -4570,38 +3194,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -4678,38 +3270,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -4782,38 +3342,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -4890,38 +3418,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -4994,38 +3490,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -5102,38 +3566,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -5206,38 +3638,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -5314,38 +3714,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -5418,38 +3786,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -5526,38 +3862,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -5630,38 +3934,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -5738,38 +4010,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -5842,38 +4082,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -5950,38 +4158,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -6054,38 +4230,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -6162,38 +4306,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -6266,38 +4378,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -6374,38 +4454,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -6478,38 +4526,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -6586,38 +4602,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -6690,38 +4674,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -6798,38 +4750,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -6902,38 +4822,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -7011,38 +4899,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -7116,38 +4972,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -7225,38 +5049,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -7330,38 +5122,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -7439,38 +5199,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -7544,38 +5272,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -7653,38 +5349,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -7758,38 +5422,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -7867,38 +5499,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -7972,38 +5572,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -8081,38 +5649,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -8186,38 +5722,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -8295,38 +5799,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -8400,38 +5872,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -8509,38 +5949,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -8614,38 +6022,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -8723,38 +6099,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -8828,38 +6172,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -8937,38 +6249,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -9042,38 +6322,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -9151,38 +6399,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -9256,38 +6472,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -9365,38 +6549,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -9470,38 +6622,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -9579,38 +6699,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -9684,38 +6772,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -9793,38 +6849,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -9898,38 +6922,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -10007,38 +6999,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -10112,38 +7072,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -10221,38 +7149,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -10326,38 +7222,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -10435,38 +7299,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -10540,38 +7372,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -10649,38 +7449,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -10754,38 +7522,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -10863,38 +7599,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -10968,38 +7672,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -11077,38 +7749,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -11182,38 +7822,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -11291,38 +7899,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -11396,38 +7972,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -11505,38 +8049,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -11610,38 +8122,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -11719,38 +8199,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -11824,38 +8272,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -11933,38 +8349,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -12038,38 +8422,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -12147,38 +8499,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -12252,38 +8572,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -12361,38 +8649,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -12466,38 +8722,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -12575,38 +8799,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -12680,38 +8872,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -12789,38 +8949,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -12894,38 +9022,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -13003,38 +9099,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -13108,38 +9172,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -13217,38 +9249,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -13322,38 +9322,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -13431,38 +9399,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -13536,38 +9472,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {
@@ -13645,38 +9549,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -13752,38 +9624,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -13857,38 +9697,6 @@
           "hardware-features": {
             "build-path": "crota/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "crota360",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/HiFi.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-cs42l42.crota/sof-cs42l42.crota.conf",
-                "source": "crota/audio/ucm-config/sof-cs42l42.crota/sof-cs42l42.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/sof-cs42l42",
-                "source": "crota/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/crota360/dsp.ini",
-                "source": "crota/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/crota360/board.ini",
-                "source": "crota/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "crota"
           }
         },
         "bluetooth": {

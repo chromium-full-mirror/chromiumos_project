@@ -46,6 +46,11 @@
             "ucm-suffix": "rt1015.2mic.pirette"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -139,6 +144,11 @@
               }
             ],
             "ucm-suffix": "rt1015p.2mic.pirette"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {
@@ -236,6 +246,11 @@
             "ucm-suffix": "rt1015p.2mic.pirette.rt5682vs"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -329,6 +344,11 @@
               }
             ],
             "ucm-suffix": "1mic"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {
@@ -426,6 +446,11 @@
             "ucm-suffix": "rt1015.2mic.pirika"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -519,6 +544,11 @@
               }
             ],
             "ucm-suffix": "rt1015.2mic.pirika"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {
@@ -616,6 +646,11 @@
             "ucm-suffix": "rt1015p.2mic.pirika"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -709,6 +744,11 @@
               }
             ],
             "ucm-suffix": "rt1015p.2mic.pirika.rt5682vs"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {
@@ -806,6 +846,11 @@
             "ucm-suffix": "rt1015p.2mic.pirika.rt5682vs"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -899,6 +944,11 @@
               }
             ],
             "ucm-suffix": "rt1015.2mic.pasara"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
           }
         },
         "camera": {
@@ -996,6 +1046,11 @@
             "ucm-suffix": "rt1015p.2mic.pasara.rt5682vs"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -1091,6 +1146,11 @@
             "ucm-suffix": "alc5650.2mic.peezer"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -1109,6 +1169,106 @@
           "frid": "Google_Pirika",
           "platform-name": "Dedede",
           "sku-id": 3276800
+        },
+        "name": "peezer",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "peezer"
+        },
+        "thermal": {
+          "dptf-dv": "pirika/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pirika/dptf.dv",
+              "source": "pirika/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "peezer",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "pirika/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "peezer",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.peezer/HiFi.conf",
+                "source": "peezer/audio/ucm-config/sof-rt5650.alc5650.2mic.peezer/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.peezer/sof-rt5650.alc5650.2mic.peezer.conf",
+                "source": "peezer/audio/ucm-config/sof-rt5650.alc5650.2mic.peezer/sof-rt5650.conf"
+              },
+              {
+                "destination": "/etc/cras/peezer/sof-rt5650",
+                "source": "peezer/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/peezer/dsp.ini",
+                "source": "peezer/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/peezer/board.ini",
+                "source": "peezer/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "alc5650.2mic.peezer"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pirika",
+          "platform-name": "Dedede",
+          "sku-id": 3276801
         },
         "name": "peezer",
         "power": {

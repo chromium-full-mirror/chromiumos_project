@@ -22,6 +22,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -35,6 +44,15 @@
         "pvs": {
           "program": "rex",
           "project": "karis"
+        },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -68,6 +86,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -83,6 +110,15 @@
           "program": "rex",
           "project": "karis"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -115,6 +151,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -130,6 +175,15 @@
           "program": "rex",
           "project": "karis"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -162,6 +216,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -177,6 +240,15 @@
           "program": "rex",
           "project": "karis"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -209,6 +281,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -224,6 +305,15 @@
           "program": "rex",
           "project": "karis"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -256,6 +346,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -271,6 +370,15 @@
           "program": "rex",
           "project": "karis"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -304,6 +412,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -317,6 +434,15 @@
         "pvs": {
           "program": "rex",
           "project": "karis"
+        },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -345,6 +471,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -360,6 +495,15 @@
           "program": "rex",
           "project": "karis4es"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -387,6 +531,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -402,6 +555,15 @@
           "program": "rex",
           "project": "karis4es"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -429,6 +591,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -444,6 +615,15 @@
           "program": "rex",
           "project": "karis4es"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -471,6 +651,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -486,6 +675,15 @@
           "program": "rex",
           "project": "karis4es"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -513,6 +711,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -528,6 +735,15 @@
           "program": "rex",
           "project": "karis4es"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -555,6 +771,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -570,6 +795,15 @@
           "program": "rex",
           "project": "karis4es"
         },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -598,6 +832,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "karis"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -611,6 +854,15 @@
         "pvs": {
           "program": "rex",
           "project": "karis4es"
+        },
+        "thermal": {
+          "dptf-dv": "karis/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/karis/dptf.dv",
+              "source": "karis/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [

@@ -14,44 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -65,7 +27,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -123,44 +86,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -174,7 +99,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -232,44 +158,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -283,7 +171,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -341,44 +230,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -392,7 +243,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -450,44 +302,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -501,7 +315,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -559,44 +374,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -610,7 +387,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -668,44 +446,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -719,7 +459,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -777,44 +518,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -828,7 +531,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -886,44 +590,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -937,7 +603,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -995,44 +662,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "kano",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/HiFi.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.kano/sof-nau8825.kano.conf",
-                "source": "kano/audio/ucm-config/sof-nau8825.kano/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/sof-nau8825",
-                "source": "kano/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/kano/dsp.ini",
-                "source": "kano/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/kano/board.ini",
-                "source": "kano/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/kano.yaml",
-                "source": "kano/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "kano.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "kano"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1046,7 +675,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1104,44 +734,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1155,7 +747,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1213,44 +806,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1264,7 +819,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1322,44 +878,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1373,7 +891,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1431,44 +950,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1482,7 +963,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1540,44 +1022,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1591,7 +1035,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1649,44 +1094,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1700,7 +1107,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1758,44 +1166,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1809,7 +1179,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1867,44 +1238,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zydron",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/HiFi.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zydron/sof-nau8825.zydron.conf",
-                "source": "zydron/audio/ucm-config/sof-nau8825.zydron/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/sof-nau8825",
-                "source": "zydron/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zydron/dsp.ini",
-                "source": "zydron/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zydron/board.ini",
-                "source": "zydron/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zydron.yaml",
-                "source": "zydron/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zydron.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zydron"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -1918,7 +1251,8 @@
           "build-targets": {
             "ec": "kano"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

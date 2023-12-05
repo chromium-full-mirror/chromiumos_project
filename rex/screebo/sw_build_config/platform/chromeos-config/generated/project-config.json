@@ -22,6 +22,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -77,6 +86,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -134,6 +152,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -189,6 +216,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -246,6 +282,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -301,6 +346,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -358,6 +412,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -413,6 +476,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -470,6 +542,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -526,6 +607,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -581,6 +671,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -638,6 +737,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -646,6 +754,266 @@
           "frid": "Google_Screebo",
           "platform-name": "Rex",
           "sku-id": 65547
+        },
+        "name": "screebo",
+        "pvs": {
+          "program": "rex",
+          "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "screebo",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "screebo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Screebo",
+          "platform-name": "Rex",
+          "sku-id": 65548
+        },
+        "name": "screebo",
+        "pvs": {
+          "program": "rex",
+          "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "screebo",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "screebo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Screebo",
+          "platform-name": "Rex",
+          "sku-id": 65549
+        },
+        "name": "screebo",
+        "pvs": {
+          "program": "rex",
+          "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "screebo",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "screebo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Screebo",
+          "platform-name": "Rex",
+          "sku-id": 65550
+        },
+        "name": "screebo",
+        "pvs": {
+          "program": "rex",
+          "project": "screebo"
+        },
+        "thermal": {
+          "dptf-dv": "screebo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/screebo/dptf.dv",
+              "source": "screebo/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "rex_cheets",
+            "marketing-name": "",
+            "metrics-tag": "screebo",
+            "product": "rex"
+          },
+          "hardware-features": {
+            "build-path": "screebo/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Screebo",
+          "platform-name": "Rex",
+          "sku-id": 65551
         },
         "name": "screebo",
         "pvs": {
@@ -693,6 +1061,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -750,6 +1127,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -805,6 +1191,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -862,6 +1257,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -917,6 +1321,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -974,6 +1387,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -1029,6 +1451,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1086,6 +1517,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -1141,6 +1581,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1198,6 +1647,15 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -1253,6 +1711,15 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-rex-private",
+          "build-targets": {
+            "zephyr-ec": "screebo"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

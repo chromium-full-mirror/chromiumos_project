@@ -14,44 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -60,7 +22,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -118,44 +81,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -164,7 +89,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -222,44 +148,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -268,7 +156,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -326,44 +215,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -372,7 +223,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -430,44 +282,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -476,7 +290,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -534,44 +349,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -580,7 +357,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -638,44 +416,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -684,7 +424,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -742,44 +483,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -788,7 +491,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -846,44 +550,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "vell",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/HiFi.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-ssp_amp.vell/sof-ssp_amp.vell.conf",
-                "source": "vell/audio/ucm-config/sof-ssp_amp.vell/sof-ssp_amp.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/sof-ssp_amp",
-                "source": "vell/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/vell/dsp.ini",
-                "source": "vell/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/vell/board.ini",
-                "source": "vell/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/vell.yaml",
-                "source": "vell/audio/sound-card-init-config/sofssp_amp.yaml"
-              }
-            ],
-            "sound-card-init-conf": "vell.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "vell"
-          }
-        },
         "camera": {
           "count": 0
         },
@@ -892,7 +558,8 @@
           "build-targets": {
             "ec": "vell"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",

@@ -14,44 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "volmar",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/sof-nau8825",
-                "source": "volmar/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/volmar/dsp.ini",
-                "source": "volmar/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/board.ini",
-                "source": "volmar/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/volmar.yaml",
-                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "volmar.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "volmar"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -120,44 +82,6 @@
           "hardware-features": {
             "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "volmar",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/sof-nau8825",
-                "source": "volmar/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/volmar/dsp.ini",
-                "source": "volmar/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/board.ini",
-                "source": "volmar/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/volmar.yaml",
-                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "volmar.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "volmar"
           }
         },
         "bluetooth": {
@@ -230,44 +154,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "volmar",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/sof-nau8825",
-                "source": "volmar/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/volmar/dsp.ini",
-                "source": "volmar/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/board.ini",
-                "source": "volmar/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/volmar.yaml",
-                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "volmar.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "volmar"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -336,44 +222,6 @@
           "hardware-features": {
             "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "volmar",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/sof-nau8825",
-                "source": "volmar/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/volmar/dsp.ini",
-                "source": "volmar/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/board.ini",
-                "source": "volmar/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/volmar.yaml",
-                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "volmar.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "volmar"
           }
         },
         "bluetooth": {
@@ -446,44 +294,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "volmar",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/HiFi.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.volmar/sof-nau8825.volmar.conf",
-                "source": "volmar/audio/ucm-config/sof-nau8825.volmar/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/sof-nau8825",
-                "source": "volmar/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/volmar/dsp.ini",
-                "source": "volmar/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/volmar/board.ini",
-                "source": "volmar/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/volmar.yaml",
-                "source": "volmar/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "volmar.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "volmar"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -552,44 +362,6 @@
           "hardware-features": {
             "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zavala",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/HiFi.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/sof-nau8825.zavala.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/sof-nau8825",
-                "source": "zavala/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zavala/dsp.ini",
-                "source": "zavala/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/board.ini",
-                "source": "zavala/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zavala.yaml",
-                "source": "zavala/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zavala.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zavala"
           }
         },
         "bluetooth": {
@@ -662,44 +434,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zavala",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/HiFi.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/sof-nau8825.zavala.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/sof-nau8825",
-                "source": "zavala/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zavala/dsp.ini",
-                "source": "zavala/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/board.ini",
-                "source": "zavala/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zavala.yaml",
-                "source": "zavala/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zavala.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zavala"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -770,44 +504,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zavala",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/HiFi.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/sof-nau8825.zavala.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/sof-nau8825",
-                "source": "zavala/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zavala/dsp.ini",
-                "source": "zavala/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/board.ini",
-                "source": "zavala/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zavala.yaml",
-                "source": "zavala/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zavala.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zavala"
-          }
-        },
         "bluetooth": {
           "flags": {
             "enable-bluetooth-offload": true
@@ -876,44 +572,6 @@
           "hardware-features": {
             "build-path": "volmar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
             "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "audio": {
-          "main": {
-            "cras-config-dir": "zavala",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/HiFi.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-nau8825.zavala/sof-nau8825.zavala.conf",
-                "source": "zavala/audio/ucm-config/sof-nau8825.zavala/sof-nau8825.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/sof-nau8825",
-                "source": "zavala/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/zavala/dsp.ini",
-                "source": "zavala/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/zavala/board.ini",
-                "source": "zavala/audio/cras-config/board.ini"
-              },
-              {
-                "destination": "/etc/sound_card_init/zavala.yaml",
-                "source": "zavala/audio/sound-card-init-config/sofnau8825.yaml"
-              }
-            ],
-            "sound-card-init-conf": "zavala.yaml",
-            "speaker-amp": "AMPLIFIER_UNKNOWN",
-            "ucm-suffix": "zavala"
           }
         },
         "bluetooth": {
