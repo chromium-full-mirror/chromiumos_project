@@ -24,6 +24,48 @@
         "identity": {
           "frid": "Google_Anraggar",
           "platform-name": "Nissa",
+          "sku-id": 2555911
+        },
+        "name": "anraggar",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
           "sku-id": 2555914
         },
         "name": "anraggar",
@@ -67,6 +109,132 @@
           "frid": "Google_Anraggar",
           "platform-name": "Nissa",
           "sku-id": 2555918
+        },
+        "name": "anraggar",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2555930
+        },
+        "name": "anraggar",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2555934
+        },
+        "name": "anraggar",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2555935
         },
         "name": "anraggar",
         "pvs": {
@@ -151,6 +319,174 @@
           "frid": "Google_Anraggar",
           "platform-name": "Nissa",
           "sku-id": 2621441
+        },
+        "name": "anraggar360",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar360"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar360",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2621442
+        },
+        "name": "anraggar360",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar360"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar360",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2621451
+        },
+        "name": "anraggar360",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar360"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar360",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2621457
+        },
+        "name": "anraggar360",
+        "pvs": {
+          "program": "nissa",
+          "project": "anraggar360"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anraggar360",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "anraggar/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anraggar",
+          "platform-name": "Nissa",
+          "sku-id": 2621466
         },
         "name": "anraggar360",
         "pvs": {
