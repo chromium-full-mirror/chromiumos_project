@@ -31,6 +31,15 @@
           "program": "nissa",
           "project": "anraggar"
         },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -72,6 +81,15 @@
         "pvs": {
           "program": "nissa",
           "project": "anraggar"
+        },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -115,6 +133,15 @@
           "program": "nissa",
           "project": "anraggar"
         },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +183,15 @@
         "pvs": {
           "program": "nissa",
           "project": "anraggar"
+        },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -199,6 +235,15 @@
           "program": "nissa",
           "project": "anraggar"
         },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -240,6 +285,15 @@
         "pvs": {
           "program": "nissa",
           "project": "anraggar"
+        },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -283,6 +337,15 @@
           "program": "nissa",
           "project": "anraggar360"
         },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -324,6 +387,15 @@
         "pvs": {
           "program": "nissa",
           "project": "anraggar360"
+        },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -367,6 +439,15 @@
           "program": "nissa",
           "project": "anraggar360"
         },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -408,6 +489,15 @@
         "pvs": {
           "program": "nissa",
           "project": "anraggar360"
+        },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -451,6 +541,15 @@
           "program": "nissa",
           "project": "anraggar360"
         },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -492,6 +591,15 @@
         "pvs": {
           "program": "nissa",
           "project": "anraggar360"
+        },
+        "thermal": {
+          "dptf-dv": "anraggar/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/anraggar/dptf.dv",
+              "source": "anraggar/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
