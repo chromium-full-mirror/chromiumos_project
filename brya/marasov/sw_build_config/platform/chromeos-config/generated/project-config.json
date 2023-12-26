@@ -14,38 +14,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -60,7 +28,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -119,38 +88,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -165,7 +102,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -224,38 +162,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -270,7 +176,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -329,38 +236,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -375,7 +250,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -434,38 +310,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -480,7 +324,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -539,38 +384,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -585,7 +398,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -644,38 +458,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -690,7 +472,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -749,38 +532,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -795,7 +546,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -854,38 +606,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -900,7 +620,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -959,38 +680,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1005,7 +694,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1064,38 +754,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1110,7 +768,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1169,38 +828,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1215,7 +842,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1274,38 +902,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1320,7 +916,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1379,38 +976,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1425,7 +990,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1484,38 +1050,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1530,7 +1064,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1589,38 +1124,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1635,7 +1138,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1694,38 +1198,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1740,7 +1212,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1799,38 +1272,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1845,7 +1286,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1904,38 +1346,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -1950,7 +1360,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2009,38 +1420,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2055,7 +1434,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2114,38 +1494,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2160,7 +1508,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2219,38 +1568,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov/sof-rt5682.marasov.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2265,7 +1582,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2324,38 +1642,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2370,7 +1656,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2429,38 +1716,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2475,7 +1730,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2534,38 +1790,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2580,7 +1804,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2639,38 +1864,6 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
-        "audio": {
-          "main": {
-            "cras-config-dir": "marasov",
-            "files": [
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/HiFi.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/HiFi.conf"
-              },
-              {
-                "destination": "/usr/share/alsa/ucm/sof-rt5682.marasov.rt5682vs/sof-rt5682.marasov.rt5682vs.conf",
-                "source": "marasov/audio/ucm-config/sof-rt5682.marasov.rt5682vs/sof-rt5682.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/sof-rt5682",
-                "source": "marasov/audio/cras-config/card_settings"
-              },
-              {
-                "destination": "/etc/cras/marasov/dsp.ini",
-                "source": "marasov/audio/cras-config/dsp.ini"
-              },
-              {
-                "destination": "/etc/modprobe.d/alsa-brya.conf",
-                "source": "alsa-module-config/alsa-brya.conf"
-              },
-              {
-                "destination": "/etc/cras/marasov/board.ini",
-                "source": "marasov/audio/cras-config/board.ini"
-              }
-            ],
-            "ucm-suffix": "marasov.rt5682vs"
-          }
-        },
         "bluetooth": {
           "flags": {
             "block-floss-availability": true,
@@ -2685,7 +1878,8 @@
           "build-targets": {
             "ec": "marasov"
           },
-          "firmware-config": 0
+          "firmware-config": 0,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -2705,6 +1899,222 @@
           "set-wifi-transmit-power-for-tablet-mode": "0",
           "suspend-to-idle": "1",
           "wifi-transmit-power-mode-for-static-device": "non-tablet"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
+        },
+        "thermal": {
+          "dptf-dv": "marasov/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/marasov/dptf.dv",
+              "source": "marasov/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "marasov",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "marasov/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true,
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "marasov"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Marasov",
+          "platform-name": "Brya",
+          "sku-id": 1388544
+        },
+        "name": "marasov",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
+        },
+        "thermal": {
+          "dptf-dv": "marasov/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/marasov/dptf.dv",
+              "source": "marasov/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "marasov",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "marasov/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true,
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "marasov"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Marasov",
+          "platform-name": "Brya",
+          "sku-id": 1388545
+        },
+        "name": "marasov",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brya",
+          "project": "marasov"
+        },
+        "thermal": {
+          "dptf-dv": "marasov/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/marasov/dptf.dv",
+              "source": "marasov/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brya_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brya_cheets",
+            "marketing-name": "",
+            "metrics-tag": "marasov",
+            "product": "brya"
+          },
+          "hardware-features": {
+            "build-path": "marasov/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true,
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brya-private",
+          "build-targets": {
+            "ec": "marasov"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Marasov",
+          "platform-name": "Brya",
+          "sku-id": 1388546
+        },
+        "name": "marasov",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "has-keyboard-backlight": "1",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
         },
         "pvs": {
           "program": "brya",
