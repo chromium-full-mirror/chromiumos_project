@@ -17,6 +17,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "dita"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -27,6 +34,9 @@
           "sku-id": 2147483647
         },
         "name": "dita",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "dedede",
           "project": "dita"
