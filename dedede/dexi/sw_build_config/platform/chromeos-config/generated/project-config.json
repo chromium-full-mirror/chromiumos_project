@@ -42,6 +42,15 @@
           "program": "dedede",
           "project": "dexi"
         },
+        "thermal": {
+          "dptf-dv": "dexi/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/dexi/dptf.dv",
+              "source": "dexi/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +103,15 @@
         "pvs": {
           "program": "dedede",
           "project": "dexi"
+        },
+        "thermal": {
+          "dptf-dv": "dexi/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/dexi/dptf.dv",
+              "source": "dexi/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
