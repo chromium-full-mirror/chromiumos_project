@@ -20,7 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brya-private",
           "build-targets": {
-            "ec": "xol"
+            "ec": "brya"
           },
           "firmware-config": 0,
           "has-splash-screen": true
@@ -78,7 +78,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brya-private",
           "build-targets": {
-            "ec": "xol"
+            "ec": "brya"
           },
           "firmware-config": 0,
           "has-splash-screen": true
