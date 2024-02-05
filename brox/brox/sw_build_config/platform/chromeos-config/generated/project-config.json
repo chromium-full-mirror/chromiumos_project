@@ -20,7 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
-            "ec": "brox"
+            "zephyr-ec": "brox"
           },
           "firmware-config": 0,
           "has-splash-screen": true
@@ -76,7 +76,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
-            "ec": "brox"
+            "zephyr-ec": "brox"
           },
           "firmware-config": 0,
           "has-splash-screen": true
@@ -132,7 +132,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
-            "ec": "brox"
+            "zephyr-ec": "brox"
           },
           "firmware-config": 0,
           "has-splash-screen": true
@@ -188,7 +188,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
-            "ec": "brox"
+            "zephyr-ec": "brox"
           },
           "firmware-config": 0,
           "has-splash-screen": true
