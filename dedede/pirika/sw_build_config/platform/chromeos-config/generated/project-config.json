@@ -2304,6 +2304,410 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "palutena",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "pirika/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "palutena",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/HiFi.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.alc5650.2mic.palutena.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/sof-rt5650",
+                "source": "palutena/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/palutena/dsp.ini",
+                "source": "palutena/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/board.ini",
+                "source": "palutena/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "alc5650.2mic.palutena"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pirika",
+          "platform-name": "Dedede",
+          "sku-id": 3473412
+        },
+        "name": "palutena",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "palutena"
+        },
+        "thermal": {
+          "dptf-dv": "pirika/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pirika/dptf.dv",
+              "source": "pirika/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "palutena",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "pirika/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "palutena",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/HiFi.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.alc5650.2mic.palutena.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/sof-rt5650",
+                "source": "palutena/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/palutena/dsp.ini",
+                "source": "palutena/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/board.ini",
+                "source": "palutena/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "alc5650.2mic.palutena"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pirika",
+          "platform-name": "Dedede",
+          "sku-id": 3473413
+        },
+        "name": "palutena",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "palutena"
+        },
+        "thermal": {
+          "dptf-dv": "pirika/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pirika/dptf.dv",
+              "source": "pirika/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "palutena",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "pirika/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "palutena",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/HiFi.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.alc5650.2mic.palutena.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/sof-rt5650",
+                "source": "palutena/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/palutena/dsp.ini",
+                "source": "palutena/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/board.ini",
+                "source": "palutena/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "alc5650.2mic.palutena"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pirika",
+          "platform-name": "Dedede",
+          "sku-id": 3473414
+        },
+        "name": "palutena",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "palutena"
+        },
+        "thermal": {
+          "dptf-dv": "pirika/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pirika/dptf.dv",
+              "source": "pirika/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "palutena",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "pirika/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "palutena",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/HiFi.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.alc5650.2mic.palutena.conf",
+                "source": "palutena/audio/ucm-config/sof-rt5650.alc5650.2mic.palutena/sof-rt5650.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/sof-rt5650",
+                "source": "palutena/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/palutena/dsp.ini",
+                "source": "palutena/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/palutena/board.ini",
+                "source": "palutena/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "alc5650.2mic.palutena"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "block-floss-availability": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "pirika"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Pirika",
+          "platform-name": "Dedede",
+          "sku-id": 3473415
+        },
+        "name": "palutena",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "palutena"
+        },
+        "thermal": {
+          "dptf-dv": "pirika/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pirika/dptf.dv",
+              "source": "pirika/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
