@@ -27,6 +27,9 @@
           "sku-id": 2147483647
         },
         "name": "sundance",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
         "pvs": {
           "program": "nissa",
           "project": "sundance"
