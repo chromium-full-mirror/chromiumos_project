@@ -31,6 +31,15 @@
           "program": "nissa",
           "project": "gothrax"
         },
+        "thermal": {
+          "dptf-dv": "gothrax/gothrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/gothrax/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/gothrax/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -72,6 +81,15 @@
         "pvs": {
           "program": "nissa",
           "project": "gothrax"
+        },
+        "thermal": {
+          "dptf-dv": "gothrax/gothrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/gothrax/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/gothrax/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -115,6 +133,15 @@
           "program": "nissa",
           "project": "gothrax"
         },
+        "thermal": {
+          "dptf-dv": "gothrax/gothrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/gothrax/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/gothrax/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +183,15 @@
         "pvs": {
           "program": "nissa",
           "project": "gothrax"
+        },
+        "thermal": {
+          "dptf-dv": "gothrax/gothrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/gothrax/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/gothrax/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -199,6 +235,15 @@
           "program": "nissa",
           "project": "gothrax"
         },
+        "thermal": {
+          "dptf-dv": "gothrax/gothrax/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/gothrax/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/gothrax/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -240,6 +285,15 @@
         "pvs": {
           "program": "nissa",
           "project": "gothraxcs"
+        },
+        "thermal": {
+          "dptf-dv": "gothrax/gothraxcs/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/gothraxcs/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/gothraxcs/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -283,6 +337,15 @@
           "program": "nissa",
           "project": "hideo"
         },
+        "thermal": {
+          "dptf-dv": "gothrax/hideo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/hideo/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/hideo/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -325,6 +388,15 @@
           "program": "nissa",
           "project": "hideo"
         },
+        "thermal": {
+          "dptf-dv": "gothrax/hideo/2752513/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/hideo/2752513/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/hideo/2752513/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -366,6 +438,15 @@
         "pvs": {
           "program": "nissa",
           "project": "hideo"
+        },
+        "thermal": {
+          "dptf-dv": "gothrax/hideo/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/gothrax/hideo/dptf.dv",
+              "source": "gothrax/sw_build_config/platform/chromeos-config/thermal/hideo/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
