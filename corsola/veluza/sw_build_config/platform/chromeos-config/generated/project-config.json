@@ -17,12 +17,23 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "veluza",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "veluza"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Keldeo",
+          "frid": "Google_Veluza",
           "platform-name": "Corsola",
           "sku-id": 65536
         },
@@ -58,6 +69,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "veluza",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "veluza"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -101,6 +123,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "veluza",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "veluza"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -142,6 +175,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "veluza",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "veluza"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -185,6 +229,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "veluza",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "veluza"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -226,6 +281,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "veluza",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "veluza"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
