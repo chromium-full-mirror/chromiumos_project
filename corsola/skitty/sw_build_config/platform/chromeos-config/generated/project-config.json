@@ -14,6 +14,12 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "skitty",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
