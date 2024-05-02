@@ -4368,6 +4368,230 @@
             "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
           ]
         }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "craaswell",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Craask",
+          "platform-name": "Nissa",
+          "sku-id": 2228240
+        },
+        "name": "craaswell",
+        "pvs": {
+          "program": "nissa",
+          "project": "craaswell"
+        },
+        "thermal": {
+          "dptf-dv": "craask/craaswell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/craaswell/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craaswell/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "craaswell",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Craask",
+          "platform-name": "Nissa",
+          "sku-id": 2228241
+        },
+        "name": "craaswell",
+        "pvs": {
+          "program": "nissa",
+          "project": "craaswell"
+        },
+        "thermal": {
+          "dptf-dv": "craask/craaswell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/craaswell/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craaswell/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "craaswell",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Craask",
+          "platform-name": "Nissa",
+          "sku-id": 2228242
+        },
+        "name": "craaswell",
+        "pvs": {
+          "program": "nissa",
+          "project": "craaswell"
+        },
+        "thermal": {
+          "dptf-dv": "craask/craaswell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/craaswell/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craaswell/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "craaswell",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "craask/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Craask",
+          "platform-name": "Nissa",
+          "sku-id": 2228243
+        },
+        "name": "craaswell",
+        "pvs": {
+          "program": "nissa",
+          "project": "craaswell"
+        },
+        "thermal": {
+          "dptf-dv": "craask/craaswell/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/craask/craaswell/dptf.dv",
+              "source": "craask/sw_build_config/platform/chromeos-config/thermal/craaswell/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
       }
     ]
   }
