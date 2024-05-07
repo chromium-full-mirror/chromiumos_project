@@ -17,6 +17,14 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "greenbayupoc"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -27,6 +35,11 @@
           "sku-id": 2147483647
         },
         "name": "greenbayupoc",
+        "power": {
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "brox",
           "project": "greenbayupoc"
