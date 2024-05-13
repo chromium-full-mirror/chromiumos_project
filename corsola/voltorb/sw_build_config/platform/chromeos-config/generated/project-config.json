@@ -200,6 +200,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "squirtle",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "squirtle"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -247,6 +258,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-corsola-private",
+          "build-targets": {
+            "bmpblk": "corsola",
+            "coreboot": "squirtle",
+            "depthcharge": "corsola",
+            "libpayload": "corsola",
+            "zephyr-ec": "squirtle"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
