@@ -17,6 +17,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "mtlrvpp_npcx"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -59,6 +66,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "mtlrvpp_npcx"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -100,6 +114,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "mtlrvpp_npcx"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -143,6 +164,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "mtlrvpp_mchp"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -185,6 +213,13 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "mtlrvpp_mchp"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -226,6 +261,13 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "mtlrvpp_mchp"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
