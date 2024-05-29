@@ -38,6 +38,15 @@
           "program": "ovis",
           "project": "deku"
         },
+        "thermal": {
+          "dptf-dv": "deku/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/deku/dptf.dv",
+              "source": "deku/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'ovis_cheets', 'firstApiLevel': '28'}",
@@ -86,6 +95,15 @@
         "pvs": {
           "program": "ovis",
           "project": "deku"
+        },
+        "thermal": {
+          "dptf-dv": "deku/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/deku/dptf.dv",
+              "source": "deku/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
