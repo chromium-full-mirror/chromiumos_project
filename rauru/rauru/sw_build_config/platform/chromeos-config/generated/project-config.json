@@ -22,6 +22,9 @@
           "build-targets": {
             "coreboot": "rauru",
             "depthcharge": "rauru",
+            "ec_extras": [
+              "helipilot"
+            ],
             "libpayload": "rauru",
             "zephyr-ec": "rauru"
           },
