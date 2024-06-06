@@ -19,16 +19,28 @@
             "cras-config-dir": "bujia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.bujia/HiFi.conf",
-                "source": "bujia/audio/ucm-config/sof-rt5650.bujia/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.bujia/HiFi.conf",
+                "source": "bujia/audio/ucm-config/sof-rt5682.bujia/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.bujia/sof-rt5650.bujia.conf",
-                "source": "bujia/audio/ucm-config/sof-rt5650.bujia/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.bujia/sof-rt5682.bujia.conf",
+                "source": "bujia/audio/ucm-config/sof-rt5682.bujia/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/bujia/sof-rt5682",
+                "source": "bujia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/bujia/dsp.ini",
+                "source": "bujia/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/bujia/board.ini",
+                "source": "bujia/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "bujia"
@@ -97,16 +109,28 @@
             "cras-config-dir": "bujia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.bujia/HiFi.conf",
-                "source": "bujia/audio/ucm-config/sof-rt5650.bujia/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.bujia/HiFi.conf",
+                "source": "bujia/audio/ucm-config/sof-rt5682.bujia/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.bujia/sof-rt5650.bujia.conf",
-                "source": "bujia/audio/ucm-config/sof-rt5650.bujia/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.bujia/sof-rt5682.bujia.conf",
+                "source": "bujia/audio/ucm-config/sof-rt5682.bujia/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/bujia/sof-rt5682",
+                "source": "bujia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/bujia/dsp.ini",
+                "source": "bujia/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/bujia/board.ini",
+                "source": "bujia/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "bujia"
@@ -175,16 +199,28 @@
             "cras-config-dir": "bujia",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.bujia/HiFi.conf",
-                "source": "bujia/audio/ucm-config/sof-rt5650.bujia/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.bujia/HiFi.conf",
+                "source": "bujia/audio/ucm-config/sof-rt5682.bujia/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.bujia/sof-rt5650.bujia.conf",
-                "source": "bujia/audio/ucm-config/sof-rt5650.bujia/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.bujia/sof-rt5682.bujia.conf",
+                "source": "bujia/audio/ucm-config/sof-rt5682.bujia/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/bujia/sof-rt5682",
+                "source": "bujia/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/bujia/dsp.ini",
+                "source": "bujia/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-brask.conf",
                 "source": "alsa-module-config/alsa-brask.conf"
+              },
+              {
+                "destination": "/etc/cras/bujia/board.ini",
+                "source": "bujia/audio/cras-config/board.ini"
               }
             ],
             "ucm-suffix": "bujia"
