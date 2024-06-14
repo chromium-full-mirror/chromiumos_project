@@ -9724,6 +9724,15 @@
           "program": "nissa",
           "project": "pujjoga"
         },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoga/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoga/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoga/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9768,6 +9777,15 @@
         "pvs": {
           "program": "nissa",
           "project": "pujjoga"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoga/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoga/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoga/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9814,6 +9832,15 @@
           "program": "nissa",
           "project": "pujjoga"
         },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoga/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoga/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoga/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9859,6 +9886,15 @@
           "program": "nissa",
           "project": "pujjoga"
         },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoga/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoga/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoga/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9903,6 +9939,15 @@
         "pvs": {
           "program": "nissa",
           "project": "pujjoga"
+        },
+        "thermal": {
+          "dptf-dv": "pujjo/pujjoga/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjo/pujjoga/dptf.dv",
+              "source": "pujjo/sw_build_config/platform/chromeos-config/thermal/pujjoga/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
