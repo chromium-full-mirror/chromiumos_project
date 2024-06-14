@@ -34,6 +34,15 @@
           "program": "nissa",
           "project": "sundance"
         },
+        "thermal": {
+          "dptf-dv": "sundance/sundance/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/sundance/sundance/dptf.dv",
+              "source": "sundance/sw_build_config/platform/chromeos-config/thermal/sundance/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -79,6 +88,15 @@
           "program": "nissa",
           "project": "sundance"
         },
+        "thermal": {
+          "dptf-dv": "sundance/sundance/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/sundance/sundance/dptf.dv",
+              "source": "sundance/sw_build_config/platform/chromeos-config/thermal/sundance/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -123,6 +141,15 @@
         "pvs": {
           "program": "nissa",
           "project": "sundance"
+        },
+        "thermal": {
+          "dptf-dv": "sundance/sundance/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/sundance/sundance/dptf.dv",
+              "source": "sundance/sw_build_config/platform/chromeos-config/thermal/sundance/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
