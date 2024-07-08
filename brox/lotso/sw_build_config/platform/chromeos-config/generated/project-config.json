@@ -45,6 +45,15 @@
           "program": "brox",
           "project": "lotso"
         },
+        "thermal": {
+          "dptf-dv": "lotso/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lotso/dptf.dv",
+              "source": "lotso/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -101,6 +110,15 @@
           "program": "brox",
           "project": "lotso"
         },
+        "thermal": {
+          "dptf-dv": "lotso/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lotso/dptf.dv",
+              "source": "lotso/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +174,15 @@
         "pvs": {
           "program": "brox",
           "project": "lotso"
+        },
+        "thermal": {
+          "dptf-dv": "lotso/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/lotso/dptf.dv",
+              "source": "lotso/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
