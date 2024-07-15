@@ -17,6 +17,16 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rauru-private",
+          "build-targets": {
+            "coreboot": "navi",
+            "depthcharge": "rauru",
+            "libpayload": "rauru",
+            "zephyr-ec": "navi"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
