@@ -1991,12 +1991,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2015,7 +2015,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2087,12 +2087,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2111,7 +2111,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2183,12 +2183,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2207,7 +2207,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2279,12 +2279,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2303,7 +2303,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2375,12 +2375,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2399,7 +2399,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2471,12 +2471,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2495,7 +2495,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2567,12 +2567,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2591,7 +2591,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2663,12 +2663,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2687,7 +2687,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
@@ -2759,12 +2759,12 @@
             "cras-config-dir": "awasuki",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.rt5650.2mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.rt5650.2mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
+                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awasuki/sof-rt5650",
@@ -2783,7 +2783,7 @@
                 "source": "awasuki/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "rt5650.2mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awasuki"
           }
         },
         "camera": {
