@@ -65,6 +65,15 @@
           "program": "constitution",
           "project": "nova"
         },
+        "thermal": {
+          "dptf-dv": "nova/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/nova/dptf.dv",
+              "source": "nova/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'constitution_cheets', 'firstApiLevel': '28'}",
@@ -140,6 +149,15 @@
         "pvs": {
           "program": "constitution",
           "project": "nova"
+        },
+        "thermal": {
+          "dptf-dv": "nova/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/nova/dptf.dv",
+              "source": "nova/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
