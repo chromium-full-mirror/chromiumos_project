@@ -20,6 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-rauru-private",
           "build-targets": {
+            "bmpblk": "rauru",
             "coreboot": "navi",
             "depthcharge": "rauru",
             "libpayload": "rauru",
