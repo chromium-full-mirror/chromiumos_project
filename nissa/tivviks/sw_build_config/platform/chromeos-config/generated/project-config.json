@@ -541,6 +541,15 @@
           "program": "nirul",
           "project": "tivviks"
         },
+        "thermal": {
+          "dptf-dv": "tivviks/tivviks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/tivviks/tivviks/dptf.dv",
+              "source": "tivviks/sw_build_config/platform/chromeos-config/thermal/tivviks/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
