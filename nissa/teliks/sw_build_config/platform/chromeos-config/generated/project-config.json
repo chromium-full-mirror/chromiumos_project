@@ -31,15 +31,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -81,15 +72,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -133,15 +115,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -183,15 +156,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -235,15 +199,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -285,15 +240,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -337,15 +283,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -387,15 +324,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -439,15 +367,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -490,15 +409,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -535,6 +445,48 @@
           "frid": "Google_Teliks",
           "platform-name": "Nirul",
           "sku-id": 3801101
+        },
+        "name": "teliks",
+        "pvs": {
+          "program": "nirul",
+          "project": "teliks"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "teliks",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "teliks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Teliks",
+          "platform-name": "Nirul",
+          "sku-id": 3801102
         },
         "name": "teliks",
         "pvs": {
@@ -592,15 +544,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -642,15 +585,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -694,15 +628,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -744,15 +669,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -796,15 +712,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -846,15 +753,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -898,15 +796,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -948,15 +837,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1000,15 +880,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1050,15 +921,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1102,15 +964,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1152,15 +1005,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1204,15 +1048,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1254,15 +1089,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1306,15 +1132,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1356,15 +1173,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1408,15 +1216,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1458,15 +1257,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1510,15 +1300,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1560,15 +1341,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1612,15 +1384,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1662,15 +1425,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1714,15 +1468,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1764,15 +1509,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1816,15 +1552,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1866,15 +1593,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1918,15 +1636,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1968,15 +1677,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2020,15 +1720,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2070,15 +1761,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2122,15 +1804,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2172,15 +1845,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2224,15 +1888,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2274,15 +1929,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2326,15 +1972,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2376,15 +2013,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2428,15 +2056,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2478,15 +2097,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2530,15 +2140,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2580,15 +2181,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2632,15 +2224,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2683,15 +2266,6 @@
           "program": "nirul",
           "project": "teliks"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2733,15 +2307,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2785,15 +2350,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2835,15 +2391,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2887,15 +2434,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2937,15 +2475,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2989,15 +2518,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3039,15 +2559,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3091,15 +2602,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3141,15 +2643,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3193,15 +2686,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3243,15 +2727,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3295,15 +2770,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3345,15 +2811,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3397,15 +2854,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3447,15 +2895,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3499,15 +2938,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3549,15 +2979,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3601,15 +3022,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3651,15 +3063,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3703,15 +3106,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3753,15 +3147,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3805,15 +3190,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3855,15 +3231,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3907,15 +3274,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3957,15 +3315,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4009,15 +3358,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4059,15 +3399,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4111,15 +3442,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4161,15 +3483,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4213,15 +3526,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4263,15 +3567,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4315,15 +3610,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4365,15 +3651,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4417,15 +3694,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4467,15 +3735,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4519,15 +3778,6 @@
           "program": "nirul",
           "project": "teliks360"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4569,66 +3819,6 @@
         "pvs": {
           "program": "nirul",
           "project": "teliks360"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "nissa_cheets",
-            "marketing-name": "",
-            "metrics-tag": "telith",
-            "product": "nissa"
-          },
-          "hardware-features": {
-            "build-path": "teliks/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
-            "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN",
-          "stylus-category": "unknown"
-        },
-        "identity": {
-          "frid": "Google_Telith",
-          "platform-name": "Nirul",
-          "sku-id": 2147483647
-        },
-        "name": "telith",
-        "pvs": {
-          "program": "nirul",
-          "project": "telith"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4672,15 +3862,6 @@
           "program": "nirul",
           "project": "telith"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4722,15 +3903,6 @@
         "pvs": {
           "program": "nirul",
           "project": "telith"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4774,15 +3946,6 @@
           "program": "nirul",
           "project": "telith"
         },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4824,15 +3987,6 @@
         "pvs": {
           "program": "nirul",
           "project": "telith"
-        },
-        "thermal": {
-          "dptf-dv": "teliks/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/teliks/dptf.dv",
-              "source": "teliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
