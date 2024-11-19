@@ -1445,6 +1445,394 @@
           "build-properties": {
             "device": "dedede_cheets",
             "marketing-name": "",
+            "metrics-tag": "galtic360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galtic360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.galtic360/HiFi.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015.2mic.galtic360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.galtic360/sof-rt5682.rt1015.2mic.galtic360.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015.2mic.galtic360/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/sof-rt5682",
+                "source": "galtic360/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/galtic360/dsp.ini",
+                "source": "galtic360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/board.ini",
+                "source": "galtic360/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.galtic360"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "galtic"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Galtic",
+          "platform-name": "Dedede",
+          "sku-id": 2490372
+        },
+        "name": "galtic360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "55.50",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "galtic360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galtic360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.galtic360/HiFi.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015p.2mic.galtic360/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.galtic360/sof-rt5682.rt1015p.2mic.galtic360.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015p.2mic.galtic360/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/sof-rt5682",
+                "source": "galtic360/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/galtic360/dsp.ini",
+                "source": "galtic360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/board.ini",
+                "source": "galtic360/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.galtic360"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "galtic"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Galtic",
+          "platform-name": "Dedede",
+          "sku-id": 2490373
+        },
+        "name": "galtic360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "55.50",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "galtic360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galtic360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.galtic360.rt5682vs/HiFi.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015.2mic.galtic360.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015.2mic.galtic360.rt5682vs/sof-rt5682.rt1015.2mic.galtic360.rt5682vs.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015.2mic.galtic360.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/sof-rt5682",
+                "source": "galtic360/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/galtic360/dsp.ini",
+                "source": "galtic360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/board.ini",
+                "source": "galtic360/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015.2mic.galtic360.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "galtic"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Galtic",
+          "platform-name": "Dedede",
+          "sku-id": 2490374
+        },
+        "name": "galtic360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "55.50",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
+            "metrics-tag": "galtic360",
+            "product": "dedede"
+          },
+          "hardware-features": {
+            "build-path": "galtic/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "audio": {
+          "main": {
+            "cras-config-dir": "galtic360",
+            "files": [
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.galtic360.rt5682vs/HiFi.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015p.2mic.galtic360.rt5682vs/HiFi.conf"
+              },
+              {
+                "destination": "/usr/share/alsa/ucm/sof-rt5682.rt1015p.2mic.galtic360.rt5682vs/sof-rt5682.rt1015p.2mic.galtic360.rt5682vs.conf",
+                "source": "galtic360/audio/ucm-config/sof-rt5682.rt1015p.2mic.galtic360.rt5682vs/sof-rt5682.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/sof-rt5682",
+                "source": "galtic360/audio/cras-config/card_settings"
+              },
+              {
+                "destination": "/etc/cras/galtic360/dsp.ini",
+                "source": "galtic360/audio/cras-config/dsp.ini"
+              },
+              {
+                "destination": "/etc/modprobe.d/alsa-dedede.conf",
+                "source": "common/audio/alsa-module-config/alsa-dedede.conf"
+              },
+              {
+                "destination": "/etc/cras/galtic360/board.ini",
+                "source": "galtic360/audio/cras-config/board.ini"
+              }
+            ],
+            "ucm-suffix": "rt1015p.2mic.galtic360.rt5682vs"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-dedede-private",
+          "build-targets": {
+            "ec": "galtic"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Galtic",
+          "platform-name": "Dedede",
+          "sku-id": 2490375
+        },
+        "name": "galtic360",
+        "power": {
+          "disable-dark-resume": "0",
+          "internal-backlight-no-als-battery-brightness": "55.50",
+          "low-battery-shutdown-percent": "4.0",
+          "set-wifi-transmit-power-for-tablet-mode": "1",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "dedede",
+          "project": "galtic360"
+        },
+        "thermal": {
+          "dptf-dv": "galtic/galtic360/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/galtic/galtic360/dptf.dv",
+              "source": "galtic/sw_build_config/platform/chromeos-config/thermal/galtic360/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'dedede_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "dedede_cheets",
+            "marketing-name": "",
             "metrics-tag": "galith",
             "product": "dedede"
           },
