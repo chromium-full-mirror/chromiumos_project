@@ -23,12 +23,15 @@
         },
         "identity": {
           "frid": "Google_Pujjogatwin",
-          "platform-name": "Nirul",
+          "platform-name": "Nissa",
           "sku-id": 2147483647
         },
         "name": "pujjogatwin",
+        "power": {
+          "preferred-lid-device": "cros_ec_buttons"
+        },
         "pvs": {
-          "program": "nirul",
+          "program": "nissa",
           "project": "pujjogatwin"
         },
         "ui": {
