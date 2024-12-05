@@ -17,6 +17,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-rauru-private",
+          "build-targets": {
+            "bmpblk": "rauru",
+            "coreboot": "hylia",
+            "depthcharge": "rauru_keymatrixv30",
+            "libpayload": "rauru",
+            "zephyr-ec": "hylia"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
