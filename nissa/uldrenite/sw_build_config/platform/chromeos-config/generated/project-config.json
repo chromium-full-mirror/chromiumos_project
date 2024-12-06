@@ -17,6 +17,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-nissa-private",
+          "build-targets": {
+            "bmpblk": "trulo",
+            "coreboot": "uldrenite",
+            "depthcharge": "uldrenite",
+            "libpayload": "trulo",
+            "zephyr-ec": "uldrenite"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
