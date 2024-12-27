@@ -13131,6 +13131,210 @@
         "identity": {
           "frid": "Google_Quandiso2",
           "platform-name": "Nissa",
+          "sku-id": 4653058
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653059
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653062
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653063
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
           "sku-id": 4653066
         },
         "name": "quandiso3602",
@@ -13233,6 +13437,57 @@
         "identity": {
           "frid": "Google_Quandiso2",
           "platform-name": "Nissa",
+          "sku-id": 4653070
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
           "sku-id": 4653071
         },
         "name": "quandiso3602",
@@ -13284,7 +13539,1180 @@
         "identity": {
           "frid": "Google_Quandiso2",
           "platform-name": "Nissa",
+          "sku-id": 4653074
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653075
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653078
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653079
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653082
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653083
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653086
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653087
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653090
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653091
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653094
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653095
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653098
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653099
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653102
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653103
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653106
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653107
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653110
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
           "sku-id": 4653111
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653114
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653115
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653118
+        },
+        "name": "quandiso3602",
+        "pvs": {
+          "program": "nissa",
+          "project": "quandiso3602"
+        },
+        "thermal": {
+          "dptf-dv": "quandiso2/quandiso3602/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/quandiso2/quandiso3602/dptf.dv",
+              "source": "quandiso2/sw_build_config/platform/chromeos-config/thermal/quandiso3602/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "nissa_cheets",
+            "marketing-name": "",
+            "metrics-tag": "quandiso3602",
+            "product": "nissa"
+          },
+          "hardware-features": {
+            "build-path": "quandiso2/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Quandiso2",
+          "platform-name": "Nissa",
+          "sku-id": 4653119
         },
         "name": "quandiso3602",
         "pvs": {
