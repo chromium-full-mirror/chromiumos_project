@@ -3623,20 +3623,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -3644,10 +3644,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -3719,20 +3719,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -3740,10 +3740,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -3815,20 +3815,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -3836,10 +3836,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -3911,20 +3911,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -3932,10 +3932,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -4007,20 +4007,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -4028,10 +4028,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -4103,20 +4103,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -4124,10 +4124,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -4199,20 +4199,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -4220,10 +4220,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
@@ -4295,20 +4295,20 @@
             "cras-config-dir": "awadoron",
             "files": [
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/HiFi.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/HiFi.conf"
               },
               {
-                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.alc5650.1mic.awasuki.conf",
-                "source": "awasuki/audio/ucm-config/sof-rt5650.alc5650.1mic.awasuki/sof-rt5650.conf"
+                "destination": "/usr/share/alsa/ucm/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.alc5650.1mic.awadoron.conf",
+                "source": "awadoron/audio/ucm-config/sof-rt5650.alc5650.1mic.awadoron/sof-rt5650.conf"
               },
               {
                 "destination": "/etc/cras/awadoron/sof-rt5650",
-                "source": "awasuki/audio/cras-config/card_settings"
+                "source": "awadoron/audio/cras-config/card_settings"
               },
               {
                 "destination": "/etc/cras/awadoron/dsp.ini",
-                "source": "awasuki/audio/cras-config/dsp.ini"
+                "source": "awadoron/audio/cras-config/dsp.ini"
               },
               {
                 "destination": "/etc/modprobe.d/alsa-dedede.conf",
@@ -4316,10 +4316,10 @@
               },
               {
                 "destination": "/etc/cras/awadoron/board.ini",
-                "source": "awasuki/audio/cras-config/board.ini"
+                "source": "awadoron/audio/cras-config/board.ini"
               }
             ],
-            "ucm-suffix": "alc5650.1mic.awasuki"
+            "ucm-suffix": "alc5650.1mic.awadoron"
           }
         },
         "camera": {
