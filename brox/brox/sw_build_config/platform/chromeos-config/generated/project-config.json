@@ -473,6 +473,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
+            "ish": "brox-ish",
             "zephyr-ec": "brox-ish-ec"
           },
           "firmware-config": 0,
@@ -534,6 +535,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
+            "ish": "brox-ish",
             "zephyr-ec": "brox-ish-ec"
           },
           "firmware-config": 0,
@@ -595,6 +597,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
+            "ish": "brox-ish",
             "zephyr-ec": "brox-ish-ec"
           },
           "firmware-config": 0,
@@ -656,6 +659,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
+            "ish": "brox-ish",
             "zephyr-ec": "brox-ish-ec"
           },
           "firmware-config": 0,
@@ -717,6 +721,7 @@
         "firmware": {
           "bcs-overlay": "overlay-brox-private",
           "build-targets": {
+            "ish": "brox-ish",
             "zephyr-ec": "brox-ish-ec"
           },
           "firmware-config": 0,
