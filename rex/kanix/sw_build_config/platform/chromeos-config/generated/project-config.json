@@ -45,6 +45,15 @@
           "program": "rex",
           "project": "kanix"
         },
+        "thermal": {
+          "dptf-dv": "kanix/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kanix/dptf.dv",
+              "source": "kanix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -101,6 +110,15 @@
           "program": "rex",
           "project": "kanix"
         },
+        "thermal": {
+          "dptf-dv": "kanix/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kanix/dptf.dv",
+              "source": "kanix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'rex_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +174,15 @@
         "pvs": {
           "program": "rex",
           "project": "kanix"
+        },
+        "thermal": {
+          "dptf-dv": "kanix/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/kanix/dptf.dv",
+              "source": "kanix/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
