@@ -1371,6 +1371,526 @@
           "build-properties": {
             "device": "brox_cheets",
             "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196619
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196620
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196621
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196622
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196635
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196636
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196637
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
+            "metrics-tag": "jubilant",
+            "product": "brox"
+          },
+          "hardware-features": {
+            "build-path": "jubilant/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-brox-private",
+          "build-targets": {
+            "zephyr-ec": "jubilant"
+          },
+          "firmware-config": 0,
+          "has-splash-screen": true
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Jubilant",
+          "platform-name": "Brox",
+          "sku-id": 196638
+        },
+        "name": "jubilant",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "brox",
+          "project": "jubilant"
+        },
+        "thermal": {
+          "dptf-dv": "jubilant/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/jubilant/dptf.dv",
+              "source": "jubilant/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "brox_cheets",
+            "marketing-name": "",
             "metrics-tag": "jubileum",
             "product": "brox"
           },
