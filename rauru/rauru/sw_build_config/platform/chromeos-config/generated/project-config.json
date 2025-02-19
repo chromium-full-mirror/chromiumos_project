@@ -17,20 +17,6 @@
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-rauru-private",
-          "build-targets": {
-            "bmpblk": "rauru",
-            "coreboot": "rauru",
-            "depthcharge": "rauru",
-            "ec_extras": [
-              "helipilot"
-            ],
-            "libpayload": "rauru",
-            "zephyr-ec": "rauru"
-          },
-          "firmware-config": 0
-        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -72,20 +58,6 @@
         },
         "camera": {
           "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-rauru-private",
-          "build-targets": {
-            "bmpblk": "rauru",
-            "coreboot": "rauru",
-            "depthcharge": "rauru",
-            "ec_extras": [
-              "helipilot"
-            ],
-            "libpayload": "rauru",
-            "zephyr-ec": "rauru"
-          },
-          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
