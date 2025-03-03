@@ -31,15 +31,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -81,15 +72,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -133,15 +115,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -183,15 +156,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -235,15 +199,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -285,15 +240,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -337,15 +283,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -387,15 +324,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -439,15 +367,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -489,15 +408,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -541,15 +451,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -591,15 +492,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -643,15 +535,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -693,15 +576,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -745,15 +619,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -795,15 +660,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -847,15 +703,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -897,15 +744,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -949,15 +787,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -999,15 +828,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1051,15 +871,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1101,15 +912,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1153,15 +955,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1203,15 +996,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1255,15 +1039,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1305,15 +1080,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1357,15 +1123,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1407,15 +1164,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1459,15 +1207,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1509,15 +1248,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1561,15 +1291,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1611,15 +1332,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1663,15 +1375,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1713,15 +1416,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1765,15 +1459,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1815,15 +1500,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1867,15 +1543,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1917,15 +1584,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1969,15 +1627,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2019,15 +1668,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2071,15 +1711,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2121,15 +1752,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2173,15 +1795,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2223,15 +1836,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2275,15 +1879,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2325,15 +1920,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2377,15 +1963,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2427,15 +2004,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2479,15 +2047,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2529,15 +2088,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2581,15 +2131,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2631,15 +2172,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2683,15 +2215,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2733,15 +2256,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2785,15 +2299,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2835,15 +2340,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2887,15 +2383,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2937,15 +2424,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2989,15 +2467,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3039,15 +2508,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3091,15 +2551,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3141,15 +2592,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3193,15 +2635,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3243,15 +2676,6 @@
         "pvs": {
           "program": "nirul",
           "project": "rull"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3295,15 +2719,6 @@
           "program": "nirul",
           "project": "rull"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3345,15 +2760,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3397,15 +2803,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3447,15 +2844,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3499,15 +2887,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3549,15 +2928,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3601,15 +2971,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3651,15 +3012,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3703,15 +3055,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3753,15 +3096,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3805,15 +3139,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3855,15 +3180,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3907,15 +3223,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3957,15 +3264,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4009,15 +3307,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4059,15 +3348,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4111,15 +3391,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4161,15 +3432,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4213,15 +3475,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4263,15 +3516,6 @@
         "pvs": {
           "program": "nirul",
           "project": "roric"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4315,15 +3559,6 @@
           "program": "nirul",
           "project": "roric"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4365,15 +3600,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4417,15 +3643,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4467,15 +3684,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4519,15 +3727,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4569,15 +3768,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4621,15 +3811,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4671,15 +3852,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4723,15 +3895,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4773,15 +3936,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4825,15 +3979,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4875,15 +4020,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4927,15 +4063,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4977,15 +4104,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5029,15 +4147,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5079,15 +4188,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5131,15 +4231,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5181,15 +4272,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5233,15 +4315,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5283,15 +4356,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5335,15 +4399,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5385,15 +4440,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5437,15 +4483,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5487,15 +4524,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5539,15 +4567,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5589,15 +4608,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5641,15 +4651,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5691,15 +4692,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5743,15 +4735,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5793,15 +4776,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5845,15 +4819,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5895,15 +4860,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5947,15 +4903,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5997,15 +4944,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6049,15 +4987,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6099,15 +5028,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6151,15 +5071,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6201,15 +5112,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6253,15 +5155,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6303,15 +5196,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6355,15 +5239,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6405,15 +5280,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6457,15 +5323,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6507,15 +5364,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6559,15 +5407,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6609,15 +5448,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6661,15 +5491,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6711,15 +5532,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6763,15 +5575,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6813,15 +5616,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6865,15 +5659,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6915,15 +5700,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6967,15 +5743,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7017,15 +5784,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7069,15 +5827,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7119,15 +5868,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7171,15 +5911,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7221,15 +5952,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7273,15 +5995,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7323,15 +6036,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7375,15 +6079,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7425,15 +6120,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7477,15 +6163,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7527,15 +6204,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7579,15 +6247,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7629,15 +6288,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7681,15 +6331,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7731,15 +6372,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7783,15 +6415,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7833,15 +6456,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7885,15 +6499,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7935,15 +6540,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7987,15 +6583,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8037,15 +6624,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8089,15 +6667,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8139,15 +6708,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8191,15 +6751,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8241,15 +6792,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8293,15 +6835,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8343,15 +6876,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8395,15 +6919,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8445,15 +6960,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8497,15 +7003,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8547,15 +7044,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8599,15 +7087,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8649,15 +7128,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8701,15 +7171,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8751,15 +7212,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8803,15 +7255,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8853,15 +7296,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8905,15 +7339,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8955,15 +7380,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9007,15 +7423,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9057,15 +7464,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9109,15 +7507,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9159,15 +7548,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9211,15 +7591,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9261,15 +7632,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9313,15 +7675,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9363,15 +7716,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9415,15 +7759,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9465,15 +7800,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9517,15 +7843,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9567,15 +7884,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9619,15 +7927,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9669,15 +7968,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9721,15 +8011,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9771,15 +8052,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9823,15 +8095,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9873,15 +8136,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9925,15 +8179,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -9975,15 +8220,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10027,15 +8263,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10077,15 +8304,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10129,15 +8347,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10179,15 +8388,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10231,15 +8431,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10281,15 +8472,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10333,15 +8515,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10383,15 +8556,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10435,15 +8599,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10485,15 +8640,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10537,15 +8683,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10587,15 +8724,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10639,15 +8767,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10689,15 +8808,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10741,15 +8851,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10792,15 +8893,6 @@
           "program": "nirul",
           "project": "ruke"
         },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
-        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -10842,15 +8934,6 @@
         "pvs": {
           "program": "nirul",
           "project": "ruke"
-        },
-        "thermal": {
-          "dptf-dv": "rull/dptf.dv",
-          "files": [
-            {
-              "destination": "/etc/dptf/rull/dptf.dv",
-              "source": "rull/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
-            }
-          ]
         },
         "ui": {
           "extra-ash-flags": [
