@@ -23,6 +23,9 @@
             "bmpblk": "skywalker",
             "coreboot": "skywalker",
             "depthcharge": "skywalker",
+            "ec_extras": [
+              "buccaneer"
+            ],
             "libpayload": "skywalker",
             "zephyr-ec": "skywalker"
           },
