@@ -34,6 +34,11 @@
             "ucm-suffix": "moxie"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -105,6 +110,11 @@
               }
             ],
             "ucm-suffix": "moxie"
+          }
+        },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
           }
         },
         "camera": {
