@@ -31,6 +31,15 @@
           "program": "nirul",
           "project": "meliks"
         },
+        "thermal": {
+          "dptf-dv": "meliks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/meliks/dptf.dv",
+              "source": "meliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -72,6 +81,15 @@
         "pvs": {
           "program": "nirul",
           "project": "meliks"
+        },
+        "thermal": {
+          "dptf-dv": "meliks/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/meliks/dptf.dv",
+              "source": "meliks/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
