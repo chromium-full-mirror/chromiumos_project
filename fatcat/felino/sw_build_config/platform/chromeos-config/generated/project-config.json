@@ -36,6 +36,9 @@
           "sku-id": 2147483647
         },
         "name": "felino",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "fatcat",
           "project": "felino"
@@ -87,6 +90,9 @@
           "sku-id": 1
         },
         "name": "felino",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "fatcat",
           "project": "felino"
