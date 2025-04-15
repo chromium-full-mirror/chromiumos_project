@@ -31,6 +31,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -72,6 +81,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -115,6 +133,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -156,6 +183,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -199,6 +235,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -240,6 +285,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -283,6 +337,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -324,6 +387,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -367,6 +439,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -408,6 +489,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -451,6 +541,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -492,6 +591,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -535,6 +643,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -576,6 +693,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -619,6 +745,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -660,6 +795,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -703,6 +847,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -744,6 +897,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -787,6 +949,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -828,6 +999,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -871,6 +1051,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -912,6 +1101,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -955,6 +1153,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -996,6 +1203,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1039,6 +1255,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1080,6 +1305,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1123,6 +1357,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1164,6 +1407,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1207,6 +1459,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1248,6 +1509,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1291,6 +1561,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1332,6 +1611,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1375,6 +1663,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1416,6 +1713,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1459,6 +1765,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1500,6 +1815,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1543,6 +1867,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1584,6 +1917,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1627,6 +1969,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1668,6 +2019,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1711,6 +2071,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1752,6 +2121,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1795,6 +2173,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1836,6 +2223,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1879,6 +2275,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1920,6 +2325,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1963,6 +2377,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2004,6 +2427,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2047,6 +2479,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2088,6 +2529,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2131,6 +2581,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2172,6 +2631,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2215,6 +2683,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2256,6 +2733,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2299,6 +2785,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2340,6 +2835,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2383,6 +2887,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2424,6 +2937,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2467,6 +2989,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2508,6 +3039,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2551,6 +3091,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2592,6 +3141,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2635,6 +3193,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2676,6 +3243,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2719,6 +3295,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2760,6 +3345,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2803,6 +3397,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2844,6 +3447,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2887,6 +3499,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2928,6 +3549,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2971,6 +3601,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3012,6 +3651,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3055,6 +3703,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3096,6 +3753,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3139,6 +3805,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3180,6 +3855,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3223,6 +3907,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3264,6 +3957,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3307,6 +4009,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3348,6 +4059,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3391,6 +4111,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3432,6 +4161,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3475,6 +4213,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3516,6 +4263,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3559,6 +4315,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3600,6 +4365,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3643,6 +4417,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3684,6 +4467,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3727,6 +4519,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3768,6 +4569,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3811,6 +4621,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3852,6 +4671,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3895,6 +4723,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -3936,6 +4773,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3979,6 +4825,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4020,6 +4875,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4063,6 +4927,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4104,6 +4977,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4147,6 +5029,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4188,6 +5079,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4231,6 +5131,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4272,6 +5181,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4315,6 +5233,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4356,6 +5283,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4399,6 +5335,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4440,6 +5385,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4483,6 +5437,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4524,6 +5487,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4567,6 +5539,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4608,6 +5589,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4651,6 +5641,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4692,6 +5691,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4735,6 +5743,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4776,6 +5793,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4819,6 +5845,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4860,6 +5895,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4903,6 +5947,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -4944,6 +5997,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4987,6 +6049,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5028,6 +6099,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5071,6 +6151,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5112,6 +6201,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5155,6 +6253,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5196,6 +6303,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5239,6 +6355,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5280,6 +6405,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5323,6 +6457,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5364,6 +6507,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5407,6 +6559,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5448,6 +6609,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5491,6 +6661,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5532,6 +6711,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5575,6 +6763,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5616,6 +6813,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5659,6 +6865,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5700,6 +6915,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5743,6 +6967,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5784,6 +7017,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5827,6 +7069,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5868,6 +7119,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5911,6 +7171,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -5952,6 +7221,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5995,6 +7273,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6036,6 +7323,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6079,6 +7375,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6120,6 +7425,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6163,6 +7477,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6204,6 +7527,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6247,6 +7579,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6288,6 +7629,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6331,6 +7681,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6372,6 +7731,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6415,6 +7783,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6456,6 +7833,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6499,6 +7885,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6540,6 +7935,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6583,6 +7987,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6624,6 +8037,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6667,6 +8089,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6708,6 +8139,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6751,6 +8191,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6792,6 +8241,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6835,6 +8293,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6876,6 +8343,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6919,6 +8395,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -6960,6 +8445,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7003,6 +8497,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7044,6 +8547,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7087,6 +8599,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7128,6 +8649,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7171,6 +8701,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7212,6 +8751,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7255,6 +8803,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7296,6 +8853,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7339,6 +8905,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7380,6 +8955,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7423,6 +9007,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7464,6 +9057,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7507,6 +9109,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7548,6 +9159,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7591,6 +9211,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7632,6 +9261,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7675,6 +9313,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7716,6 +9363,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7759,6 +9415,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7800,6 +9465,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7843,6 +9517,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7884,6 +9567,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7927,6 +9619,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -7968,6 +9669,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8011,6 +9721,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8052,6 +9771,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8095,6 +9823,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8136,6 +9873,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8179,6 +9925,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8220,6 +9975,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8263,6 +10027,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8304,6 +10077,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8347,6 +10129,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8388,6 +10179,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8431,6 +10231,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8472,6 +10281,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8515,6 +10333,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8556,6 +10383,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8599,6 +10435,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8640,6 +10485,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8683,6 +10537,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8724,6 +10587,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8767,6 +10639,15 @@
           "program": "nirul",
           "project": "guren"
         },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -8808,6 +10689,15 @@
         "pvs": {
           "program": "nirul",
           "project": "guren"
+        },
+        "thermal": {
+          "dptf-dv": "guren/guren/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/guren/guren/dptf.dv",
+              "source": "guren/sw_build_config/platform/chromeos-config/thermal/guren/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
