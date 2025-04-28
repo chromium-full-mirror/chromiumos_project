@@ -42,6 +42,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -94,6 +103,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -148,6 +166,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -200,6 +227,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -254,6 +290,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -306,6 +351,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -360,6 +414,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -412,6 +475,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -466,6 +538,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -518,6 +599,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -572,6 +662,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -624,6 +723,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -678,6 +786,15 @@
           "program": "trulo",
           "project": "uldrenite"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -730,6 +847,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -784,6 +910,15 @@
           "program": "trulo",
           "project": "uldrenite360"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -836,6 +971,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite360"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -890,6 +1034,15 @@
           "program": "trulo",
           "project": "uldrenite360"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -942,6 +1095,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite360"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -996,6 +1158,15 @@
           "program": "trulo",
           "project": "uldrenite360"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1049,6 +1220,15 @@
           "program": "trulo",
           "project": "uldrenite360"
         },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -1101,6 +1281,15 @@
         "pvs": {
           "program": "trulo",
           "project": "uldrenite360"
+        },
+        "thermal": {
+          "dptf-dv": "uldrenite/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/uldrenite/dptf.dv",
+              "source": "uldrenite/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
