@@ -14,8 +14,22 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
+        "bluetooth": {
+          "flags": {
+            "enable-bluetooth-offload": true
+          }
+        },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "zephyr-ec": "kinmen"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -27,6 +41,10 @@
           "sku-id": 2147483647
         },
         "name": "kinmen",
+        "power": {
+          "disable-dark-resume": "0",
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "fatcat",
           "project": "kinmen"
