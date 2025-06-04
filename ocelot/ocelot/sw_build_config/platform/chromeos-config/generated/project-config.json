@@ -20,7 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "zephyr-ec": "ocelot_nuvoton"
+            "zephyr-ec": "ocelotrvp-npcx"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
@@ -74,7 +74,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "zephyr-ec": "ocelot_nuvoton"
+            "zephyr-ec": "ocelotrvp-npcx"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
@@ -128,7 +128,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "zephyr-ec": "ocelot_nuvoton"
+            "zephyr-ec": "ocelotrvp-npcx"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
@@ -182,7 +182,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "zephyr-ec": "ocelot_nuvoton"
+            "zephyr-ec": "ocelotrvp-npcx"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
@@ -236,7 +236,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "zephyr-ec": "ocelot_nuvoton"
+            "zephyr-ec": "ocelotrvp-npcx"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
