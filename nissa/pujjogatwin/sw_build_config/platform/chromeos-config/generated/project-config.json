@@ -2356,6 +2356,15 @@
           "program": "trulo",
           "project": "pujjoquince"
         },
+        "thermal": {
+          "dptf-dv": "pujjogatwin/pujjoquince/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjogatwin/pujjoquince/dptf.dv",
+              "source": "pujjogatwin/sw_build_config/platform/chromeos-config/thermal/pujjoquince/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2400,6 +2409,15 @@
         "pvs": {
           "program": "trulo",
           "project": "pujjoquince"
+        },
+        "thermal": {
+          "dptf-dv": "pujjogatwin/pujjoquince/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjogatwin/pujjoquince/dptf.dv",
+              "source": "pujjogatwin/sw_build_config/platform/chromeos-config/thermal/pujjoquince/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2446,6 +2464,15 @@
           "program": "trulo",
           "project": "pujjoquince"
         },
+        "thermal": {
+          "dptf-dv": "pujjogatwin/pujjoquince/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjogatwin/pujjoquince/dptf.dv",
+              "source": "pujjogatwin/sw_build_config/platform/chromeos-config/thermal/pujjoquince/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2491,6 +2518,15 @@
           "program": "trulo",
           "project": "pujjoquince"
         },
+        "thermal": {
+          "dptf-dv": "pujjogatwin/pujjoquince/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjogatwin/pujjoquince/dptf.dv",
+              "source": "pujjogatwin/sw_build_config/platform/chromeos-config/thermal/pujjoquince/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'nissa_cheets', 'firstApiLevel': '28'}",
@@ -2535,6 +2571,15 @@
         "pvs": {
           "program": "trulo",
           "project": "pujjoquince"
+        },
+        "thermal": {
+          "dptf-dv": "pujjogatwin/pujjoquince/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/pujjogatwin/pujjoquince/dptf.dv",
+              "source": "pujjogatwin/sw_build_config/platform/chromeos-config/thermal/pujjoquince/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
