@@ -287,15 +287,6 @@
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-ocelot-private",
-          "build-targets": {
-            "zephyr-ec": "ocelotrvp-ite"
-          },
-          "firmware-config": 0,
-          "has-alt-firmware": true,
-          "has-splash-screen": true
-        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -341,15 +332,6 @@
         "camera": {
           "count": 0
         },
-        "firmware": {
-          "bcs-overlay": "overlay-ocelot-private",
-          "build-targets": {
-            "zephyr-ec": "ocelotrvp-mchp"
-          },
-          "firmware-config": 0,
-          "has-alt-firmware": true,
-          "has-splash-screen": true
-        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -366,6 +348,141 @@
         "pvs": {
           "program": "ocelot",
           "project": "ocelotmchp"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'ocelot_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "ocelot_cheets",
+            "marketing-name": "",
+            "metrics-tag": "ocelot4es",
+            "product": "ocelot"
+          },
+          "hardware-features": {
+            "build-path": "ocelot/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Ocelot4Es",
+          "platform-name": "Ocelot",
+          "sku-id": 1
+        },
+        "name": "ocelot4es",
+        "power": {
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "ocelot",
+          "project": "ocelot4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'ocelot_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "ocelot_cheets",
+            "marketing-name": "",
+            "metrics-tag": "ocelotite4es",
+            "product": "ocelot"
+          },
+          "hardware-features": {
+            "build-path": "ocelot/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Ocelotite4Es",
+          "platform-name": "Ocelot",
+          "sku-id": 1
+        },
+        "name": "ocelotite4es",
+        "power": {
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "ocelot",
+          "project": "ocelotite4es"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'ocelot_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "ocelot_cheets",
+            "marketing-name": "",
+            "metrics-tag": "ocelotmchp4es",
+            "product": "ocelot"
+          },
+          "hardware-features": {
+            "build-path": "ocelot/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Ocelotmchp4Es",
+          "platform-name": "Ocelot",
+          "sku-id": 1
+        },
+        "name": "ocelotmchp4es",
+        "power": {
+          "suspend-to-idle": "1"
+        },
+        "pvs": {
+          "program": "ocelot",
+          "project": "ocelotmchp4es"
         },
         "ui": {
           "extra-ash-flags": [
