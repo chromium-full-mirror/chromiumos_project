@@ -25,6 +25,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
+            "ish": "ptl-ish",
             "zephyr-ec": "kinmen"
           },
           "firmware-config": 0,
@@ -85,6 +86,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
+            "ish": "ptl-ish",
             "zephyr-ec": "kinmen"
           },
           "firmware-config": 0,
