@@ -130,7 +130,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "zephyr-ec": "felino"
+            "zephyr-ec": "felino4es"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
@@ -185,7 +185,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "zephyr-ec": "felino"
+            "zephyr-ec": "felino4es"
           },
           "firmware-config": 0,
           "has-alt-firmware": true,
