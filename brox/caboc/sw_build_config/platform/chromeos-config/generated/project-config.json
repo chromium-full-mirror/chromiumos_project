@@ -27,6 +27,12 @@
           "sku-id": 2147483647
         },
         "name": "caboc",
+        "power": {
+          "defer-external-display-timeout": "10",
+          "disable-dark-resume": "0",
+          "low-battery-shutdown-percent": "4.0",
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "brox",
           "project": "caboc"
