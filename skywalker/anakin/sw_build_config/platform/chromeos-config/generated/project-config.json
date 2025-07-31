@@ -35,59 +35,6 @@
         "identity": {
           "frid": "Google_Anakin",
           "platform-name": "Skywalker",
-          "sku-id": 2147483647
-        },
-        "name": "anakin",
-        "pvs": {
-          "program": "skywalker",
-          "project": "anakin"
-        },
-        "ui": {
-          "extra-ash-flags": [
-            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
-            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
-            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
-            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
-            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
-            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
-            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
-          ]
-        }
-      },
-      {
-        "arc": {
-          "build-properties": {
-            "device": "skywalker_cheets",
-            "marketing-name": "",
-            "metrics-tag": "anakin",
-            "product": "skywalker"
-          },
-          "hardware-features": {
-            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
-            "system-path": "/etc/hardware_features_0709fa9e.xml"
-          }
-        },
-        "camera": {
-          "count": 0
-        },
-        "firmware": {
-          "bcs-overlay": "overlay-skywalker-private",
-          "build-targets": {
-            "bmpblk": "skywalker",
-            "coreboot": "anakin",
-            "depthcharge": "anakin",
-            "libpayload": "skywalker",
-            "zephyr-ec": "anakin"
-          },
-          "firmware-config": 0
-        },
-        "hardware-properties": {
-          "storage-type": "STORAGE_TYPE_UNKNOWN",
-          "stylus-category": "unknown"
-        },
-        "identity": {
-          "frid": "Google_Anakin",
-          "platform-name": "Skywalker",
           "sku-id": 0
         },
         "name": "anakin",
@@ -324,7 +271,60 @@
           "build-properties": {
             "device": "skywalker_cheets",
             "marketing-name": "",
-            "metrics-tag": "anakin",
+            "metrics-tag": "anakin360",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "anakin",
+            "depthcharge": "anakin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "anakin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Anakin",
+          "platform-name": "Skywalker",
+          "sku-id": 2147483647
+        },
+        "name": "anakin360",
+        "pvs": {
+          "program": "skywalker",
+          "project": "anakin360"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "anakin360",
             "product": "skywalker"
           },
           "hardware-features": {
@@ -355,10 +355,10 @@
           "platform-name": "Skywalker",
           "sku-id": 256
         },
-        "name": "anakin",
+        "name": "anakin360",
         "pvs": {
           "program": "skywalker",
-          "project": "anakin"
+          "project": "anakin360"
         },
         "ui": {
           "extra-ash-flags": [
@@ -377,7 +377,7 @@
           "build-properties": {
             "device": "skywalker_cheets",
             "marketing-name": "",
-            "metrics-tag": "anakin",
+            "metrics-tag": "anakin360",
             "product": "skywalker"
           },
           "hardware-features": {
@@ -408,10 +408,10 @@
           "platform-name": "Skywalker",
           "sku-id": 257
         },
-        "name": "anakin",
+        "name": "anakin360",
         "pvs": {
           "program": "skywalker",
-          "project": "anakin"
+          "project": "anakin360"
         },
         "ui": {
           "extra-ash-flags": [
@@ -430,7 +430,7 @@
           "build-properties": {
             "device": "skywalker_cheets",
             "marketing-name": "",
-            "metrics-tag": "anakin",
+            "metrics-tag": "anakin360",
             "product": "skywalker"
           },
           "hardware-features": {
@@ -461,10 +461,10 @@
           "platform-name": "Skywalker",
           "sku-id": 258
         },
-        "name": "anakin",
+        "name": "anakin360",
         "pvs": {
           "program": "skywalker",
-          "project": "anakin"
+          "project": "anakin360"
         },
         "ui": {
           "extra-ash-flags": [
@@ -483,7 +483,7 @@
           "build-properties": {
             "device": "skywalker_cheets",
             "marketing-name": "",
-            "metrics-tag": "anakin",
+            "metrics-tag": "anakin360",
             "product": "skywalker"
           },
           "hardware-features": {
@@ -514,10 +514,10 @@
           "platform-name": "Skywalker",
           "sku-id": 259
         },
-        "name": "anakin",
+        "name": "anakin360",
         "pvs": {
           "program": "skywalker",
-          "project": "anakin"
+          "project": "anakin360"
         },
         "ui": {
           "extra-ash-flags": [
@@ -536,7 +536,7 @@
           "build-properties": {
             "device": "skywalker_cheets",
             "marketing-name": "",
-            "metrics-tag": "anakin",
+            "metrics-tag": "anakin360",
             "product": "skywalker"
           },
           "hardware-features": {
@@ -567,10 +567,10 @@
           "platform-name": "Skywalker",
           "sku-id": 260
         },
-        "name": "anakin",
+        "name": "anakin360",
         "pvs": {
           "program": "skywalker",
-          "project": "anakin"
+          "project": "anakin360"
         },
         "ui": {
           "extra-ash-flags": [
