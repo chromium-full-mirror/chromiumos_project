@@ -27,6 +27,9 @@
           "sku-id": 2147483647
         },
         "name": "ocicat",
+        "power": {
+          "suspend-to-idle": "1"
+        },
         "pvs": {
           "program": "ocelot",
           "project": "ocicat"
