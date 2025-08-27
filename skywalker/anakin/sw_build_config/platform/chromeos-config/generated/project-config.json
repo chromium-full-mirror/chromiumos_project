@@ -918,6 +918,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -959,6 +970,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1002,6 +1024,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -1043,6 +1076,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -1086,6 +1130,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -1127,6 +1182,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
