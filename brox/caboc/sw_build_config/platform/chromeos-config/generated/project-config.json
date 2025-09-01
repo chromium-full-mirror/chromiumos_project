@@ -45,6 +45,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -100,6 +109,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -157,6 +175,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -212,6 +239,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -269,6 +305,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -324,6 +369,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -381,6 +435,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -436,6 +499,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -493,6 +565,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -548,6 +629,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -605,6 +695,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -660,6 +759,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -717,6 +825,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -772,6 +889,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -829,6 +955,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -884,6 +1019,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -941,6 +1085,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -996,6 +1149,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1053,6 +1215,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1108,6 +1279,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1165,6 +1345,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1220,6 +1409,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1277,6 +1475,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1332,6 +1539,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1389,6 +1605,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1444,6 +1669,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1501,6 +1735,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1556,6 +1799,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1613,6 +1865,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1668,6 +1929,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1725,6 +1995,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1780,6 +2059,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1837,6 +2125,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -1892,6 +2189,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -1949,6 +2255,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2004,6 +2319,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2061,6 +2385,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2116,6 +2449,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2173,6 +2515,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2228,6 +2579,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2285,6 +2645,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2340,6 +2709,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2397,6 +2775,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2452,6 +2839,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2509,6 +2905,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2564,6 +2969,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2621,6 +3035,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2676,6 +3099,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2733,6 +3165,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2788,6 +3229,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2845,6 +3295,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -2900,6 +3359,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -2957,6 +3425,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3012,6 +3489,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3069,6 +3555,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3124,6 +3619,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3181,6 +3685,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3236,6 +3749,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3293,6 +3815,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3348,6 +3879,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3405,6 +3945,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3460,6 +4009,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3517,6 +4075,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3572,6 +4139,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3629,6 +4205,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3684,6 +4269,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3741,6 +4335,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3796,6 +4399,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3853,6 +4465,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -3908,6 +4529,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -3965,6 +4595,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4020,6 +4659,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4077,6 +4725,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4132,6 +4789,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4189,6 +4855,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4244,6 +4919,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4301,6 +4985,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4356,6 +5049,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4413,6 +5115,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4468,6 +5179,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4525,6 +5245,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4580,6 +5309,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4637,6 +5375,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4692,6 +5439,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4749,6 +5505,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4804,6 +5569,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4861,6 +5635,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -4916,6 +5699,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -4973,6 +5765,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5028,6 +5829,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5085,6 +5895,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5140,6 +5959,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5197,6 +6025,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5252,6 +6089,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5309,6 +6155,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5364,6 +6219,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5421,6 +6285,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5476,6 +6349,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5533,6 +6415,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5588,6 +6479,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5645,6 +6545,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5700,6 +6609,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5757,6 +6675,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5812,6 +6739,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5869,6 +6805,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -5924,6 +6869,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -5981,6 +6935,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6036,6 +6999,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6093,6 +7065,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6148,6 +7129,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6205,6 +7195,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6260,6 +7259,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6317,6 +7325,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6372,6 +7389,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6429,6 +7455,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6484,6 +7519,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6541,6 +7585,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6596,6 +7649,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6653,6 +7715,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6708,6 +7779,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6765,6 +7845,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6820,6 +7909,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6877,6 +7975,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -6932,6 +8039,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -6989,6 +8105,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7044,6 +8169,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7101,6 +8235,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7156,6 +8299,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7213,6 +8365,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7268,6 +8429,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7325,6 +8495,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7380,6 +8559,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7437,6 +8625,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7492,6 +8689,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7549,6 +8755,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7604,6 +8819,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7661,6 +8885,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7716,6 +8949,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7773,6 +9015,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7828,6 +9079,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7885,6 +9145,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -7940,6 +9209,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -7997,6 +9275,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8052,6 +9339,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8109,6 +9405,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8164,6 +9469,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8221,6 +9535,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8276,6 +9599,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8333,6 +9665,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8388,6 +9729,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8445,6 +9795,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8500,6 +9859,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8557,6 +9925,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8612,6 +9989,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8669,6 +10055,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8724,6 +10119,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8781,6 +10185,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8836,6 +10249,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -8893,6 +10315,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -8948,6 +10379,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9005,6 +10445,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9060,6 +10509,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9117,6 +10575,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9172,6 +10639,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9229,6 +10705,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9284,6 +10769,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9341,6 +10835,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9396,6 +10899,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9453,6 +10965,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9508,6 +11029,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9565,6 +11095,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9620,6 +11159,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9677,6 +11225,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9732,6 +11289,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9789,6 +11355,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9844,6 +11419,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -9901,6 +11485,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -9956,6 +11549,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10013,6 +11615,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10068,6 +11679,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10125,6 +11745,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10180,6 +11809,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10237,6 +11875,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10292,6 +11939,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10349,6 +12005,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10404,6 +12069,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10461,6 +12135,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10516,6 +12199,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10573,6 +12265,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10628,6 +12329,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
@@ -10685,6 +12395,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10741,6 +12460,15 @@
           "program": "brox",
           "project": "caboc"
         },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brox_cheets', 'firstApiLevel': '28'}",
@@ -10796,6 +12524,15 @@
         "pvs": {
           "program": "brox",
           "project": "caboc"
+        },
+        "thermal": {
+          "dptf-dv": "caboc/caboc/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/caboc/caboc/dptf.dv",
+              "source": "caboc/sw_build_config/platform/chromeos-config/thermal/caboc/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
