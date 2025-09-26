@@ -17,6 +17,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-tanjiro-private",
+          "build-targets": {
+            "bmpblk": "rauru",
+            "coreboot": "sapphire",
+            "depthcharge": "sapphire",
+            "libpayload": "rauru",
+            "zephyr-ec": "sapphire"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
