@@ -75,7 +75,6 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "moonstone-ish",
             "zephyr-ec": "moonstone"
           },
           "firmware-config": 0,
