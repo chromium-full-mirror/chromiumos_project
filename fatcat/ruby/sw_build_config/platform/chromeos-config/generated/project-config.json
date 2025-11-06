@@ -20,6 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
+            "ish": "ruby-ish",
             "zephyr-ec": "ruby"
           },
           "firmware-config": 0,
