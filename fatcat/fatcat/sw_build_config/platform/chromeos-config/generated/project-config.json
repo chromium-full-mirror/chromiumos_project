@@ -20,7 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -76,7 +76,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -132,7 +132,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -188,7 +188,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -244,7 +244,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -300,7 +300,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -356,7 +356,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -412,7 +412,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -468,7 +468,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -524,7 +524,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -580,7 +580,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -636,7 +636,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -692,7 +692,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -748,7 +748,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -801,12 +801,22 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "ish": "ptl-ish",
+            "zephyr-ec": "ptlrvp_mchp"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Fatcatish",
+          "frid": "Google_Fatcat_Ish",
           "platform-name": "Fatcat",
           "sku-id": 2147483647
         },
@@ -847,12 +857,22 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "ish": "ptl-ish",
+            "zephyr-ec": "ptlrvp_mchp"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Fatcatish",
+          "frid": "Google_Fatcat_Ish",
           "platform-name": "Fatcat",
           "sku-id": 1
         },
@@ -893,12 +913,22 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-fatcat-private",
+          "build-targets": {
+            "ish": "ptl-ish",
+            "zephyr-ec": "ptlrvp_mchp"
+          },
+          "firmware-config": 0,
+          "has-alt-firmware": true,
+          "has-splash-screen": true
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Fatcatish",
+          "frid": "Google_Fatcat_Ish",
           "platform-name": "Fatcat",
           "sku-id": 2
         },
@@ -1080,7 +1110,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1136,7 +1166,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1192,7 +1222,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1248,7 +1278,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1304,7 +1334,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1360,7 +1390,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1416,7 +1446,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1472,7 +1502,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1528,7 +1558,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1584,7 +1614,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1640,7 +1670,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1696,7 +1726,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1752,7 +1782,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1808,7 +1838,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-npcx"
           },
           "firmware-config": 0,
@@ -1864,7 +1894,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -1920,7 +1950,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -1976,7 +2006,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2032,7 +2062,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2088,7 +2118,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2144,7 +2174,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2200,7 +2230,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2256,7 +2286,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2312,7 +2342,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2368,7 +2398,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2424,7 +2454,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2480,7 +2510,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2536,7 +2566,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2592,7 +2622,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "fatcatrvp-ite"
           },
           "firmware-config": 0,
@@ -2648,7 +2678,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -2704,7 +2734,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -2760,7 +2790,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
@@ -2816,7 +2846,7 @@
         "firmware": {
           "bcs-overlay": "overlay-fatcat-private",
           "build-targets": {
-            "ish": "ptl-ish",
+            "ish": "fatcat-ish-idle",
             "zephyr-ec": "ptlrvp_mchp"
           },
           "firmware-config": 0,
