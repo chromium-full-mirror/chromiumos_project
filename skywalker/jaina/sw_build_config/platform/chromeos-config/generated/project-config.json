@@ -17,6 +17,17 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "jaina",
+            "depthcharge": "jaina",
+            "libpayload": "skywalker",
+            "zephyr-ec": "jaina"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
@@ -58,6 +69,17 @@
         },
         "camera": {
           "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "jaina",
+            "depthcharge": "jaina",
+            "libpayload": "skywalker",
+            "zephyr-ec": "jaina"
+          },
+          "firmware-config": 0
         },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
@@ -101,12 +123,23 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "jaina",
+            "depthcharge": "jaina",
+            "libpayload": "skywalker",
+            "zephyr-ec": "jaina"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Leia",
+          "frid": "Google_Jaina",
           "platform-name": "Skywalker",
           "sku-id": 196608
         },
@@ -143,12 +176,23 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "jaina",
+            "depthcharge": "jaina",
+            "libpayload": "skywalker",
+            "zephyr-ec": "jaina"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Leia",
+          "frid": "Google_Jaina",
           "platform-name": "Skywalker",
           "sku-id": 196609
         },
@@ -185,12 +229,23 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "jaina",
+            "depthcharge": "jaina",
+            "libpayload": "skywalker",
+            "zephyr-ec": "jaina"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Kylo",
+          "frid": "Google_Jaina",
           "platform-name": "Skywalker",
           "sku-id": 65536
         },
@@ -227,12 +282,23 @@
         "camera": {
           "count": 0
         },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "jaina",
+            "depthcharge": "jaina",
+            "libpayload": "skywalker",
+            "zephyr-ec": "jaina"
+          },
+          "firmware-config": 0
+        },
         "hardware-properties": {
           "storage-type": "STORAGE_TYPE_UNKNOWN",
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Kylo",
+          "frid": "Google_Jaina",
           "platform-name": "Skywalker",
           "sku-id": 65537
         },
