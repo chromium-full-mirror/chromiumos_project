@@ -20,6 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
+            "ish": "ocicat-ish",
             "zephyr-ec": "ocicat"
           },
           "firmware-config": 0,
@@ -74,6 +75,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
+            "ish": "ocicat-ish",
             "zephyr-ec": "ocicat"
           },
           "firmware-config": 0,
@@ -128,6 +130,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
+            "ish": "ocicat-ish",
             "zephyr-ec": "ocicat"
           },
           "firmware-config": 0,
