@@ -47,6 +47,15 @@
           "program": "brask",
           "project": "moxoe"
         },
+        "thermal": {
+          "dptf-dv": "moxoe/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/moxoe/dptf.dv",
+              "source": "moxoe/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
+        },
         "ui": {
           "extra-ash-flags": [
             "--arc-build-properties={'device': 'brask_cheets', 'firstApiLevel': '28'}",
@@ -104,6 +113,15 @@
         "pvs": {
           "program": "brask",
           "project": "moxoe"
+        },
+        "thermal": {
+          "dptf-dv": "moxoe/dptf.dv",
+          "files": [
+            {
+              "destination": "/etc/dptf/moxoe/dptf.dv",
+              "source": "moxoe/sw_build_config/platform/chromeos-config/thermal/dptf.dv"
+            }
+          ]
         },
         "ui": {
           "extra-ash-flags": [
