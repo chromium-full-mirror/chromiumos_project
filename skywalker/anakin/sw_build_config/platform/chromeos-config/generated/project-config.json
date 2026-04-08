@@ -9151,6 +9151,854 @@
         "identity": {
           "frid": "Google_Tarkin",
           "platform-name": "Skywalker",
+          "sku-id": 4352
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4353
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4355
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4357
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4358
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4359
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4360
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4361
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4362
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4363
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4364
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4365
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4366
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4367
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4368
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 4369
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
           "sku-id": 8192
         },
         "name": "tarkin",
@@ -9970,6 +10818,854 @@
           "build-properties": {
             "device": "skywalker_cheets",
             "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8448
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8449
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8450
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8451
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8452
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8453
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8454
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8455
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8456
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8457
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8458
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8459
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8460
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8461
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8462
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "tarkin",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 8463
+        },
+        "name": "tarkin",
+        "pvs": {
+          "program": "skywalker",
+          "project": "tarkin"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
             "metrics-tag": "phasma",
             "product": "skywalker"
           },
@@ -10371,6 +12067,430 @@
           "frid": "Google_Tarkin",
           "platform-name": "Skywalker",
           "sku-id": 12295
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12544
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12545
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12546
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12547
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12548
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12549
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12550
+        },
+        "name": "phasma",
+        "pvs": {
+          "program": "skywalker",
+          "project": "phasma"
+        },
+        "ui": {
+          "extra-ash-flags": [
+            "--arc-build-properties={'device': 'skywalker_cheets', 'firstApiLevel': '28'}",
+            "--child-wallpaper-large=/usr/share/chromeos-assets/wallpaper/child_large.jpg",
+            "--child-wallpaper-small=/usr/share/chromeos-assets/wallpaper/child_small.jpg",
+            "--default-wallpaper-large=/usr/share/chromeos-assets/wallpaper/default_large.jpg",
+            "--default-wallpaper-small=/usr/share/chromeos-assets/wallpaper/default_small.jpg",
+            "--guest-wallpaper-large=/usr/share/chromeos-assets/wallpaper/guest_large.jpg",
+            "--guest-wallpaper-small=/usr/share/chromeos-assets/wallpaper/guest_small.jpg"
+          ]
+        }
+      },
+      {
+        "arc": {
+          "build-properties": {
+            "device": "skywalker_cheets",
+            "marketing-name": "",
+            "metrics-tag": "phasma",
+            "product": "skywalker"
+          },
+          "hardware-features": {
+            "build-path": "anakin/public_sw_build_config/platform/chromeos-config/generated/arc/hardware_features_0709fa9e.xml",
+            "system-path": "/etc/hardware_features_0709fa9e.xml"
+          }
+        },
+        "camera": {
+          "count": 0
+        },
+        "firmware": {
+          "bcs-overlay": "overlay-skywalker-private",
+          "build-targets": {
+            "bmpblk": "skywalker",
+            "coreboot": "tarkin",
+            "depthcharge": "tarkin",
+            "libpayload": "skywalker",
+            "zephyr-ec": "tarkin"
+          },
+          "firmware-config": 0
+        },
+        "hardware-properties": {
+          "storage-type": "STORAGE_TYPE_UNKNOWN",
+          "stylus-category": "unknown"
+        },
+        "identity": {
+          "frid": "Google_Tarkin",
+          "platform-name": "Skywalker",
+          "sku-id": 12551
         },
         "name": "phasma",
         "pvs": {
