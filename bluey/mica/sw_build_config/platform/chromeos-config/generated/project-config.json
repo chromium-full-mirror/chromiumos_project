@@ -14,6 +14,12 @@
             "system-path": "/etc/hardware_features_0709fa9e.xml"
           }
         },
+        "audio": {
+          "main": {
+            "cras-config-dir": "mica",
+            "files": []
+          }
+        },
         "camera": {
           "count": 0
         },
@@ -22,9 +28,9 @@
           "stylus-category": "unknown"
         },
         "identity": {
-          "frid": "Google_Mica",
+          "frid": "Mica",
           "platform-name": "Bluey",
-          "sku-id": 2147483647
+          "sku-id": 196608
         },
         "name": "mica",
         "pvs": {
