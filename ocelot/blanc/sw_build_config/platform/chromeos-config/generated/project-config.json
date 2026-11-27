@@ -20,6 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
+            "ish": "blanc-ish",
             "zephyr-ec": "blanc"
           },
           "firmware-config": 0,
