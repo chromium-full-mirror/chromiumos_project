@@ -20,7 +20,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "ish": "ocelotrvp-ish",
+            "ish": "coolum-ish",
             "zephyr-ec": "coolum"
           },
           "firmware-config": 0,
@@ -75,7 +75,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "ish": "ocelotrvp-ish",
+            "ish": "coolum-ish",
             "zephyr-ec": "coolum"
           },
           "firmware-config": 0,
@@ -130,7 +130,7 @@
         "firmware": {
           "bcs-overlay": "overlay-ocelot-private",
           "build-targets": {
-            "ish": "ocelotrvp-ish",
+            "ish": "coolum-ish",
             "zephyr-ec": "coolum"
           },
           "firmware-config": 0,
